@@ -1,0 +1,21 @@
+// Layout Nav
+
+nav#nav {
+  position: relative;
+  display: block;
+  height: $nav-height;
+  background-color: $nav-background-color;
+  border-bottom: $color-light 1px solid;
+  //@include box-shadow(0 0px 5px $color-light);
+  a {
+    color: $text-color;
+  }
+  .navbar-nav {
+    &.navbar-left {
+      margin-left: 0;
+    }
+    &.navbar-right {
+      margin-right: 0;
+    }
+  }
+}
