@@ -2,6 +2,30 @@
 
 .hero-header {
   padding: $block-padding-ends $block-padding-sides;
+  background-color: lighten($tpc-red, 5%);
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 850px;
+  color: darken($tpc-red, $darker-percent);
+  a {
+    color: $white;
+  }
+  .tagline {
+    h1 {
+      font-size: 3em;
+      line-height: 130%;
+      .emphasis {
+        color: $white;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 115%;
+      }
+    }
+  }
+  .elevator-speech {
+    font-size: 1.2em;
+  }
 }
 
 .try-pyramid {
