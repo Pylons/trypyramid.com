@@ -1,57 +1,64 @@
 // Module Home
 
-.hero-header {
-  padding: $block-padding-ends $block-padding-sides;
-  background-color: lighten($tpc-red, 5%);
-  background-image: url('../img/logo.png');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 850px;
-  color: darken($tpc-red, $darker-percent);
-  a {
-    color: $white;
-  }
-  .tagline {
-    h1 {
-      font-size: 3em;
-      line-height: 130%;
-      .emphasis {
-        color: $white;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 115%;
+.home {
+
+  .hero-header {
+    padding: $block-padding-ends $block-padding-sides;
+    background-color: lighten($tpc-red, 5%);
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 850px;
+    color: darken($tpc-red, $darker-percent);
+    a {
+      color: $white;
+    }
+    .tagline {
+      h1 {
+        font-size: 3em;
+        line-height: 130%;
+        .emphasis {
+          color: $white;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 115%;
+        }
       }
     }
+    .elevator-speech {
+      font-size: 1.2em;
+    }
   }
-  .elevator-speech {
-    font-size: 1.2em;
+
+  .try-pyramid {
+    padding: $block-padding-ends $block-padding-sides;
   }
-}
 
-.try-pyramid {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .need-pyramid {
+    padding: $block-padding-ends $block-padding-sides;
+    background-color: $tpc-beige;
+  }
 
-.need-pyramid {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .start-small {
+    padding: $block-padding-ends $block-padding-sides;
+  }
 
-.start-small {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .finish-big {
+    padding: $block-padding-ends $block-padding-sides;
+    background-color: $tpc-beige;
+  }
 
-.finish-big {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .stay-finished {
+    padding: $block-padding-ends $block-padding-sides;
+  }
 
-.stay-finished {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .supports-your-decisions {
+    padding: $block-padding-ends $block-padding-sides;
+    background-color: $tpc-beige;
+  }
 
-.supports-your-decisions {
-  padding: $block-padding-ends $block-padding-sides;
-}
+  .by-artisans-for-artisans {
+    padding: $block-padding-ends $block-padding-sides;
+  }
 
-.by-artisans-for-artisans {
-  padding: $block-padding-ends $block-padding-sides;
 }
