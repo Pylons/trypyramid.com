@@ -1,0 +1,45 @@
+{
+  "name": "tpc",
+  "description": "trypyramid.com",
+  "version": "0.0.1-alpha.1",
+  "author": "Pylons Project",
+  "license": "MIT",
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pylons/tpc.git"
+  },
+  "scripts": {
+    "build": "rm -Rf build/*; webpack -d --colors --progress",
+    "dist": "rm -Rf dist/*; webpack -p --colors --progress --config webpack.dist.config.js",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "dependencies": {
+    "animate.css": "^3.2.5",
+    "bootstrap": "^3.3.4",
+    "bootstrap-sass": "^3.3.4",
+    "font-awesome": "^4.3.0",
+    "jquery": "^2.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.1.2",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.10.1",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "file-loader": "^0.8.1",
+    "html-loader": "^0.2.3",
+    "imports-loader": "^0.6.3",
+    "node-sass": "^2.1.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "0.6.0",
+    "scripts-loader": "^0.1.3",
+    "style-loader": "^0.10.1",
+    "swig-webpack-plugin": "^0.3.0",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "^1.8.0",
+    "webpack-stats-plugin": "0.0.4"
+  }
+}
