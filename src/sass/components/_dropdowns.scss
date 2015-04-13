@@ -1,0 +1,32 @@
+
+.dropdown-menu {
+  &.dropdown-arrow {
+    &:before {
+      position: absolute;
+      top: -8px;
+      left: $box-padding-sides - 2px;
+      right: auto;
+      z-index: $zindex-dropdown;
+      content: "";
+      @include triangle(16px, darken($color-light, $darker-percent), up);
+    }
+    &:after {
+      position: absolute;
+      top: -7px;
+      left: $box-padding-sides - 2px;
+      right: auto;
+      z-index: $zindex-dropdown;
+      content: "";
+      @include triangle(16px, $white, up);
+    }
+  }
+}
+
+.navbar-right {
+  .dropdown-arrow {
+    &:before, &:after {
+      left: auto;
+      right: $box-padding-sides - 2px;
+    }
+  }
+}

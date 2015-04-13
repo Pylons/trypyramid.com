@@ -1,0 +1,18 @@
+// Layout Footer
+
+footer#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: $zindex-1000;
+  height: $footer-height;
+  background-color: $footer-background-color;
+  border-top: $color-light 1px solid;
+  .navbar-text {
+    font-size: 12px;
+  }
+  .navbar-right {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,49 @@
+// Layout
+
+.app {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  &.header-fixed {
+    header#header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin-left: 0;
+      z-index: $zindex-1000;
+    }
+    section#main {
+      margin-top: $header-height;
+    }
+  }
+}
+
+.box {
+  @include box-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $box-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $box-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $box-lg;
+  }
+}
+
+.box-fluid {
+  @include box-fixed;
+}
+
+.box-full {
+  margin: 0;
+  margin: 0;
+  padding:  0;
+  padding: 0;
+  @include clearfix;
+}

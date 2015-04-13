@@ -1,0 +1,43 @@
+
+// Mixin Colors
+
+@mixin text-shades($name, $color) {
+  .text-#{$name} {
+    color: $color;
+    &.light {
+      color: lighten($color, $light-percent);
+    }
+    &.lighter {
+      color: lighten($color, $lighter-percent);
+    }
+    &.dark {
+      color: darken($color, $dark-percent);
+    }
+    &.darker {
+      color: darken($color, $darker-percent);
+    }
+  }
+}
+
+@mixin bg-shades($name, $color) {
+  .bg-#{$name} {
+    color: $white;
+    background-color: $color;
+    &.light {
+      color: $white;
+      background-color: lighten($color, $light-percent);
+    }
+    &.lighter {
+      color: $white;
+      background-color: lighten($color, $lighter-percent);
+    }
+    &.dark {
+      color: $white;
+      background-color: darken($color, $dark-percent);
+    }
+    &.darker {
+      color: $white;
+      background-color: darken($color, $darker-percent);
+    }
+  }
+}

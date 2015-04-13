@@ -1,0 +1,39 @@
+// Colors
+
+// Text Colors
+@include text-shades(primary, $color-primary);
+@include text-shades(success, $color-success);
+@include text-shades(info, $color-info);
+@include text-shades(warning, $color-warning);
+@include text-shades(danger, $color-danger);
+@include text-shades(alert, $color-alert);
+@include text-shades(system, $color-system);
+@include text-shades(dark, $color-dark);
+@include text-shades(light, $color-light);
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+// Background Colors
+@include bg-shades(primary, $color-primary);
+@include bg-shades(success, $color-success);
+@include bg-shades(info, $color-info);
+@include bg-shades(warning, $color-warning);
+@include bg-shades(danger, $color-danger);
+@include bg-shades(alert, $color-alert);
+@include bg-shades(system, $color-system);
+@include bg-shades(dark, $color-dark);
+@include bg-shades(light, $color-light);
+
+.bg-white {
+  color: $text-color;
+}
+
+.bg-black {
+  color: $white;
+}

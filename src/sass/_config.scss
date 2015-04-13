@@ -1,0 +1,92 @@
+// Config
+
+@import "bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+// Colors
+
+$color-primary: $brand-primary;
+$color-success: $brand-success;
+$color-info: $brand-info;
+$color-warning: $brand-warning;
+$color-danger: $brand-danger;
+$color-alert: #10cfbd;
+$color-system: #6d5cae;
+$color-dark: #3a3a3a;
+$color-light: #ececec;
+
+$white: #ffffff;
+$black: #000000;
+
+$muted-percent: 15%;
+$hover-percent: 15%;
+$light-percent: 10%;
+$lighter-percent: 20%;
+$dark-percent: 10%;
+$darker-percent: 20%;
+
+// Scaffolding
+
+$body-bg: #ffffff !default;
+$text-color: $color-dark;
+$text-muted: lighten($text-color, $muted-percent);
+$link-color: $color-primary;
+$link-hover-color: darken($link-color, $hover-percent);
+$link-hover-decoration: underline !default;
+
+$zindex-100: 100;
+$zindex-200: 200;
+$zindex-300: 300;
+$zindex-400: 400;
+$zindex-500: 500;
+$zindex-600: 600;
+$zindex-700: 700;
+$zindex-800: 800;
+$zindex-900: 900;
+$zindex-1000: 1000;
+
+// Typo
+
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 14px;
+$font-size-large: ceil(($font-size-base * 1.25)); // ~18px
+$font-size-small: ceil(($font-size-base * 0.85)); // ~12px
+
+$font-size-h1: floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2: floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3: ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4: ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h5: $font-size-base;
+$font-size-h6: ceil(($font-size-base * 0.85)); // ~12px
+
+$line-height-base: 1.428571429 !default; // 20/14
+$line-height-computed: floor(($font-size-base * $line-height-base)); // ~20px
+
+$headings-font-family: inherit;
+$headings-font-weight: 400;
+$headings-line-height: 1.1;
+$headings-color: inherit;
+
+// Boxes
+
+$box-tablet: (720px + $grid-gutter-width);
+$box-sm: $box-tablet;
+$box-desktop: (940px + $grid-gutter-width);
+$box-md: $box-desktop;
+$box-large-desktop: (1140px + $grid-gutter-width);
+$box-lg: $box-large-desktop;
+
+$box-padding-ends: 10px;
+$box-padding-sides: 15px;
+$box-padding: $box-padding-ends $box-padding-sides;
+
+// Layout
+
+$header-height: 50px;
+$header-background-color: $white;
+
+$footer-height: 50px;
+$footer-background-color: $white;

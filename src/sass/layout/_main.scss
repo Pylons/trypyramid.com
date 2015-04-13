@@ -1,0 +1,7 @@
+// Layout Content
+
+section#main {
+  position: relative;
+  display: block;
+  padding: $box-padding-ends $box-padding-sides $box-padding-ends+$footer-height;
+}

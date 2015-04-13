@@ -1,0 +1,44 @@
+// Base
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: 300;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus {
+    @include tab-focus;
+  }
+}
+
+hr {
+  margin-top: $line-height-computed;
+  margin-bottom: $line-height-computed;
+  border: 0;
+  border-top: 1px solid $hr-border;
+}
+
+strong {
+  font-weight: 600;
+}

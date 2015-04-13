@@ -1,0 +1,28 @@
+{% set page = swigWebpackPlugin.options.data.pages[swigWebpackPlugin.options.page] || {} %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pyramid: the start small, finish big, stay finished web framework</title>
+  <link rel="stylesheet" href="{{['vendors', webpack.hash, 'css']|join('.')}}"/>
+  <link rel="stylesheet" href="{{['app', webpack.hash, 'css']|join('.')}}"/>
+</head>
+<body>
+  <div id="pace-loader"></div>
+  <section class="app">
+    {% include "../includes/header.html" %}
+    {% block content %}
+    <section id="main">
+      <h3>Default Content</h3>
+    </section>
+    {% endblock %}
+    {% include "../includes/footer.html" %}
+  </section>
+  <script src="{{['vendors', webpack.hash, 'js']|join('.')}}"></script>
+  <script src="{{['app', webpack.hash, 'js']|join('.')}}"></script>
+  {% if swigWebpackPlugin.options.mode === 'develop' %}
+  <script src="http://localhost:8080/webpack-dev-server.js"></script>
+  {% endif %}
+</body>
+</html>
