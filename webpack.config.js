@@ -35,7 +35,7 @@ var config = {
       )
     }, {
       test: /\.(png|jpg)$/,
-      loader: 'url?limit=25000!file?name=img/[name].[ext]'
+      loader: 'file?name=img/[name].[ext]'
     }, {
       test: /\.html$/,
       loader: 'html'
