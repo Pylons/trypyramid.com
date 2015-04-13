@@ -11,6 +11,12 @@
 @include text-shades(dark, $color-dark);
 @include text-shades(light, $color-light);
 
+@include text-shades(red, $tpc-red);
+@include text-shades(gray, $tpc-gray);
+@include text-shades(green, $tpc-green);
+@include text-shades(blue, $tpc-blue);
+@include text-shades(beige, $tpc-beige);
+
 .text-white {
   color: $white;
 }
@@ -29,6 +35,12 @@
 @include bg-shades(system, $color-system);
 @include bg-shades(dark, $color-dark);
 @include bg-shades(light, $color-light);
+
+@include bg-shades(red, $tpc-red);
+@include bg-shades(gray, $tpc-gray);
+@include bg-shades(green, $tpc-green);
+@include bg-shades(blue, $tpc-blue);
+@include bg-shades(beige, $tpc-beige);
 
 .bg-white {
   color: $text-color;
