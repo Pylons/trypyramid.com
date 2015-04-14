@@ -1,7 +1,9 @@
 // Module Home
 
 .home {
-
+  h1.title {
+    margin-top: 0;
+  }
   .hero-header {
     padding: $block-padding-ends $block-padding-sides;
     background-color: lighten($tpc-red, 5%);
