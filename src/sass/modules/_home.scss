@@ -6,12 +6,12 @@
   }
   .hero-header {
     padding: $block-padding-ends $block-padding-sides;
-    background-color: lighten($tpc-red, 5%);
+    background-color: $tpc-red;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 850px;
-    color: darken($tpc-red, $darker-percent);
+    color: lighten($tpc-red, 40%);
     a {
       color: $white;
     }
