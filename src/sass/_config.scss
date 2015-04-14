@@ -35,7 +35,7 @@ $darker-percent: 20%;
 $body-bg: #ffffff !default;
 $text-color: $color-dark;
 $text-muted: lighten($text-color, $muted-percent);
-$link-color: $color-primary;
+$link-color: $tpc-red;
 $link-hover-color: darken($link-color, $hover-percent);
 $link-hover-decoration: underline !default;
 
