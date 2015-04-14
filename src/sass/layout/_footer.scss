@@ -8,6 +8,7 @@ footer#footer {
   z-index: $zindex-1000;
   height: $footer-height;
   background-color: $footer-background-color;
+  color: $color-light;
   .navbar-text {
     font-size: 12px;
   }
