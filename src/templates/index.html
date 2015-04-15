@@ -33,22 +33,14 @@
 
   <section class="try-pyramid">
     <div class="container">
-      <h1 class="title">Try Pyramid</h1>
-      <h3>Pyramid is easy to set up and use.</h3>
-      <p>Let's create a minimal web application in 5 minutes using Python 3.</p>
-      <h4>Install Python</h4>
-      <p>Install the latest Python 3 from <a href="https://www.python.org/downloads/">Python.org</a>.</p>
-      <h4>Install Pyramid</h4>
-      <p>Issue the following commands in a terminal.</p>
-      <pre class="nobs">
-        <code class="language-bash">$ pyvenv myproject
-$ cd myproject
-$ bin/pip install pyramid waitress</code>
-      </pre>
-      <h4>Create your first app</h4>
-      <p>Using your editor, put the following code into a new file named <code>app.py</code>.</p>
-      <pre class="nobs">
-        <code class="language-python">from pyramid.config import Configurator
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title">Try Pyramid</h1>
+        </div>
+        <div class="col-md-6">
+          <h3>Pyramid Hello World Application.</h3>
+          <pre class="nobs">
+            <code class="language-python">from pyramid.config import Configurator
 from pyramid.response import Response
 from waitress import serve
 
@@ -66,14 +58,30 @@ return app
 if __name__ == '__main__':
   app = create_app()
   serve(app)</code>
-      </pre>
-      <h4>Run your app</h4>
-      <pre class="nobs">
-        <code class="language-bash">$ bin/python app.py</code>
-      </pre>
-
-      <h4>Open your app</h4>
-      <p>Visit the URL <a href="http://0.0.0.0:8080"><code>http://0.0.0.0:8080</code></a> in a web browser.</p>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3>Pyramid is easy to set up and use.</h3>
+          <p>Let's create a minimal web application in 5 minutes using Python 3.</p>
+          <h4>Install Python</h4>
+          <p>Install the latest Python 3 from <a href="https://www.python.org/downloads/">Python.org</a>.</p>
+          <h4>Install Pyramid</h4>
+          <p>Issue the following commands in a terminal.</p>
+          <pre class="nobs">
+            <code class="language-bash">$ pyvenv myproject
+$ cd myproject
+$ bin/pip install pyramid waitress</code>
+          </pre>
+          <h4>Create your first app</h4>
+          <p>Using your editor, put the <strong>Pyramid Hello World Application</strong> code into a new file named <code>app.py</code>.</p>
+          <h4>Run your app</h4>
+          <pre class="nobs">
+            <code class="language-bash">$ bin/python app.py</code>
+          </pre>
+          <h4>Open your app</h4>
+          <p>Visit the URL <a href="http://0.0.0.0:8080"><code>http://0.0.0.0:8080</code></a> in a web browser.</p>
+        </div>
+      </div>
     </div>
   </section>
 
