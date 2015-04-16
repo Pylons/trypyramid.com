@@ -6,16 +6,67 @@ nav#nav {
   height: $nav-height;
   background-color: $nav-background-color;
   border-bottom: $color-light 1px solid;
-  //@include box-shadow(0 0px 5px $color-light);
-  a {
-    color: $text-color;
-  }
-  .navbar-nav {
-    &.navbar-left {
-      margin-left: 0;
+  .navbar-inverse {
+    background-color: $tpc-red;
+    border: 1px solid darken($tpc-red, 3%);
+    img.logo {
+      width: 60px;
     }
-    &.navbar-right {
-      margin-right: 0;
+    .navbar-toggle {
+      margin-top: 30px;
+      border: none;
+      &:hover {
+        background-color: darken($tpc-red, 3%);
+      }
+    }
+    .navbar-collapse {
+      border-top: 1px solid darken($tpc-red, 3%);
+    }
+    .navbar-nav {
+      li {
+        line-height: 20px;
+        > a {
+          color: $white;
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 600;
+          padding: 35px 15px;
+          &:hover {
+            background-color: darken($tpc-red, 5%);
+          }
+        }
+      }
+      > .active > a {
+        background-color: darken($tpc-red, 10%);
+        &:hover {
+          background-color: darken($tpc-red, 5%);
+        }
+      }
+    }
+    .navbar-brand-name {
+      position: relative;
+      color: $white;
+      font-size: 32px;
+      line-height: 90px;
+      width: 220px;
+      height: 90px;
+      text-align: right;
+      small {
+        font-size: 12px;
+        line-height: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  nav#nav {
+    .navbar-inverse {
+      .navbar-collapse {
+        .navbar-nav {
+          float: left!important;
+        }
+      }
     }
   }
 }
