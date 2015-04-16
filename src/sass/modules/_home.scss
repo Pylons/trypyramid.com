@@ -10,6 +10,20 @@
   h3.title {
     margin-top: 0;
   }
+  ul.features {
+    margin: 0;
+    padding: 10px 0 10px 20px;
+    li {
+      list-style-type: none;
+      margin: 15px 0;
+      &:before {
+        font-family: 'FontAwesome';
+        content: '\f101';
+        margin:0 10px 0 -20px;
+        color: $text-color;
+      }
+    }
+  }
   .icon-block {
     text-align: center;
     margin-top: 75px;
