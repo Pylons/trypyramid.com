@@ -30,6 +30,8 @@ If you are in development mode and need hot reload and assets compiling run:
   $ npm run dev
 ```
 
+This will let you view the local site at http://localhost:8080/
+
 If you just want to output a build run
 ```
   $ npm run build
