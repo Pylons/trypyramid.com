@@ -63,17 +63,12 @@
 
   .need-pyramid {
     padding: $block-padding-ends $block-padding-sides;
-    background-color: darken($tpc-green, 20%);
-    text-align: center;
-
-    //padding: 50px 0;
-    //margin: 50px 0;
-    color: $white;
-    //background-color: $color-brand2;
-    background-image: url('../img/avatars.png');
-    background-attachment: fixed;
+    background-color: darken($tpc-green, $dark-percent);
+    color: lighten($tpc-beige, $lighter-percent);
+    //background-image: url('../img/avatars.png');
+    //background-attachment: fixed;
     h1.title {
-      color: $white;
+      color: lighten($tpc-beige, $lighter-percent);
     }
     }
 
