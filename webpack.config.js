@@ -34,7 +34,7 @@ var config = {
         'css?sourceMap!sass?includePaths[]=' + node_modules_dir
       )
     }, {
-      test: /\.(png|jpg)$/,
+      test: /\.(png|jpg|ico)$/,
       loader: 'file?name=img/[name].[ext]'
     }, {
       test: /\.html$/,
