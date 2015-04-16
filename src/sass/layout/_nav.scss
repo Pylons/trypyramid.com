@@ -1,11 +1,15 @@
 // Layout Nav
 
 nav#nav {
-  position: relative;
-  display: block;
+  position: fixed;
+  display: none;
   height: $nav-height;
   background-color: $nav-background-color;
   border-bottom: $color-light 1px solid;
+  z-index: 1000;
+  &.show {
+    display: block;
+  }
   .navbar-inverse {
     background-color: $tpc-red;
     border: 1px solid darken($tpc-red, 3%);
