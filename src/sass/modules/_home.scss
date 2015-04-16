@@ -33,7 +33,7 @@
     margin-top: 25px;
   }
   .hero-header {
-    padding: $block-padding-ends $block-padding-sides;
+    padding: $block-padding-ends+25 $block-padding-sides;
     background-color: $tpc-red;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
@@ -52,7 +52,6 @@
         .emphasis {
           color: $white;
           font-weight: 400;
-          font-size: 125%;
           &.title {
             font-size: 145%;
           }
