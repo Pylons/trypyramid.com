@@ -69,12 +69,13 @@
     padding: $block-padding-ends $block-padding-sides;
     background-color: darken($tpc-green, $dark-percent);
     color: lighten($tpc-beige, $lighter-percent);
+    font-size: 16px;
     //background-image: url('../img/avatars.png');
     //background-attachment: fixed;
     h1.title {
       color: lighten($tpc-beige, $lighter-percent);
     }
-    }
+  }
 
   .start-small {
     padding: $block-padding-ends $block-padding-sides;
