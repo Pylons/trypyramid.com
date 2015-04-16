@@ -35,7 +35,7 @@
       }
     }
     .elevator-speech {
-      font-size: 1.2em;
+      font-size: 14px;
     }
   }
 
@@ -45,8 +45,19 @@
 
   .need-pyramid {
     padding: $block-padding-ends $block-padding-sides;
-    background-color: $tpc-beige;
-  }
+    background-color: darken($tpc-green, 20%);
+    text-align: center;
+
+    //padding: 50px 0;
+    //margin: 50px 0;
+    color: $white;
+    //background-color: $color-brand2;
+    background-image: url('../img/avatars.png');
+    background-attachment: fixed;
+    h1.title {
+      color: $white;
+    }
+    }
 
   .start-small {
     padding: $block-padding-ends $block-padding-sides;
