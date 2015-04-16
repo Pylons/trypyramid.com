@@ -3,6 +3,11 @@
 .home {
   padding-bottom: $footer-height;
   h1.title {
+    margin: 0 0 1em 0;
+    font-size: 3em;
+    font-weight: 300;
+  }
+  h3.title {
     margin-top: 0;
   }
   .hero-header {
@@ -19,10 +24,11 @@
     .tagline {
       h1 {
         font-size: 3em;
+        font-weight: 300;
         line-height: 130%;
         .emphasis {
           color: $white;
-          font-weight: 700;
+          font-weight: 400;
           text-transform: uppercase;
           font-size: 115%;
         }
