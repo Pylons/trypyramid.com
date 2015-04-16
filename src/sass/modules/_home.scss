@@ -66,6 +66,9 @@
 
   .try-pyramid {
     padding: $block-padding-ends $block-padding-sides;
+    .hljs {
+      background-color: $color-light;
+    }
   }
 
   .need-pyramid {
