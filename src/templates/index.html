@@ -52,8 +52,8 @@ def create_app():
   config.add_route('hello_world', '/')
   config.add_view(hello_world, route_name='hello_world')
 
-app = config.make_wsgi_app()
-return app
+  app = config.make_wsgi_app()
+  return app
 
 if __name__ == '__main__':
   app = create_app()
