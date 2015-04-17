@@ -10,28 +10,6 @@
   h3.title {
     margin-top: 0;
   }
-  ul.features {
-    font-size: 16px;
-    margin: 0;
-    padding: 0 0 10px 20px;
-    li {
-      list-style-type: none;
-      margin: 15px 0;
-      &:before {
-        font-family: 'FontAwesome';
-        content: '\f0da';
-        margin:0 14px 0 -20px;
-        color: $tpc-red;
-      }
-      &:first-child {
-        margin: 0 0 15px;
-      }
-    }
-  }
-  .icon-block {
-    text-align: center;
-    margin-top: 25px;
-  }
   .hero-header {
     padding: $block-padding-ends+25 $block-padding-sides;
     background-color: $tpc-red;
@@ -59,14 +37,12 @@
       }
     }
   }
-
   .try-pyramid {
     padding: $block-padding-ends $block-padding-sides;
     .hljs {
       background-color: $color-light;
     }
   }
-
   .need-pyramid {
     padding: $block-padding-ends $block-padding-sides;
     background-color: darken($tpc-green, $dark-percent);
@@ -81,27 +57,48 @@
       font-size: 24px;
     }
   }
-
-  .start-small {
+  .section-content {
     padding: $block-padding-ends $block-padding-sides;
+    ul.features {
+       margin: 0;
+      padding: 10px 20px;
+      li {
+        list-style-type: none;
+        margin: 5px 0;
+        &:before {
+          font-family: 'FontAwesome';
+          content: '\f0da';
+          margin:0 14px 0 -20px;
+          color: $tpc-red;
+        }
+        &:first-child {
+          margin: 0 0 5px;
+        }
+      }
+    }
+    .icon-block {
+      text-align: center;
+      margin-top: 25px;
+    }
+    &.section-beige {
+      background-color: $tpc-beige;
+      ul.features {
+        li {
+          &:before {
+            color: darken($tpc-green, $dark-percent);
+          }
+        }
+      }
+    }
   }
+}
 
-  .finish-big {
-    padding: $block-padding-ends $block-padding-sides;
-    background-color: $tpc-beige;
+@media (max-width: $screen-sm-max) {
+  .home {
+    h1.title {
+      &.not-first {
+        margin-top: 1em;
+      }
+    }
   }
-
-  .stay-finished {
-    padding: $block-padding-ends $block-padding-sides;
-  }
-
-  .supports-your-decisions {
-    padding: $block-padding-ends $block-padding-sides;
-    background-color: $tpc-beige;
-  }
-
-  .by-artisans-for-artisans {
-    padding: $block-padding-ends $block-padding-sides;
-  }
-
 }
