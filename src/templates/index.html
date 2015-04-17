@@ -38,42 +38,37 @@
           <h1 class="title text-red">Try <strong>Pyramid</strong></h1>
         </div>
         <div class="col-md-6">
-          <h3 class="title">Hello World Application</h3>
+          <h3 class="title">Hello World App</h3>
           <pre class="nobs">
             <code class="python">from pyramid.config import Configurator
 from pyramid.response import Response
 from waitress import serve
 
-def hello_world(request):
+def hello(request):
   return Response('Hello world!')
 
-def create_app():
+if __name__ == '__main__':
   config = Configurator()
   config.add_route('hello_world', '/')
-  config.add_view(hello_world, route_name='hello_world')
-
+  config.add_view(hello, route_name='hello_world')
   app = config.make_wsgi_app()
-  return app
-
-if __name__ == '__main__':
-  app = create_app()
   serve(app)</code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title">Pyramid is easy to set up and use</h3>
-          <p>Let's create a minimal web application in 5 minutes using Python 3.</p>
+          <h3 class="title">Easy To Start</h3>
+          <p>Let's create a minimal web app in 5 minutes using Python 3.</p>
           <h4>1. Install Python</h4>
           <p>Install the latest Python 3 from <a href="https://www.python.org/downloads/">Python.org</a>.</p>
           <h4>2. Install Pyramid</h4>
-          <p>Issue the following commands in a terminal.</p>
           <pre class="nobs">
             <code class="bash">$ pyvenv myproject
 $ cd myproject
 $ bin/pip install pyramid waitress</code>
           </pre>
           <h4>3. Create your first app</h4>
-          <p>Using your editor, put the <strong>Hello World Application</strong> code into a new file named <code>app.py</code>.</p>
+          <p>Using your editor, put the <strong>Hello World App</strong>
+          code into a new file named <code>app.py</code>.</p>
           <h4>4. Run your app</h4>
           <pre class="nobs">
             <code class="bash">$ bin/python app.py</code>
