@@ -16,3 +16,14 @@ footer#footer {
     margin-right: 0;
   }
 }
+
+@media (max-width: $screen-xs-max) {
+  footer#footer {
+    padding: 15px;
+    height: auto;
+    .navbar-text {
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
