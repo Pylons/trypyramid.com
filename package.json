@@ -39,7 +39,7 @@
     "style-loader": "^0.10.2",
     "swig-webpack-plugin": "^0.3.0",
     "url-loader": "^0.5.5",
-    "webpack": "^1.8.4",
+    "webpack": "^1.8.5",
     "webpack-dev-server": "^1.8.0",
     "webpack-stats-plugin": "0.0.4"
   }
