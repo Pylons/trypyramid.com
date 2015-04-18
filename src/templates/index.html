@@ -40,9 +40,9 @@
         <div class="col-md-6">
           <h3 class="title">Hello World App</h3>
           <pre class="nobs">
-            <code class="python">from pyramid.config import Configurator
+            <code class="python">from wsgiref.simple_server import make_server
+from pyramid.config import Configurator
 from pyramid.response import Response
-from waitress import serve
 
 def hello(request):
     return Response('Hello world!')
@@ -52,7 +52,8 @@ if __name__ == '__main__':
     config.add_route('hello_world', '/')
     config.add_view(hello, route_name='hello_world')
     app = config.make_wsgi_app()
-    serve(app)</code>
+    server = make_server('0.0.0.0', 8080, app)
+    server.serve_forever()</code>
           </pre>
         </div>
         <div class="col-md-6">
@@ -64,7 +65,7 @@ if __name__ == '__main__':
           <pre class="nobs">
             <code class="bash">$ pyvenv myproject
 $ cd myproject
-$ bin/pip install pyramid waitress</code>
+$ bin/pip install pyramid</code>
           </pre>
           <h4>3. Create your first app</h4>
           <p>Using your editor, put the <strong>Hello World App</strong>
@@ -131,7 +132,7 @@ $ bin/pip install pyramid waitress</code>
             <li>Use the <strong>configuration system</strong> to keep your wiring separate from your code</li>
             <li>Numerous <strong>extension facilities</strong> built into the framework</li>
             <li>Use Pyramid as a <strong>"framework framework"</strong> to craft your own special-purpose, domain-specific web system</li>
-            <li>Gain insight from our longstanding <strong>culture of systems</strong> that organically get big</li>
+            <li>Gain insight from our long-standing <strong>culture of systems</strong> that organically get big</li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -139,7 +140,7 @@ $ bin/pip install pyramid waitress</code>
             Stay <strong>Finished</strong>
           </h1>
           <i class="fa fa-6x fa-puzzle-piece text-red pull-right"></i>
-          <p>Pyramid's simple first hour helps you get started and its extensability help you finish your ambitions. There's life after shipping. Pyramid helps keep your application finished by understanding the full lifecyle of a professional web application.</p>
+          <p>Pyramid's simple first hour helps you get started and its extensability helps you finish your ambitions. There's life after shipping. Pyramid helps keep your application finished by understanding the full life cyle of a professional web application.</p>
           <ul class="features">
             <li>Deep commitment to <strong>API stability</strong> and <strong>bug fixing</strong> over the 120+ software releases</li>
             <li>Culture of <strong>100% test and documentation coverage</strong> makes Pyramid a future-proof choice</li>
