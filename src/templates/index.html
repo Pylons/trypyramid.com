@@ -45,14 +45,14 @@ from pyramid.response import Response
 from waitress import serve
 
 def hello(request):
-  return Response('Hello world!')
+    return Response('Hello world!')
 
 if __name__ == '__main__':
-  config = Configurator()
-  config.add_route('hello_world', '/')
-  config.add_view(hello, route_name='hello_world')
-  app = config.make_wsgi_app()
-  serve(app)</code>
+    config = Configurator()
+    config.add_route('hello_world', '/')
+    config.add_view(hello, route_name='hello_world')
+    app = config.make_wsgi_app()
+    serve(app)</code>
           </pre>
         </div>
         <div class="col-md-6">
