@@ -16,6 +16,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'colors.html'
+    }, {
+      template: 'src/templates/resources.html',
+      filename: 'resources.html',
+      uglify: true,
+      data: data,
+      page: 'resources.html'
     }
   ]
 };

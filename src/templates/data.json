@@ -52,6 +52,10 @@
     "colors.html" : {
       "title" : "Colors",
       "nav_id": "item-2"
+    },
+    "resources.html" : {
+      "title" : "Resources",
+      "nav_id": "item-3"
     }
   }
 }

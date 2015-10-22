@@ -8,11 +8,15 @@ var hljs = require('highlight.js');
 
 hljs.initHighlightingOnLoad();
 
+if ($('.home').length){
+  $('#nav').addClass('index-transparent');
+}
+
 $(window).scroll(function() {
-  if ($(document).scrollTop() > $('.hero-header').height()+130) {
-    $('nav#nav').addClass('show fadeIn animated');
+  if ($(document).scrollTop() > $('.hero-header').height()+88) {
+    $('#nav').removeClass('index-transparent');
   }
   else {
-    $('nav#nav').removeClass('show');
+    $('#nav').addClass('index-transparent');
   }
 });
