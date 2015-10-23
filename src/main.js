@@ -17,4 +17,6 @@ if ($('.home').length){
       $('#nav').addClass('index-transparent');
     }
   });
+} else {
+    $('#nav').removeClass('index-transparent');
 }
