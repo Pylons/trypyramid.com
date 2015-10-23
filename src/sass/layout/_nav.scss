@@ -1,6 +1,8 @@
 // Layout Nav
 
 nav#nav {
+  height: $nav-height;
+  background-color: $nav-background-color;
   z-index: 1000;
   &.show {
     display: block;
@@ -8,8 +10,8 @@ nav#nav {
 
   &.index-transparent{
     .navbar{
-      background-color: rgba(178, 28, 42, 0);
-      border: 1px solid transparent;
+      background-color: $tpc-transparent;
+      border: 1px solid $tpc-transparent;
 
       .navbar-brand, .navbar-brand-name{
         opacity: 0;

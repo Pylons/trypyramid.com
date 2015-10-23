@@ -9,17 +9,12 @@ var hljs = require('highlight.js');
 hljs.initHighlightingOnLoad();
 
 if ($('.home').length){
-  $('#nav').addClass('index-transparent');
-
   $(window).scroll(function() {
-    if ($(document).scrollTop() > $('.hero-header').height()+70) {
+    if ($(document).scrollTop() > $('.hero-header').height()+40) {
       $('#nav').removeClass('index-transparent');
     }
     else {
       $('#nav').addClass('index-transparent');
     }
   });
-
 }
-
-
