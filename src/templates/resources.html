@@ -1,108 +1,54 @@
 {% extends './layout/home.html' %}
 
 {% block content %}
-<section id="main">
-  <div class="container">
-    <h1 class="title text-red">{{ page.title }}</h1>
-    <div>Primary</div>
-    <div class="bg-primary lighter text-white">Lighter</div>
-    <div class="bg-primary light text-white">Light</div>
-    <div class="bg-primary text-white">Default</div>
-    <div class="bg-primary dark text-white">Dark</div>
-    <div class="bg-primary darker text-white">Darker</div>
+    <section id="main">
+        <div class="container">
+            <h1 class="title text-red">The Pylons Project Resources</h1>
 
-    <div>Success</div>
-    <div class="bg-success lighter text-white">Lighter</div>
-    <div class="bg-success light text-white">Light</div>
-    <div class="bg-success text-white">Default</div>
-    <div class="bg-success dark text-white">Dark</div>
-    <div class="bg-success darker text-white">Darker</div>
+            <p>The Pylons Project maintains the Pyramid web framework as well as additional
+                packages intended for use with Pyramid.</p>
 
-    <div>Info</div>
-    <div class="bg-info lighter text-white">Lighter</div>
-    <div class="bg-info light text-white">Light</div>
-    <div class="bg-info text-white">Default</div>
-    <div class="bg-info dark text-white">Dark</div>
-    <div class="bg-info darker text-white">Darker</div>
+            <p>If you are new to the community you can start with
+                <a href="http://pyramid-blogr.readthedocs.org/"><strong>our tutorial</strong></a> or dive directly
+                into detailed documentation.</p>
 
-    <div>Warning</div>
-    <div class="bg-warning lighter text-white">Lighter</div>
-    <div class="bg-warning light text-white">Light</div>
-    <div class="bg-warning text-white">Default</div>
-    <div class="bg-warning dark text-white">Dark</div>
-    <div class="bg-warning darker text-white">Darker</div>
+            <h2 class="title text-red">Pyramid web framework resources</h2>
 
-    <div>Danger</div>
-    <div class="bg-danger lighter text-white">Lighter</div>
-    <div class="bg-danger light text-white">Light</div>
-    <div class="bg-danger text-white">Default</div>
-    <div class="bg-danger dark text-white">Dark</div>
-    <div class="bg-danger darker text-white">Darker</div>
 
-    <div>Alert</div>
-    <div class="bg-alert lighter text-white">Lighter</div>
-    <div class="bg-alert light text-white">Light</div>
-    <div class="bg-alert text-white">Default</div>
-    <div class="bg-alert dark text-white">Dark</div>
-    <div class="bg-alert darker text-white">Darker</div>
+            <h4><a href="http://pyramid-blogr.readthedocs.org/">Pyramid Blogr</a>: Entry level tutorial.</h4>
 
-    <div>System</div>
-    <div class="bg-system lighter text-white">Lighter</div>
-    <div class="bg-system light text-white">Light</div>
-    <div class="bg-system text-white">Default</div>
-    <div class="bg-system dark text-white">Dark</div>
-    <div class="bg-system darker text-white">Darker</div>
+            <p>The tutorial is really simple but should be enough of a head start to writing applications using
+                Pyramid Web Framework. By the end of it you should have a basic understanding of templating,
+                working with databases, using URL routes to launch our business logic(views) and authentication,
+                example of form library usage and pagination of our blog entries.</p>
+            <hr/>
+            <h4><a href="http://docs.pylonsproject.org/projects/pyramid/en/stable/">Pyramid stable documentation
+                branch</a>: narrative and API documentation for Pyramid.</h4>
+            <hr/>
 
-    <div>Light</div>
-    <div class="bg-light lighter text-white">Lighter</div>
-    <div class="bg-light light text-white">Light</div>
-    <div class="bg-light text-white">Default</div>
-    <div class="bg-light dark text-white">Dark</div>
-    <div class="bg-light darker text-white">Darker</div>
+            <h4><a href="http://docs.pylonsproject.org/projects/pyramid/en/1.6-branch/">Pyramid development
+                documentation
+                branch</a>: narrative and API documentation for Pyramid’s in-development version.</h4>
 
-    <div>Dark</div>
-    <div class="bg-dark lighter text-white">Lighter</div>
-    <div class="bg-dark light text-white">Light</div>
-    <div class="bg-dark text-white">Default</div>
-    <div class="bg-dark dark text-white">Dark</div>
-    <div class="bg-dark darker text-white">Darker</div>
+            <p>Want to contribute to Pyramid? Give us a hand and contact core developers.</p>
+            <hr/>
 
-    <div>TPC Red</div>
-    <div class="bg-red lighter text-white">Lighter</div>
-    <div class="bg-red light text-white">Light</div>
-    <div class="bg-red text-white">Default</div>
-    <div class="bg-red dark text-white">Dark</div>
-    <div class="bg-red darker text-white">Darker</div>
+            <h2 class="title text-red">Pylons web framework resources</h2>
 
-    <div>TPC Gray</div>
-    <div class="bg-gray lighter text-white">Lighter</div>
-    <div class="bg-gray light text-white">Light</div>
-    <div class="bg-gray text-white">Default</div>
-    <div class="bg-gray dark text-white">Dark</div>
-    <div class="bg-gray darker text-white">Darker</div>
+            <h4><a href="http://docs.pylonsproject.org/projects/pylons-webframework/en/latest/">Pylons documentation
+                1.0</a>: official Pylons (the web framework) documentation.</h4>
 
-    <div>TPC Green</div>
-    <div class="bg-green lighter text-white">Lighter</div>
-    <div class="bg-green light text-white">Light</div>
-    <div class="bg-green text-white">Default</div>
-    <div class="bg-green dark text-white">Dark</div>
-    <div class="bg-green darker text-white">Darker</div>
+            <p>
+                As of the release of Pyramid 1.0 on January 31, 2011, the Pylons web framework has effectively been
+                shifted into "legacy" status.
+            </p>
+            <h4><a href="http://pylonsbook.com/">Definitive Guide to Pylons</a>: Pylons book published by Apress,
+                written by James Gardner, free HTML rendering.</h4>
 
-    <div>TPC Blue</div>
-    <div class="bg-blue lighter text-white">Lighter</div>
-    <div class="bg-blue light text-white">Light</div>
-    <div class="bg-blue text-white">Default</div>
-    <div class="bg-blue dark text-white">Dark</div>
-    <div class="bg-blue darker text-white">Darker</div>
+            <p>This is an excellent starting material to get yourself familiar with Pylons web application
+                development.</p>
 
-    <div>TPC Beige</div>
-    <div class="bg-beige lighter text-white">Lighter</div>
-    <div class="bg-beige light text-white">Light</div>
-    <div class="bg-beige text-white">Default</div>
-    <div class="bg-beige dark text-white">Dark</div>
-    <div class="bg-beige darker text-white">Darker</div>
-
-  </div>
-</section>
+        </div>
+    </section>
 
 {% endblock %}
