@@ -10,13 +10,16 @@ hljs.initHighlightingOnLoad();
 
 if ($('.home').length){
   $('#nav').addClass('index-transparent');
+
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > $('.hero-header').height()+70) {
+      $('#nav').removeClass('index-transparent');
+    }
+    else {
+      $('#nav').addClass('index-transparent');
+    }
+  });
+
 }
 
-$(window).scroll(function() {
-  if ($(document).scrollTop() > $('.hero-header').height()+88) {
-    $('#nav').removeClass('index-transparent');
-  }
-  else {
-    $('#nav').addClass('index-transparent');
-  }
-});
+

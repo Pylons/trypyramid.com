@@ -1,17 +1,5 @@
 // Module Home
 
-#nav{
-  &.index-transparent{
-    .navbar{
-      background-color: transparent;
-      border: 1px solid transparent;
-      .navbar-brand, .navbar-brand-name{
-        display: none;
-      }
-    }
-  }
-}
-
 .home {
   padding-bottom: $footer-height;
   margin-top: -110px;

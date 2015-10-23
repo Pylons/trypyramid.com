@@ -5,6 +5,29 @@ nav#nav {
   &.show {
     display: block;
   }
+
+  &.index-transparent{
+    .navbar{
+      background-color: rgba(178, 28, 42, 0);
+      border: 1px solid transparent;
+
+      .navbar-brand, .navbar-brand-name{
+        opacity: 0;
+        @include transition();
+      }
+    }
+  }
+
+
+  .navbar{
+    @include transition(100ms);
+    .navbar-brand, .navbar-brand-name{
+      opacity: 1;
+      @include transition();
+    }
+
+  }
+
   .navbar-inverse {
     background-color: $tpc-red;
     border: 1px solid darken($tpc-red, 3%);
