@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-@mixin transition($time:250ms){
+@mixin transition($time: 250ms){
   -webkit-transition: all $time linear;
   -moz-transition: all $time linear;
   -ms-transition: all $time linear;

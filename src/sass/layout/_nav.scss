@@ -7,32 +7,33 @@ nav#nav {
   &.show {
     display: block;
   }
-
-  &.index-transparent{
-    .navbar{
+  &.index-transparent {
+    .navbar {
+      padding: 15px 0;
+      color: $white;
       background-color: $tpc-transparent;
       border: 1px solid $tpc-transparent;
-
-      .navbar-brand, .navbar-brand-name{
+      .navbar-brand, .navbar-brand-name {
         opacity: 0;
         @include transition();
       }
+      .navbar-nav li > a {
+        color: $white;
+      }
     }
   }
-
-
   .navbar{
-    @include transition(100ms);
-    .navbar-brand, .navbar-brand-name{
+    padding: 0;
+    @include transition(250ms);
+    .navbar-brand, .navbar-brand-name {
       opacity: 1;
       @include transition();
     }
 
   }
-
   .navbar-inverse {
-    background-color: $tpc-red;
-    border: 1px solid darken($tpc-red, 3%);
+    background-color: $nav-background-color;
+    border: 1px solid $color-light;
     img.logo {
       width: 60px;
     }
@@ -40,27 +41,30 @@ nav#nav {
       margin-top: 30px;
       border: none;
       &:hover {
-        background-color: darken($tpc-red, 3%);
+        background-color: darken($color-light, 10%);
       }
     }
-    .navbar-collapse {
-      border-top: 1px solid darken($tpc-red, 3%);
-    }
+    // .navbar-collapse {
+    //   border-top: 1px solid darken($color-light, 10%);
+    // }
     .navbar-nav {
       li {
         line-height: 20px;
+        padding: 25px 5px;
         > a {
-          color: $white;
+          color: $tpc-red;
           font-size: 14px;
           text-transform: uppercase;
           font-weight: 600;
-          padding: 35px 15px;
+          padding: 10px 15px;
           &:hover {
+            color: $white;
             background-color: darken($tpc-red, 5%);
           }
         }
       }
       > .active > a {
+        color: $white;
         background-color: darken($tpc-red, 10%);
         &:hover {
           background-color: darken($tpc-red, 5%);
@@ -69,11 +73,11 @@ nav#nav {
     }
     .navbar-brand-name {
       position: relative;
-      color: $white;
+      color: $tpc-red;
       font-size: 32px;
-      line-height: 90px;
+      line-height: $nav-height;
       width: 220px;
-      height: 90px;
+      height: $nav-height;
       text-align: right;
       small {
         font-size: 12px;
