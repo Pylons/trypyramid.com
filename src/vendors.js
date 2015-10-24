@@ -5,14 +5,14 @@ require('jquery');
 
 // Bootstrap
 require('bootstrap');
-require('style!css!bootstrap/dist/css/bootstrap.min.css');
+require('bootstrap/dist/css/bootstrap.css');
 
 // Font Awesome
-require('style!css!font-awesome/css/font-awesome.min.css');
+require('font-awesome/css/font-awesome.css');
 
 // Animate
-require('style!css!animate.css/animate.min.css');
+require('animate.css/animate.css');
 
 // Highlight
 require('highlight.js');
-require('style!css!highlight.js/styles/github.css');
+require('highlight.js/styles/github.css');

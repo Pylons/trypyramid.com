@@ -6,7 +6,6 @@ var config = {
     {
       template: 'src/templates/index.html',
       filename: 'index.html',
-      watch: 'src/templates/**/*',
       uglify: true,
       data: data,
       page: 'index.html'
