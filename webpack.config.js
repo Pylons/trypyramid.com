@@ -1,14 +1,16 @@
 var path = require('path');
 var webpack = require('webpack');
+var WebpackNotifierPlugin = require('webpack-notifier');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var SwigWebpackPlugin = require('swig-webpack-plugin');
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
 var templates = require('./webpack.tmpl.config').templates;
 
 var config = {
+  devtool: 'eval',
   entry: {
     app: [
-      'webpack/hot/dev-server',
+      'webpack-hot-middleware/client',
       path.resolve(__dirname, 'src/main.js')
     ],
     vendors: [
@@ -19,19 +21,26 @@ var config = {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].[hash].js'
   },
+  resolve: {
+    root: path.resolve(__dirname, 'src'),
+    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx'],
+    modulesDirectories: ['node_modules', 'src'],
+    alias: {}
+  },
   module: {
+    noParse: [],
     loaders: [{
       test: /\.(js|jsx)$/,
       exclude: [node_modules_dir],
-      loader: 'babel'
+      loaders: ['babel']
     }, {
       test: /\.css$/,
-      loader: ExtractTextPlugin.extract('style','css?sourceMap')
+      loader: ExtractTextPlugin.extract('style', 'css?sourceMap')
     }, {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract(
         'style',
-        'css?sourceMap!sass?includePaths[]=' + node_modules_dir
+        'css?sourceMap!sass?sourceMap&includePaths[]=' + node_modules_dir
       )
     }, {
       test: /\.(png|jpg|ico)$/,
@@ -43,20 +52,30 @@ var config = {
       test: /\.txt$/,
       loader: 'raw'
     }, {
-      test: /\.(woff|woff2|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+      test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
       loader: 'file?name=fonts/[name].[ext]'
     }]
   },
   plugins: [
+    new WebpackNotifierPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
     }),
+    new webpack.DefinePlugin({
+      __DEBUG__: true
+    }),
+    new webpack.NoErrorsPlugin(),
+    new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.[hash].js'),
     new ExtractTextPlugin('[name].[hash].css', {
       allChunks: true
-    }),
-    new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.[hash].js')
-  ]
+    })
+  ],
+  node: {
+    net: 'empty',
+    dns: 'empty'
+  }
 };
 
 if (templates) {
