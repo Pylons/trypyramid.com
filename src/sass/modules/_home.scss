@@ -2,6 +2,7 @@
 
 .home {
   padding-bottom: $footer-height;
+  margin-top: -90px;
   h1.title {
     margin: 0 0 1em 0;
     font-size: 3em;
@@ -11,7 +12,7 @@
     margin-top: 0;
   }
   .hero-header {
-    padding: $block-padding-ends+25 $block-padding-sides;
+    padding: $block-padding-ends+35 $block-padding-sides;
     background-color: $tpc-red;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;

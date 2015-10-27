@@ -11,3 +11,11 @@
   margin: 10px 0;
   overflow: hidden;
 }
+
+@mixin transition($time: 250ms){
+  -webkit-transition: all $time linear;
+  -moz-transition: all $time linear;
+  -ms-transition: all $time linear;
+  -o-transition: all $time linear;
+  transition: all $time linear;
+}

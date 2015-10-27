@@ -47,11 +47,16 @@
   "pages": {
     "index.html": {
       "title" : "Home Page",
-      "nav_id": "item-1"
+      "nav_id": "item-1",
+      "needsTsNav": true
     },
     "colors.html" : {
       "title" : "Colors",
       "nav_id": "item-2"
+    },
+    "resources.html" : {
+      "title" : "Resources",
+      "nav_id": "item-3"
     }
   }
 }

@@ -1,4 +1,4 @@
-<nav id="nav">
+<nav id="nav" {% if page.needsTsNav %}class="index-transparent"{% endif %}>
   <div class="container">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img class="logo" alt="pyramid" src="img/logo-white.png"/>
+            <img class="logo" alt="pyramid" src="img/pyramid-60x60.png"/>
           </a>
           <div class="navbar-brand-name">
             Pyramid
@@ -19,6 +19,9 @@
           <ul class="nav navbar-nav pull-right">
             <li>
               <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/resources.html">Resources</a>
             </li>
           </ul>
         </div>
