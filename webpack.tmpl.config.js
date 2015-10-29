@@ -21,6 +21,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'resources.html'
+    }, {
+      template: 'src/templates/media.html',
+      filename: 'media.html',
+      uglify: true,
+      data: data,
+      page: 'media.html'
     }
   ]
 };

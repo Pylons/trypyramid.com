@@ -57,6 +57,10 @@
     "resources.html" : {
       "title" : "Resources",
       "nav_id": "item-3"
+    },
+    "media.html" : {
+      "title" : "Media",
+      "nav_id": "item-4"
     }
   }
 }

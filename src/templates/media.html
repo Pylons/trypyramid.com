@@ -1,0 +1,37 @@
+{% extends './layout/home.html' %}
+
+{% block content %}
+    <section id="main">
+        <div class="container">
+            <h1 class="title text-red">Media</h1>
+            <div class="row">
+                <div class="col-sm-1 text-center">
+                    <span class="fa fa-twitter fa-3x"></span>
+                </div>
+                <div class="col-sm-5">
+                  <h3 class="title text-red">Twitter</h3>
+                </div>
+                <div class="col-sm-1 text-center">
+                    <span class="fa fa-google fa-3x"></span>
+                </div>
+                <div class="col-sm-5">
+                  <h3 class="title text-red">Google Group</h3>
+                  <iframe id="forum_embed"
+                   src="javascript:void(0)"
+                   scrolling="no"
+                   frameborder="0"
+                   width="900"
+                   height="700">
+                  </iframe>
+                  <script type="text/javascript">
+                   document.getElementById("forum_embed").src =
+                    "https://groups.google.com/forum/embed/?place=forum/pylons-discuss" +
+                    "&showsearch=true&showpopout=true&parenturl=" +
+                    encodeURIComponent(window.location.href);
+                  </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
