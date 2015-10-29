@@ -27,6 +27,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'media.html'
+    }, {
+      template: 'src/templates/who-is-using.html',
+      filename: 'who-is-using.html',
+      uglify: true,
+      data: data,
+      page: 'who-is-using.html'
     }
   ]
 };

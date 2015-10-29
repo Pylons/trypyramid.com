@@ -61,6 +61,10 @@
     "media.html" : {
       "title" : "Media",
       "nav_id": "item-4"
+    },
+    "who-is-using.html" : {
+      "title" : "Who's Using Pyramid?",
+      "nav_id": "item-4"
     }
   }
 }
