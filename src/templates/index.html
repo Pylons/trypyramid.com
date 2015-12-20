@@ -31,6 +31,60 @@
     </div>
   </section>
 
+  <section class="try-pyramid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title text-red">Try <strong>Pyramid</strong></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">config.add_view(
+    'mypackage.views.my_view',
+    route_name='ok',
+    request_method=('POST')
+    )</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title">Predicates</h3>
+          <p>A test which returns True or False, and which narrows the set of
+            circumstances in which views or routes may be called. Here we use
+            predicates to limit matching of a view callable to a route name of
+            "ok" and to the POST HTTP request method.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">from wsgiref.simple_server import make_server
+from pyramid.config import Configurator
+from pyramid.response import Response</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title">Renderers</h3>
+          <p>Herp dee derp.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">from wsgiref.simple_server import make_server
+from pyramid.config import Configurator
+from pyramid.response import Response</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title">Asset Specifications</h3>
+          <p>Herp dee derp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="need-pyramid">
     <div class="container">
       <div class="row">
