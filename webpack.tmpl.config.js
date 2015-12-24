@@ -28,11 +28,11 @@ var config = {
       data: data,
       page: 'media.html'
     }, {
-      template: 'src/templates/who-is-using.html',
-      filename: 'who-is-using.html',
+      template: 'src/templates/powered-by-pyramid.html',
+      filename: 'powered-by-pyramid.html',
       uglify: true,
       data: data,
-      page: 'who-is-using.html'
+      page: 'powered-by-pyramid.html'
     }
   ]
 };
