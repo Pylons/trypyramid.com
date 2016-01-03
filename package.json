@@ -1,5 +1,5 @@
 {
-  "name": "tpc",
+  "name": "trypyramid.com",
   "description": "trypyramid.com",
   "version": "0.3.0-dev",
   "author": "Pylons Project",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pylons/tpc.git"
+    "url": "https://github.com/Pylons/trypyramid.com.git"
   },
   "scripts": {
     "build": "rm -Rf build/*; webpack -d --colors --progress",

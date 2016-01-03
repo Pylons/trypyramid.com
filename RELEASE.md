@@ -1,4 +1,4 @@
-# Release TPC
+# Release trypyramid.com
 
 How to release a new version of trypyramid.com
 
@@ -13,6 +13,6 @@ How to publish master to trypyramid.com
 
 - Be sure your public key has been added to marketing.pylonsproject.org
 - Setup remote production:
-- ```$ git remote add production ssh://pylons@marketing.pylonsproject.org/home/pylons/repos/tpc.git```
+- ```$ git remote add production ssh://pylons@marketing.pylonsproject.org/home/pylons/repos/trypyramid.com.git```
 - Push to remote production:
 - ```$ git push production master```

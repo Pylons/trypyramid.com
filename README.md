@@ -14,8 +14,8 @@ Assuming you have all the recommended tools listed above installed:
 
 ### 1. Clone the project
 ```
-  $ git clone git@github.com:Pylons/tpc.git
-  $ cd tpc
+  $ git clone git@github.com:Pylons/trypyramid.com.git
+  $ cd trypyramid.com
 ```
 
 ### 2. Install package dependencies
