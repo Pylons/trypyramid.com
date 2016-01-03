@@ -1,7 +1,7 @@
 {
   "name": "tpc",
   "description": "trypyramid.com",
-  "version": "0.3.0",
+  "version": "0.3.0-dev",
   "author": "Pylons Project",
   "license": "MIT",
   "engines": [
