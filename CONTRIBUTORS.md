@@ -48,3 +48,4 @@ The below-signed are contributors to a code repository that is part of the proje
 ## Contributors
 
 - Blaise Laflamme, 2016/01/03
+- Steve Piercy, 2016/01/03
