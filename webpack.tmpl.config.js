@@ -21,6 +21,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'resources.html'
+    }, {
+      template: 'src/templates/community.html',
+      filename: 'community.html',
+      uglify: true,
+      data: data,
+      page: 'community.html'
     }
   ]
 };
