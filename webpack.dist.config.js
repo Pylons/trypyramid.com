@@ -40,7 +40,7 @@ var config = {
         'css!sass?includePaths[]=' + node_modules_dir
       )
     }, {
-      test: /\.(png|jpg|ico)$/,
+      test: /\.(png|jpg|ico|gif)$/,
       loader: 'file?name=img/[name].[ext]'
     }, {
       test: /\.html$/,
