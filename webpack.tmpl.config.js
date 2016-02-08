@@ -21,6 +21,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'resources.html'
+    }, {
+      template: 'src/templates/resources-development-environments.html',
+      filename: 'resources-development-environments.html',
+      uglify: true,
+      data: data,
+      page: 'resources-development-environments.html'
     }
   ]
 };
