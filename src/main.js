@@ -34,7 +34,6 @@ require('./img/pyramid-16x16.png');
 require('./img/pyramid-60x60.png');
 require('./img/rhodecode-logo.png');
 require('./img/sabrina-pontzen-raumdesign-logo.png');
-require('./img/substance-d-logo.png');
 require('./img/surveymonkey-logo.png');
 require('./img/the-daily-climate-logo.png');
 require('./img/warehouse-pypi-logo.png');
