@@ -11,16 +11,28 @@
               Supported add-ons
             </h2>
             <p>The following Pyramid add-ons are officially endorsed by the Pylons Project. Documentation for each add-on is hosted at its respective name under the Pylons Project.</p>
-            <p>
-              <a href="/projects/pyramid-chameleon/en/latest/">pyramid_chameleon</a>
-            </p>
+
+            <h3>
+              Authentication
+            </h3>
+
+            <p><a href="/projects/pyramid-ldap/en/latest/">pyramid_ldap</a></p>
             <ul>
-              <li>Chameleon templating bindings for Pyramid</li>
+              <li>An LDAP authentication policy for Pyramid.</li>
               <li>Maintained by: Chris McDonough</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_chameleon">https://github.com/Pylons/pyramid_chameleon</a>
-              </li>
+              <li>Version Control: <a href="https://github.com/Pylons/pyramid_ldap">https://github.com/Pylons/pyramid_ldap</a></li>
             </ul>
+
+            <p><a href="/projects/pyramid-who/en/latest/">pyramid_who</a></p>
+            <ul>
+              <li>Authentication policy for Pyramid using repoze.who 2.0 API.</li>
+              <li>Maintained by: Chris McDonough, Tres Seaver</li>
+              <li>Version Control:<a href="https://github.com/Pylons/pyramid_who">https://github.com/Pylons/pyramid_who</a></li>
+            </ul>
+
+            <h3>
+              Debugging
+            </h3>
 
             <p>
               <a href="/projects/pyramid-debugtoolbar/en/latest/">pyramid_debugtoolbar</a>
@@ -28,20 +40,82 @@
             <ul>
               <li>An interactive HTML debug toolbar for Pyramid.</li>
               <li>Maintained by: Chris McDonough, Blaise Laflamme</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_debugtoolbar">https://github.com/Pylons/pyramid_debugtoolbar</a>
-              </li>
+              <li>Version Control:<a href="https://github.com/Pylons/pyramid_debugtoolbar">https://github.com/Pylons/pyramid_debugtoolbar</a></li>
             </ul>
 
-            <p><a href="/projects/pyramid-exclog/en/latest/">pyramid_exclog</a>
+            <p>
+              <a href="/projects/pyramid-exclog/en/latest/">pyramid_exclog</a>
             </p>
             <ul>
               <li>A package which logs exceptions from Pyramid applications.</li>
               <li>Maintained by: Chris McDonough</li>
+              <li>Version Control: <a href="https://github.com/Pylons/pyramid_exclog">https://github.com/Pylons/pyramid_exclog</a></li>
+            </ul>
+
+            <h3>
+              Email
+            </h3>
+
+            <p><a href="/projects/pyramid-mailer/en/latest/">pyramid_mailer</a></p>
+            <ul>
+              <li>A package for the Pyramid framework to take the pain out of sending emails.</li>
+              <li>Maintained by: Dan Jacobs, Chris McDonough</li>
+              <li>Version Control: <a href="https://github.com/Pylons/pyramid_mailer">https://github.com/Pylons/pyramid_mailer</a></li>
+            </ul>
+
+            <h3>
+              Storage
+            </h3>
+
+            <p><a href="/projects/pyramid-tm/en/latest/">pyramid_tm</a></p>
+            <ul>
+              <li>Centralized transaction management for Pyramid applications (without middleware).</li>
+              <li>Maintained by: Chris McDonough</li>
               <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_exclog">https://github.com/Pylons/pyramid_exclog</a>
+                <a href="https://github.com/Pylons/pyramid_tm">https://github.com/Pylons/pyramid_tm</a>
               </li>
             </ul>
+
+            <p>
+              <a href="/projects/pyramid-zodbconn/en/latest/">pyramid_zodbconn</a>
+            </p>
+            <ul>
+              <li>ZODB Database connection management for Pyramid.</li>
+              <li>Mantained by: Chris McDonough, Chris Rossi</li>
+              <li>Version Control:
+                <a href="https://github.com/Pylons/pyramid_zodbconn">https://github.com/Pylons/pyramid_zodbconn</a>
+              </li>
+            </ul>
+
+            <h3>
+              Template languages
+            </h3>
+
+            <p>
+              <a href="/projects/pyramid-chameleon/en/latest/">pyramid_chameleon</a>
+            </p>
+            <ul>
+              <li>Chameleon templating bindings for Pyramid</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li>Version Control:<a href="https://github.com/Pylons/pyramid_chameleon">https://github.com/Pylons/pyramid_chameleon</a></li>
+            </ul>
+
+            <p><a href="/projects/pyramid-jinja2/en/latest/">pyramid_jinja2</a>
+            </p>
+            <ul>
+              <li><a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid</li>
+              <li>Maintained by: Domen Kožar</li>
+              <li>Version Control:<a href="https://github.com/Pylons/pyramid_jinja2">https://github.com/Pylons/pyramid_jinja2</a></li>
+            </ul>
+
+            <p><a href="/projects/pyramid-mako/en/latest/">pyramid_mako</a></p>
+            <ul>
+              <li>Mako templating bindings for Pyramid.</li>
+              <li>Maintained by: Bert JW Regeer</li>
+              <li>Version Control:<a href="https://github.com/Pylons/pyramid_mako">https://github.com/Pylons/pyramid_mako</a></li>
+            </ul>
+
+            <hr>
 
             <p>
               <a href="/projects/pyramid-handlers/en/latest/">pyramid_handlers</a>
@@ -51,18 +125,6 @@
               <li>Maintained by: Ben Bangert, Chris McDonough</li>
               <li>Version Control:
                 <a href="https://github.com/Pylons/pyramid_handlers">https://github.com/Pylons/pyramid_handlers</a>
-              </li>
-            </ul>
-
-            <p><a href="/projects/pyramid-jinja2/en/latest/">pyramid_jinja2</a>
-            </p>
-            <ul>
-              <li>
-                <a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid
-              </li>
-              <li>Maintained by: Domen Kožar</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_jinja2">https://github.com/Pylons/pyramid_jinja2</a>
               </li>
             </ul>
 
@@ -82,34 +144,6 @@
               <li>Maintained by: Chris Rossi, Paul Everitt, Blaise Laflamme</li>
               <li>Version Control:
                 <a href="https://github.com/Pylons/pyramid_layout">https://github.com/Pylons/pyramid_layout</a>
-              </li>
-            </ul>
-
-            <p><a href="/projects/pyramid-ldap/en/latest/">pyramid_ldap</a></p>
-            <ul>
-              <li>An LDAP authentication policy for Pyramid.</li>
-              <li>Maintained by: Chris McDonough</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_ldap">https://github.com/Pylons/pyramid_ldap</a>
-              </li>
-            </ul>
-
-            <p><a href="/projects/pyramid-mailer/en/latest/">pyramid_mailer</a>
-            </p>
-            <ul>
-              <li>A package for the Pyramid framework to take the pain out of sending emails.</li>
-              <li>Maintained by: Dan Jacobs, Chris McDonough</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_mailer">https://github.com/Pylons/pyramid_mailer</a>
-              </li>
-            </ul>
-
-            <p><a href="/projects/pyramid-mako/en/latest/">pyramid_mako</a></p>
-            <ul>
-              <li>Mako templating bindings for Pyramid.</li>
-              <li>Maintained by: Bert JW Regeer</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_mako">https://github.com/Pylons/pyramid_mako</a>
               </li>
             </ul>
 
@@ -137,24 +171,6 @@
               </li>
             </ul>
 
-            <p><a href="/projects/pyramid-tm/en/latest/">pyramid_tm</a></p>
-            <ul>
-              <li>Centralized transaction management for Pyramid applications (without middleware).</li>
-              <li>Maintained by: Chris McDonough</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_tm">https://github.com/Pylons/pyramid_tm</a>
-              </li>
-            </ul>
-
-            <p><a href="/projects/pyramid-who/en/latest/">pyramid_who</a></p>
-            <ul>
-              <li>Authentication policy for Pyramid using repoze.who 2.0 API.</li>
-              <li>Maintained by: Chris McDonough, Tres Seaver</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_who">https://github.com/Pylons/pyramid_who</a>
-              </li>
-            </ul>
-
             <p><a href="/projects/pyramid-xmlrpc/en/latest/">pyramid_xmlrpc</a>
             </p>
             <ul>
@@ -174,16 +190,6 @@
               </li>
             </ul>
 
-            <p>
-              <a href="/projects/pyramid-zodbconn/en/latest/">pyramid_zodbconn</a>
-            </p>
-            <ul>
-              <li>ZODB Database connection management for Pyramid.</li>
-              <li>Mantained by: Chris McDonough, Chris Rossi</li>
-              <li>Version Control:
-                <a href="https://github.com/Pylons/pyramid_zodbconn">https://github.com/Pylons/pyramid_zodbconn</a>
-              </li>
-            </ul>
 
             <h2>
               Unsupported add-ons
@@ -299,6 +305,50 @@
               <li>Version Control: <a href="https://github.com/boothead/stargate">https://github.com/boothead/stargate</a></li>
               <li>Documentation: <a href="http://boothead.github.io/stargate/">http://boothead.github.io/stargate/</a></li>
             </ul>
+
+            <h3>
+              Authentication
+            </h3>
+            <p>
+              pyramid_ldap
+            </p>
+            <ul>
+              <li>LDAP authentication policy for Pyramid.</li>
+              <li>Maintained by: </li>
+              <li>PyPI: <a href=""></a></li>
+              <li>Version Control: <a href="https://github.com/Pylons/pyramid_ldap">https://github.com/Pylons/pyramid_ldap</a></li>
+              <li>Documentation: <a href=""></a></li>
+              <li>Demo: <a href=""></a></li>
+            </ul>
+
+* [pyramid_who](https://github.com/Pylons/pyramid_who) - Authentication policy
+  for pyramid using repoze.who 2.0 API.
+* [velruse](https://github.com/bbangert/velruse) - Simplifying third-party
+  authentication for web applications. it supports most of auth
+  [providers](https://github.com/bbangert/velruse/tree/master/velruse/providers).
+* [pyramid_persona](https://github.com/madjar/pyramid_persona) - Pyramid plugin
+  to use [persona](https://login.persona.org/) for authentication.
+* [pyramid_simpleauth](https://github.com/thruflo/pyramid_simpleauth) - session
+  based authentication and role based security for Pyramid application
+* [Python Social Auth](https://github.com/omab/python-social-auth) - Social
+  authentication/registration mechanism with support for a large number of
+  [providers](https://github.com/omab/python-social-auth#auth-providers).
+* [Authomatic](https://github.com/peterhudec/authomatic) -  Simple yet powerful
+  authorization / authentication client library for Python web applications.
+* [apex](https://github.com/cd34/apex) - Toolkit for Pyramid, a Pylons Project,
+  to add Authentication and Authorization using Velruse (OAuth) and/or a local
+  database, CSRF, ReCaptcha, Sessions, Flash messages and I18N.
+* [pyramid_authsanity](https://github.com/usingnamespace/pyramid_authsanity) -
+  That will make it simpler to have a secure authentication policy with an easy
+  to use backend.
+* [pyramid_jwt](https://github.com/wichert/pyramid_jwt) - This package
+  implements an authentication policy for Pyramid that using [JSON Web Tokens].
+  This standard ([RFC 7519]) is often used to secure backens APIs. The
+  excellent [PyJWT] library is used for the JWT encoding / decoding logic.
+
+  [JSON Web Tokens]: http://jwt.io/
+  [RFC 7519]: https://tools.ietf.org/html/rfc7519
+  [PyJWT]: https://pyjwt.readthedocs.org/en/latest/
 
 {#            <h3>#}
 {#              Forms#}
