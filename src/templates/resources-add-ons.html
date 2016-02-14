@@ -200,7 +200,10 @@
               <li><a href="http://docs.pylonsproject.org/projects/pyramid-layout/en/latest/">Documentation</a></li>
             </ul>
 
-            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
 
             <h2>
               Unsupported add-ons
@@ -216,6 +219,11 @@
               <li>Became unsupported October 2013 because Beaker itself is no longer maintained.</li>
               <li><a href="http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/">Documentation</a></li>
             </ul>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
 
             <h2>
               Add-ons from the community
@@ -320,32 +328,98 @@
               Authentication
             </h3>
 
-* [velruse](https://github.com/bbangert/velruse) - Simplifying third-party
-  authentication for web applications. it supports most of auth
-  [providers](https://github.com/bbangert/velruse/tree/master/velruse/providers).
-* [pyramid_persona](https://github.com/madjar/pyramid_persona) - Pyramid plugin
-  to use [persona](https://login.persona.org/) for authentication.
-* [pyramid_simpleauth](https://github.com/thruflo/pyramid_simpleauth) - session
-  based authentication and role based security for Pyramid application
-* [Python Social Auth](https://github.com/omab/python-social-auth) - Social
-  authentication/registration mechanism with support for a large number of
-  [providers](https://github.com/omab/python-social-auth#auth-providers).
-* [Authomatic](https://github.com/peterhudec/authomatic) -  Simple yet powerful
-  authorization / authentication client library for Python web applications.
-* [apex](https://github.com/cd34/apex) - Toolkit for Pyramid, a Pylons Project,
-  to add Authentication and Authorization using Velruse (OAuth) and/or a local
-  database, CSRF, ReCaptcha, Sessions, Flash messages and I18N.
-* [pyramid_authsanity](https://github.com/usingnamespace/pyramid_authsanity) -
-  That will make it simpler to have a secure authentication policy with an easy
-  to use backend.
-* [pyramid_jwt](https://github.com/wichert/pyramid_jwt) - This package
-  implements an authentication policy for Pyramid that using [JSON Web Tokens].
-  This standard ([RFC 7519]) is often used to secure backens APIs. The
-  excellent [PyJWT] library is used for the JWT encoding / decoding logic.
+            <p>
+              <a href="http://peterhudec.github.io/authomatic/">Authomatic</a>
+            </p>
+            <ul>
+              <li>Simple yet powerful authorization and authentication client library for Python web applications.</li>
+              <li>Maintained by: peterhudec</li>
+              <li><a href="https://pypi.python.org/pypi/Authomatic">PyPI</a></li>
+              <li><a href="https://github.com/peterhudec/authomatic">Version Control</a></li>
+              <li><a href="http://peterhudec.github.io/authomatic/reference/index.html">Documentation</a></li>
+              <li><a href="https://authomatic-example.appspot.com/">Demo</a></li>
+            </ul>
 
-  [JSON Web Tokens]: http://jwt.io/
-  [RFC 7519]: https://tools.ietf.org/html/rfc7519
-  [PyJWT]: https://pyjwt.readthedocs.org/en/latest/
+            <p>
+              pyramid_authsanity
+            </p>
+            <ul>
+              <li>Provides a secure authentication policy with an easy to use backend.</li>
+              <li>Maintained by: xistence</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_authsanity">PyPI</a></li>
+              <li><a href="https://github.com/usingnamespace/pyramid_authsanity">Version Control</a></li>
+              <li><a href="http://pyramid-authsanity.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_jwt
+            </p>
+            <ul>
+              <li>Implementation of an authentication policy for Pyramid that uses <a href="http://jwt.io/">JSON Web Tokens</a>. This standard (<a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a>) is often used to secure backend APIs. The excellent <a href="https://pyjwt.readthedocs.org/en/latest/">PyJWT</a> library is used for the JWT encoding / decoding logic.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_jwt">PyPI</a></li>
+              <li><a href="https://github.com/wichert/pyramid_jwt">Version Control</a></li>
+              <li><a href="https://github.com/wichert/pyramid_jwt">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_persona
+            </p>
+            <ul>
+              <li>Provides <a href="https://login.persona.org/">persona</a> authentication. Note: On November 30th, 2016, Mozilla will shut down the persona.org services. Persona.org and related domains will be taken offline.</li>
+              <li>Maintained by: madjar</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_persona">PyPI</a></li>
+              <li><a href="https://github.com/madjar/pyramid_persona">Version Control</a></li>
+              <li><a href="http://pyramid-persona.readthedocs.org/en/latest/">Documentation</a></li>
+              <li><a href="http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html">Demo</a></li>
+            </ul>
+
+            <p>
+              pyramid_simpleauth
+            </p>
+            <ul>
+              <li>Session-based authentication and role based security.</li>
+              <li>Maintained by: thruflo, andrecp</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_simpleauth">PyPI</a></li>
+              <li><a href="https://github.com/thruflo/pyramid_simpleauth">Version Control</a></li>
+              <li><a href="https://github.com/thruflo/pyramid_simpleauth">Documentation</a></li>
+            </ul>
+
+            <p>
+              <a href="http://psa.matiasaguirre.net/">Python Social Auth</a>
+            </p>
+            <ul>
+              <li>Social authentication/registration mechanism with support for a large number of <a href="https://github.com/omab/python-social-auth#auth-providers">providers</a>.</li>
+              <li>Maintained by: omab</li>
+              <li><a href="https://pypi.python.org/pypi/python-social-auth">PyPI</a></li>
+              <li><a href="https://github.com/omab/python-social-auth">Version Control</a></li>
+              <li><a href="http://python-social-auth.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              velruse
+            </p>
+            <ul>
+              <li>Simplifying third-party authentication for web applications. It supports most auth <a href="https://github.com/bbangert/velruse/tree/master/velruse/providers">providers</a>.</li>
+              <li>Maintained by: bbangert, mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/velruse">PyPI</a></li>
+              <li><a href="https://github.com/bbangert/velruse">Version Control</a></li>
+              <li><a href="https://pythonhosted.org/velruse/index.html">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Scaffolds
+            </h3>
+            <p>
+              apex
+            </p>
+            <ul>
+              <li>Toolkit for Pyramid to add Authentication and Authorization using Velruse (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.</li>
+              <li>Maintained by: cd34</li>
+              <li><a href="https://pypi.python.org/pypi/apex">PyPI</a></li>
+              <li><a href="https://github.com/cd34/apex">Version Control</a></li>
+              <li><a href="http://thesoftwarestudio.com/apex/">Documentation</a></li>
+            </ul>
 
 {#            <h3>#}
 {#              Forms#}
