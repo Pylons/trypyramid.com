@@ -213,7 +213,7 @@
 
             <p>pyramid_beaker</p>
             <ul>
-              <li>Beaker session backend plug-in.</li>
+              <li>Beaker session backend plug-in. Note: <a href="http://techspot.zzzeek.org/2012/04/19/using-beaker-for-caching-why-you-ll-want-to-switch-to-dogpile.cache/">Why You'll Want to Switch to dogpile.cache</a>. pyramid_redis_sessions is another alternative.</li>
               <li>Maintained by: Ben Bangert, Chris McDonough</li>
               <li><a href="https://github.com/Pylons/pyramid_beaker">Version Control</a></li>
               <li>Became unsupported October 2013 because Beaker itself is no longer maintained.</li>
@@ -453,6 +453,79 @@
               <li><a href="https://ziggurat-foundations.readthedocs.org/en/latest/">Documentation</a></li>
             </ul>
 
+
+            <h3>
+              Caching and Sessions
+            </h3>
+
+            <p>
+              pyramid_dogpile_cache
+            </p>
+            <ul>
+              <li>dogpile.cache configuration package for Pyramid.</li>
+              <li>Maintained by: moriyoshi</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_dogpile_cache">PyPI</a></li>
+              <li><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">Version Control</a></li>
+              <li><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_nacl_session
+            </p>
+            <ul>
+              <li>Defines an encrypting, pickle-based cookie serializer, using <a href="http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric encryption for the cookie state.</li>
+              <li>Maintained by: tseaver</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_nacl_session">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_nacl_session">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_redis_sessions
+            </p>
+            <ul>
+              <li>Session factory backed by Redis.</li>
+              <li>Maintained by: erasmas</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_redis_sessions">PyPI</a></li>
+              <li><a href="https://github.com/ericrasmussen/pyramid_redis_sessions">Version Control</a></li>
+              <li><a href="http://pyramid-redis-sessions.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Debugging
+            </h3>
+
+            <p>
+              pyramid_debugtoolbar_dogpile
+            </p>
+            <ul>
+              <li>dogpile caching support for pyramid_debugtoolbar</li>
+              <li>Maintained by: jvanasco</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_debugtoolbar_dogpile">PyPI</a></li>
+              <li><a href="https://github.com/jvanasco/pyramid_debugtoolbar_dogpile">Version Control</a></li>
+            </ul>
+
+            <p>
+              pyramid_ipython
+            </p>
+            <ul>
+              <li>IPython bindings for Pyramid's pshell</li>
+              <li>Maintained by: mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_ipython">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_ipython">Version Control</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_ipython">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_bpython
+            </p>
+            <ul>
+              <li>bpython bindings for Pyramid's pshell</li>
+              <li>Maintained by: mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_bpython">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_bpython">Version Control</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_bpython">Documentation</a></li>
+            </ul>
 
             <h3>
               Scaffolds
