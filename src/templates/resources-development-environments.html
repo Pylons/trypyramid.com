@@ -6,120 +6,199 @@
       <div class="row">
         <div class="col-md-12">
           <h1>Pyramid development environments</h1>
-          <p>"Development environments" are packages which use Pyramid as a core, but offer alternative services and scaffolding. Each development environment presents a set of opinions and a "personality" to its users. Although users of a development environment can still use all of the services offered by the Pyramid core, they are usually guided to a more focused set of opinions offered by the development environment itself. Development environments often have dependencies beyond those of the Pyramid core.</p>
+          <p>"Development environments" are packages which use Pyramid as a core, but offer alternative services and scaffolding to ease web application development. Each development environment presents a set of opinions and a "personality" to its users. Although users of a development environment can still use all of the services offered by the Pyramid core, they are usually guided to a more focused set of opinions offered by the development environment itself. Development environments often have dependencies beyond those of the Pyramid core.</p>
 
-          <h3>
-            <a href="http://docs.pylonsproject.org/projects/akhet/en/latest/">Akhet</a>
-          </h3>
           <p>
-            A Pyramid library and demo application with a Pylons-like feel. Its most known for its former application scaffold, which helped users transition from Pylons and those preferring a more Pylons-like API. The scaffold has been retired but the demo plays a similar role.
+            Akhet
           </p>
           <ul>
+            <li>A Pyramid library and demo application with a Pylons-like feel. Its most known for its former application scaffold, which helped users transition from Pylons and those preferring a more Pylons-like API. The scaffold has been retired but the demo plays a similar role.</li>
             <li>Maintained by: Mike Orr</li>
-            <li>Version Control:
-              <a href="https://github.com/Pylons/akhet">https://github.com/Pylons/akhet</a>
-            </li>
+            <li><a href="https://pypi.python.org/pypi/Akhet">PyPI</a></li>
+            <li><a href="https://github.com/Pylons/akhet">Version Control</a></li>
+            <li><a href="http://docs.pylonsproject.org/projects/akhet/en/latest/">Documentation</a></li>
           </ul>
 
-
-          <h3><a href="http://khufuproject.github.com/">Khufu Project</a></h3>
-          <p>Khufu is an application scaffolding for Pyramid that provides an environment to work with Jinja2 and SQLAlchemy.</p>
-          <ul>
-            <li>Maintained by: Rocky Burt</li>
-            <li>Version Control:
-              <a href="https://github.com/khufuproject">https://github.com/khufuproject</a>
-            </li>
-          </ul>
-
-          <h3><a href="http://kotti.pylonsproject.org/">Kotti</a></h3>
-          <p>Kotti is a high-level, Pythonic web application framework. It includes an extensible Content Management System called the Kotti CMS, offering all the features you would expect from a modern CMS.</p>
-          <ul>
-            <li>Version Control:
-              <a href="https://github.com/Kotti/Kotti">https://github.com/Kotti/Kotti</a>
-            </li>
-          </ul>
-
-          <h3><a href="https://nefertari.readthedocs.org/">Nefertari</a></h3>
-          <p>Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's
-            <a href="https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html">Query String DSL</a> for full text search.
+          <p>
+            Cliquet
           </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/brandicted/nefertari">https://github.com/brandicted/nefertari</a>
-            </li>
+            <li>Cliquet is a toolkit to ease the implementation of HTTP microservices, such as data-driven REST APIs.</li>
+            <li>Maintained by: Mozilla Services, n1k0, tarek, alexis.metaireau, leplatrem, Natim</li>
+            <li><a href="https://pypi.python.org/pypi/cliquet">PyPI</a></li>
+            <li><a href="https://github.com/mozilla-services/cliquet">Version Control</a></li>
+            <li><a href="http://cliquet.readthedocs.org/en/latest/">Documentation</a></li>
           </ul>
 
-          <h3>
+          <p>
+            Cornice
+          </p>
+          <ul>
+            <li>Provides helpers to build and document REST-ish web services with Pyramid, with decent default behaviors. It takes care of following the HTTP specification in an automated way where possible.</li>
+            <li>Maintained by: Mozilla Services, n1k0, leplatrem, natim, tarek, alexis.metaireau, rafrombrc, rfk</li>
+            <li><a href="https://pypi.python.org/pypi/cornice">PyPI</a></li>
+            <li><a href="https://github.com/mozilla-services/cornice">Version Control</a></li>
+            <li><a href="http://cornice.readthedocs.org/en/latest/">Documentation</a></li>
+          </ul>
+
+          <p>
+            <a href="http://khufuproject.github.io/">Khufu Project</a>
+          </p>
+          <ul>
+            <li>Khufu is an application scaffolding for Pyramid that provides an environment to work with Jinja2 and SQLAlchemy.</li>
+            <li>Maintained by: Rocky Burt</li>
+            <li><a href="https://github.com/khufuproject">Version Control</a></li>
+            <li><a href="http://khufuproject.github.io/">Documentation</a></li>
+          </ul>
+
+          <p>
+            <a href="http://kotti.pylonsproject.org/">Kotti</a>
+          </p>
+          <ul>
+            <li>Kotti is a high-level, Pythonic web application framework. It includes an extensible Content Management System called the Kotti CMS, offering all the features you would expect from a modern CMS.</li>
+            <li>Maintained by: witsch, j23d, disko, nouri</li>
+            <li><a href="https://pypi.python.org/pypi/Kotti">PyPI</a></li>
+            <li><a href="https://github.com/Kotti/Kotti">Version Control</a></li>
+            <li><a href="http://kotti.readthedocs.org/en/latest/">Documentation</a></li>
+            <li><a href="http://kottidemo.danielnouri.org/">Demo</a></li>
+          </ul>
+
+          <p>
+            nefertari
+          </p>
+          <ul>
+            <li>Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's <a href="https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html">Query String DSL</a> for full text search.</li>
+            <li>Maintained by: Jonathan.Stoikovitch, chrstphrhrt</li>
+            <li><a href="https://pypi.python.org/pypi/nefertari">PyPI</a></li>
+            <li><a href="https://github.com/ramses-tech/nefertari">Version Control</a></li>
+            <li><a href="https://nefertari.readthedocs.org/">Documentation</a></li>
+          </ul>
+
+          <p>
             <a href="http://cms.nive.co/">Nive CMS</a>
-          </h3>
-          <p>Nive is a new, "out of the box", open source content management system based on the programming language Python and the Pyramid web framework.</p>
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/nive/nive_cms">https://github.com/nive/nive_cms</a>
+            <li>Nive is a new, "out of the box", open source content management system based on the programming language Python and the Pyramid web framework.</li>
+            <li>Maintained by: adroullier</li>
+            <li><a href="https://github.com/nive/nive_cms">Version Control</a></li>
+            <li><a href="http://cms.nive.co/doc/html/index.html">Documentation</a></li>
+          </ul>
+
+          <p>
+            Ptah
+          </p>
+          <ul>
+            <li>Ptah is a fast, fun, open source, high-level Python web development environment.</li>
+            <li>Maintained by: fafhrd, runyaga</li>
+            <li><a href="https://pypi.python.org/pypi/ptah">PyPI</a></li>
+            <li><a href="https://github.com/ptahproject/ptah">Version Control</a></li>
+            <li><a href="http://ptahproject.readthedocs.org/en/latest/">Documentation</a></li>
+          </ul>
+
+          <p>
+            pyramid_formalchemy
+          </p>
+          <ul>
+            <li>Auto-generated, customizable HTML input form fields from your SQLAlchemy mapped classes.</li>
+            <li>Maintained by: Gael Pasgrimaud</li>
+            <li><a href="https://pypi.python.org/pypi/pyramid_formalchemy">PyPI</a></li>
+            <li><a href="https://github.com/FormAlchemy/pyramid_formalchemy">Version Control</a></li>
+            <li><a href="http://docs.formalchemy.org/">Documentation</a></li>
+            <li><a href="http://docs.formalchemy.org/demo/admin/">Demo</a></li>
+          </ul>
+
+          <p>
+            pyramid_royal
+          </p>
+          <ul>
+            <li>Royal is a Pyramid extension which eases writing RESTful web applications.</li>
+            <li>Maintained by: ludia, Merwok, hadrien</li>
+            <li><a href="https://pypi.python.org/pypi/pyramid_royal">PyPI</a></li>
+            <li><a href="https://github.com/hadrien/pyramid_royal">Version Control</a></li>
+            <li><a href="https://pyramid-royal.readthedocs.org/en/latest/">Documentation</a></li>
+          </ul>
+
+          <p>
+            pyramid_sacrud
+          </p>
+          <ul>
+            <li>Pyramid CRUD interface. Provides an administration web interface for Pyramid.</li>
+            <li>Maintained by: uralbash</li>
+            <li><a href="https://pypi.python.org/pypi/pyramid_sacrud">PyPI</a></li>
+            <li><a href="https://github.com/sacrud/pyramid_sacrud">Version Control</a></li>
+            <li><a href="http://pyramid-sacrud.readthedocs.org/">Documentation</a></li>
+            <li>Extensions:
+              <ul>
+                <li><a href="https://github.com/sacrud/ps_alchemy">ps_alchemy</a> - provides SQLAlchemy models.</li>
+                <li><a href="https://github.com/sacrud/ps_tree">ps_tree</a> - displays a list of records as tree. This works fine with models from <a href="https://github.com/uralbash/sqlalchemy_mptt">sqlalchemy_mptt</a>.</li>
+              </ul>
             </li>
           </ul>
 
-          <h3>
-            <a href="http://ptahproject.readthedocs.org/en/latest/">Ptah</a>
-          </h3>
-          <p>Ptah is a fast, fun, open source, high-level Python web development environment.</p>
+          <p>
+            pyramid_swagger
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/ptahproject/ptah">https://github.com/ptahproject/ptah</a>
-            </li>
+            <li>Convenient tools for using Swagger to define and validate your interfaces in a Pyramid webapp.</li>
+            <li>Maintained by: striglia</li>
+            <li><a href="https://pypi.python.org/pypi/pyramid_swagger">PyPI</a></li>
+            <li><a href="https://github.com/striglia/pyramid_swagger">Version Control</a></li>
+            <li><a href="http://pyramid-swagger.readthedocs.org/en/latest/">Documentation</a></li>
           </ul>
 
-          <h3>
-            <a href="http://pyramid-sacrud.readthedocs.org/en/latest/">pyramid_sacrud</a>
-          </h3>
-          <p>Pyramid CRUD interface. Provides an administration web interface for Pyramid. Unlike classic CRUD, pyramid_sacrud allows overrides and flexibility to customize your interface, similar to django.contrib.admin, but uses a different backend to provide resources. <a href="http://pyramid-sacrud.readthedocs.org/en/latest/pages/contribute/architecture.html">New Architecture</a> built on the resources and mechanism traversal, allows use in various cases.</p>
+          <p>
+            <a href="http://ramses.tech/">ramses</a>
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/sacrud/pyramid_sacrud">https://github.com/sacrud/pyramid_sacrud</a>
-            </li>
+            <li>Ramses is a framework that generates a RESTful API using <a href="http://raml.org">RAML</a>. It uses Pyramid and <a href="https://nefertari.readthedocs.org/">Nefertari</a>, which provides Elasticsearch / Posgres / MongoDB / Your Data Store™ -powered views.</li>
+            <li>Maintained by: Jonathan.Stoikovitch, chrstphrhrt</li>
+            <li><a href="https://pypi.python.org/pypi/ramses">PyPI</a></li>
+            <li><a href="https://github.com/ramses-tech/ramses">Version Control</a></li>
+            <li><a href="https://ramses.readthedocs.org/">Documentation</a></li>
           </ul>
 
-          <h3><a href="https://ramses.readthedocs.org/">Ramses</a></h3>
-            <p>Ramses is a library that generates a RESTful API using
-              <a href="http://raml.org">RAML</a>. It uses Pyramid and
-              <a href="https://nefertari.readthedocs.org/">Nefertari</a> which
-              provides ElasticSearch-powered views.
-            </p>
+          <p>
+            rest_toolkit
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/brandicted/ramses">https://github.com/brandicted/ramses</a>
-            </li>
+            <li>rest_toolkit is a Python package which provides a very convenient way to build REST servers. It is build on top of Pyramid, but you do not need to know much about Pyramid to use rest_toolkit.</li>
+            <li>Maintained by: wichert</li>
+            <li><a href="https://pypi.python.org/pypi/rest_toolkit">PyPI</a></li>
+            <li><a href="https://github.com/wichert/rest_toolkit">Version Control</a></li>
+            <li><a href="http://rest-toolkit.readthedocs.org/en/latest/">Documentation</a></li>
           </ul>
 
-          <h3><a href="http://www.ringo-framework.org">Ringo</a></h3>
-          <p>Ringo is an extensible high-level web application framework with strength in building form based management or administration software, providing ready to use components often needed in web applications.</p>
+          <p>
+            <a href="http://www.ringo-framework.org">Ringo</a>
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/ringo-framework/ringo">https://github.com/ringo-framework/ringo</a>
-            </li>
+            <li>Ringo is a Python based high level web application framework build on top of Pyramid. The framework can be used to build form based management or administration software.</li>
+            <li>Maintained by: ti</li>
+            <li><a href="https://pypi.python.org/pypi/ringo">PyPI</a></li>
+            <li><a href="https://github.com/ringo-framework/ringo">Version Control</a></li>
+            <li><a href="http://ringo.readthedocs.org/en/latest/">Documentation</a></li>
           </ul>
 
-          <h3><a href="http://substanced.net/">Substance-D</a><img alt="Substance D" src="img/substance-d-logo.png"></h3>
-          <p>An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.</p>
+          <p>
+            <a href="http://substanced.net/">Substance-D</a><img alt="Substance D" src="img/substance-d-logo.png">
+          </p>
           <ul>
-            <li>Version Control:<a href="https://github.com/Pylons/substanced">https://github.com/Pylons/substanced</a></li>
-            <li><a href="http://demo.substanced.net/">Demonstration</a></li>
+            <li>An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.</li>
+            <li>Maintained by: chrism, cguardia</li>
+            <li><a href="https://pypi.python.org/pypi/substanced">PyPI</a></li>
+            <li><a href="https://github.com/Pylons/substanced">Version Control</a></li>
+            <li><a href="http://docs.pylonsproject.org/projects/substanced/en/latest/">Documentation</a></li>
+            <li><a href="http://demo.substanced.net/">Demo</a></li>
           </ul>
 
-          <h3><a href="https://websauna.org/">Websauna</a></h3>
-          <p>Websauna is a Python package and application framework for developing custom consumer and business web services. It emphasises meeting business requirements with reliable delivery times, responsiveness, consistency in quality, security and high data integrity. A low learning curve, novice friendliness and polished documentation help less seasoned developers to get their first release out quickly.</p>
+          <p>
+            Websauna
+          </p>
           <ul>
-            <li>Version Control:
-              <a href="https://github.com/websauna/websauna">https://github.com/websauna/websauna</a>
-            </li>
-          </ul>
-
-          <h3><a href="https://github.com/sernst/Ziggurat">Ziggurat</a></h3>
-          <p>A bundled application framework for data driven Pyramid project development.</p>
-          <ul>
-            <li>Version Control:
-              <a href="https://github.com/sernst/Ziggurat">https://github.com/sernst/Ziggurat</a>
-            </li>
+            <li>Websauna is a full stack application framework aimed for building consumer and business web services build on the top on Pyramid and SQLAlchemy.</li>
+            <li>Maintained by: miohtama</li>
+            <li><a href="https://github.com/websauna/websauna">Version Control</a></li>
+            <li><a href="https://websauna.org/">Documentation</a></li>
           </ul>
 
         </div>
