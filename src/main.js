@@ -23,6 +23,7 @@ require('./img/itcase-logo.png');
 // require('./img/konrad-adenauer-stiftung-logo.svg');
 require('./img/kuiu-logo.png');
 require('./img/linode.png');
+//require('./img/linkpeek.svg');
 require('./img/logo-white.png');
 require('./img/logo.png');
 require('./img/majerti-logo.png');
