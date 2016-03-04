@@ -57,10 +57,6 @@
     "resources.html" : {
       "title" : "Resources",
       "nav_id": "item-3"
-    },
-    "resources-subnav.html" : {
-      "title" : "Sub-nav",
-      "nav_id": "item-4"
     }
   }
 }
