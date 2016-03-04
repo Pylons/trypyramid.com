@@ -62,6 +62,13 @@ nav#nav {
             background-color: darken($tpc-red, 5%);
           }
         }
+        > ul.dropdown-menu li {
+          padding: 0px;
+        }
+      }
+      .open>a {
+        color: $white;
+        background-color: darken($tpc-red, 10%);
       }
       > .active > a {
         color: $white;
