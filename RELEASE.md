@@ -11,6 +11,7 @@ We use semantic versioning.
     - For minor and major releases, temporarily bump the release number without
       `-dev`, i.e., `0.1.0`.
 - Run `$ npm run dist`.
+- Add files in `dist` to the commit.
 - Commit with a message as the new version, e.g., `v0.1.0`.
 - Tag this commit to the same version, e.g., `v0.1.0`.
 - Push the commit and tags with `git push --tags`, and publish to GitHub.
