@@ -1,0 +1,907 @@
+{% extends './layout/home.html' %} {% block content %}
+  <section id="main">
+    <section class="section-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title text-red">Pyramid add-ons</h1>
+            <p>Pyramid add-ons extend the functionality of Pyramid, such as adding an ORM, sending email, or using a template-based language. The Python Package Index trove classifier "<a href="https://pypi.python.org/pypi?:action=browse&c=582">Framework :: Pyramid</a>" is used by 348 packages. Official add-ons and add-ons from the comunity are listed below.</p>
+
+            <h2>
+              Supported add-ons
+            </h2>
+            <p>The following Pyramid add-ons are officially endorsed by the Pylons Project. Documentation for each add-on is hosted at its respective name under the Pylons Project.</p>
+
+            <h3>
+              APIs and Services
+            </h3>
+
+            <p>pyramid_rpc</p>
+            <ul>
+              <li>RPC service add-on for Pyramid. Supports XML-RPC in a more extensible manner than <cite>pyramid_xmlrpc</cite> with support for JSON-RPC and AMF.</li>
+              <li>Maintained by: Michael Merickel, Ben Bangert</li>
+              <li><a href="https://github.com/Pylons/pyramid_rpc">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-rpc/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>pyramid_xmlrpc</p>
+            <ul>
+              <li>XML-RPC add-on for Pyramid</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_xmlrpc">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-xmlrpc/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Authentication
+            </h3>
+
+            <p>pyramid_ldap</p>
+            <ul>
+              <li>An LDAP authentication policy for Pyramid.</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_ldap">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>pyramid_who</p>
+            <ul>
+              <li>Authentication policy for Pyramid using repoze.who 2.0 API.</li>
+              <li>Maintained by: Chris McDonough, Tres Seaver</li>
+              <li><a href="https://github.com/Pylons/pyramid_who">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-who/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Configuration
+            </h3>
+
+            <p>pyramid_zcml</p>
+            <ul>
+              <li>Zope Configuration Markup Language configuration support for Pyramid.</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_zcml">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Debugging
+            </h3>
+
+            <p>
+              pyramid_debugtoolbar
+            </p>
+            <ul>
+              <li>An interactive HTML debug toolbar for Pyramid.</li>
+              <li>Maintained by: Chris McDonough, Blaise Laflamme</li>
+              <li><a href="https://github.com/Pylons/pyramid_debugtoolbar">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_exclog
+            </p>
+            <ul>
+              <li>A package which logs exceptions from Pyramid applications.</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_exclog">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Email
+            </h3>
+
+            <p>pyramid_mailer</p>
+            <ul>
+              <li>A package for the Pyramid framework to take the pain out of sending emails.</li>
+              <li>Maintained by: Dan Jacobs, Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_mailer">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-mailer/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Routing
+            </h3>
+
+            <p>pyramid_handlers</p>
+            <ul>
+              <li>Analogue of Pylons-style "controllers" for Pyramid.</li>
+              <li>Maintained by: Ben Bangert, Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_handlers">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Scaffolds
+            </h3>
+
+            <p>pyramid_jqm</p>
+            <ul>
+              <li>Scaffolding for developing jQuery Mobile apps with Pyramid.</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_jqm">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-jqm/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Sessions
+            </h3>
+
+            <p>pyramid_nacl_session</p>
+            <ul>
+              <li>Defines an encrypting, pickle-based cookie serializer, using <a href="http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric encryption for the cookie state.</li>
+              <li>Maintained by: Tres Seaver</li>
+              <li><a href="https://github.com/Pylons/pyramid_nacl_session">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Storage
+            </h3>
+
+            <p>pyramid_tm</p>
+            <ul>
+              <li>Centralized transaction management for Pyramid applications (without middleware).</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_tm">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-tm/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_zodbconn
+            </p>
+            <ul>
+              <li>ZODB Database connection management for Pyramid.</li>
+              <li>Mantained by: Chris McDonough, Chris Rossi</li>
+              <li><a href="https://github.com/Pylons/pyramid_zodbconn">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-zodbconn/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Template languages
+            </h3>
+
+            <p>
+              pyramid_chameleon
+            </p>
+            <ul>
+              <li>Chameleon templating bindings for Pyramid</li>
+              <li>Maintained by: Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_chameleon">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-chameleon/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>pyramid_jinja2</p>
+            <ul>
+              <li><a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid</li>
+              <li>Maintained by: Domen Kožar</li>
+              <li><a href="https://github.com/Pylons/pyramid_jinja2">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>pyramid_mako</p>
+            <ul>
+              <li>Mako templating bindings for Pyramid.</li>
+              <li>Maintained by: Bert JW Regeer</li>
+              <li><a href="https://github.com/Pylons/pyramid_mako">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-mako/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              User interface and user experience (UI and UX)
+            </h3>
+
+            <p>pyramid_layout</p>
+            <ul>
+              <li>Pyramid add-on for managing UI layouts.</li>
+              <li>Maintained by: Chris Rossi, Paul Everitt, Blaise Laflamme</li>
+              <li><a href="https://github.com/Pylons/pyramid_layout">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-layout/en/latest/">Documentation</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2>
+              Unsupported add-ons
+            </h2>
+
+            <p>These are libraries which used to be officially supported by the Pylons Project, but have since become unsupported.</p>
+
+            <p>pyramid_beaker</p>
+            <ul>
+              <li>Beaker session backend plug-in. Note: <a href="http://techspot.zzzeek.org/2012/04/19/using-beaker-for-caching-why-you-ll-want-to-switch-to-dogpile.cache/">Why You'll Want to Switch to dogpile.cache</a>. pyramid_redis_sessions is another alternative.</li>
+              <li>Maintained by: Ben Bangert, Chris McDonough</li>
+              <li><a href="https://github.com/Pylons/pyramid_beaker">Version Control</a></li>
+              <li>Became unsupported October 2013 because Beaker itself is no longer maintained.</li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/">Documentation</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2>
+              Community Pyramid add-ons and web-related packages
+            </h2>
+            <p>The following list of packages includes popular and useful Pyramid add-ons and web-related packages from the Pyramid and open source software communities, categorized to describe their primary function. Most packages depend on Pyramid, and others may work with multiple web frameworks including Pyramid.</p>
+            <p>These libraries are not supported by the Pylons Project, but have varying degrees of tests, documentation, support, and maintenance accorded by their maintainers. Consult the library's project page for details.</p>
+
+            <h3>
+              APIs and Services
+            </h3>
+
+            <p>pyramid_swagger</p>
+            <ul>
+              <li>This project offers convenient tools for using <a href="http://swagger.io/">Swagger</a> to define and validate your interfaces in a Pyramid webapp.</li>
+              <li>Maintained by: Scott Triglia</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_swagger">PyPI</a></li>
+              <li><a href="https://github.com/striglia/pyramid_swagger">Version Control</a></li>
+              <li><a href="http://pyramid-swagger.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Asset management
+            </h3>
+
+            <p>
+              pyramid_bowerstatic
+            </p>
+            <ul>
+              <li>Integration of Bowerstatic in Pyramid</li>
+              <li>Maintained by: mrijken</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_bowerstatic">PyPI</a></li>
+              <li><a href="https://github.com/mrijken/pyramid_bowerstatic">Version Control</a></li>
+            </ul>
+
+            <p>
+              pyramid_webassets
+            </p>
+            <ul>
+              <li>Pyramid extension for working with the webassets library.</li>
+              <li>Maintained by: tilgovi, sontek</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_webassets">PyPI</a></li>
+              <li><a href="https://github.com/sontek/pyramid_webassets">Version Control</a></li>
+            </ul>
+
+            <h3>
+              Async
+            </h3>
+            <p>
+              aiopyramid
+            </p>
+            <ul>
+              <li>Run pyramid using asyncio.</li>
+              <li>Maintained by: housleyjk</li>
+              <li><a href="https://pypi.python.org/pypi/aiopyramid">PyPI</a></li>
+              <li><a href="https://github.com/housleyjk/aiopyramid">Version Control</a></li>
+              <li><a href="http://aiopyramid.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              gevent-socketio
+            </p>
+            <ul>
+              <li>gevent-socketio is a Python implementation of the Socket.IO protocol, developed originally for Node.js by LearnBoost and then ported to other languages.</li>
+              <li>Maintained by: <a href="https://twitter.com/bourgetalexndre">@bourgetalexndre</a> and seeking new maintainers.</li>
+              <li><a href="https://pypi.python.org/pypi/gevent-socketio">PyPI</a></li>
+              <li><a href="https://github.com/abourget/gevent-socketio">Version Control</a></li>
+              <li><a href="https://gevent-socketio.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+
+            <p>
+              Stargate
+            </p>
+            <ul>
+              <li>Stargate is a package for adding <a href="http://en.wikipedia.org/wiki/Web_Sockets">WebSockets</a> support to Pyramid applications using the excellent eventlet library for long running connections.</li>
+              <li>Maintained by: boothead</li>
+              <li><a href="https://pypi.python.org/pypi/stargate">PyPI</a></li>
+              <li><a href="https://github.com/boothead/stargate">Version Control</a></li>
+              <li><a href="http://boothead.github.io/stargate/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Authentication
+            </h3>
+
+            <p>
+              <a href="http://peterhudec.github.io/authomatic/">Authomatic</a>
+            </p>
+            <ul>
+              <li>Simple yet powerful authorization and authentication client library for Python web applications.</li>
+              <li>Maintained by: peterhudec</li>
+              <li><a href="https://pypi.python.org/pypi/Authomatic">PyPI</a></li>
+              <li><a href="https://github.com/peterhudec/authomatic">Version Control</a></li>
+              <li><a href="http://peterhudec.github.io/authomatic/reference/index.html">Documentation</a></li>
+              <li><a href="https://authomatic-example.appspot.com/">Demo</a></li>
+            </ul>
+
+            <p>
+              pyramid_authsanity
+            </p>
+            <ul>
+              <li>Provides a secure authentication policy with an easy to use backend.</li>
+              <li>Maintained by: xistence</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_authsanity">PyPI</a></li>
+              <li><a href="https://github.com/usingnamespace/pyramid_authsanity">Version Control</a></li>
+              <li><a href="http://pyramid-authsanity.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_jwt
+            </p>
+            <ul>
+              <li>Implementation of an authentication policy for Pyramid that uses <a href="http://jwt.io/">JSON Web Tokens</a>. This standard (<a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a>) is often used to secure backend APIs. The excellent <a href="https://pyjwt.readthedocs.org/en/latest/">PyJWT</a> library is used for the JWT encoding / decoding logic.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_jwt">PyPI</a></li>
+              <li><a href="https://github.com/wichert/pyramid_jwt">Version Control</a></li>
+              <li><a href="https://github.com/wichert/pyramid_jwt">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_persona
+            </p>
+            <ul>
+              <li>Provides <a href="https://login.persona.org/">persona</a> authentication. Note: On November 30th, 2016, Mozilla will shut down the persona.org services. Persona.org and related domains will be taken offline.</li>
+              <li>Maintained by: madjar</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_persona">PyPI</a></li>
+              <li><a href="https://github.com/madjar/pyramid_persona">Version Control</a></li>
+              <li><a href="http://pyramid-persona.readthedocs.org/en/latest/">Documentation</a></li>
+              <li><a href="http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html">Demo</a></li>
+            </ul>
+
+            <p>
+              pyramid_simpleauth
+            </p>
+            <ul>
+              <li>Session-based authentication and role based security.</li>
+              <li>Maintained by: thruflo, andrecp</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_simpleauth">PyPI</a></li>
+              <li><a href="https://github.com/thruflo/pyramid_simpleauth">Version Control</a></li>
+              <li><a href="https://github.com/thruflo/pyramid_simpleauth">Documentation</a></li>
+            </ul>
+
+            <p>
+              <a href="http://psa.matiasaguirre.net/">Python Social Auth</a>
+            </p>
+            <ul>
+              <li>Social authentication/registration mechanism with support for a large number of <a href="https://github.com/omab/python-social-auth#auth-providers">providers</a>.</li>
+              <li>Maintained by: omab</li>
+              <li><a href="https://pypi.python.org/pypi/python-social-auth">PyPI</a></li>
+              <li><a href="https://github.com/omab/python-social-auth">Version Control</a></li>
+              <li><a href="http://python-social-auth.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              velruse
+            </p>
+            <ul>
+              <li>Simplifying third-party authentication for web applications. It supports most auth <a href="https://github.com/bbangert/velruse/tree/master/velruse/providers">providers</a>.</li>
+              <li>Maintained by: bbangert, mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/velruse">PyPI</a></li>
+              <li><a href="https://github.com/bbangert/velruse">Version Control</a></li>
+              <li><a href="https://pythonhosted.org/velruse/index.html">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Authorization
+            </h3>
+
+            <p>
+              horus
+            </p>
+            <ul>
+              <li>User registration and login system for the Pyramid Web Framework.</li>
+              <li>Maintained by: sontek</li>
+              <li><a href="https://pypi.python.org/pypi/horus">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/horus">Version Control</a></li>
+            </ul>
+
+            <p>
+              pyramid_authstack
+            </p>
+            <ul>
+              <li>Use multiple authentication policies with Pyramid.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_authstack">PyPI</a></li>
+              <li><a href="https://github.com/wichert/pyramid_authstack">Version Control</a></li>
+            </ul>
+
+            <p>
+              pyramid_multiauth
+            </p>
+            <ul>
+              <li>An authentication policy for Pyramid that proxies to a stack of other authentication policies.</li>
+              <li>Maintained by: leplatrem, natim, rafrombrc, alexis.metaireau, tarek, rfk</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_multiauth">PyPI</a></li>
+              <li><a href="https://github.com/mozilla-services/pyramid_multiauth">Version Control</a></li>
+            </ul>
+
+            <p>
+              ziggurat_foundations
+            </p>
+            <ul>
+              <li>Framework agnostic set of sqlalchemy classes that make building applications that require permissions an easy task.</li>
+              <li>Maintained by: ergo</li>
+              <li><a href="https://pypi.python.org/pypi/ziggurat-foundations">PyPI</a></li>
+              <li><a href="https://github.com/ergo/ziggurat_foundations">Version Control</a></li>
+              <li><a href="https://ziggurat-foundations.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+
+            <h3>
+              Caching and Sessions
+            </h3>
+
+            <p>
+              pyramid_dogpile_cache
+            </p>
+            <ul>
+              <li>dogpile.cache configuration package for Pyramid.</li>
+              <li>Maintained by: moriyoshi</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_dogpile_cache">PyPI</a></li>
+              <li><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">Version Control</a></li>
+              <li><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_nacl_session
+            </p>
+            <ul>
+              <li>Defines an encrypting, pickle-based cookie serializer, using <a href="http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric encryption for the cookie state.</li>
+              <li>Maintained by: tseaver</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_nacl_session">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_nacl_session">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_redis_sessions
+            </p>
+            <ul>
+              <li>Session factory backed by Redis.</li>
+              <li>Maintained by: erasmas</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_redis_sessions">PyPI</a></li>
+              <li><a href="https://github.com/ericrasmussen/pyramid_redis_sessions">Version Control</a></li>
+              <li><a href="http://pyramid-redis-sessions.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Configuration
+            </h3>
+
+            <p>
+              pyramid_services
+            </p>
+            <ul>
+              <li>Defines a pattern and helper methods for accessing a pluggable service layer from within your Pyramid apps.</li>
+              <li>Maintained by: mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_services">PyPI</a></li>
+              <li><a href="https://github.com/mmerickel/pyramid_services">Version Control</a></li>
+              <li><a href="https://github.com/mmerickel/pyramid_services">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Debugging
+            </h3>
+
+            <p>
+              pyramid_debugtoolbar_dogpile
+            </p>
+            <ul>
+              <li>dogpile caching support for pyramid_debugtoolbar</li>
+              <li>Maintained by: jvanasco</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_debugtoolbar_dogpile">PyPI</a></li>
+              <li><a href="https://github.com/jvanasco/pyramid_debugtoolbar_dogpile">Version Control</a></li>
+            </ul>
+
+            <p>
+              pyramid_ipython
+            </p>
+            <ul>
+              <li>IPython bindings for Pyramid's pshell</li>
+              <li>Maintained by: mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_ipython">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_ipython">Version Control</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_ipython">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_bpython
+            </p>
+            <ul>
+              <li>bpython bindings for Pyramid's pshell</li>
+              <li>Maintained by: mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_bpython">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_bpython">Version Control</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_bpython">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Documentation
+            </h3>
+
+            <p>
+              pyramid_autodoc
+            </p>
+            <ul>
+              <li>Sphinx extension for documenting your Pyramid APIs.</li>
+              <li>Maintained by: sciyoshi, kaboomfox, sontek</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_autodoc">PyPI</a></li>
+              <li><a href="https://github.com/SurveyMonkey/pyramid_autodoc">Version Control</a></li>
+              <li><a href="https://github.com/SurveyMonkey/pyramid_autodoc">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Email
+            </h3>
+
+            <p>
+              pyramid_marrowmailer
+            </p>
+            <ul>
+              <li>Pyramid integration package for marrow.mailer, formerly known as TurboMail</li>
+              <li>Maintained by: iElectric</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_marrowmailer">PyPI</a></li>
+              <li><a href="https://github.com/domenkozar/pyramid_marrowmailer">Version Control</a></li>
+              <li><a href="https://github.com/domenkozar/pyramid_marrowmailer">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Forms
+            </h3>
+
+            <p>
+              colander
+            </p>
+            <ul>
+              <li>A serialization/deserialization/validation library for strings, mappings, and lists.</li>
+              <li>Maintained by: tseaver, chrism, mmerickel</li>
+              <li><a href="https://pypi.python.org/pypi/colander">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/colander">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/colander/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              ColanderAlchemy
+            </p>
+            <ul>
+              <li>Auto-generate Colander schemas that are based on SQLAlchemy mapped classes.</li>
+              <li>Maintained by: tisdall, stefanofontanelli</li>
+              <li><a href="https://pypi.python.org/pypi/ColanderAlchemy">PyPI</a></li>
+              <li><a href="https://github.com/stefanofontanelli/ColanderAlchemy">Version Control</a></li>
+              <li><a href="http://colanderalchemy.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              deform
+            </p>
+            <ul>
+              <li>A Python HTML form generation library.</li>
+              <li>Maintained by: chrism</li>
+              <li><a href="https://pypi.python.org/pypi/deform">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/deform">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/deform/en/latest/">Documentation</a></li>
+              <li><a href="http://deform2demo.repoze.org/">Demo</a></li>
+            </ul>
+
+            <p>
+              marshmallow
+            </p>
+            <ul>
+              <li>A lightweight library for converting complex objects to and from simple Python data types (i.e., (de)serialization and validation).</li>
+              <li>Maintained by: sloria</li>
+              <li><a href="https://pypi.python.org/pypi/marshmallow">PyPI</a></li>
+              <li><a href="https://github.com/marshmallow-code/marshmallow">Version Control</a></li>
+              <li><a href="http://marshmallow.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              WTForms
+            </p>
+            <ul>
+              <li>A flexible forms validation and rendering library for Python web development.</li>
+              <li>Maintained by: prencher, crast</li>
+              <li><a href="https://pypi.python.org/pypi/WTForms">PyPI</a></li>
+              <li><a href="https://github.com/wtforms/wtforms">Version Control</a></li>
+              <li><a href="http://wtforms.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Internationalization (i18n)
+            </h3>
+
+            <p>
+              lingua
+            </p>
+            <ul>
+              <li>Lingua is a package with tools to extract translatable texts from your code, and to check existing translations. It replaces the use of the xgettext command from gettext, or pybabel from Babel.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://pypi.python.org/pypi/lingua">PyPI</a></li>
+              <li><a href="https://github.com/wichert/lingua">Version Control</a></li>
+              <li><a href="https://github.com/wichert/lingua">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Media management
+            </h3>
+            <p>
+              pyramid_elfinder
+            </p>
+            <ul>
+              <li>Connector for elfinder file manager</li>
+              <li>Maintained by: uralbash</li>
+              <li><a href="https://github.com/uralbash/pyramid_elfinder">Version Control</a></li>
+              <li><a href="https://github.com/uralbash/pyramid_elfinder">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Renderers
+            </h3>
+
+            <p>
+              pyramid_tablib
+            </p>
+            <ul>
+              <li>tablib renderer factory (xlsx, xls, csv) for Pyramid.</li>
+              <li>Maintained by: lxneng</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_tablib">PyPI</a></li>
+              <li><a href="https://github.com/lxneng/pyramid_tablib">Version Control</a></li>
+            </ul>
+
+            <h3>
+              Requests
+            </h3>
+
+            <p>
+              webargs
+            </p>
+            <ul>
+              <li>A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks.</li>
+              <li>Maintained by: sloria</li>
+              <li><a href="https://pypi.python.org/pypi/webargs">PyPI</a></li>
+              <li><a href="https://github.com/sloria/webargs">Version Control</a></li>
+              <li><a href="http://webargs.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Routes
+            </h3>
+
+            <p>
+              tomb_routes
+            </p>
+            <ul>
+              <li>A set of sane routing defaults for the Pyramid web framework.</li>
+              <li>Maintained by: msabramo, sontek</li>
+              <li><a href="https://pypi.python.org/pypi/tomb_routes">PyPI</a></li>
+              <li><a href="https://github.com/sontek/tomb_routes">Version Control</a></li>
+            </ul>
+
+            <h3>
+              Scaffolds
+            </h3>
+
+            <p>
+              apex
+            </p>
+            <ul>
+              <li>Toolkit for Pyramid to add Authentication and Authorization using Velruse (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.</li>
+              <li>Maintained by: cd34</li>
+              <li><a href="https://pypi.python.org/pypi/apex">PyPI</a></li>
+              <li><a href="https://github.com/cd34/apex">Version Control</a></li>
+              <li><a href="http://thesoftwarestudio.com/apex/">Documentation</a></li>
+            </ul>
+
+            <p>
+              cookiecutter-pyramid
+            </p>
+            <ul>
+              <li><a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> template for a Pyramid package.</li>
+              <li>Maintained by: cguardia</li>
+              <li><a href="https://github.com/cguardia/cookiecutter-pyramid">Version Control</a></li>
+            </ul>
+
+            <p>
+              ziggurat_foundations
+            </p>
+            <ul>
+              <li>Framework agnostic set of SQLAlchemy classes that make building applications that require permissions an easy task.</li>
+              <li>Maintained by: ergo</li>
+              <li><a href="https://pypi.python.org/pypi/ziggurat_foundations">PyPI</a></li>
+              <li><a href="https://github.com/ergo/ziggurat_foundations">Version Control</a></li>
+              <li><a href="https://ziggurat-foundations.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Search
+            </h3>
+            <p>
+              hypatia
+            </p>
+            <ul>
+              <li>A Python indexing and searching system.</li>
+              <li>Maintained by: tseaver, chrism</li>
+              <li><a href="https://pypi.python.org/pypi/hypatia">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/hypatia">Version Control</a></li>
+           </ul>
+
+            <h3>
+              Storage
+            </h3>
+
+            <p>
+              Kinto
+            </p>
+            <ul>
+              <li>Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.</li>
+              <li>Maintained by: Mozilla Services, n1k0, Natim, tarek, alexis.metaireau, leplatrem</li>
+              <li><a href="https://pypi.python.org/pypi/kinto">PyPI</a></li>
+              <li><a href="https://github.com/Kinto/kinto">Version Control</a></li>
+              <li><a href="http://kinto.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_mongoengine
+            </p>
+            <ul>
+              <li>Pyramid-mongoengine package based on flask-mongoengine.</li>
+              <li>Maintained by: marioidival</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid-mongoengine">PyPI</a></li>
+              <li><a href="https://github.com/marioidival/pyramid_mongoengine">Version Control</a></li>
+              <li><a href="https://github.com/marioidival/pyramid_mongoengine/blob/master/demos/app.py">Demo</a></li>
+            </ul>
+
+            <p>
+              pyramid_sqlalchemy
+            </p>
+            <ul>
+              <li>Provides some basic glue to facilitate using SQLAlchemy with Pyramid.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_sqlalchemy">PyPI</a></li>
+              <li><a href="https://github.com/wichert/pyramid_sqlalchemy">Version Control</a></li>
+              <li><a href="https://pyramid-sqlalchemy.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <p>
+              zope.sqlalchemy
+            </p>
+            <ul>
+              <li>Integration of SQLAlchemy with transaction management. See also <a href="https://metaclassical.com/what-the-zope-transaction-manager-means-to-me-and-you/">What the Zope Transaction Manager Means To Me (and you)</a>.</li>
+              <li>Maintained by: chrism, laurencerowe</li>
+              <li><a href="https://pypi.python.org/pypi/zope.sqlalchemy">PyPI</a></li>
+              <li><a href="https://github.com/zopefoundation/zope.sqlalchemy">Version Control</a></li>
+              <li><a href="https://github.com/zopefoundation/zope.sqlalchemy/blob/master/src/zope/sqlalchemy/README.txt">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Task queueing
+            </h3>
+
+            <p>
+              pyramid_celery
+            </p>
+            <ul>
+              <li>Pyramid configuration with celery integration. Allows you to use Pyramid .ini files to configure celery and have your Pyramid configuration inside celery tasks.</li>
+              <li>Maintained by: sontek</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_celery">PyPI</a></li>
+              <li><a href="https://github.com/sontek/pyramid_celery">Version Control</a></li>
+              <li><a href="https://github.com/sontek/pyramid_celery">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_rq
+            </p>
+            <ul>
+              <li>Support using the <a href="http://python-rq.org">RQ</a> queueing system with Pyramid.</li>
+              <li>Maintained by: wichert</li>
+              <li><a href="https://github.com/wichert/pyramid_rq">Version Control</a></li>
+            </ul>
+
+            <h3>
+              Template languages
+            </h3>
+
+            <p>
+              pyramid_skins
+            </p>
+            <ul>
+              <li>This package provides a simple framework to integrate code with templates and resources.</li>
+              <li>Maintained by: fschulze, malthe, witsch</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_skins">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/pyramid_skins">Version Control</a></li>
+              <li><a href="http://pythonhosted.org/pyramid_skins/">Documentation</a></li>
+            </ul>
+
+            <p>
+              Tonnikala
+            </p>
+            <ul>
+              <li>Python templating engine with Pyramid integration.</li>
+              <li>Maintained by: hieu.nguyen, ztane</li>
+              <li><a href="https://pypi.python.org/pypi/tonnikala">PyPI</a></li>
+              <li><a href="https://github.com/ztane/Tonnikala">Version Control</a></li>
+              <li><a href="http://tonnikala.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              Testing
+            </h3>
+
+            <p>
+              webtest
+            </p>
+            <ul>
+              <li>Wraps any WSGI application and makes it easy to send test requests to that application, without starting up an HTTP server.</li>
+              <li>Maintained by: iElectric, gawel, ianb</li>
+              <li><a href="https://pypi.python.org/pypi/WebTest">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/webtest">Version Control</a></li>
+              <li><a href="https://webtest.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              URL shorteners and managers
+            </h3>
+
+            <p>
+              SUMA
+            </p>
+            <ul>
+              <li>Microservice to manage external links.</li>
+              <li>Maintained by: rach</li>
+              <li><a href="https://pypi.python.org/pypi/suma">PyPI</a></li>
+              <li><a href="https://github.com/rach/suma">Version Control</a></li>
+            </ul>
+
+            <h3>
+              Web page utilities
+            </h3>
+
+            <p>
+              paginate
+            </p>
+            <ul>
+              <li>Python pagination module.</li>
+              <li>Maintained by: ergo, crooksey, signum</li>
+              <li><a href="https://pypi.python.org/pypi/paginate">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/paginate">Version Control</a></li>
+              <li><a href="https://github.com/Pylons/paginate">Documentation</a></li>
+            </ul>
+
+            <p>
+              pyramid_pages
+            </p>
+            <ul>
+              <li>Provides a collection of web pages to your Pyramid application. This is very similar to django.contrib.flatpages but with a tree structure and traversal algorithm in URL dispatch.</li>
+              <li>Maintained by: uralbash</li>
+              <li><a href="https://pypi.python.org/pypi/pyramid_pages">PyPI</a></li>
+              <li><a href="https://github.com/uralbash/pyramid_pages">Version Control</a></li>
+              <li><a href="http://pyramid-pages.readthedocs.org/en/latest/">Documentation</a></li>
+            </ul>
+
+            <h3>
+              WSGI Servers
+            </h3>
+
+            <p>
+              waitress
+            </p>
+            <ul>
+              <li>Waitress is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones which live in the Python standard library.</li>
+              <li>Maintained by: chrism</li>
+              <li><a href="https://pypi.python.org/pypi/waitress">PyPI</a></li>
+              <li><a href="https://github.com/Pylons/waitress">Version Control</a></li>
+              <li><a href="http://docs.pylonsproject.org/projects/waitress/en/latest/">Documentation</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+{% endblock %}

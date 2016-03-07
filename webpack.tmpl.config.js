@@ -21,6 +21,12 @@ var config = {
       uglify: true,
       data: data,
       page: 'resources.html'
+    }, {
+      template: 'src/templates/resources-add-ons.html',
+      filename: 'resources-add-ons.html',
+      uglify: true,
+      data: data,
+      page: 'resources-add-ons.html'
     }
   ]
 };
