@@ -88,14 +88,13 @@ from pyramid.response import Response</code>
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">from wsgiref.simple_server import make_server
-from pyramid.config import Configurator
-from pyramid.response import Response</code>
+            <code class="python">from pyramid.renderers import render_to_response
+render_to_response('myapp:templates/my_template.pt', {}, request)</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Asset Specifications</h3>
-          <p>Herp dee derp.</p>
+          <p>Allows specifying the location of assets in a package. Here the asset is specified as a Chameleon template "my_template.pt", located in a subdirectory named "templates" within the package "myapp". A colon delimits the package name from the location of the asset relative to the package.</p>
         </div>
       </div>
     </div>
