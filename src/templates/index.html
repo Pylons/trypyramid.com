@@ -41,27 +41,29 @@
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home')
+            <code class="python">@view_config(route_name='home',
+             renderer='string')
 def home(request):
-    return Response('Welcome!')</code>
+    return 'Welcome!'</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Function Decorators</h3>
           <p>Pyramid is written in Python. All the features you know and love
             in the Python language, such as function decorators, are available
-            to Pyramid developers. Here we show the function named "home" has a
-            decorator "@view_config" which assigns a route to it.</p>
+            to Pyramid developers. Here we show the function named "home" that
+            returns a string. The function has a decorator "@view_config" which
+            has a route assigned to it also named "home".</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">config.add_view(
-    'mypackage.views.my_view',
-    route_name='ok',
-    request_method=('POST')
-    )</code>
+            <code class="python">@view_config(route_name='home',
+             request_method=('POST'),
+             renderer='string')
+def home(request):
+    return 'Welcome!'</code>
           </pre>
         </div>
         <div class="col-md-6">
@@ -69,33 +71,48 @@ def home(request):
           <p>A test which returns True or False, and which narrows the set of
             circumstances in which views or routes may be called. Here we use
             predicates to limit matching of a view callable to a route name of
-            "ok" and to the POST HTTP request method.</p>
+            "home" and to the POST HTTP request method.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">config.add_view('myproject.views.my_view',
-                renderer='json')</code>
+            <code class="python">@view_config(route_name='home',
+             request_method=('POST'),
+             renderer='template.jinja2')
+@view_config(route_name='home',
+             request_method=('GET'),
+             renderer='JSON')
+def home(request):
+    return {"a":1, "b":2}</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Renderers</h3>
-          <p>Convert non-response return values to a string, and ultimately into a response. Using a renderer can make writing views that require templating or other serialization, like JSON, less tedious.</p>
+          <p>Convert non-response return values that are later consumed by
+            renderers. Using a renderer can make writing views that require
+            templating or other serialization, like JSON, less tedious. Here we
+            also make use of multiple decorators to assign a different
+            renderer—a Jinja2 template or JSON—based on the request method.
+          </p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">from pyramid.renderers import render_to_response
-render_to_response('myapp:templates/my_template.pt',
-                   {},
-                   request)</code>
+            <code class="python">@view_config(route_name='home',
+             renderer='myapp:templates/my_template.jinja2')
+def home(request):
+    return 'Welcome!'</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Asset Specifications</h3>
-          <p>Allows specifying the location of assets in a package. Here the asset is specified as a Chameleon template "my_template.pt", located in a subdirectory named "templates" within the package "myapp". A colon delimits the package name from the location of the asset relative to the package.</p>
+          <p>Allows specifying the location of assets in a package. Here the
+            asset is specified as a Jinja2 template "my_template.jinja2",
+            located in a subdirectory named "templates" within the package
+            "myapp". A colon delimits the package name from the location of the
+            asset relative to the package.</p>
         </div>
       </div>
     </div>
