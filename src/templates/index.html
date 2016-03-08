@@ -41,8 +41,9 @@
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home',
-             renderer='string')
+            <code class="python">@view_config(
+    route_name='home',
+    renderer='string')
 def home(request):
     return 'Welcome!'</code>
           </pre>
@@ -59,9 +60,10 @@ def home(request):
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home',
-             request_method=('POST'),
-             renderer='string')
+            <code class="python">@view_config(
+    route_name='home',
+    request_method=('POST'),
+    renderer='string')
 def home(request):
     return 'Welcome!'</code>
           </pre>
@@ -77,12 +79,13 @@ def home(request):
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home',
-             request_method=('POST'),
-             renderer='template.jinja2')
+            <code class="python">@view_config(
+    route_name='home',
+    request_method=('POST'),
+    renderer='template.jinja2')
 @view_config(route_name='home',
-             request_method=('GET'),
-             renderer='JSON')
+    request_method=('GET'),
+    renderer='JSON')
 def home(request):
     return {"a":1, "b":2}</code>
           </pre>
@@ -100,10 +103,11 @@ def home(request):
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home',
-             renderer='myapp:templates/my_template.jinja2')
+            <code class="python">@view_config(
+    route_name='home',
+    renderer='myapp:templates/my_template.jinja2')
 def home(request):
-    return 'Welcome!'</code>
+    return {"greet": 'Welcome!', "name": 'Akhenaten'}</code>
           </pre>
         </div>
         <div class="col-md-6">
