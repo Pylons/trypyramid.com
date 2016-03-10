@@ -37,6 +37,7 @@ require('./img/rhodecode-logo.png');
 require('./img/sabrina-pontzen-raumdesign-logo.png');
 require('./img/surveymonkey-logo.png');
 require('./img/the-daily-climate-logo.png');
+require('./img/travelcrm-logo.png');
 require('./img/warehouse-pypi-logo.png');
 require('./img/yelp-logo.png');
 require('./img/zopyx-logo.jpg');
