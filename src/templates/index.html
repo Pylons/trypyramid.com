@@ -120,17 +120,19 @@ def home(request):
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@codeexamplegoeshere(route_name='home',
-    request_method=('GET'),
-    renderer='JSON'
-    )
-def home(request):
-    return {"a":1, "b":2}</code>
+            <code class="python">@subscriber(NewRequest, NewResponse)
+def mysubscriber(event):
+    print(event)</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Events and Subscribers</h3>
-          <p>Herp derp.
+          <p>An event is an object broadcast at interesting points during the
+            lifetime of an application. A subscriber to an event allows you to
+            run some code, such as resizing an uploaded image, sending email,
+            or sending a message to a remote system. Here the decorated
+            subscriber will be called for more than one event type,
+            specifically for every new request and response objects.
           </p>
         </div>
       </div>
