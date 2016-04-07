@@ -9,21 +9,10 @@ footer#footer {
   height: $footer-height;
   background-color: $footer-background-color;
   color: $color-light;
-  .navbar-text {
-    font-size: 12px;
-  }
-  .navbar-right {
-    margin-right: 0;
-  }
-}
-
-@media (max-width: $screen-xs-max) {
-  footer#footer {
-    padding: 15px;
-    height: auto;
-    .navbar-text {
-      text-align: center;
-      margin: 0;
-    }
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  a {
+    color: $white;
   }
 }

@@ -6,7 +6,6 @@ var config = {
     {
       template: 'src/templates/index.html',
       filename: 'index.html',
-      watch: 'src/templates/**/*',
       uglify: true,
       data: data,
       page: 'index.html'
@@ -16,6 +15,24 @@ var config = {
       uglify: true,
       data: data,
       page: 'colors.html'
+    }, {
+      template: 'src/templates/resources.html',
+      filename: 'resources.html',
+      uglify: true,
+      data: data,
+      page: 'resources.html'
+    }, {
+      template: 'src/templates/resources-add-ons.html',
+      filename: 'resources-add-ons.html',
+      uglify: true,
+      data: data,
+      page: 'resources-add-ons.html'
+    }, {
+      template: 'src/templates/resources-development-environments.html',
+      filename: 'resources-development-environments.html',
+      uglify: true,
+      data: data,
+      page: 'resources-development-environments.html'
     }
   ]
 };
