@@ -1,6 +1,6 @@
 # Pylons Project Contributor Agreement
 
-The submitter agrees by adding his or her name within the section below named "Contributors" and submitting the resulting modified document to the canonical shared repository location for this software project (whether directly, as a user with "direct commit access", or via a "pull request"), he or she is signing a contract electronically. The submitter becomes a Contributor after 
+The submitter agrees by adding his or her name within the section below named "Contributors" and submitting the resulting modified document to the canonical shared repository location for this software project (whether directly, as a user with "direct commit access", or via a "pull request"), he or she is signing a contract electronically. The submitter becomes a Contributor after
 
 - he or she signs this document by adding their name beneath the "Contributors" section below, and
 - the resulting document is accepted into the canonical version control repository.
@@ -49,3 +49,4 @@ The below-signed are contributors to a code repository that is part of the proje
 
 - Blaise Laflamme, 2016/01/03
 - Steve Piercy, 2016/01/03
+- Krystian Rosiński, 2016/04/07
