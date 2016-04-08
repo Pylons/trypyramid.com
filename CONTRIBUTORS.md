@@ -49,3 +49,4 @@ The below-signed are contributors to a code repository that is part of the proje
 
 - Blaise Laflamme, 2016/01/03
 - Steve Piercy, 2016/01/03
+- Krystian Rosiński, 2016/04/08
