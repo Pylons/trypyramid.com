@@ -42,20 +42,20 @@
         <div class="col-md-6">
           <pre class="nobs">
             <code class="python">@view_config(
-    route_name='home',
-    renderer='string'
+    route_name='home'
     )
 def home(request):
-    return 'Welcome!'</code>
+    return Response('Welcome!')</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Function Decorators</h3>
           <p>Pyramid is written in Python. All the features you know and love
             in the Python language, such as function decorators, are available
-            to Pyramid developers. Here we show the function named "home" that
-            returns a string. The function has a decorator "@view_config" which
-            has a route assigned to it also named "home".</p>
+            to Pyramid developers. Here we show the function named
+            <code>home</code> that returns a response. The function has a
+            decorator <code>@view_config</code> which has a route assigned to
+            it also named <code>home</code>.</p>
         </div>
       </div>
       <div class="row">
@@ -63,37 +63,38 @@ def home(request):
           <pre class="nobs">
             <code class="python">@view_config(
     route_name='home',
-    request_method=('POST'),
-    renderer='string'
+    request_method=('POST')
     )
 def home(request):
-    return 'Welcome!'</code>
+    return Response('Welcome!')</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Predicates</h3>
-          <p>A test which returns True or False, and which narrows the set of
-            circumstances in which views or routes may be called. Here we use
-            predicates to limit matching of a view callable to a route name of
-            "home" and to the POST HTTP request method.</p>
+          <p>A test which returns <code>True</code> or <code>False</code>, and
+            which narrows the set of circumstances in which views or routes may
+            be called. Here we use predicates to limit matching of a view
+            callable to a route name of <code>home</code> and to the
+            <code>POST</code> HTTP request method.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">@view_config(route_name='home',
-    request_method=('GET'),
+            <code class="python">@view_config(
+    route_name='home',
     renderer='JSON'
     )
 def home(request):
-    return {"a":1, "b":2}</code>
+    return {"a": 1, "b": 2}</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Renderers</h3>
           <p>Convert non-response return values that are later consumed by
             renderers. Using a renderer can make writing views that require
-            templating or other serialization, like JSON, less tedious.
+            templating or other serialization, like <code>JSON</code>, less
+            tedious.
           </p>
         </div>
       </div>
@@ -102,7 +103,7 @@ def home(request):
           <pre class="nobs">
             <code class="python">@view_config(
     route_name='home',
-    renderer='myapp:templates/my_template.jinja2'
+    renderer='myapp:templates/home.jinja2'
     )
 def home(request):
     return {"greet": 'Welcome!', "name": 'Akhenaten'}</code>
@@ -111,10 +112,10 @@ def home(request):
         <div class="col-md-6">
           <h3 class="title">Asset Specifications</h3>
           <p>Allows specifying the location of assets in a package. Here the
-            asset is specified as a Jinja2 template "my_template.jinja2",
-            located in a subdirectory named "templates" within the package
-            "myapp". A colon delimits the package name from the location of the
-            asset relative to the package.</p>
+            asset is specified as a Jinja2 template <code>home.jinja2</code>,
+            located in a subdirectory named <code>templates</code> within the
+            package <code>myapp</code>. A colon delimits the package name from
+            the location of the asset relative to the package.</p>
         </div>
       </div>
       <div class="row">
