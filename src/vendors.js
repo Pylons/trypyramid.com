@@ -16,3 +16,6 @@ require('animate.css/animate.css');
 // Highlight
 require('highlight.js');
 require('highlight.js/styles/github.css');
+
+// Isotope
+require('isotope-layout');

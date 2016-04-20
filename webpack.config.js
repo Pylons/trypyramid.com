@@ -54,6 +54,9 @@ var config = {
     }, {
       test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
       loader: 'file?name=fonts/[name].[ext]'
+    }, {
+      test: /isotope-layout/,
+      loader: 'imports?define=>false&this=>window'
     }]
   },
   plugins: [

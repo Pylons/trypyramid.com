@@ -20,3 +20,24 @@ if ($('.home').length){
     }
   });
 }
+// var Isotope = require('isotope-layout');
+//
+// var iso = new Isotope( '.grid', {
+//   filter: '.gi1'
+// });
+
+var $ = require('jquery');
+var jQBridget = require('jquery-bridget');
+var Isotope = require('isotope-layout');
+// make Isotope a jQuery plugin
+$.bridget( 'isotope', Isotope );
+// now you can use $().isotope()
+// init Isotope
+var $grid = $('.grid').isotope({
+  // options
+});
+// filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
