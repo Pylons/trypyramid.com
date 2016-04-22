@@ -2,26 +2,29 @@
 
 ## How to release a new version of trypyramid.com
 
-We use semantic versioning.
+We use [semantic versioning](http://semver.org/).
 
 - Open `package.json`.
-    - For patch releases, note the current minor version is in development,
-      e.g., `0.1.0-dev`. Temporarily bump the version to the next higher patch
-      number above the previous release, e.g., `0.0.0` to `0.0.1`.
-    - For minor and major releases, temporarily bump the release number without
-      `-dev`, i.e., `0.1.0`.
+    - Temporarily remove `-dev` from the version number.
+    - Increment the version number for `major.minor.patch`, e.g., a patch would
+      go from `0.1.0` to `0.1.1`.
 - Run `$ npm run dist`.
 - Add files in `dist` to the commit.
-- Commit with a message as the new version, e.g., `v0.1.0`.
-- Tag this commit to the same version, e.g., `v0.1.0`.
+- Commit with a message as the new version, e.g., `v0.1.1`.
+- Tag this commit to the same version, e.g., `v0.1.1`.
 - Push the commit and tags with `git push --tags`, and publish to GitHub.
-- Back to work, bump version in `package.json`, i.e., `0.2.0-dev`.
+- Back to work, append `-dev` to the version in `package.json`, i.e.,
+  `0.1.1-dev`.
 - Commit with a message "back to work", and push to GitHub.
 
 ## How to publish master to trypyramid.com
 
-- Be sure your public key has been added to marketing.pylonsproject.org.
+- Be sure your public key has been added to `marketing.pylonsproject.org`.
 - Setup remote production:
-- `$ git remote add production ssh://pylons@marketing.pylonsproject.org/home/pylons/repos/trypyramid.com.git`
+    ```bash
+    $ git remote add production ssh://pylons@marketing.pylonsproject.org/home/pylons/repos/trypyramid.com.git
+    ```
 - Push to remote production:
-- `$ git push production master`
+    ```bash
+    $ git push production master
+    ```
