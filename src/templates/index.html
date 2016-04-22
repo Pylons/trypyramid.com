@@ -43,7 +43,7 @@
           <pre class="nobs">
             <code class="python">@view_config(
     route_name='home'
-    )
+)
 def home(request):
     return Response('Welcome!')</code>
           </pre>
@@ -64,7 +64,7 @@ def home(request):
             <code class="python">@view_config(
     route_name='home',
     request_method=('POST')
-    )
+)
 def home(request):
     return Response('Welcome!')</code>
           </pre>
@@ -83,8 +83,8 @@ def home(request):
           <pre class="nobs">
             <code class="python">@view_config(
     route_name='home',
-    renderer='JSON'
-    )
+    renderer='json'
+)
 def home(request):
     return {"a": 1, "b": 2}</code>
           </pre>
@@ -104,7 +104,7 @@ def home(request):
             <code class="python">@view_config(
     route_name='home',
     renderer='myapp:templates/home.jinja2'
-    )
+)
 def home(request):
     return {"greet": 'Welcome!', "name": 'Akhenaten'}</code>
           </pre>
