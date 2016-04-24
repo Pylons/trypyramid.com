@@ -21,19 +21,16 @@ if ($('.home').length){
   });
 }
 
-var $ = require('jquery');
 var jQBridget = require('jquery-bridget');
 var Isotope = require('isotope-layout');
-// make Isotope a jQuery plugin
 $.bridget( 'isotope', Isotope );
-// now you can use $().isotope()
 
-// init Isotope
+// Init Isotope Grid
 var $grid = $('.grid').isotope({
   itemSelector: '.pyramid-item'
 });
 
-// Multiselect Isotop Filter
+// Multiselect Isotope Filter
 var filterSelector = '.extending-filters .filter-multiselect';
 $(filterSelector).multiselect({
   enableClickableOptGroups: true,
