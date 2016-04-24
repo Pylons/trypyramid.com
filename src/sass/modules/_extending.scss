@@ -1,8 +1,24 @@
 // Module Extending Pyramid
 
-.grid-item-content>span{
-  padding-right: 0.5rem;
+.extending-filters {
+  padding: 1rem 0;
+  .filter-multiselect {}
 }
-.pyramid-item{
-  border: 1px solid #eee;
+
+.grid-item {
+  margin-bottom: 15px;
+  padding-left: 0;
+  font-size: 14px;
+  .grid-item-content {
+    border: 1px solid $color-light;
+    padding: 10px;
+    h4 {
+      margin-top: 0;
+    }
+  }
 }
+
+// .pyramid-item {
+//   border: 1px solid $color-light;
+//   margin: 0;
+// }
