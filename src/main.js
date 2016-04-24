@@ -20,11 +20,6 @@ if ($('.home').length){
     }
   });
 }
-// var Isotope = require('isotope-layout');
-//
-// var iso = new Isotope( '.grid', {
-//   filter: '.gi1'
-// });
 
 var $ = require('jquery');
 var jQBridget = require('jquery-bridget');
@@ -33,57 +28,23 @@ var Isotope = require('isotope-layout');
 $.bridget( 'isotope', Isotope );
 // now you can use $().isotope()
 
-
-
-// basic usage
-
-// init Isotope
-// var $grid = $('.grid').isotope({
-//   // options
-// });
-// // filter items on button click
-// $('.filter-button-group').on( 'click', 'button', function() {
-//   var filterValue = $(this).attr('data-filter');
-//   $grid.isotope({ filter: filterValue });
-// });
-
-
-
-// inclusive selection
-
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.pyramid-item'
 });
 
-// store filter for each group
-var filters = [];
-
-// change is-checked class on buttons
-$('.filters').on( 'click', 'button', function( event ) {
-  var $target = $( event.currentTarget );
-  $target.toggleClass('is-checked');
-  var isChecked = $target.hasClass('is-checked');
-  var filter = $target.attr('data-filter');
-  if ( isChecked ) {
-    addFilter( filter );
-  } else {
-    removeFilter( filter );
+// Multiselect Isotop Filter
+var filterSelector = '.extending-filters .filter-multiselect';
+$(filterSelector).multiselect({
+  enableClickableOptGroups: true,
+  buttonText: function(options, select) {
+    return 'Filter packages';
+  },
+  onChange: function(option, checked) {
+    var filters = []
+    $(filterSelector + ' option:selected').map(function(a, item) {
+      filters.push('.'+item.value)
+    });
+    $grid.isotope({ filter: filters.join(',') });
   }
-  // filter isotope
-  // group filters together, inclusive
-  $grid.isotope({ filter: filters.join(',') });
 });
-
-function addFilter( filter ) {
-  if ( filters.indexOf( filter ) == -1 ) {
-    filters.push( filter );
-  }
-}
-
-function removeFilter( filter ) {
-  var index = filters.indexOf( filter);
-  if ( index != -1 ) {
-    filters.splice( index, 1 );
-  }
-}
