@@ -1,0 +1,926 @@
+{% extends './layout/home.html' %} {% block content %}
+  <section id="main">
+    <section class="section-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title text-red">Pyramid add-ons</h1>
+            <p>Pyramid add-ons extend the functionality of Pyramid, such as
+              adding an ORM, sending email, or using a template-based language.
+              The Python Package Index trove classifier
+              "<a href="https://pypi.python.org/pypi?:action=browse&c=582">Framework :: Pyramid</a>"
+              is used by over 350 packages. Official add-ons (supported by the Pylons Project),
+              popular add-ons from the community, and other web-related packages are listed below.</p>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <div class="button-group">
+      <h3>Support</h3>
+      <button data-filter=".support-pylons" type="button" class="btn btn-primary btn-sm"
+          data-toggle="button" aria-pressed="false" autocomplete="off">
+        Pylons Project
+      </button>
+      <button data-filter=".support-community" type="button" class="btn btn-primary btn-sm"
+          data-toggle="button" aria-pressed="false" autocomplete="off">
+        Community
+      </button>
+      <button data-filter=".support-unsupported" type="button" class="btn btn-primary btn-sm"
+          data-toggle="button" aria-pressed="false" autocomplete="off">
+        Unsupported
+      </button>
+    </div>
+    <div class="button-group">
+      <h3>Add-on</h3>
+      <button data-filter=".addon-yes" type="button" class="btn btn-primary btn-sm"
+          data-toggle="button" aria-pressed="false" autocomplete="off">
+        Yes
+      </button>
+      <button data-filter=".addon-no" type="button" class="btn btn-primary btn-sm"
+          data-toggle="button" aria-pressed="false" autocomplete="off">
+        No
+      </button>
+    </div>
+    <div class="button-group">
+      <h3>Category</h3>
+
+      <button data-filter=".category-api" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        api
+      </button>
+
+      <button data-filter=".category-asset-management" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        asset-management
+      </button>
+
+      <button data-filter=".category-async" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        async
+      </button>
+
+      <button data-filter=".category-authentication" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        authentication
+      </button>
+
+      <button data-filter=".category-authorization" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        authorization
+      </button>
+
+      <button data-filter=".category-caching-and-sessions" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        caching-and-sessions
+      </button>
+
+      <button data-filter=".category-configuration" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        configuration
+      </button>
+
+      <button data-filter=".category-debugging" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        debugging
+      </button>
+
+      <button data-filter=".category-documentation" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        documentation
+      </button>
+
+      <button data-filter=".category-email" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        email
+      </button>
+
+      <button data-filter=".category-forms" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        forms
+      </button>
+
+      <button data-filter=".category-internationalization-i18n" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        internationalization-i18n
+      </button>
+
+      <button data-filter=".category-media-management" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        media-management
+      </button>
+
+      <button data-filter=".category-renderers" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        renderers
+      </button>
+
+      <button data-filter=".category-requests" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        requests
+      </button>
+
+      <button data-filter=".category-routes" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        routes
+      </button>
+
+      <button data-filter=".category-routing" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        routing
+      </button>
+
+      <button data-filter=".category-scaffolds" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        scaffolds
+      </button>
+
+      <button data-filter=".category-search" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        search
+      </button>
+
+      <button data-filter=".category-services" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        services
+      </button>
+
+      <button data-filter=".category-sessions" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        sessions
+      </button>
+
+      <button data-filter=".category-storage" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        storage
+      </button>
+
+      <button data-filter=".category-task-queueing" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        task-queueing
+      </button>
+
+      <button data-filter=".category-template-languages" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        template-languages
+      </button>
+
+      <button data-filter=".category-testing" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        testing
+      </button>
+
+      <button data-filter=".category-url-shorteners-and-managers" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        url-shorteners-and-managers
+      </button>
+
+      <button data-filter=".category-user-interface-and-user-experience-ui-and-ux" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        user-interface-and-user-experience-ui-and-ux
+      </button>
+
+      <button data-filter=".category-web-page-utilities" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        web-page-utilities
+      </button>
+
+      <button data-filter=".category-wsgi-servers" type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+        wsgi-servers
+      </button>
+
+    </div>
+  </div>
+  <!-- add extra container element for Masonry -->
+<style>
+  .grid-item-content>span{padding-right: 0.5rem;}
+  .pyramid-item{border: 1px solid #eee;}
+</style>
+
+  <div class="grid">
+    <!-- add sizing element for columnWidth -->
+
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-authentication addon-yes tags-ldap">
+      <div class="grid-item-content">
+        <h4>pyramid_ldap</h4>
+        <div class="addon-description">An LDAP authentication policy for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_ldap">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_ldap">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-authentication addon-yes tags-repoze">
+      <div class="grid-item-content">
+        <h4>pyramid_who</h4>
+        <div class="addon-description">Authentication policy for Pyramid using repoze.who 2.0 API.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough, Tres Seaver</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_who">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_who">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-who/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-configuration addon-yes tags-zcml tags-zope">
+      <div class="grid-item-content">
+        <h4>pyramid_zcml</h4>
+        <div class="addon-description">Zope Configuration Markup Language configuration support for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_zcml">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_zcml">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-debugging addon-yes tags-logging tags-exceptions">
+      <div class="grid-item-content">
+        <h4>pyramid_debugtoolbar</h4>
+        <div class="addon-description">An interactive HTML debug toolbar for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough, Blaise Laflamme</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_debugtoolbar">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_debugtoolbar">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-debugging addon-yes tags-logging tags-exceptions">
+      <div class="grid-item-content">
+        <h4>pyramid_exclog</h4>
+        <div class="addon-description">A package which logs exceptions from Pyramid applications.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_exclog">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_exclog">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-email addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_mailer</h4>
+        <div class="addon-description">A package for the Pyramid framework to take the pain out of sending emails.</div>
+        <div class="addon-maintainers">maintainers: Dan Jacobs, Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_mailer">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_mailer">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-mailer/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-routing addon-yes tags-controllers tags-pylons">
+      <div class="grid-item-content">
+        <h4>pyramid_handlers</h4>
+        <div class="addon-description">Analogue of Pylons-style "controllers" for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Ben Bangert, Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_handlers">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_handlers">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-scaffolds addon-yes tags-jquery-mobile">
+      <div class="grid-item-content">
+        <h4>pyramid_jqm</h4>
+        <div class="addon-description">Scaffolding for developing jQuery Mobile apps with Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_jqm">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_jqm">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-jqm/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-services addon-yes tags-xml-rpc tags-json-rpc tags-rmf">
+      <div class="grid-item-content">
+        <h4>pyramid_rpc</h4>
+        <div class="addon-description">RPC service add-on for Pyramid. Supports XML-RPC in a more extensible manner than <cite>pyramid_xmlrpc</cite> with support for JSON-RPC and AMF.</div>
+        <div class="addon-maintainers">maintainers: Michael Merickel, Ben Bangert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_rpc">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_rpc">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-rpc/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-services addon-yes tags-xml-rpc">
+      <div class="grid-item-content">
+        <h4>pyramid_xmlrpc</h4>
+        <div class="addon-description">XML-RPC add-on for Pyramid</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_xmlrpc">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_xmlrpc">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-xmlrpc/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-sessions addon-yes tags-pynacl tags-cookies">
+      <div class="grid-item-content">
+        <h4>pyramid_nacl_session</h4>
+        <div class="addon-description">Defines an encrypting, pickle-based cookie serializer, using <a href=" http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric encryption for the cookie state.</div>
+        <div class="addon-maintainers">maintainers: Tres Seaver</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_nacl_session">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_nacl_session">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-storage addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_tm</h4>
+        <div class="addon-description">Centralized transaction management for Pyramid applications (without middleware).</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_tm">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_tm">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-tm/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-storage addon-yes tags-zodb">
+      <div class="grid-item-content">
+        <h4>pyramid_zodbconn</h4>
+        <div class="addon-description">ZODB Database connection management for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough, Chris Rossi</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_zodbconn">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_zodbconn">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-zodbconn/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-template-languages addon-yes tags-chameleon">
+      <div class="grid-item-content">
+        <h4>pyramid_chameleon</h4>
+        <div class="addon-description">Chameleon templating bindings for Pyramid</div>
+        <div class="addon-maintainers">maintainers: Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_chameleon">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_chameleon">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-chameleon/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-template-languages addon-yes tags-jinja2">
+      <div class="grid-item-content">
+        <h4>pyramid_jinja2</h4>
+        <div class="addon-description"><a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid</div>
+        <div class="addon-maintainers">maintainers: Domen Kožar</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_jinja2">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_jinja2">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-template-languages addon-yes tags-mako">
+      <div class="grid-item-content">
+        <h4>pyramid_mako</h4>
+        <div class="addon-description">Mako templating bindings for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: Bert JW Regeer</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_mako">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_mako">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-mako/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-user-interface-and-user-experience-ui-and-ux addon-yes tags-ui tags-ux">
+      <div class="grid-item-content">
+        <h4>pyramid_layout</h4>
+        <div class="addon-description">Pyramid add-on for managing UI layouts.</div>
+        <div class="addon-maintainers">maintainers: Chris Rossi, Paul Everitt, Blaise Laflamme</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_layout">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_layout">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-layout/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-pylons category-wsgi-servers addon-no">
+      <div class="grid-item-content">
+        <h4>waitress</h4>
+        <div class="addon-description">Waitress is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones which live in the Python standard library.</div>
+        <div class="addon-maintainers">maintainers: chrism</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/waitress">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/waitress">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/waitress/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-unsupported category-sessions addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_beaker</h4>
+        <div class="addon-description">Beaker session backend plug-in. Became unsupported October 2013 because Beaker itself is no longer maintained. <a href="http://techspot.zzzeek.org/2012/04/19/using-beaker-for-caching-why-you-ll-want-to-switch-to-dogpile.cache/">Why You'll Want to Switch to dogpile.cache. pyramid_redis_sessions is another alternative.</a></div>
+        <div class="addon-maintainers">maintainers: Ben Bangert, Chris McDonough</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_beaker">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_beaker">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-api addon-yes tags-sencha tags-router tags-extjs">
+      <div class="grid-item-content">
+        <h4>pyramid_extdirect</h4>
+        <div class="addon-description">Plugin that provides a router for the <a href="http://www.sencha.com/products/extjs/extdirect">ExtDirect Sencha API</a> included in <a href="http://www.sencha.com/products/extjs/">ExtJS</a>.</div>
+        <div class="addon-maintainers">maintainers: jenner</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_extdirect">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/jenner/pyramid_extdirect">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-api addon-yes tags-swagger">
+      <div class="grid-item-content">
+        <h4>pyramid_swagger</h4>
+        <div class="addon-description">This project offers convenient tools for using <a href="http://swagger.io/">Swagger</a> to define and validate your interfaces in a Pyramid webapp.</div>
+        <div class="addon-maintainers">maintainers: Scott Triglia</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_swagger">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/striglia/pyramid_swagger">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-swagger.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-asset-management addon-yes tags-bowerstatic">
+      <div class="grid-item-content">
+        <h4>pyramid_bowerstatic</h4>
+        <div class="addon-description">Integration of Bowerstatic in Pyramid</div>
+        <div class="addon-maintainers">maintainers: mrijken</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_bowerstatic">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/mrijken/pyramid_bowerstatic">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-asset-management addon-yes tags-webassets">
+      <div class="grid-item-content">
+        <h4>pyramid_webassets</h4>
+        <div class="addon-description">Pyramid extension for working with the webassets library.</div>
+        <div class="addon-maintainers">maintainers: tilgovi, sontek</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_webassets">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/sontek/pyramid_webassets">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-async addon-yes tags-websockets">
+      <div class="grid-item-content">
+        <h4>Stargate</h4>
+        <div class="addon-description">Stargate is a package for adding <a href="http://en.wikipedia.org/wiki/Web_Sockets">WebSockets</a> support to Pyramid applications using the excellent eventlet library for long running connections.</div>
+        <div class="addon-maintainers">maintainers: boothead</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/stargate">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/boothead/stargate">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://boothead.github.io/stargate/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-async addon-yes tags-asyncio">
+      <div class="grid-item-content">
+        <h4>aiopyramid</h4>
+        <div class="addon-description">Run pyramid using asyncio.</div>
+        <div class="addon-maintainers">maintainers: housleyjk</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/aiopyramid">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/housleyjk/aiopyramid">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://aiopyramid.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-async addon-no tags-socket.io tags-gevent tags-node.js">
+      <div class="grid-item-content">
+        <h4>gevent-socketio</h4>
+        <div class="addon-description">gevent-socketio is a Python implementation of the Socket.IO protocol, developed originally for Node.js by LearnBoost and then ported to other languages.</div>
+        <div class="addon-maintainers">maintainers: @bourgetalexndre and seeking new maintainers</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/gevent-socketio">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/abourget/gevent-socketio">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://gevent-socketio.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-no tags-authentication tags-authorization">
+      <div class="grid-item-content">
+        <h4><a href="http://peterhudec.github.io/authomatic/">Authomatic</a></h4>
+        <div class="addon-description">Simple yet powerful authorization and authentication client library for Python web applications.</div>
+        <div class="addon-maintainers">maintainers: peterhudec</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/Authomatic">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/peterhudec/authomatic">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://peterhudec.github.io/authomatic/reference/index.html">docs</a></span>
+        <span class="addon-demoUrl"><a href="https://authomatic-example.appspot.com/">demo</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-no tags-authentication">
+      <div class="grid-item-content">
+        <h4><a href="http://psa.matiasaguirre.net/">Python Social Auth</a></h4>
+        <div class="addon-description">Social authentication/registration mechanism with support for a <a href="https://github.com/omab/python-social-auth#auth-providers">large number of providers</a>.</div>
+        <div class="addon-maintainers">maintainers: omab</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/python-social-auth">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/omab/python-social-auth">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://python-social-auth.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-yes tags-authentication">
+      <div class="grid-item-content">
+        <h4>pyramid_authsanity</h4>
+        <div class="addon-description">Provides a secure authentication policy with an easy to use backend.</div>
+        <div class="addon-maintainers">maintainers: Bert JW Regeer</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_authsanity">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/usingnamespace/pyramid_authsanity">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-authsanity.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-yes tags-jwt tags-json-web-tokens">
+      <div class="grid-item-content">
+        <h4>pyramid_jwt</h4>
+        <div class="addon-description">Implementation of an authentication policy for Pyramid that uses <a href="http://jwt.io/">JSON Web Tokens</a>. This standard (<a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a>) is often used to secure backend APIs. The excellent <a href="https://pyjwt.readthedocs.org/en/latest/">PyJWT</a> library is used for the JWT encoding / decoding logic.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_jwt">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/pyramid_jwt">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/wichert/pyramid_jwt">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-yes tags-persona">
+      <div class="grid-item-content">
+        <h4>pyramid_persona</h4>
+        <div class="addon-description">Provides <a href="https://login.persona.org/">persona</a> authentication. Note: On November 30th, 2016, Mozilla will shut down the persona.org services. Persona.org and related domains will be taken offline.</div>
+        <div class="addon-maintainers">maintainers: madjar</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_persona">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/madjar/pyramid_persona">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-persona.readthedocs.org/en/latest/">docs</a></span>
+        <span class="addon-demoUrl"><a href="http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html">demo</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-yes tags-authentication">
+      <div class="grid-item-content">
+        <h4>pyramid_simpleauth</h4>
+        <div class="addon-description">Session-based authentication and role based security.</div>
+        <div class="addon-maintainers">maintainers: thruflo, andrecp</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_simpleauth">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/thruflo/pyramid_simpleauth">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/thruflo/pyramid_simpleauth">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authentication addon-no tags-authentication">
+      <div class="grid-item-content">
+        <h4>velruse</h4>
+        <div class="addon-description">Simplifying third-party authentication for web applications. It supports most <a href="https://github.com/bbangert/velruse/tree/master/velruse/providers">auth providers</a>.</div>
+        <div class="addon-maintainers">maintainers: bbangert, mmerickel</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/velruse">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/bbangert/velruse">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://pythonhosted.org/velruse/index.html">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authorization addon-yes tags-registration tags-login">
+      <div class="grid-item-content">
+        <h4>horus</h4>
+        <div class="addon-description">User registration and login system for the Pyramid Web Framework.</div>
+        <div class="addon-maintainers">maintainers: sontek</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/horus">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/horus">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authorization addon-yes tags-authorization">
+      <div class="grid-item-content">
+        <h4>pyramid_authstack</h4>
+        <div class="addon-description">Use multiple authentication policies with Pyramid.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_authstack">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/pyramid_authstack">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authorization addon-yes tags-authorization">
+      <div class="grid-item-content">
+        <h4>pyramid_multiauth</h4>
+        <div class="addon-description">An authentication policy for Pyramid that proxies to a stack of other authentication policies.</div>
+        <div class="addon-maintainers">maintainers: leplatrem, natim, rafrombrc, alexis.metaireau, tarek, rfk</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_multiauth">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/mozilla-services/pyramid_multiauth">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-authorization addon-no tags-authorization tags-sqlalchemy">
+      <div class="grid-item-content">
+        <h4>ziggurat_foundations</h4>
+        <div class="addon-description">Framework agnostic set of sqlalchemy classes that make building applications that require permissions an easy task.</div>
+        <div class="addon-maintainers">maintainers: ergo</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ziggurat-foundations">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ergo/ziggurat_foundations">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://ziggurat-foundations.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-caching-and-sessions addon-yes tags-caching tags-sesssions tags-dogpile.cache">
+      <div class="grid-item-content">
+        <h4>pyramid_dogpile_cache</h4>
+        <div class="addon-description">dogpile.cache configuration package for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: moriyoshi</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_dogpile_cache">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/moriyoshi/pyramid_dogpile_cache">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-caching-and-sessions addon-yes tags-caching tags-sesssions tags-pynacl">
+      <div class="grid-item-content">
+        <h4>pyramid_nacl_session</h4>
+        <div class="addon-description">Defines an encrypting, pickle-based cookie serializer, using <a href="http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric encryption for the cookie state.</div>
+        <div class="addon-maintainers">maintainers: tseaver</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_nacl_session">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_nacl_session">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-caching-and-sessions addon-yes tags-caching tags-sesssions tags-redis">
+      <div class="grid-item-content">
+        <h4>pyramid_redis_sessions</h4>
+        <div class="addon-description">Session factory backed by Redis.</div>
+        <div class="addon-maintainers">maintainers: erasmas</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_redis_sessions">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ericrasmussen/pyramid_redis_sessions">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-redis-sessions.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-configuration addon-yes tags-services">
+      <div class="grid-item-content">
+        <h4>pyramid_services</h4>
+        <div class="addon-description">Defines a pattern and helper methods for accessing a pluggable service layer from within your Pyramid apps.</div>
+        <div class="addon-maintainers">maintainers: mmerickel</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_services">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/mmerickel/pyramid_services">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/mmerickel/pyramid_services">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-debugging addon-yes tags-bpython tags-pshell">
+      <div class="grid-item-content">
+        <h4>pyramid_bpython</h4>
+        <div class="addon-description">bpython bindings for Pyramid's pshell</div>
+        <div class="addon-maintainers">maintainers: mmerickel</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_bpython">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_bpython">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/Pylons/pyramid_bpython">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-debugging addon-yes tags-dogpile tags-pyramid_debugtoolbar">
+      <div class="grid-item-content">
+        <h4>pyramid_debugtoolbar_dogpile</h4>
+        <div class="addon-description">dogpile caching support for pyramid_debugtoolbar</div>
+        <div class="addon-maintainers">maintainers: jvanasco</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_debugtoolbar_dogpile">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/jvanasco/pyramid_debugtoolbar_dogpile">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-debugging addon-yes tags-ipython tags-pshell">
+      <div class="grid-item-content">
+        <h4>pyramid_ipython</h4>
+        <div class="addon-description">IPython bindings for Pyramid's pshell</div>
+        <div class="addon-maintainers">maintainers: mmerickel</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_ipython">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_ipython">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/Pylons/pyramid_ipython">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-debugging addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_pycallgraph</h4>
+        <div class="addon-description">This package provides a Pyramid tween to generate a callgraph image for every request.</div>
+        <div class="addon-maintainers">maintainers: disko</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_pycallgraph">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/disko/pyramid_pycallgraph">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-documentation addon-yes tags-sphinx">
+      <div class="grid-item-content">
+        <h4>pyramid_autodoc</h4>
+        <div class="addon-description">Sphinx extension for documenting your Pyramid APIs.</div>
+        <div class="addon-maintainers">maintainers: sciyoshi, kaboomfox, sontek</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_autodoc">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/SurveyMonkey/pyramid_autodoc">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/SurveyMonkey/pyramid_autodoc">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-email addon-yes tags-mailgun">
+      <div class="grid-item-content">
+        <h4>pyramid_mailgun</h4>
+        <div class="addon-description">This package integrates the Mailgun service with the Pyramid web framework.</div>
+        <div class="addon-maintainers">maintainers: evannook</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_mailgun">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/evannook/pyramid_mailgun">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-email addon-yes tags-marrow.mailer tags-turbomail">
+      <div class="grid-item-content">
+        <h4>pyramid_marrowmailer</h4>
+        <div class="addon-description">Pyramid integration package for marrow.mailer, formerly known as TurboMail</div>
+        <div class="addon-maintainers">maintainers: iElectric</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_marrowmailer">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/domenkozar/pyramid_marrowmailer">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/domenkozar/pyramid_marrowmailer">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-forms addon-no tags-colander tags-sqlalchemy">
+      <div class="grid-item-content">
+        <h4>ColanderAlchemy</h4>
+        <div class="addon-description">Auto-generate Colander schemas that are based on SQLAlchemy mapped classes.</div>
+        <div class="addon-maintainers">maintainers: tisdall, stefanofontanelli</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ColanderAlchemy">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/stefanofontanelli/ColanderAlchemy">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://colanderalchemy.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-forms addon-no tags-validation">
+      <div class="grid-item-content">
+        <h4>WTForms</h4>
+        <div class="addon-description">A flexible forms validation and rendering library for Python web development.</div>
+        <div class="addon-maintainers">maintainers: prencher, crast</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/WTForms">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wtforms/wtforms">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://wtforms.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-forms addon-no tags-serialization tags-deserialization tags-validation">
+      <div class="grid-item-content">
+        <h4>colander</h4>
+        <div class="addon-description">A serialization/deserialization/validation library for strings, mappings, and lists.</div>
+        <div class="addon-maintainers">maintainers: tseaver, chrism, mmerickel</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/colander">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/colander">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/colander/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-forms addon-no">
+      <div class="grid-item-content">
+        <h4>deform</h4>
+        <div class="addon-description">A Python HTML form generation library.</div>
+        <div class="addon-maintainers">maintainers: chrism</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/deform">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/deform">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/deform/en/latest/">docs</a></span>
+        <span class="addon-demoUrl"><a href="http://deform2demo.repoze.org/">demo</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-forms addon-no tags-serialization tags-deserialization tags-validation">
+      <div class="grid-item-content">
+        <h4>marshmallow</h4>
+        <div class="addon-description">A lightweight library for converting complex objects to and from simple Python data types (i.e., (de)serialization and validation).</div>
+        <div class="addon-maintainers">maintainers: sloria</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/marshmallow">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/marshmallow-code/marshmallow">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://marshmallow.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-internationalization-i18n addon-no tags-translations tags-xgettext tags-gettext tags-pybabel tags-babel">
+      <div class="grid-item-content">
+        <h4>lingua</h4>
+        <div class="addon-description">Lingua is a package with tools to extract translatable texts from your code, and to check existing translations. It replaces the use of the xgettext command from gettext, or pybabel from Babel.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/lingua">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/lingua">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/wichert/lingua">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-media-management addon-yes tags-elfinder tags-file-manager">
+      <div class="grid-item-content">
+        <h4>pyramid_elfinder</h4>
+        <div class="addon-description">Connector for elfinder file manager</div>
+        <div class="addon-maintainers">maintainers: uralbash</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/uralbash/pyramid_elfinder">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/uralbash/pyramid_elfinder">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-renderers addon-yes tags-tablib tags-excel tags-xlsx tags-xls tags-csv">
+      <div class="grid-item-content">
+        <h4>pyramid_tablib</h4>
+        <div class="addon-description">tablib renderer factory (xlsx, xls, csv) for Pyramid.</div>
+        <div class="addon-maintainers">maintainers: lxneng</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_tablib">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/lxneng/pyramid_tablib">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-requests addon-no">
+      <div class="grid-item-content">
+        <h4>webargs</h4>
+        <div class="addon-description">A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks.</div>
+        <div class="addon-maintainers">maintainers: sloria</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/webargs">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/sloria/webargs">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://webargs.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-routes addon-yes">
+      <div class="grid-item-content">
+        <h4>tomb_routes</h4>
+        <div class="addon-description">A set of sane routing defaults for the Pyramid web framework.</div>
+        <div class="addon-maintainers">maintainers: msabramo, sontek</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/tomb_routes">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/sontek/tomb_routes">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-scaffolds addon-no tags-authentication tags-authorization tags-velruse tags-oauth tags-database tags-csrf tags-recaptcha tags-sessions tags-flash-messages tags-i18n">
+      <div class="grid-item-content">
+        <h4>apex</h4>
+        <div class="addon-description">Toolkit for Pyramid to add Authentication and Authorization using Velruse (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.</div>
+        <div class="addon-maintainers">maintainers: cd34</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/apex">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/cd34/apex">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://thesoftwarestudio.com/apex/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-scaffolds addon-no tags-cookiecutter">
+      <div class="grid-item-content">
+        <h4>cookiecutter-pyramid</h4>
+        <div class="addon-description"><a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> template for a Pyramid package.</div>
+        <div class="addon-maintainers">maintainers: cguardia</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/cguardia/cookiecutter-pyramid">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-scaffolds addon-no tags-mongodb">
+      <div class="grid-item-content">
+        <h4>pyramid_mongodb</h4>
+        <div class="addon-description">Basic Pyramid scaffold to easily use MongoDB for persistence with the Pyramid Web framework.</div>
+        <div class="addon-maintainers">maintainers: Niall O'Higgins</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_mongodb">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/niallo/pyramid_mongodb">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-scaffolds addon-no tags-sqlalchemy">
+      <div class="grid-item-content">
+        <h4>ziggurat_foundations</h4>
+        <div class="addon-description">Framework agnostic set of SQLAlchemy classes that make building applications that require permissions an easy task.</div>
+        <div class="addon-maintainers">maintainers: ergo</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ziggurat_foundations">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ergo/ziggurat_foundations">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://ziggurat-foundations.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-search addon-no">
+      <div class="grid-item-content">
+        <h4>hypatia</h4>
+        <div class="addon-description">A Python indexing and searching system.</div>
+        <div class="addon-maintainers">maintainers: tseaver, chrism</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/hypatia">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/hypatia">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-storage addon-no tags-json">
+      <div class="grid-item-content">
+        <h4>Kinto</h4>
+        <div class="addon-description">Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.</div>
+        <div class="addon-maintainers">maintainers: Mozilla Services, n1k0, Natim, tarek, alexis.metaireau, leplatrem</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/kinto">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Kinto/kinto">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://kinto.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-storage addon-yes tags-mongoengine">
+      <div class="grid-item-content">
+        <h4>pyramid_mongoengine</h4>
+        <div class="addon-description">Pyramid-mongoengine package based on flask-mongoengine.</div>
+        <div class="addon-maintainers">maintainers: marioidival</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid-mongoengine">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/marioidival/pyramid_mongoengine">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/marioidival/pyramid_mongoengine/blob/master/demos/app.py">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-storage addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_sqlalchemy</h4>
+        <div class="addon-description">Provides some basic glue to facilitate using SQLAlchemy with Pyramid.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_sqlalchemy">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/pyramid_sqlalchemy">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://pyramid-sqlalchemy.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-storage addon-yes tags-amazon-s3">
+      <div class="grid-item-content">
+        <h4>pyramid_storage</h4>
+        <div class="addon-description">A simple file upload manager for the Pyramid framework. It currently supports uploads to the local file system and to the Amazon S3 cloud storage service.</div>
+        <div class="addon-maintainers">maintainers: danjac</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_storage">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/danjac/pyramid_storage">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://pythonhosted.org/pyramid_storage/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-storage addon-no tags-sqlalchemy tags-transaction-management">
+      <div class="grid-item-content">
+        <h4>zope.sqlalchemy</h4>
+        <div class="addon-description">Integration of SQLAlchemy with transaction management. See also <a href="https://metaclassical.com/what-the-zope-transaction-manager-means-to-me-and-you/">What the Zope Transaction Manager Means To Me (and you)</a>.</div>
+        <div class="addon-maintainers">maintainers: chrism, laurencerowe</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/zope.sqlalchemy">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/zopefoundation/zope.sqlalchemy">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/zopefoundation/zope.sqlalchemy/blob/master/src/zope/sqlalchemy/README.txt">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-task-queueing addon-yes tags-celery">
+      <div class="grid-item-content">
+        <h4>pyramid_celery</h4>
+        <div class="addon-description">Pyramid configuration with celery integration. Allows you to use Pyramid .ini files to configure celery and have your Pyramid configuration inside celery tasks.</div>
+        <div class="addon-maintainers">maintainers: sontek</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_celery">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/sontek/pyramid_celery">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/sontek/pyramid_celery">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-task-queueing addon-yes tags-rq">
+      <div class="grid-item-content">
+        <h4>pyramid_rq</h4>
+        <div class="addon-description">Support using the <a href="http://python-rq.org">RQ</a> queueing system with Pyramid.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/pyramid_rq">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-template-languages addon-yes">
+      <div class="grid-item-content">
+        <h4>Tonnikala</h4>
+        <div class="addon-description">Python templating engine with Pyramid integration.</div>
+        <div class="addon-maintainers">maintainers: hieu.nguyen, ztane</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/tonnikala">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ztane/Tonnikala">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://tonnikala.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-template-languages addon-yes">
+      <div class="grid-item-content">
+        <h4>pyramid_skins</h4>
+        <div class="addon-description">This package provides a simple framework to integrate code with templates and resources.</div>
+        <div class="addon-maintainers">maintainers: fschulze, malthe, witsch</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_skins">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_skins">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pythonhosted.org/pyramid_skins/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-testing addon-no tags-wsgi">
+      <div class="grid-item-content">
+        <h4>webtest</h4>
+        <div class="addon-description">Wraps any WSGI application and makes it easy to send test requests to that application, without starting up an HTTP server.</div>
+        <div class="addon-maintainers">maintainers: iElectric, gawel, ianb</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/WebTest">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/webtest">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://webtest.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-url-shorteners-and-managers addon-no">
+      <div class="grid-item-content">
+        <h4>SUMA</h4>
+        <div class="addon-description">Microservice to manage external links.</div>
+        <div class="addon-maintainers">maintainers: rach</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/suma">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/rach/suma">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-web-page-utilities addon-no">
+      <div class="grid-item-content">
+        <h4>paginate</h4>
+        <div class="addon-description">Python pagination module.</div>
+        <div class="addon-maintainers">maintainers: ergo, crooksey, signum</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/paginate">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/paginate">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://github.com/Pylons/paginate">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-6 col-sm-4 col-md-3 pyramid-item support-community category-web-page-utilities addon-no">
+      <div class="grid-item-content">
+        <h4>pyramid_pages</h4>
+        <div class="addon-description">Provides a collection of web pages to your Pyramid application. This is very similar to django.contrib.flatpages but with a tree structure and traversal algorithm in URL dispatch.</div>
+        <div class="addon-maintainers">maintainers: uralbash</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_pages">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/uralbash/pyramid_pages">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-pages.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+  </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </section>
+{% endblock %}
