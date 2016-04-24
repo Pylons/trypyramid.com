@@ -18,6 +18,7 @@ require('highlight.js');
 require('highlight.js/styles/github.css');
 
 // Isotope
+require('jquery-bridget');
 require('isotope-layout');
 
 // bootstrap-multiselect
