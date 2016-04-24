@@ -19,3 +19,7 @@ require('highlight.js/styles/github.css');
 
 // Isotope
 require('isotope-layout');
+
+// bootstrap-multiselect
+require('bootstrap-multiselect')
+require('bootstrap-multiselect/dist/css/bootstrap-multiselect.css')
