@@ -91,19 +91,6 @@
 	"vcsUrl": "https://github.com/Pylons/pyramid_mailer"
 }, {
 	"addon": true,
-	"category": "routing",
-	"demoUrl": "",
-	"description": "Analogue of Pylons-style \"controllers\" for Pyramid.",
-	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/",
-	"id": 7,
-	"maintainers": ["Ben Bangert", "Chris McDonough"],
-	"name": "pyramid_handlers",
-	"projectUrl": "",
-	"pypiUrl": "https://pypi.python.org/pypi/pyramid_handlers",
-	"support": "pylons",
-	"vcsUrl": "https://github.com/Pylons/pyramid_handlers"
-}, {
-	"addon": true,
 	"category": "scaffolds",
 	"demoUrl": "",
 	"description": "Scaffolding for developing jQuery Mobile apps with Pyramid.",
