@@ -11,6 +11,14 @@
               "<a href="https://pypi.python.org/pypi?:action=browse&c=582">Framework :: Pyramid</a>"
               is used by over 350 packages. Official add-ons (supported by the Pylons Project),
               popular add-ons from the community, and other web-related packages are listed below.</p>
+            <p>"Development environments" are packages which use Pyramid as a core,
+              but offer alternative services and scaffolding to ease web application development.
+              Each development environment presents a set of opinions and a "personality" to its users.
+              Some could be labeled "content management system" or "admin interface".
+              Although users of a development environment can still use all of the services offered
+              by the Pyramid core, they are usually guided to a more focused set of opinions offered
+              by the development environment itself. Development environments often have dependencies
+              beyond those of the Pyramid core.</p>
             <div class="extending-filters">
               <select class="filter-multiselect" multiple="multiple">
                 <optgroup label="Support">
@@ -31,6 +39,7 @@
                   <option value="category-caching-and-sessions">Caching and Sessions</option>
                   <option value="category-configuration">Configuration</option>
                   <option value="category-debugging">Debugging</option>
+                  <option value="category-development-environment">Development Environment</option>
                   <option value="category-documentation">Documentation</option>
                   <option value="category-email">Email</option>
                   <option value="category-forms">Forms</option>
@@ -58,7 +67,6 @@
             <div class="grid">
 
   <!-- start grid items -->
-
 
     <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-pylons category-authentication addon-yes">
       <div class="grid-item-content">
@@ -108,6 +116,17 @@
         <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_exclog">PyPI</a></span>
         <span class="addon-vcsUrl"><a href="https://github.com/Pylons/pyramid_exclog">VCS</a></span>
         <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-pylons category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://substanced.net/">Substance-D</a></h4>
+        <div class="addon-description"><img alt="Substance D" src="img/substance-d-logo.png" class="pull-right"> An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.</div>
+        <div class="addon-maintainers">maintainers: chrism, cguardia</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/substanced">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/substanced">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/substanced/en/latest/">docs</a></span>
+        <span class="addon-demoUrl"><a href="http://demo.substanced.net/">demo</a></span>
       </div>
     </div>
     <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-pylons category-email addon-yes">
@@ -502,6 +521,165 @@
         <div class="addon-maintainers">maintainers: disko</div>
         <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_pycallgraph">PyPI</a></span>
         <span class="addon-vcsUrl"><a href="https://github.com/disko/pyramid_pycallgraph">VCS</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>Akhet</h4>
+        <div class="addon-description">A Pyramid library and demo application with a Pylons-like feel. Its most known for its former application scaffold, which helped users transition from Pylons and those preferring a more Pylons-like API. The scaffold has been retired but the demo plays a similar role.</div>
+        <div class="addon-maintainers">maintainers: Mike Orr</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/Akhet">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Pylons/akhet">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.pylonsproject.org/projects/akhet/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>Cliquet</h4>
+        <div class="addon-description">Cliquet is a toolkit to ease the implementation of HTTP microservices, such as data-driven REST APIs.</div>
+        <div class="addon-maintainers">maintainers: Mozilla Services, n1k0, tarek, alexis.metaireau, leplatrem, Natim</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/cliquet">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/mozilla-services/cliquet">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://cliquet.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>Cornice</h4>
+        <div class="addon-description">Provides helpers to build and document REST-ish web services with Pyramid, with decent default behaviors. It takes care of following the HTTP specification in an automated way where possible.</div>
+        <div class="addon-maintainers">maintainers: Mozilla Services, n1k0, leplatrem, natim, tarek, alexis.metaireau, rafrombrc, rfk</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/cornice">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/mozilla-services/cornice">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://cornice.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://khufuproject.github.io/">Khufu Project</a></h4>
+        <div class="addon-description">Khufu is an application scaffolding for Pyramid that provides an environment to work with Jinja2 and SQLAlchemy.</div>
+        <div class="addon-maintainers">maintainers: Rocky Burt</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/khufuproject">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://khufuproject.github.io/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://kotti.pylonsproject.org/">Kotti</a></h4>
+        <div class="addon-description">Kotti is a high-level, Pythonic web application framework. It includes an extensible Content Management System called the Kotti CMS, offering all the features you would expect from a modern CMS.</div>
+        <div class="addon-maintainers">maintainers: witsch, j23d, disko, nouri</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/Kotti">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/Kotti/Kotti">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://kotti.readthedocs.org/en/latest/">docs</a></span>
+        <span class="addon-demoUrl"><a href="http://kottidemo.danielnouri.org/">demo</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://cms.nive.co/">Nive CMS</a></h4>
+        <div class="addon-description">Nive is a new, "out of the box", open source content management system based on the programming language Python and the Pyramid web framework.</div>
+        <div class="addon-maintainers">maintainers: adroullier</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/nive/nive_cms">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://cms.nive.co/doc/html/index.html">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>Ptah</h4>
+        <div class="addon-description">Ptah is a fast, fun, open source, high-level Python web development environment.</div>
+        <div class="addon-maintainers">maintainers: fafhrd, runyaga</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ptah">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ptahproject/ptah">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://ptahproject.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://www.ringo-framework.org">Ringo</a></h4>
+        <div class="addon-description">Ringo is a Python based high level web application framework build on top of Pyramid. The framework can be used to build form based management or administration software.</div>
+        <div class="addon-maintainers">maintainers: ti</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ringo">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ringo-framework/ringo">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://ringo.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>Websauna</h4>
+        <div class="addon-description">Websauna is a full stack application framework aimed for building consumer and business web services build on the top on Pyramid and SQLAlchemy.</div>
+        <div class="addon-maintainers">maintainers: miohtama</div>
+        <span class="addon-vcsUrl"><a href="https://github.com/websauna/websauna">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://websauna.org/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>nefertari</h4>
+        <div class="addon-description">Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's <a href="https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html">Query String DSL</a> for full text search.</div>
+        <div class="addon-maintainers">maintainers: Jonathan.Stoikovitch, chrstphrhrt</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/nefertari">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ramses-tech/nefertari">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://nefertari.readthedocs.org/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>pyramid_formalchemy</h4>
+        <div class="addon-description">Auto-generated, customizable HTML input form fields from your SQLAlchemy mapped classes.</div>
+        <div class="addon-maintainers">maintainers: Gael Pasgrimaud</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_formalchemy">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/FormAlchemy/pyramid_formalchemy">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://docs.formalchemy.org/">docs</a></span>
+        <span class="addon-demoUrl"><a href="http://docs.formalchemy.org/demo/admin/">demo</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>pyramid_royal</h4>
+        <div class="addon-description">Royal is a Pyramid extension which eases writing RESTful web applications.</div>
+        <div class="addon-maintainers">maintainers: ludia, Merwok, hadrien</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_royal">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/hadrien/pyramid_royal">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://pyramid-royal.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>pyramid_sacrud</h4>
+        <div class="addon-description">Pyramid CRUD interface. Provides an administration web interface for Pyramid.<br><strong>Extensions:</strong><br>* <a href="https://github.com/sacrud/ps_alchemy">ps_alchemy</a> - provides SQLAlchemy models.<br>* <a href="https://github.com/sacrud/ps_tree">ps_tree</a> - displays a list of records as tree. This works fine with models from <a href="https://github.com/uralbash/sqlalchemy_mptt">sqlalchemy_mptt</a>.</div>
+        <div class="addon-maintainers">maintainers: uralbash</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_sacrud">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/sacrud/pyramid_sacrud">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-sacrud.readthedocs.org/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>pyramid_swagger</h4>
+        <div class="addon-description">Convenient tools for using Swagger to define and validate your interfaces in a Pyramid webapp.</div>
+        <div class="addon-maintainers">maintainers: striglia</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/pyramid_swagger">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/striglia/pyramid_swagger">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://pyramid-swagger.readthedocs.org/en/latest/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4><a href="http://ramses.tech/">ramses</a></h4>
+        <div class="addon-description">Ramses is a framework that generates a RESTful API using <a href="http://raml.org">RAML</a>. It uses Pyramid and <a href="https://nefertari.readthedocs.org/">Nefertari</a>, which provides Elasticsearch / Posgres / MongoDB / Your Data Store™ -powered views.</div>
+        <div class="addon-maintainers">maintainers: Jonathan.Stoikovitch, chrstphrhrt</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/ramses">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/ramses-tech/ramses">VCS</a></span>
+        <span class="addon-docsUrl"><a href="https://ramses.readthedocs.org/">docs</a></span>
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-development-environment addon-no">
+      <div class="grid-item-content">
+        <h4>rest_toolkit</h4>
+        <div class="addon-description">rest_toolkit is a Python package which provides a very convenient way to build REST servers. It is build on top of Pyramid, but you do not need to know much about Pyramid to use rest_toolkit.</div>
+        <div class="addon-maintainers">maintainers: wichert</div>
+        <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/rest_toolkit">PyPI</a></span>
+        <span class="addon-vcsUrl"><a href="https://github.com/wichert/rest_toolkit">VCS</a></span>
+        <span class="addon-docsUrl"><a href="http://rest-toolkit.readthedocs.org/en/latest/">docs</a></span>
       </div>
     </div>
     <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-community category-documentation addon-yes">
