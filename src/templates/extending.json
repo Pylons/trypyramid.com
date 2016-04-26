@@ -91,19 +91,6 @@
 	"vcsUrl": "https://github.com/Pylons/pyramid_mailer"
 }, {
 	"addon": true,
-	"category": "scaffolds",
-	"demoUrl": "",
-	"description": "Scaffolding for developing jQuery Mobile apps with Pyramid.",
-	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-jqm/en/latest/",
-	"id": 8,
-	"maintainers": ["Chris McDonough"],
-	"name": "pyramid_jqm",
-	"projectUrl": "",
-	"pypiUrl": "https://pypi.python.org/pypi/pyramid_jqm",
-	"support": "pylons",
-	"vcsUrl": "https://github.com/Pylons/pyramid_jqm"
-}, {
-	"addon": true,
 	"category": "services",
 	"demoUrl": "",
 	"description": "RPC service add-on for Pyramid. Supports XML-RPC in a more extensible manner than <cite>pyramid_xmlrpc</cite> with support for JSON-RPC and AMF.",
@@ -115,19 +102,6 @@
 	"pypiUrl": "https://pypi.python.org/pypi/pyramid_rpc",
 	"support": "pylons",
 	"vcsUrl": "https://github.com/Pylons/pyramid_rpc"
-}, {
-	"addon": true,
-	"category": "services",
-	"demoUrl": "",
-	"description": "XML-RPC add-on for Pyramid",
-	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-xmlrpc/en/latest/",
-	"id": 10,
-	"maintainers": ["Chris McDonough"],
-	"name": "pyramid_xmlrpc",
-	"projectUrl": "",
-	"pypiUrl": "https://pypi.python.org/pypi/pyramid_xmlrpc",
-	"support": "pylons",
-	"vcsUrl": "https://github.com/Pylons/pyramid_xmlrpc"
 }, {
 	"addon": true,
 	"category": "sessions",
@@ -232,6 +206,45 @@
 	"pypiUrl": "https://pypi.python.org/pypi/waitress",
 	"support": "pylons",
 	"vcsUrl": "https://github.com/Pylons/waitress"
+}, {
+	"addon": true,
+	"category": "routing",
+	"demoUrl": "",
+	"description": "Analogue of Pylons-style \"controllers\" for Pyramid. Note: <a href=\"http://michael.merickel.org/2011/8/23/outgrowing-pyramid-handlers/\">Outgrowing Pyramid Handlers</a>",
+	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/",
+	"id": 7,
+	"maintainers": ["Ben Bangert", "Chris McDonough"],
+	"name": "pyramid_handlers",
+	"projectUrl": "",
+	"pypiUrl": "https://pypi.python.org/pypi/pyramid_handlers",
+	"support": "unsupported",
+	"vcsUrl": "https://github.com/Pylons/pyramid_handlers"
+}, {
+	"addon": true,
+	"category": "scaffolds",
+	"demoUrl": "",
+	"description": "Scaffolding for developing jQuery Mobile apps with Pyramid.",
+	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-jqm/en/latest/",
+	"id": 8,
+	"maintainers": ["Chris McDonough"],
+	"name": "pyramid_jqm",
+	"projectUrl": "",
+	"pypiUrl": "https://pypi.python.org/pypi/pyramid_jqm",
+	"support": "unsupported",
+	"vcsUrl": "https://github.com/Pylons/pyramid_jqm"
+}, {
+	"addon": true,
+	"category": "services",
+	"demoUrl": "",
+	"description": "XML-RPC add-on for Pyramid",
+	"docsUrl": "http://docs.pylonsproject.org/projects/pyramid-xmlrpc/en/latest/",
+	"id": 10,
+	"maintainers": ["Chris McDonough"],
+	"name": "pyramid_xmlrpc",
+	"projectUrl": "",
+	"pypiUrl": "https://pypi.python.org/pypi/pyramid_xmlrpc",
+	"support": "unsupported",
+	"vcsUrl": "https://github.com/Pylons/pyramid_xmlrpc"
 }, {
 	"addon": true,
 	"category": "sessions",
