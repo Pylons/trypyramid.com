@@ -22,17 +22,11 @@ var config = {
       data: data,
       page: 'resources.html'
     }, {
-      template: 'src/templates/resources-add-ons.html',
-      filename: 'resources-add-ons.html',
+      template: 'src/templates/resources-extending-pyramid.html',
+      filename: 'resources-extending-pyramid.html',
       uglify: true,
       data: data,
-      page: 'resources-add-ons.html'
-    }, {
-      template: 'src/templates/resources-development-environments.html',
-      filename: 'resources-development-environments.html',
-      uglify: true,
-      data: data,
-      page: 'resources-development-environments.html'
+      page: 'resources-extending-pyramid.html'
     }
   ]
 };

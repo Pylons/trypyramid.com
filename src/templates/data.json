@@ -58,9 +58,12 @@
       "title" : "Resources",
       "nav_id": "item-3"
     },
-    "resources-development-environments.html" : {
-      "title" : "Development Environments",
-      "nav_id": "item-4"
+    "resources-extending-pyramid.html" : {
+      "title" : "Extending Pyramid",
+      "nav_id": "item-4",
+      "data": {
+        "key": "value"
+      }
     }
   }
 }

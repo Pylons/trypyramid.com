@@ -19,15 +19,19 @@
   "dependencies": {
     "animate.css": "^3.4.0",
     "bootstrap": "^3.3.6",
+    "bootstrap-multiselect": "^0.9.13-1",
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "^4.5.0",
     "highlight.js": "^9.0.0",
-    "jquery": "^2.1.4"
+    "isotope-layout": "^2.2.2",
+    "jquery": "^2.1.4",
+    "jquery-bridget": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",
     "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.0",

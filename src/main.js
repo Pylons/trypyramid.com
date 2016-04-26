@@ -20,3 +20,28 @@ if ($('.home').length){
     }
   });
 }
+
+var jQBridget = require('jquery-bridget');
+var Isotope = require('isotope-layout');
+$.bridget( 'isotope', Isotope );
+
+// Init Isotope Grid
+var $grid = $('.grid').isotope({
+  itemSelector: '.pyramid-item'
+});
+
+// Multiselect Isotope Filter
+var filterSelector = '.extending-filters .filter-multiselect';
+$(filterSelector).multiselect({
+  enableClickableOptGroups: true,
+  buttonText: function(options, select) {
+    return 'Filter packages';
+  },
+  onChange: function(option, checked) {
+    var filters = []
+    $(filterSelector + ' option:selected').map(function(a, item) {
+      filters.push('.'+item.value)
+    });
+    $grid.isotope({ filter: filters.join(',') });
+  }
+});

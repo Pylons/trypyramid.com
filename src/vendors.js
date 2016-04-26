@@ -16,3 +16,11 @@ require('animate.css/animate.css');
 // Highlight
 require('highlight.js');
 require('highlight.js/styles/github.css');
+
+// Isotope
+require('jquery-bridget');
+require('isotope-layout');
+
+// bootstrap-multiselect
+require('bootstrap-multiselect')
+require('bootstrap-multiselect/dist/css/bootstrap-multiselect.css')
