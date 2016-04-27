@@ -52,6 +52,9 @@ var config = {
       test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
       loader: 'file?name=fonts/[name].[ext]'
     }, {
+      test: require.resolve('jquery'),
+      loader: 'expose?$!expose?jQuery'
+    }, {
         test: /isotope\-|fizzy\-ui\-utils|desandro\-|masonry|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
         loader: 'imports?define=>false&this=>window'
     }]
