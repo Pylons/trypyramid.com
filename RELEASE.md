@@ -9,6 +9,8 @@ We use [semantic versioning](http://semver.org/).
     - Increment the version number for `major.minor.patch`, e.g., a patch would
       go from `0.1.0` to `0.1.1`.
 - Run `$ npm run dist`.
+- Load the dist locally (until we have a staging/test environment) to ensure
+  the dist works the same as the result from `npm run dev`.
 - Add files in `dist` to the commit.
 - Commit with a message as the new version, e.g., `v0.1.1`.
 - Tag this commit to the same version, e.g., `v0.1.1`.
