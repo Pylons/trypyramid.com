@@ -1040,6 +1040,19 @@
 	"vcsUrl": "https://github.com/Pylons/hypatia"
 }, {
 	"addon": false,
+	"category": "services",
+	"demoUrl": "",
+	"description": "SMS services for Pyramid framework.",
+	"docsUrl": "http://pyramid-sms.readthedocs.io/en/latest/",
+	"id": 94,
+	"maintainers": ["miohtama"],
+	"name": "pyramid_sms",
+	"projectUrl": "",
+	"pypiUrl": "https://pypi.python.org/pypi/pyramid-sms",
+	"support": "community",
+	"vcsUrl": "https://github.com/websauna/pyramid_sms"
+}, {
+	"addon": false,
 	"category": "storage",
 	"demoUrl": "",
 	"description": "Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.",
