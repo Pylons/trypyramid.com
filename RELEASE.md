@@ -15,8 +15,8 @@ We use [semantic versioning](http://semver.org/).
 - Commit with a message as the new version, e.g., `v0.1.1`.
 - Tag this commit to the same version, e.g., `v0.1.1`.
 - Push the commit and tags with `git push --tags`, and publish to GitHub.
-- Back to work, append `-dev` to the version in `package.json`, i.e.,
-  `0.1.1-dev`.
+- Back to work, increment the version and append `-dev` in `package.json`, i.e.,
+  `0.1.2-dev`.
 - Commit with a message "back to work", and push to GitHub.
 
 ## How to publish master to trypyramid.com
