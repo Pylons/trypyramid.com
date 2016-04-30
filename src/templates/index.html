@@ -41,8 +41,7 @@
       <div class="row">
         <div class="col-md-6">
           <pre class="nobs">
-            <code class="python">
-from wsgiref.simple_server import make_server
+            <code class="python">from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
 
@@ -55,32 +54,34 @@ if __name__ == '__main__':
     config.add_view(hello_world, route_name='hello')
     app = config.make_wsgi_app()
     server = make_server('0.0.0.0', 8080, app)
-    server.serve_forever()
-            </code>
+    server.serve_forever()</code>
           </pre>
         </div>
         <div class="col-md-6">
           <h3 class="title">Quick Start</h3>
-          <p>It's very easy to get started with Pyramid. You can start with as
-             little code as you need to get something going. Sometimes this
-             will get you a long way, specially when learning. Later on,
-             Pyramid offers many features to make writing complex software
-             easier.
+          <p>Pyramid makes it easy to write web applications. You can
+            <strong>start small</strong> with this "hello world" minimal
+            request/response web app. This may take you far, especially while
+            learning. As your application grows, Pyramid offers many features
+            that make writing complex software take less effort.
           </p>
-          <p>Pyramid works in all supported versions of Python. If you need
-             help getting Pyramid up and running, head up to the
-             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation instructions.</a>.
+          <p>Pyramid works in all supported versions of Python. Our
+            <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation instructions</a>
+            will help you get Pyramid up and running.
           </p>
-          <p>If you are starting with Pyramid, you can begin with our
-             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick tutorial</a>, which will take you step by step
-             from writing a single file application, to forms, database
-             integration, and authentication.
+          <p>Pyramid's
+            <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick tutorial</a>
+            will take you step by step through writing a single file
+            application, forms, database integration, and authentication.
           </p>
-          <p>More experienced developers might like to take a look at Pyramid's
-             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative documentation</a>, or browse the extensive
+          <p>Developers may dive in to Pyramid's
+             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative documentation</a>,
+            or browse the extensive
              <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/api/index.html">API reference</a>.
-             Visit our <a href="resources.html">resources page</a> for more
-             documentation and examples.
+            Pyramid has a rich pool of helpful <a href="/resources.html">resources</a>
+            from which to draw. <a href="/resources-extending-pyramid.html">Extending Pyramid</a>
+            is a curated and filterable list of add-ons, packages, and applications
+            built to work with Pyramid.
           </p>
         </div>
       </div>
