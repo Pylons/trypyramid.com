@@ -43,7 +43,6 @@
     "sass-loader": "3.2.0",
     "scripts-loader": "^0.1.3",
     "style-loader": "^0.13.0",
-    "swig-webpack-plugin": "^0.5.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
