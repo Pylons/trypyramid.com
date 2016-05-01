@@ -31,6 +31,8 @@
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",
     "css-loader": "^0.23.1",
+    "ejs": "^2.4.1",
+    "ejs-webpack-builder": "^2.0.0",
     "expose-loader": "^0.7.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
