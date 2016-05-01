@@ -96,6 +96,19 @@
   }
 }
 
+#finish-big-carousel {
+  margin-bottom: 40px;
+  .carousel-indicators {
+    bottom: -40px;
+    li {
+      border-color: $tpc-red;
+      &.active {
+        background-color: $tpc-red;
+      }
+    }
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .home {
     h1.title {
