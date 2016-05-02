@@ -66,7 +66,7 @@
           </div>
           <div class="grid">
             <% context.data.forEach(function(item){ %>
-            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-<%= item.support %> category-<% item.category %> addon-<% if (item.addon) { %>yes<% } else { %>no<% } %>">
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-<%= item.support %> category-<%= item.category %> addon-<% if (item.addon) { %>yes<% } else { %>no<% } %>">
               <div class="grid-item-content">
                 <h4><%= item.name %></h4>
                 <div class="addon-description"><%- item.description %></div>
