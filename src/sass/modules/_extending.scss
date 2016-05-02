@@ -24,6 +24,10 @@
     overflow-y: auto;
     overflow-x: hidden;
     z-index: $zindex-10000;
+    > .active > a, > .active > a:hover, > .active > a:focus {
+      background-color: $tpc-red;
+      outline: none;
+    }
   }
 }
 
