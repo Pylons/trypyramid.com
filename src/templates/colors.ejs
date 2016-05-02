@@ -1,9 +1,8 @@
-{% extends './layout/default.html' %}
+<%- include partials/top %>
 
-{% block content %}
-<section id="main">
+<div class="page">
   <div class="container">
-    <p><strong>{{ page.title }}</strong></p>
+    <p><strong><%= context.title %></strong></p>
     <div>Primary</div>
     <div class="bg-primary lighter text-white">Lighter</div>
     <div class="bg-primary light text-white">Light</div>
@@ -103,6 +102,8 @@
     <div class="bg-beige darker text-white">Darker</div>
 
   </div>
-</section>
-{% endblock %}
+</div>
+
+<%- include partials/bottom %>
+
 
