@@ -1,11 +1,11 @@
 var path = require('path');
 var webpack = require('webpack');
 var WebpackNotifierPlugin = require('webpack-notifier');
-var SwigWebpackPlugin = require('swig-webpack-plugin');
+var EJSWebpackBuilder = require('ejs-webpack-builder');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var StatsWriterPlugin = require("webpack-stats-plugin").StatsWriterPlugin;
+var StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
-var templates = require('./webpack.tmpl.config').templates;
+var EJSOptions = require('./webpack.ejs.options');
 
 var config = {
   cache: true,
@@ -89,18 +89,13 @@ var config = {
       filename: 'stats.json',
       fields: ['hash', 'assetsByChunkName']
     }),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new EJSWebpackBuilder(EJSOptions())
   ],
   node: {
     net: 'empty',
     dns: 'empty'
   }
-};
-
-if (templates) {
-  templates.forEach(function(template) {
-    config.plugins.push(new SwigWebpackPlugin(template));
-  });
 };
 
 module.exports = config;

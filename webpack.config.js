@@ -2,9 +2,9 @@ var path = require('path');
 var webpack = require('webpack');
 var WebpackNotifierPlugin = require('webpack-notifier');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var SwigWebpackPlugin = require('swig-webpack-plugin');
+var EJSWebpackBuilder = require('ejs-webpack-builder');
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
-var templates = require('./webpack.tmpl.config').templates;
+var EJSOptions = require('./webpack.ejs.options');
 
 var config = {
   devtool: 'eval',
@@ -76,19 +76,13 @@ var config = {
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.[hash].js'),
     new ExtractTextPlugin('[name].[hash].css', {
       allChunks: true
-    })
+    }),
+    new EJSWebpackBuilder(EJSOptions('develop'))
   ],
   node: {
     net: 'empty',
     dns: 'empty'
   }
-};
-
-if (templates) {
-  templates.forEach(function(template) {
-    template.mode = 'develop';
-    config.plugins.push(new SwigWebpackPlugin(template));
-  });
 };
 
 module.exports = config;
