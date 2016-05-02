@@ -15,7 +15,7 @@ nav#nav {
       border: 1px solid $tpc-transparent;
       .navbar-brand, .navbar-brand-name {
         opacity: 0;
-        @include transition();
+        @include transition(0);
       }
       .navbar-nav li > a {
         color: $white;
@@ -27,7 +27,7 @@ nav#nav {
     @include transition(250ms);
     .navbar-brand, .navbar-brand-name {
       opacity: 1;
-      @include transition();
+      @include transition(0);
     }
     .navbar-brand {
       height: 90px;
