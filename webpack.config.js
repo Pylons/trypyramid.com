@@ -2,9 +2,9 @@ var path = require('path');
 var webpack = require('webpack');
 var WebpackNotifierPlugin = require('webpack-notifier');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var EJSWebpackBuilder = require('ejs-webpack-builder');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
-var EJSOptions = require('./webpack.ejs.options');
+var templates = require('./webpack.tmpl.config').templates;
 
 var config = {
   devtool: 'eval',
@@ -52,6 +52,9 @@ var config = {
       test: /\.txt$/,
       loader: 'raw'
     }, {
+      test: /\.ejs$/,
+      loader: 'ejs-compiled'
+    },{
       test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
       loader: 'file?name=fonts/[name].[ext]'
     }, {
@@ -76,13 +79,19 @@ var config = {
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.[hash].js'),
     new ExtractTextPlugin('[name].[hash].css', {
       allChunks: true
-    }),
-    new EJSWebpackBuilder(EJSOptions('develop'))
+    })
   ],
   node: {
     net: 'empty',
     dns: 'empty'
   }
+};
+
+if (templates) {
+  templates.forEach(function(template) {
+    template.mode = 'develop';
+    config.plugins.push(new HtmlWebpackPlugin(template));
+  });
 };
 
 module.exports = config;

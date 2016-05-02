@@ -1,11 +1,11 @@
 var path = require('path');
 var webpack = require('webpack');
 var WebpackNotifierPlugin = require('webpack-notifier');
-var EJSWebpackBuilder = require('ejs-webpack-builder');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
-var EJSOptions = require('./webpack.ejs.options');
+var templates = require('./webpack.tmpl.config').templates;
 
 var config = {
   cache: true,
@@ -49,6 +49,9 @@ var config = {
       test: /\.txt$/,
       loader: 'raw'
     }, {
+      test: /\.ejs$/,
+      loader: 'ejs-compiled'
+    },{
       test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
       loader: 'file?name=fonts/[name].[ext]'
     }, {
@@ -89,13 +92,19 @@ var config = {
       filename: 'stats.json',
       fields: ['hash', 'assetsByChunkName']
     }),
-    new webpack.NoErrorsPlugin(),
-    new EJSWebpackBuilder(EJSOptions())
+    new webpack.NoErrorsPlugin()
   ],
   node: {
     net: 'empty',
     dns: 'empty'
   }
+};
+
+if (templates) {
+  templates.forEach(function(template) {
+    template.mode = 'production';
+    config.plugins.push(new HtmlWebpackPlugin(template));
+  });
 };
 
 module.exports = config;
