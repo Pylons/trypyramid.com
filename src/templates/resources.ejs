@@ -1,5 +1,6 @@
-{% extends './layout/home.html' %} {% block content %}
-<section id="main">
+<%- include partials/top %>
+
+<div class="page">
 
   <section class="section-content">
     <div class="container">
@@ -145,5 +146,8 @@
       </div>
     </div>
   </section>
-</section>
-{% endblock %}
+
+</div>
+
+<%- include partials/bottom %>
+
