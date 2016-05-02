@@ -29,7 +29,9 @@ nav#nav {
       opacity: 1;
       @include transition();
     }
-
+    .navbar-brand {
+      height: 90px;
+    }
   }
   .navbar-inverse {
     background-color: $nav-background-color;
