@@ -1,5 +1,6 @@
-{% extends './layout/home.html' %} {% block content %}
-  <section id="main">
+<%- include partials/top %>
+
+  <div class="page">
     <section class="section-content">
       <div class="container">
         <div class="row">
@@ -120,7 +121,7 @@
     <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-pylons category-development-environment addon-no">
       <div class="grid-item-content">
         <h4><a href="http://substanced.net/">Substance-D</a></h4>
-        <div class="addon-description"><img alt="Substance D" src="img/substance-d-logo.png" class="pull-right"> An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.</div>
+        <div class="addon-description">An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.</div>
         <div class="addon-maintainers">maintainers: chrism, cguardia</div>
         <span class="addon-pypiUrl"><a href="https://pypi.python.org/pypi/substanced">PyPI</a></span>
         <span class="addon-vcsUrl"><a href="https://github.com/Pylons/substanced">VCS</a></span>
@@ -998,5 +999,7 @@
         </div>
       </div>
     </section>
-  </section>
-{% endblock %}
+  </div>
+
+<%- include partials/bottom %>
+
