@@ -20,7 +20,7 @@
 
 .multiselect-container {
   &.dropdown-menu {
-    max-height: 500px;
+    max-height: 350px;
     overflow-y: auto;
     overflow-x: hidden;
     z-index: $zindex-10000;
