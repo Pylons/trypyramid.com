@@ -61,6 +61,7 @@ nav#nav {
           padding: 10px 15px;
         }
         > ul.dropdown-menu {
+          @include box-shadow(none);
           top: 75%;
           li {
             padding: 0px;
