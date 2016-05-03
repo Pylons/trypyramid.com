@@ -21,11 +21,7 @@
     }
   }
   &.dropdown-arrow-right {
-    &:before {
-      left: auto;
-      right: $box-padding-sides - 2px;
-    }
-    &:after {
+    &:before, &:after {
       left: auto;
       right: $box-padding-sides - 2px;
     }
