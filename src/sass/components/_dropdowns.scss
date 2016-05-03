@@ -20,6 +20,16 @@
       @include triangle(16px, $white, up);
     }
   }
+  &.dropdown-arrow-right {
+    &:before {
+      left: auto;
+      right: $box-padding-sides - 2px;
+    }
+    &:after {
+      left: auto;
+      right: $box-padding-sides - 2px;
+    }
+  }
 }
 
 .navbar-right {
