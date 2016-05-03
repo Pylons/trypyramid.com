@@ -56,17 +56,22 @@ nav#nav {
         > a {
           color: $tpc-red;
           font-size: 14px;
-          text-transform: uppercase;
+          text-transform: Capitalize;
           font-weight: 600;
           padding: 10px 15px;
         }
-        > ul.dropdown-menu li {
-          padding: 0px;
-          a {
-            color: $tpc-red;
-            &:hover {
-              color: $white;
-              background-color: darken($tpc-red, 5%);
+        > ul.dropdown-menu {
+          top: 85%;
+          li {
+            padding: 0px;
+            a {
+              color: $tpc-red;
+              font-size: 12px;
+              padding: 5px 15px;
+              &:hover {
+                color: $white;
+                background-color: darken($tpc-red, 5%);
+              }
             }
           }
         }
