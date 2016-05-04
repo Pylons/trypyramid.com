@@ -29,10 +29,10 @@ var config = {
       context: require(path.resolve(baseDir, 'resources-extending-pyramid.json')),
       page: 'resources-extending-pyramid.html'
     }, {
-      template: 'src/templates/media-artwork.html',
+      template: 'src/templates/media-artwork.ejs',
       filename: 'media-artwork.html',
       uglify: true,
-      data: data,
+      context: require(path.resolve(baseDir, 'media-artwork.json')),
       page: 'media-artwork.html'
     }
   ]
