@@ -28,6 +28,12 @@ var config = {
       uglify: true,
       context: require(path.resolve(baseDir, 'resources-extending-pyramid.json')),
       page: 'resources-extending-pyramid.html'
+    }, {
+      template: 'src/templates/media-artwork.html',
+      filename: 'media-artwork.html',
+      uglify: true,
+      data: data,
+      page: 'media-artwork.html'
     }
   ]
 };
