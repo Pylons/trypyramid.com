@@ -613,22 +613,6 @@
       "vcsUrl": "https://github.com/mozilla-services/pyramid_multiauth"
     },
     {
-      "addon": false,
-      "category": "authorization",
-      "demoUrl": "",
-      "description": "Framework agnostic set of sqlalchemy classes that make building applications that require permissions an easy task.",
-      "docsUrl": "https://ziggurat-foundations.readthedocs.org/en/latest/",
-      "id": 36,
-      "maintainers": [
-        "ergo"
-      ],
-      "name": "ziggurat_foundations",
-      "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/ziggurat-foundations",
-      "support": "community",
-      "vcsUrl": "https://github.com/ergo/ziggurat_foundations"
-    },
-    {
       "addon": true,
       "category": "caching-and-sessions",
       "demoUrl": "",
