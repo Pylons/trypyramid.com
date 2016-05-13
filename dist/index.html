@@ -147,126 +147,6 @@ if __name__ == '__main__':
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="title text-red">Finish <strong>Big</strong></h2>
-        </div>
-      </div>
-      <div class="row">
-
-        <div id="finish-big-carousel" class="carousel slide" data-ride="carousel">
-
-          <ol class="carousel-indicators">
-            <li data-target="#finish-big-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#finish-big-carousel" data-slide-to="1"></li>
-            <li data-target="#finish-big-carousel" data-slide-to="2"></li>
-            <li data-target="#finish-big-carousel" data-slide-to="3"></li>
-            <li data-target="#finish-big-carousel" data-slide-to="4"></li>
-          </ol>
-
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="col-md-6">
-                <h3 class="title">Function Decorators</h3>
-                <p>Pyramid is written in Python. All the features you know and love
-                  in the Python language, such as function decorators, are available
-                  to Pyramid developers. Here we show the function named
-                  <code>home</code> that returns a response. The function has a
-                  decorator <code>@view_config</code> which has a route assigned to
-                  it also named <code>home</code>.</p>
-              </div>
-              <div class="col-md-6">
-                <pre class="nobs">
-                  <code class="python">@view_config(
-    route_name='home'
-)
-def home(request):
-    return Response('Welcome!')</code>
-                </pre>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-md-6">
-                <h3 class="title">Predicates</h3>
-                <p>A test which returns <code>True</code> or <code>False</code>, and
-                  which narrows the set of circumstances in which views or routes may
-                  be called. Here we use predicates to limit matching of a view
-                  callable to a route name of <code>home</code> and to the
-                <code>POST</code> HTTP request method.</p>
-              </div>
-              <div class="col-md-6">
-                <pre class="nobs">
-                  <code class="python">@view_config(
-    route_name='home',
-    request_method=('POST')
-)
-def home(request):
-    return Response('Welcome!')</code>
-                </pre>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-md-6">
-                <h3 class="title">Renderers</h3>
-                <p>Convert non-response return values that are later consumed by
-                  renderers. Using a renderer can make writing views that require
-                  templating or other serialization, like <code>JSON</code>, less
-                  tedious.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <pre class="nobs">
-                  <code class="python">@view_config(
-    route_name='home',
-    renderer='json'
-)
-def home(request):
-    return {"a": 1, "b": 2}</code>
-                </pre>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-md-6">
-                <h3 class="title">Asset Specifications</h3>
-                <p>Allows specifying the location of assets in a package. Here the
-                  asset is specified as a Jinja2 template <code>home.jinja2</code>,
-                  located in a subdirectory named <code>templates</code> within the
-                  package <code>myapp</code>. A colon delimits the package name from
-                  the location of the asset relative to the package.</p>
-              </div>
-              <div class="col-md-6">
-                <pre class="nobs">
-                  <code class="python">@view_config(
-    route_name='home',
-    renderer='myapp:templates/home.jinja2'
-)
-def home(request):
-    return {"greet": 'Welcome!', "name": 'Akhenaten'}</code>
-                </pre>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-md-6">
-                <h3 class="title">Events and Subscribers</h3>
-                <p>An event is an object broadcast at interesting points during the
-                  lifetime of an application. A subscriber to an event allows you to
-                  run some code, such as resizing an uploaded image, sending email,
-                  or sending a message to a remote system. Here the decorated
-                  subscriber will be called for more than one event type,
-                  specifically for every new request and response objects.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <pre class="nobs">
-                  <code class="python">@subscriber(NewRequest, NewResponse)
-def mysubscriber(event):
-    print(event)</code>
-                </pre>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -382,6 +262,119 @@ def mysubscriber(event):
     </div>
   </section>
 
+  <section class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title text-red">Pyramid <strong>Features</strong></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">@view_config(
+    route_name='home'
+)
+def home(request):
+    return Response('Welcome!')</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#mapping-views-using-a-decorator-section">
+              Function Decorators</a></h3>
+          <p>Pyramid is written in Python. All the features you know and love
+            in the Python language, such as function decorators, are available
+            to Pyramid developers. Here we show the function named
+            <code>home</code> that returns a response. The function has a
+            decorator <code>@view_config</code> which has a route assigned to
+            it also named <code>home</code>.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">@view_config(
+    route_name='home',
+    request_method=('POST')
+)
+def home(request):
+    return Response('Welcome!')</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#view-configuration-parameters">
+              Predicates</a></h3>
+          <p>A test which returns <code>True</code> or <code>False</code>, and
+            which narrows the set of circumstances in which views or routes may
+            be called. Here we use predicates to limit matching of a view
+            callable to a route name of <code>home</code> and to the
+            <code>POST</code> HTTP request method.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">@view_config(
+    route_name='home',
+    renderer='json'
+)
+def home(request):
+    return {"a": 1, "b": 2}</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/renderers.html">
+              Renderers</a></h3>
+          <p>Convert non-response return values that are later consumed by
+            renderers. Using a renderer can make writing views that require
+            templating or other serialization, like <code>JSON</code>, less
+            tedious.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">@view_config(
+    route_name='home',
+    renderer='myapp:templates/home.jinja2'
+)
+def home(request):
+    return {"greet": 'Welcome!', "name": 'Akhenaten'}</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/assets.html">
+              Asset Specifications</a></h3>
+          <p>Allows specifying the location of assets in a package. Here the
+            asset is specified as a Jinja2 template <code>home.jinja2</code>,
+            located in a subdirectory named <code>templates</code> within the
+            package <code>myapp</code>. A colon delimits the package name from
+            the location of the asset relative to the package.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <pre class="nobs">
+            <code class="python">@subscriber(NewRequest, NewResponse)
+def mysubscriber(event):
+    print(event)</code>
+          </pre>
+        </div>
+        <div class="col-md-6">
+          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/hooks.html">
+              Events and Subscribers</a></h3>
+          <p>An event is an object broadcast at interesting points during the
+            lifetime of an application. A subscriber to an event allows you to
+            run some code, such as resizing an uploaded image, sending email,
+            or sending a message to a remote system. Here the decorated
+            subscriber will be called for more than one event type,
+            specifically for every new request and response objects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 
     </div>
