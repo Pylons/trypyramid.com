@@ -21,6 +21,13 @@ nav#nav {
         color: $white;
       }
     }
+    .navbar-inverse {
+      .navbar-toggle {
+        &:hover {
+          background-color: darken($tpc-red, 10%);
+        }
+      }
+    }
   }
   .navbar{
     padding: 0;
@@ -43,12 +50,12 @@ nav#nav {
       margin-top: 30px;
       border: none;
       &:hover {
-        background-color: darken($color-light, 10%);
+        background-color: $tpc-red;
       }
     }
-    // .navbar-collapse {
-    //   border-top: 1px solid darken($color-light, 10%);
-    // }
+    .navbar-collapse {
+      border-top: 1px solid $color-light;
+    }
     .navbar-nav {
       li {
         line-height: 20px;
@@ -107,10 +114,33 @@ nav#nav {
 
 @media (max-width: $screen-xs-max) {
   nav#nav {
+    &.index-transparent {
+      .navbar {
+        .navbar-nav li > a {
+          color: $tpc-red;
+        }
+      }
+    }
+    #navbar {
+      background-color: $white;
+      color: $tpc-red;
+      opacity: 0.95;
+    }
     .navbar-inverse {
       .navbar-collapse {
         .navbar-nav {
           float: left!important;
+          .open > a {
+            color: $white;
+            background-color: darken($tpc-red, 10%);
+          }
+          > .active > a {
+            color: $white;
+            background-color: darken($tpc-red, 10%);
+            &:hover {
+              background-color: darken($tpc-red, 5%);
+            }
+          }
         }
       }
     }
