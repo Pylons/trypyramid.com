@@ -27,6 +27,9 @@ nav#nav {
           background-color: darken($tpc-red, 10%);
         }
       }
+      .navbar-collapse {
+        border-top: none;
+      }
     }
   }
   .navbar{
@@ -54,7 +57,7 @@ nav#nav {
       }
     }
     .navbar-collapse {
-      border-top: 1px solid $color-light;
+      border-top: none;
     }
     .navbar-nav {
       li {
@@ -128,6 +131,7 @@ nav#nav {
     }
     .navbar-inverse {
       .navbar-collapse {
+        border-top: 1px solid $color-light;
         .navbar-nav {
           float: left!important;
           .open > a {
