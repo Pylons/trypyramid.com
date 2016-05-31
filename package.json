@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rm -Rf build/*; webpack -d --colors --progress",
     "dist": "rm -Rf dist/*; webpack -p --colors --progress --config webpack.dist.config.js",
-    "dev": "webpack-dev-server --progress --colors --content-base build"
+    "dev": "webpack-dev-server --progress --colors --content-base build --host 0.0.0.0"
   },
   "dependencies": {
     "animate.css": "^3.4.0",
