@@ -336,7 +336,7 @@
       "addon": true,
       "category": "sessions",
       "demoUrl": "",
-      "description": "Beaker session backend plug-in. Became unsupported October 2013 because Beaker itself is no longer maintained. <a href=\"http://techspot.zzzeek.org/2012/04/19/using-beaker-for-caching-why-you-ll-want-to-switch-to-dogpile.cache/\">Why You'll Want to Switch to dogpile.cache. pyramid_redis_sessions is another alternative.</a>",
+      "description": "Beaker session backend plug-in.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/",
       "id": 18,
       "maintainers": [
