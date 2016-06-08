@@ -1317,22 +1317,6 @@
       "addon": false,
       "category": "scaffolds",
       "demoUrl": "",
-      "description": "<a href=\"https://github.com/audreyr/cookiecutter\">Cookiecutter</a> template for a Pyramid package.",
-      "docsUrl": "",
-      "id": 59,
-      "maintainers": [
-        "cguardia"
-      ],
-      "name": "cookiecutter-pyramid",
-      "projectUrl": "",
-      "pypiUrl": "",
-      "support": "community",
-      "vcsUrl": "https://github.com/cguardia/cookiecutter-pyramid"
-    },
-    {
-      "addon": false,
-      "category": "scaffolds",
-      "demoUrl": "",
       "description": "Basic Pyramid scaffold to easily use MongoDB for persistence with the Pyramid Web framework.",
       "docsUrl": "",
       "id": 60,
