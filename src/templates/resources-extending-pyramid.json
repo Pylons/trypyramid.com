@@ -119,6 +119,70 @@
       "vcsUrl": "https://github.com/Pylons/pyramid_mailer"
     },
     {
+      "addon": false,
+      "category": "scaffolds",
+      "demoUrl": "",
+      "description": "A cookiecutter (project template) for creating a Pyramid project using SQLite as persistent storage, SQLAlchemy as an ORM, URL dispatch for routing, and Jinja2 for templating.",
+      "docsUrl": "",
+      "id": 95,
+      "maintainers": [
+        "cguardia"
+      ],
+      "name": "pyramid-cookiecutter-alchemy",
+      "projectUrl": "",
+      "pypiUrl": "",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid-cookiecutter-alchemy"
+    },
+    {
+      "addon": false,
+      "category": "scaffolds",
+      "demoUrl": "",
+      "description": "A cookiecutter (project template) for creating a Pyramid starter project using Chameleon for templating.",
+      "docsUrl": "",
+      "id": 97,
+      "maintainers": [
+        "cguardia"
+      ],
+      "name": "pyramid-cookiecutter-starter",
+      "projectUrl": "",
+      "pypiUrl": "",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid-cookiecutter-starter"
+    },
+    {
+      "addon": false,
+      "category": "scaffolds",
+      "demoUrl": "",
+      "description": "A cookiecutter (project template) for creating a Pyramid project using ZODB for persistent storage, traversal for routing, and Chameleon for templating.",
+      "docsUrl": "",
+      "id": 96,
+      "maintainers": [
+        "cguardia"
+      ],
+      "name": "pyramid-cookiecutter-zodb",
+      "projectUrl": "",
+      "pypiUrl": "",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid-cookiecutter-zodb"
+    },
+    {
+      "addon": false,
+      "category": "scaffolds",
+      "demoUrl": "",
+      "description": "A cookiecutter (project template) for creating a Substance D starter project.",
+      "docsUrl": "",
+      "id": 98,
+      "maintainers": [
+        "cguardia"
+      ],
+      "name": "substanced-cookiecutter",
+      "projectUrl": "",
+      "pypiUrl": "",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/substanced-cookiecutter"
+    },
+    {
       "addon": true,
       "category": "services",
       "demoUrl": "",
@@ -258,7 +322,8 @@
       "docsUrl": "http://docs.pylonsproject.org/projects/waitress/en/latest/",
       "id": 76,
       "maintainers": [
-        "chrism"
+        "chrism",
+        "xistence"
       ],
       "name": "waitress",
       "projectUrl": "",
@@ -1126,7 +1191,8 @@
       "docsUrl": "http://docs.pylonsproject.org/projects/deform/en/latest/",
       "id": 50,
       "maintainers": [
-        "chrism"
+        "chrism",
+        "miohtama"
       ],
       "name": "deform",
       "projectUrl": "",
