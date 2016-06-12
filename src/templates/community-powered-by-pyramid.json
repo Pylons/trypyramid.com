@@ -1,0 +1,255 @@
+{
+  "title": "Powered by Pyramid",
+  "dataCompOrg": [
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "An LDAP authentication policy for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/",
+      "id": 1,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_ldap",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_ldap"
+    },
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "Authentication policy for Pyramid using repoze.who 2.0 API.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-who/en/latest/",
+      "id": 2,
+      "maintainers": [""],
+      "name": "pyramid_who",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_who",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_who"
+    },
+    {
+      "addon": true,
+      "category": "configuration",
+      "demoUrl": "",
+      "description": "Zope Configuration Markup Language configuration support for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/",
+      "id": 3,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_zcml",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_zcml",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_zcml"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "An interactive HTML debug toolbar for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/",
+      "id": 4,
+      "maintainers": [
+        "Chris McDonough",
+        "Blaise Laflamme",
+        "Michael Merickel"
+      ],
+      "name": "pyramid_debugtoolbar",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugtoolbar",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_debugtoolbar"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "A package which logs exceptions from Pyramid applications.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/",
+      "id": 5,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_exclog",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_exclog",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_exclog"
+    }
+  ],
+  "dataApp": [
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "An LDAP authentication policy for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/",
+      "id": 1,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_ldap",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_ldap"
+    },
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "Authentication policy for Pyramid using repoze.who 2.0 API.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-who/en/latest/",
+      "id": 2,
+      "maintainers": [
+        "Chris McDonough",
+        "Tres Seaver"
+      ],
+      "name": "pyramid_who",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_who",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_who"
+    },
+    {
+      "addon": true,
+      "category": "configuration",
+      "demoUrl": "",
+      "description": "Zope Configuration Markup Language configuration support for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/",
+      "id": 3,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_zcml",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_zcml",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_zcml"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "An interactive HTML debug toolbar for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/",
+      "id": 4,
+      "maintainers": [
+        "Chris McDonough",
+        "Blaise Laflamme",
+        "Michael Merickel"
+      ],
+      "name": "pyramid_debugtoolbar",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugtoolbar",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_debugtoolbar"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "A package which logs exceptions from Pyramid applications.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/",
+      "id": 5,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_exclog",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_exclog",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_exclog"
+    }
+  ],
+  "dataWeb": [
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "An LDAP authentication policy for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/",
+      "id": 1,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_ldap",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_ldap"
+    },
+    {
+      "addon": true,
+      "category": "authentication",
+      "demoUrl": "",
+      "description": "Authentication policy for Pyramid using repoze.who 2.0 API.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-who/en/latest/",
+      "id": 2,
+      "maintainers": [
+        "Chris McDonough",
+        "Tres Seaver"
+      ],
+      "name": "pyramid_who",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_who",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_who"
+    },
+    {
+      "addon": true,
+      "category": "configuration",
+      "demoUrl": "",
+      "description": "Zope Configuration Markup Language configuration support for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/",
+      "id": 3,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_zcml",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_zcml",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_zcml"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "An interactive HTML debug toolbar for Pyramid.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/",
+      "id": 4,
+      "maintainers": [
+        "Chris McDonough",
+        "Blaise Laflamme",
+        "Michael Merickel"
+      ],
+      "name": "pyramid_debugtoolbar",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugtoolbar",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_debugtoolbar"
+    },
+    {
+      "addon": true,
+      "category": "debugging",
+      "demoUrl": "",
+      "description": "A package which logs exceptions from Pyramid applications.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/",
+      "id": 5,
+      "maintainers": [
+        "Chris McDonough"
+      ],
+      "name": "pyramid_exclog",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_exclog",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_exclog"
+    }
+  ]
+}

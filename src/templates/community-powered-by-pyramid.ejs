@@ -1,0 +1,45 @@
+<%- include partials/top %>
+
+<div class="page">
+
+  <section class="section-powered-by-pyramid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title text-red">Powered by Pyramid</h1>
+          <p>The following entities are proud to be Powered by Pyramid. To add your company, organization, application, or website to this list, <a href="https://github.com/Pylons/trypyramid.com/pulls">submit a pull request</a> to this project's repository.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-comanies-organizations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Companies and Organizations</h2>
+          <p>These companies and organizations use Pyramid in their operations, and may have open jobs for Pyramid developers.</p>
+          <div class="grid">
+            <% context.dataCompOrg.forEach(function(item){ %>
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
+              <div class="grid-item-content">
+                <h4><%= item.name %></h4>
+                <div class="community-logo"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=700%C3%97300&w=700&h=300" class="img-responsive"></div>
+                <div class="community-description"><%- item.description %></div>
+                <% if (item.maintainers[0] != '') { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span>
+                <span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span>
+                <span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<%- include partials/bottom %>
+
