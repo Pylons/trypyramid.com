@@ -34,6 +34,12 @@ var config = {
       uglify: true,
       context: require(path.resolve(baseDir, 'community.json')),
       page: 'community.html'
+    }, {
+      template: 'src/templates/community-powered-by-pyramid.ejs',
+      filename: 'community-powered-by-pyramid.html',
+      uglify: true,
+      context: require(path.resolve(baseDir, 'community-powered-by-pyramid.json')),
+      page: 'community-powered-by-pyramid.html'
     }
   ]
 };
