@@ -23,13 +23,13 @@
             <% context.dataCompOrg.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <h4><%= item.name %></h4>
-                <div class="community-logo"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=700%C3%97300&w=700&h=300" class="img-responsive"></div>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
+                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0] != '') { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
-                <span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span>
-                <span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span>
-                <span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span>
+                <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
               </div>
             </div>
             <% }); %>
