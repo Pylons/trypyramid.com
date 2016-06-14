@@ -2,7 +2,6 @@
   "title": "Powered by Pyramid",
   "dataComOrg": [
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -16,7 +15,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -30,7 +28,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -44,7 +41,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -58,7 +54,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -72,7 +67,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -86,7 +80,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -100,21 +93,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
-      "category": "comorg",
-      "demoUrl": "",
-      "description": "",
-      "docsUrl": "",
-      "id": 9,
-      "logo": "kuiu-logo.png",
-      "maintainers": [],
-      "name": "KUIU",
-      "projectUrl": "https://store.kuiu.com/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -128,7 +106,19 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
+      "category": "comorg",
+      "demoUrl": "",
+      "description": "",
+      "docsUrl": "",
+      "id": 9,
+      "logo": "kuiu-logo.png",
+      "maintainers": [],
+      "name": "KUIU",
+      "projectUrl": "https://store.kuiu.com/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -142,7 +132,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -156,7 +145,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -170,7 +158,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -184,7 +171,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -198,7 +184,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -212,7 +197,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -226,7 +210,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -240,7 +223,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "comorg",
       "demoUrl": "",
       "description": "",
@@ -256,7 +238,19 @@
   ],
   "dataApp": [
     {
-      "addon": false,
+      "category": "floss",
+      "demoUrl": "",
+      "description": "A simple pastebin application based on Rocky Burt's<a href=\"http://pypi.python.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
+      "docsUrl": "",
+      "id": 19,
+      "logo": "",
+      "maintainers": [],
+      "name": "cluegun",
+      "projectUrl": "https://github.com/Pylons/cluegun",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/Pylons/cluegun"
+    },
+    {
       "category": "floss",
       "demoUrl": "",
       "description": "<p>Cornice provides helpers to build and document REST-ish web services with Pyramid, with decent default behaviors. It takes care of following the HTTP specification in an automated way where possible.</p>",
@@ -270,7 +264,6 @@
       "vcsUrl": "https://github.com/mozilla-services/cornice"
     },
     {
-      "addon": false,
       "category": "floss",
       "demoUrl": "",
       "description": "<p>A moderately-sized application (roughly 80K lines of Python code) built on top of Pyramid. It is an open source web system for collaboration, organizational intranets, and knowledge management. It provides facilities for wikis, calendars, manuals, searching, tagging, commenting, and file uploads.</p>",
@@ -284,7 +277,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "floss",
       "demoUrl": "",
       "description": "<p>Store, Sync, Share, and Self-Host. Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.</p>",
@@ -298,21 +290,19 @@
       "vcsUrl": "https://github.com/Kinto/kinto"
     },
     {
-      "addon": false,
       "category": "floss",
       "demoUrl": "",
-      "description": "<p>SUMA stands for Short URL Managment App. The role of SUMA is to manage external links and extract data from them. SUMA is a small web service to easily do the following:<ul><li>Creating short URL for external link within your application</li><li>Extracting Title</li><li>Capturing Screenshot from URL</li><li>Blocking URLs</li><li>Collecting clicks</li></ul>",
+      "description": "<p>An example \"idea competition\" application by Carlos de la Guardia and Lukasz Fidosz. It demonstrates URL dispatch, simple authentication, integration with <a href=\"http://www.sqlalchemy.org/\">SQLAlchemy</a> and pyramid_simpleform.</p>",
       "docsUrl": "",
-      "id": 25,
+      "id": 23,
       "logo": "",
       "maintainers": [],
-      "name": "SUMA",
-      "projectUrl": "https://github.com/rach/suma",
+      "name": "shootout",
+      "projectUrl": "https://github.com/Pylons/shootout",
       "pypiUrl": "",
-      "vcsUrl": "https://github.com/rach/suma"
+      "vcsUrl": "https://github.com/Pylons/shootout"
     },
     {
-      "addon": false,
       "category": "floss",
       "demoUrl": "http://demo.substanced.net/",
       "description": "Substance D is an application server built using the Pyramid web framework. It can be used as a base to build a general-purpose web application like a blog, a shopping cart application, a scheduling application, or any other web app that requires both an administration and a retail interface.",
@@ -329,7 +319,19 @@
       "vcsUrl": "https://github.com/Pylons/substanced"
     },
     {
-      "addon": false,
+      "category": "floss",
+      "demoUrl": "",
+      "description": "<p>SUMA stands for Short URL Managment App. The role of SUMA is to manage external links and extract data from them. SUMA is a small web service to easily do the following:<ul><li>Creating short URL for external link within your application</li><li>Extracting Title</li><li>Capturing Screenshot from URL</li><li>Blocking URLs</li><li>Collecting clicks</li></ul>",
+      "docsUrl": "",
+      "id": 25,
+      "logo": "",
+      "maintainers": [],
+      "name": "SUMA",
+      "projectUrl": "https://github.com/rach/suma",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/rach/suma"
+    },
+    {
       "category": "floss",
       "demoUrl": "http://demo.travelcrm.org.ua/",
       "description": "<p>TravelCRM is a free and open source application for the automation of customer relationships for travel agencies.</p>",
@@ -343,35 +345,6 @@
       "vcsUrl": "https://bitbucket.org/mazvv/travelcrm"
     },
     {
-      "addon": false,
-      "category": "floss",
-      "demoUrl": "",
-      "description": "A simple pastebin application based on Rocky Burt's<a href=\"http://pypi.python.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
-      "docsUrl": "",
-      "id": 19,
-      "logo": "",
-      "maintainers": [],
-      "name": "cluegun",
-      "projectUrl": "https://github.com/Pylons/cluegun",
-      "pypiUrl": "",
-      "vcsUrl": "https://github.com/Pylons/cluegun"
-    },
-    {
-      "addon": false,
-      "category": "floss",
-      "demoUrl": "",
-      "description": "<p>An example \"idea competition\" application by Carlos de la Guardia and Lukasz Fidosz. It demonstrates URL dispatch, simple authentication, integration with <a href=\"http://www.sqlalchemy.org/\">SQLAlchemy</a> and pyramid_simpleform.</p>",
-      "docsUrl": "",
-      "id": 23,
-      "logo": "",
-      "maintainers": [],
-      "name": "shootout",
-      "projectUrl": "https://github.com/Pylons/shootout",
-      "pypiUrl": "",
-      "vcsUrl": "https://github.com/Pylons/shootout"
-    },
-    {
-      "addon": false,
       "category": "floss",
       "demoUrl": "",
       "description": "<p>A very simple dynamic file rendering application. It is willing to render structured text documents, HTML documents, and images from a filesystem directory. It’s also a good example of traversal. An earlier version of this application runs the <a href=\"http://repoze.org\">repoze.org</a> website.</p>",
@@ -385,7 +358,6 @@
       "vcsUrl": "https://github.com/Pylons/virginia"
     },
     {
-      "addon": false,
       "category": "floss",
       "demoUrl": "https://pypi.io/",
       "description": "<p>Warehouse is a next generation Python Package Repository designed to replace the legacy code base that currently powers PyPI.</p>",
@@ -401,7 +373,6 @@
   ],
   "dataWeb": [
     {
-      "addon": false,
       "category": "website",
       "demoUrl": "",
       "description": "A repository of genome experiment metadata.",
@@ -415,7 +386,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "website",
       "demoUrl": "",
       "description": "Create a new workstation, server, gaming PC, whatever.",
@@ -429,7 +399,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "website",
       "demoUrl": "",
       "description": "ProZorro is a pilot project of an electronic public procurement platform that allows state procurement online.",
@@ -443,7 +412,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "website",
       "demoUrl": "",
       "description": "A podcast on Python and related technologies",
@@ -457,7 +425,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "website",
       "demoUrl": "",
       "description": "Faceted search and registration for volunteer trail work parties.",
@@ -473,7 +440,6 @@
   ],
   "dataKotti": [
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "http://autonomie.coop/demonstration/",
       "description": "Autonomie is an open source Pyramid-based ERP financed by the collaboration of multiple French worker cooperatives called CAE.",
@@ -487,7 +453,6 @@
       "vcsUrl": "https://github.com/CroissanceCommune/autonomie"
     },
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "",
       "description": "Basic Kotti site of the fair trade association Baobab-Infoladen Eine Welt e.V.",
@@ -501,7 +466,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "",
       "description": "Bateau de Hollande assists French people in buying boats in the Netherlands. The Kotti-based website mutualizes announcements from dutch brokers and presents the different provided services.",
@@ -515,7 +479,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "",
       "description": "Young people from all over Germany discuss questions in workshops about the next chapter for the country. The website, based on Kotti, presents the concept and the results and have discussion tools in the restricted area. »Das nächste Kapitel« (The next chapter) is a project of the <a href=\"http://kas.de/\">Konrad-Adenauer-Stifung</a>.",
@@ -529,7 +492,19 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
+      "category": "kotti",
+      "demoUrl": "",
+      "description": "An intranet with assessment and certification tools for the European Energy Award®. The \"eea Management Tool\" application is based on Kotti.",
+      "docsUrl": "",
+      "id": 38,
+      "logo": "european-energy-award-logo.png",
+      "maintainers": [],
+      "name": "eea Management Tool",
+      "projectUrl": "https://tool.european-energy-award.org/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
       "category": "kotti",
       "demoUrl": "",
       "description": "A Kotti site made for the \"Fit for Life\" project that helps children suffering from hemophilia participate in everyday school and extracurricular sports activities.",
@@ -543,7 +518,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "",
       "description": "Corporate Kotti-based website for Europe's leading turf grass producer.",
@@ -557,7 +531,6 @@
       "vcsUrl": ""
     },
     {
-      "addon": false,
       "category": "kotti",
       "demoUrl": "",
       "description": "Previously was an Apple iWeb project that has been converted to Kotti within one hour.",
@@ -567,20 +540,6 @@
       "maintainers": [],
       "name": "Sabrina Pontzen Raumdesign",
       "projectUrl": "http://www.pontzen.de/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "addon": false,
-      "category": "kotti",
-      "demoUrl": "",
-      "description": "An intranet with assessment and certification tools for the European Energy Award®. The \"eea Management Tool\" application is based on Kotti.",
-      "docsUrl": "",
-      "id": 38,
-      "logo": "european-energy-award-logo.png",
-      "maintainers": [],
-      "name": "eea Management Tool",
-      "projectUrl": "https://tool.european-energy-award.org/",
       "pypiUrl": "",
       "vcsUrl": ""
     }
