@@ -1,0 +1,119 @@
+<%- include partials/top %>
+
+<div class="page">
+
+  <section class="section-powered-by-pyramid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title text-red">Powered by Pyramid</h1>
+          <p>The following entities are proud to be Powered by Pyramid. To add your company, organization, application, or website to this list, <a href="https://github.com/Pylons/trypyramid.com/pulls">submit a pull request</a> to this project's repository.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-companies-organizations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Companies and Organizations</h2>
+          <p>These companies and organizations use Pyramid in their operations, and may have open jobs for Pyramid developers.</p>
+          <div class="grid">
+            <% context.dataComOrg.forEach(function(item){ %>
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
+              <div class="grid-item-content">
+                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
+                <div class="community-description"><%- item.description %></div>
+                <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-applications">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Applications</h2>
+          <p>The following are free and libre open source software, demonstrating the wide variety of applications that can be Powered by Pyramid. You can view the source code and apply concepts to your own Pyramid projects, or deploy your own instance of the application.</p>
+          <div class="grid">
+            <% context.dataApp.forEach(function(item){ %>
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
+              <div class="grid-item-content">
+                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
+                <div class="community-description"><%- item.description %></div>
+                <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-websites">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Websites</h2>
+          <p>The following are websites reported as being Powered by Pyramid. Except as noted, the source code is not available to the public.</p>
+          <div class="grid">
+            <% context.dataWeb.forEach(function(item){ %>
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
+              <div class="grid-item-content">
+                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
+                <div class="community-description"><%- item.description %></div>
+                <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+
+
+          <h3 class="text-red">Websites based on Kotti</h3>
+          <p><a href="https://kotti.readthedocs.io/en/latest/">Kotti</a> is a high-level, Pythonic web application framework based on Pyramid and SQLAlchemy. It includes an extensible Content Management System called the Kotti CMS.</p>
+          <div class="grid">
+            <% context.dataKotti.forEach(function(item){ %>
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
+              <div class="grid-item-content">
+                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
+                <div class="community-description"><%- item.description %></div>
+                <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="community-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="community-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<%- include partials/bottom %>
+
