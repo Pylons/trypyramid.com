@@ -80,3 +80,7 @@ $(filterSelector).multiselect({
     $grid.isotope({ filter: filters.join(',') });
   }
 });
+
+$(document).ready((function() {
+  $grid.isotope('layout');
+}));
