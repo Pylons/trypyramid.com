@@ -1,0 +1,705 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Pyramid, a Python Web Framework</title>
+  <meta name="description" content="Pyramid is a lightweight Python web framework aimed at taking small web apps into big web apps. This site provides an easy entry point into Pyramid.">
+  <meta name="keywords" content="pyramid, web framework, python web framework, pyramid web framework, python, pylons, pylons project, open source">
+  <meta name="author" content="Pylons Project">
+  <link rel="shortcut icon" href="img/pyramid-16x16.png"/>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-21146943-3', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link href="vendors.367021bec600dec94cf7.css" rel="stylesheet"><link href="app.367021bec600dec94cf7.css" rel="stylesheet"></head>
+<body>
+  <div id="pace-loader"></div>
+  <section class="app">
+    <nav id="nav" >
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img class="logo" alt="pyramid" src="img/pyramid-60x60.png"/>
+        </a>
+        <div class="navbar-brand-name">
+          Pyramid
+        </div>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav nav-pills pull-right">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Resources <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="/resources.html">Core</a></li>
+              <li><a href="/resources-extending-pyramid.html">Extending Pyramid</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Community <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="/community.html">Enter the Tomb</a></li>
+              <li><a href="/community-powered-by-pyramid.html">Powered by Pyramid</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div id="main">
+
+
+<div class="page">
+
+  <section class="section-powered-by-pyramid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title text-red">Powered by Pyramid</h1>
+          <p>The following entities are proud to be Powered by Pyramid. To add your company, organization, application, or website to this list, <a href="https://github.com/Pylons/trypyramid.com/pulls">submit a pull request</a> to this project's repository.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-companies-organizations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Companies and Organizations</h2>
+          <p>These companies and organizations use Pyramid in their operations, and may have open jobs for Pyramid developers.</p>
+          <div class="grid">
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="AdRoll logo" src="img/adroll-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.adroll.com/">AdRoll</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Appenlight logo" src="img/appenlight-logo.png" class="img-responsive"></div>
+                <h4><a href="https://appenlight.com">Appenlight</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="BraveWords logo" src="img/bravewords-logo.png" class="img-responsive"></div>
+                <h4><a href="http://bravewords.com/">BraveWords</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="DiscNW logo" src="img/discnw-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.discnw.org/">DiscNW</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Environmental Health News logo" src="img/environmental-health-news-logo.png" class="img-responsive"></div>
+                <h4><a href="http://environmentalhealthnews.org/">Environmental Health News</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Hypothesis logo" src="img/hypothesis-logo.png" class="img-responsive"></div>
+                <h4><a href="https://hypothes.is/">Hypothesis</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="ITCase logo" src="img/itcase-logo.png" class="img-responsive"></div>
+                <h4><a href="http://itcase.pro">ITCase</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Klein &amp; Partner KG logo" src="img/klein-und-partner-logo.png" class="img-responsive"></div>
+                <h4><a href="http://kleinundpartner.at/">Klein &amp; Partner KG</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="KUIU logo" src="img/kuiu-logo.png" class="img-responsive"></div>
+                <h4><a href="https://store.kuiu.com/">KUIU</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="LinkPeek logo" src="img/linkpeek-logo.png" class="img-responsive"></div>
+                <h4><a href="https://linkpeek.com/">LinkPeek</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Majerti logo" src="img/majerti-logo.png" class="img-responsive"></div>
+                <h4><a href="https://www.majerti.fr">Majerti</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Mozilla logo" src="img/mozilla-logo.png" class="img-responsive"></div>
+                <h4><a href="https://www.mozilla.org/">Mozilla</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="NewCars.com logo" src="img/newcars-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.newcars.com/">NewCars.com</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="NextGIS logo" src="img/nextgis-logo.png" class="img-responsive"></div>
+                <h4><a href="http://nextgis.com/">NextGIS</a></h4>
+                <div class="community-description"><p>Opensource geospatial solutions provider. Full stack: NextGIS Web/Mobile/Manager/QGIS</p></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="RhodeCode logo" src="img/rhodecode-logo.png" class="img-responsive"></div>
+                <h4><a href="https://rhodecode.com/">RhodeCode</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="SurveyMonkey logo" src="img/surveymonkey-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.surveymonkey.com/">SurveyMonkey</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="The Daily Climate logo" src="img/the-daily-climate-logo.png" class="img-responsive"></div>
+                <h4><a href="http://dailyclimate.org/">The Daily Climate</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Yelp logo" src="img/yelp-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.yelp.com/">Yelp</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-comorg">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="ZOPYX logo" src="img/zopyx-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.zopyx.com">ZOPYX</a></h4>
+                <div class="community-description"></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-applications">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Applications</h2>
+          <p>The following are free and libre open source software, demonstrating the wide variety of applications that can be Powered by Pyramid. You can view the source code and apply concepts to your own Pyramid projects, or deploy your own instance of the application.</p>
+          <div class="grid">
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://github.com/Pylons/cluegun">cluegun</a></h4>
+                <div class="community-description">A simple pastebin application based on Rocky Burt's<a href="http://pypi.python.org/pypi/ClueBin/0.2.3">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.</div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/Pylons/cluegun">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="http://cornice.readthedocs.org/en/latest">Cornice</a></h4>
+                <div class="community-description"><p>Cornice provides helpers to build and document REST-ish web services with Pyramid, with decent default behaviors. It takes care of following the HTTP specification in an automated way where possible.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/mozilla-services/cornice">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="http://karlproject.org">KARL</a></h4>
+                <div class="community-description"><p>A moderately-sized application (roughly 80K lines of Python code) built on top of Pyramid. It is an open source web system for collaboration, organizational intranets, and knowledge management. It provides facilities for wikis, calendars, manuals, searching, tagging, commenting, and file uploads.</p></div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="http://kinto.readthedocs.org/en/latest">Kinto</a></h4>
+                <div class="community-description"><p>Store, Sync, Share, and Self-Host. Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/Kinto/kinto">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="NextGIS Web logo" src="img/nextgis-web-logo.png" class="img-responsive"></div>
+                <h4><a href="http://nextgis.com/nextgis-web/">NextGIS Web</a></h4>
+                <div class="community-description"><p>NextGIS Web is an opensource server-side Web GIS and a framework for storage, visualization and permissions management to all kinds of geodata. NextGIS Web supports OGC WMS and WFS(-T) access.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/nextgis/nextgisweb">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="OpenCIOC logo" src="img/opencioc-org-logo.png" class="img-responsive"></div>
+                <h4><a href="http://opencioc.org/">OpenCIOC</a></h4>
+                <div class="community-description"><p>The OpenCIOC Project is a joint effort between <a href="http://www.cioc.ca/">Community Information Online Consortium</a> and <a href="http://www.kclsoftware.com/">KCL Software Solutions Inc.</a> to publish CIOC's complete catalog of software and data products as Open Source and Open Data.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/OpenCIOC/openciocdotorg/">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://github.com/aptise/peter_sslers">peter_sslers</a></h4>
+                <div class="community-description">peter_sslers is a package designed to help experienced admins and devops people manage SSL Certificates and deploy them on larger systems.</div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/aptise/peter_sslers">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://github.com/Pylons/shootout">shootout</a></h4>
+                <div class="community-description"><p>An example "idea competition" application by Carlos de la Guardia and Lukasz Fidosz. It demonstrates URL dispatch, simple authentication, integration with <a href="http://www.sqlalchemy.org/">SQLAlchemy</a> and pyramid_simpleform.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/Pylons/shootout">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Substance-D logo" src="img/substance-d-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.substanced.net/">Substance-D</a></h4>
+                <div class="community-description">Substance D is an application server built using the Pyramid web framework. It can be used as a base to build a general-purpose web application like a blog, a shopping cart application, a scheduling application, or any other web app that requires both an administration and a retail interface.</div>
+                <div class="community-maintainers">Maintainers: cguardia, chrism</div>
+                <span class="community-pypiUrl"><a href="https://pypi.python.org/pypi/substanced/">PyPI</a></span>
+                <span class="community-vcsUrl"><a href="https://github.com/Pylons/substanced">VCS</a></span>
+                <span class="community-docsUrl"><a href="http://docs.pylonsproject.org/projects/substanced/en/latest/">docs</a></span>
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://github.com/rach/suma">SUMA</a></h4>
+                <div class="community-description"><p>SUMA stands for Short URL Managment App. The role of SUMA is to manage external links and extract data from them. SUMA is a small web service to easily do the following:<ul><li>Creating short URL for external link within your application</li><li>Extracting Title</li><li>Capturing Screenshot from URL</li><li>Blocking URLs</li><li>Collecting clicks</li></ul></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/rach/suma">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="TravelCRM logo" src="img/travelcrm-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.travelcrm.org.ua">TravelCRM</a></h4>
+                <div class="community-description"><p>TravelCRM is a free and open source application for the automation of customer relationships for travel agencies.</p></div>
+                
+                <span class="community-pypiUrl"><a href="https://pypi.python.org/pypi/travelcrm">PyPI</a></span>
+                <span class="community-vcsUrl"><a href="https://bitbucket.org/mazvv/travelcrm">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://github.com/Pylons/virginia">virginia</a></h4>
+                <div class="community-description"><p>A very simple dynamic file rendering application. It is willing to render structured text documents, HTML documents, and images from a filesystem directory. It’s also a good example of traversal. An earlier version of this application runs the <a href="http://repoze.org">repoze.org</a> website.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/Pylons/virginia">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-floss">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="warehouse logo" src="img/warehouse-pypi-logo.png" class="img-responsive"></div>
+                <h4><a href="https://warehouse.python.org">warehouse</a></h4>
+                <div class="community-description"><p>Warehouse is a next generation Python Package Repository designed to replace the legacy code base that currently powers PyPI.</p></div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/pypa/warehouse">VCS</a></span>
+                <span class="community-docsUrl"><a href="https://warehouse.readthedocs.io/">docs</a></span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-websites">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-red">Websites</h2>
+          <p>The following are websites reported as being Powered by Pyramid. Except as noted, the source code is not available to the public.</p>
+          <div class="grid">
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-website">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://www.encodeproject.org/">ENCODE</a></h4>
+                <div class="community-description">A repository of genome experiment metadata.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-website">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="PCBlueprint logo" src="img/pc-blueprint-logo.png" class="img-responsive"></div>
+                <h4><a href="https://pcblueprint.com/">PCBlueprint</a></h4>
+                <div class="community-description">Create a new workstation, server, gaming PC, whatever.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-website">
+              <div class="grid-item-content">
+                
+                <h4><a href="https://prozorro.gov.ua/">Prozorro</a></h4>
+                <div class="community-description">ProZorro is a pilot project of an electronic public procurement platform that allows state procurement online.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-website">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Talk Python To Me logo" src="img/talk-python-to-me-logo.png" class="img-responsive"></div>
+                <h4><a href="https://talkpython.fm/">Talk Python To Me</a></h4>
+                <div class="community-description">A podcast on Python and related technologies</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-website">
+              <div class="grid-item-content">
+                
+                <h4><a href="http://www.wta.org/volunteer/schedule/">Washington Trails Association Volunteer Management System</a></h4>
+                <div class="community-description">Faceted search and registration for volunteer trail work parties.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+          </div>
+
+
+          <h3 class="text-red">Websites based on Kotti</h3>
+          <p><a href="https://kotti.readthedocs.io/en/latest/">Kotti</a> is a high-level, Pythonic web application framework based on Pyramid and SQLAlchemy. It includes an extensible Content Management System called the Kotti CMS.</p>
+          <div class="grid">
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Autonomie logo" src="img/autonomie-logo.png" class="img-responsive"></div>
+                <h4><a href="http://autonomie.coop/">Autonomie</a></h4>
+                <div class="community-description">Autonomie is an open source Pyramid-based ERP financed by the collaboration of multiple French worker cooperatives called CAE.</div>
+                
+                
+                <span class="community-vcsUrl"><a href="https://github.com/CroissanceCommune/autonomie">VCS</a></span>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Baobab-Infoladen Eine Welt e.V. logo" src="img/baobab-infoladen-logo.gif" class="img-responsive"></div>
+                <h4><a href="http://www.baobab-infoladen.de/">Baobab-Infoladen Eine Welt e.V.</a></h4>
+                <div class="community-description">Basic Kotti site of the fair trade association Baobab-Infoladen Eine Welt e.V.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Bateau De Hollande logo" src="img/bateau-de-hollande-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.bateau-de-hollande.com/">Bateau De Hollande</a></h4>
+                <div class="community-description">Bateau de Hollande assists French people in buying boats in the Netherlands. The Kotti-based website mutualizes announcements from dutch brokers and presents the different provided services.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Das nächste Kapitel logo" src="img/konrad-adenauer-stiftung-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.dasnaechstekapitel.de/">Das nächste Kapitel</a></h4>
+                <div class="community-description">Young people from all over Germany discuss questions in workshops about the next chapter for the country. The website, based on Kotti, presents the concept and the results and have discussion tools in the restricted area. »Das nächste Kapitel« (The next chapter) is a project of the <a href="http://kas.de/">Konrad-Adenauer-Stifung</a>.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="eea Management Tool logo" src="img/european-energy-award-logo.png" class="img-responsive"></div>
+                <h4><a href="https://tool.european-energy-award.org/">eea Management Tool</a></h4>
+                <div class="community-description">An intranet with assessment and certification tools for the European Energy Award®. The "eea Management Tool" application is based on Kotti.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Fit for Life logo" src="img/fit-for-life-logo.jpg" class="img-responsive"></div>
+                <h4><a href="http://www.fitforlife.eu/">Fit for Life</a></h4>
+                <div class="community-description">A Kotti site made for the "Fit for Life" project that helps children suffering from hemophilia participate in everyday school and extracurricular sports activities.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Peiffer - Rollrasen | Garten- und Landschaftsbau logo" src="img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png" class="img-responsive"></div>
+                <h4><a href="http://rollrasen.eu/">Peiffer - Rollrasen | Garten- und Landschaftsbau</a></h4>
+                <div class="community-description">Corporate Kotti-based website for Europe's leading turf grass producer.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+            <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-kotti">
+              <div class="grid-item-content">
+                <div class="community-logo"><img alt="Sabrina Pontzen Raumdesign logo" src="img/sabrina-pontzen-raumdesign-logo.png" class="img-responsive"></div>
+                <h4><a href="http://www.pontzen.de/">Sabrina Pontzen Raumdesign</a></h4>
+                <div class="community-description">Previously was an Apple iWeb project that has been converted to Kotti within one hour.</div>
+                
+                
+                
+                
+              </div>
+            </div>
+            
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+    </div>
+    <footer id="footer">
+  <div class="container">
+    <div class="row">
+      <p>
+        © Copyright 2008-2016, <a href="http://agendaless.com/"><strong>Agendaless Consulting</strong></a>
+        <br/>
+        <a href="http://www.pylonsproject.org/"><strong>Pylons Project</strong></a> | Build 367021bec600dec94cf7
+      </p>
+      <p>
+        <a href="https://www.linode.com/?utm_source=referral&utm_medium=website&utm_content=[Pyramid]&utm_campaign=sponsorship" target="_blank">
+          Sponsored by <strong>Linode</strong>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </section>
+  
+<script type="text/javascript" src="vendors.367021bec600dec94cf7.js"></script><script type="text/javascript" src="app.367021bec600dec94cf7.js"></script></body>
+</html>
+
+
