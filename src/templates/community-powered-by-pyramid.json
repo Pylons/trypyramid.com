@@ -173,6 +173,19 @@
     {
       "category": "comorg",
       "demoUrl": "",
+      "description": "<p>Opensource geospatial solutions provider. Full stack: NextGIS Web/Mobile/Manager/QGIS</p>",
+      "docsUrl": "",
+      "id": 45,
+      "logo": "nextgis-logo.png",
+      "maintainers": [],
+      "name": "NextGIS",
+      "projectUrl": "http://nextgis.com/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "",
       "description": "",
       "docsUrl": "",
       "id": 14,
@@ -288,6 +301,19 @@
       "projectUrl": "http://kinto.readthedocs.org/en/latest",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/Kinto/kinto"
+    },
+    {
+      "category": "floss",
+      "demoUrl": "",
+      "description": "<p>NextGIS Web is an opensource server-side Web GIS and a framework for storage, visualization and permissions management to all kinds of geodata. NextGIS Web supports OGC WMS and WFS(-T) access.</p>",
+      "docsUrl": "",
+      "id": 44,
+      "logo": "nextgis-web-logo.png",
+      "maintainers": [],
+      "name": "NextGIS Web",
+      "projectUrl": "http://nextgis.com/nextgis-web/",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/nextgis/nextgisweb"
     },
     {
       "category": "floss",

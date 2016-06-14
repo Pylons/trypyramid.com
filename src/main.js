@@ -24,6 +24,8 @@ require('./img/kuiu-logo.png');
 require('./img/linkpeek-logo.png');
 require('./img/majerti-logo.png');
 require('./img/mozilla-logo.png');
+require('./img/nextgis-logo.png');
+require('./img/nextgis-web-logo.png');
 require('./img/newcars-logo.png');
 require('./img/opencioc-org-logo.png');
 require('./img/pc-blueprint-logo.png');
