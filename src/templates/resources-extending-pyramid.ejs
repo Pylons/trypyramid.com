@@ -70,10 +70,10 @@
               <div class="grid-item-content">
                 <h4><%= item.name %></h4>
                 <div class="addon-description"><%- item.description %></div>
-                <div class="addon-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div>
-                <span class="addon-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span>
-                <span class="addon-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span>
-                <span class="addon-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span>
+                <% if (item.maintainers[0]) { %><div class="addon-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
+                <% if (item.pypiUrl != '') { %><span class="addon-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
+                <% if (item.vcsUrl != '') { %><span class="addon-vcsUrl"><a href="<%= item.vcsUrl %>">VCS</a></span><% } %>
+                <% if (item.docsUrl != '') { %><span class="addon-docsUrl"><a href="<%= item.docsUrl %>">docs</a></span><% } %>
               </div>
             </div>
             <% }); %>
@@ -84,4 +84,5 @@
   </div>
 
 <%- include partials/bottom %>
+
 
