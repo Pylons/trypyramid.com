@@ -14,7 +14,7 @@ require('./img/bateau-de-hollande-logo.png');
 require('./img/bravewords-logo.png');
 require('./img/discnw-logo.png');
 require('./img/environmental-health-news-logo.png');
-require('./img/european-energy-award-logo.jpg');
+require('./img/european-energy-award-logo.png');
 require('./img/fit-for-life-logo.jpg');
 require('./img/hypothesis-logo.png');
 require('./img/itcase-logo.png');
@@ -36,7 +36,7 @@ require('./img/the-daily-climate-logo.png');
 require('./img/travelcrm-logo.png');
 require('./img/warehouse-pypi-logo.png');
 require('./img/yelp-logo.png');
-require('./img/zopyx-logo.jpg');
+require('./img/zopyx-logo.png');
 
 var hljs = require('highlight.js');
 
