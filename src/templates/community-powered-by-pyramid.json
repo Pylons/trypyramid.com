@@ -292,6 +292,19 @@
     {
       "category": "floss",
       "demoUrl": "",
+      "description": "peter_sslers is a package designed to help experienced admins and devops people manage SSL Certificates and deploy them on larger systems.",
+      "docsUrl": "",
+      "id": 42,
+      "logo": "",
+      "maintainers": [],
+      "name": "peter_sslers",
+      "projectUrl": "https://github.com/aptise/peter_sslers",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/aptise/peter_sslers"
+    },
+    {
+      "category": "floss",
+      "demoUrl": "",
       "description": "<p>An example \"idea competition\" application by Carlos de la Guardia and Lukasz Fidosz. It demonstrates URL dispatch, simple authentication, integration with <a href=\"http://www.sqlalchemy.org/\">SQLAlchemy</a> and pyramid_simpleform.</p>",
       "docsUrl": "",
       "id": 23,
