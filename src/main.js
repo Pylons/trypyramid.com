@@ -81,6 +81,6 @@ $(filterSelector).multiselect({
   }
 });
 
-$(document).ready((function() {
+$(window).bind('load', function() {
   $grid.isotope('layout');
-}));
+});
