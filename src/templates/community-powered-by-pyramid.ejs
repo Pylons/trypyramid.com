@@ -23,8 +23,8 @@
             <% context.dataComOrg.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
                 <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
@@ -49,8 +49,8 @@
             <% context.dataApp.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
                 <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
@@ -76,8 +76,8 @@
             <% context.dataWeb.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
                 <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
@@ -95,8 +95,8 @@
             <% context.dataKotti.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
                 <% if (item.pypiUrl != '') { %><span class="community-pypiUrl"><a href="<%= item.pypiUrl %>">PyPI</a></span><% } %>
