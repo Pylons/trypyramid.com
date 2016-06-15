@@ -21,6 +21,7 @@ require('./img/itcase-logo.png');
 require('./img/klein-und-partner-logo.png');
 require('./img/konrad-adenauer-stiftung-logo.png');
 require('./img/kuiu-logo.png');
+require('./img/lex-machina-logo.png');
 require('./img/linkpeek-logo.png');
 require('./img/majerti-logo.png');
 require('./img/mozilla-logo.png');
