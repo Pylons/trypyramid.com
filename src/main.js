@@ -27,6 +27,7 @@ require('./img/mozilla-logo.png');
 require('./img/nextgis-logo.png');
 require('./img/nextgis-web-logo.png');
 require('./img/newcars-logo.png');
+require('./img/noppo-logo.png');
 require('./img/opencioc-org-logo.png');
 require('./img/pc-blueprint-logo.png');
 require('./img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png');
