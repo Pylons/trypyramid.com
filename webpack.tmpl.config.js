@@ -46,6 +46,12 @@ var config = {
       uglify: true,
       context: require(path.resolve(baseDir, 'community-sponsors.json')),
       page: 'community-sponsors.html'
+    }, {
+      template: 'src/templates/media-feeds.ejs',
+      filename: 'media-feeds.html',
+      uglify: true,
+      context: require(path.resolve(baseDir, 'media-feeds.json')),
+      page: 'media-feeds.html'
     }
   ]
 };
