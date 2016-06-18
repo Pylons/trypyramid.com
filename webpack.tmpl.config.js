@@ -52,6 +52,12 @@ var config = {
       uglify: true,
       context: require(path.resolve(baseDir, 'media-feeds.json')),
       page: 'media-feeds.html'
+    }, {
+      template: 'src/templates/media-artwork.ejs',
+      filename: 'media-artwork.html',
+      uglify: true,
+      context: require(path.resolve(baseDir, 'media-artwork.json')),
+      page: 'media-artwork.html'
     }
   ]
 };
