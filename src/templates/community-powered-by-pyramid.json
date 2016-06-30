@@ -19,19 +19,6 @@
       "demoUrl": "",
       "description": "",
       "docsUrl": "",
-      "id": 2,
-      "logo": "appenlight-logo.png",
-      "maintainers": [],
-      "name": "Appenlight",
-      "projectUrl": "https://appenlight.com",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "comorg",
-      "demoUrl": "",
-      "description": "",
-      "docsUrl": "",
       "id": 3,
       "logo": "bravewords-logo.png",
       "maintainers": [],
@@ -289,6 +276,22 @@
     }
   ],
   "dataApp": [
+    {
+      "category": "floss",
+      "demoUrl": "https://appenlight.rhodecode.com/",
+      "description": "<p>AppEnlight provides advanced application monitoring by combining error handling, event tracking, and log aggregation. It is also highly performant. AppEnlight handles applications that serve thousands of requests per second and correlates modifications made with the changes in application performance. <a href=\"https://getappenlight.com/page/api/main.html\" rel=\"noopener\">API docs</a>.</p>",
+      "docsUrl": "https://docs.rhodecode.com/RhodeCode-Appenlight/",
+      "id": 49,
+      "logo": "appenlight-logo.png",
+      "maintainers": [
+        "marcink",
+        "marcinl"
+      ],
+      "name": "AppEnlight",
+      "projectUrl": "https://getappenlight.com/",
+      "pypiUrl": "",
+      "vcsUrl": "https://code.rhodecode.com/rhodecode-appenlight"
+    },
     {
       "category": "floss",
       "demoUrl": "",
