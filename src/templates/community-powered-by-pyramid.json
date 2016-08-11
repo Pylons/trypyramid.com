@@ -398,6 +398,25 @@
     },
     {
       "category": "floss",
+      "demoUrl": "http://snapsat.org/guide/#walkthrough",
+      "description": "<p>We're in love with the opensource geospatial movement, and we wanted to contribute something back to it. Landsat is an amazing program — we wanted to make it accessible to anyone, regardless of their technical background.</p>",
+      "docsUrl": "",
+      "id": 50,
+      "logo": "snapsat-logo.png",
+      "maintainers": [
+        "Constantine Hatzis",
+        "Joel Stanner",
+        "Mark Saiget",
+        "Jake Anderson",
+        "Jacques Tardie"
+      ],
+      "name": "Snapsat",
+      "projectUrl": "http://snapsat.org/",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/recombinators"
+    },
+    {
+      "category": "floss",
       "demoUrl": "http://demo.substanced.net/",
       "description": "Substance D is an application server built using the Pyramid web framework. It can be used as a base to build a general-purpose web application like a blog, a shopping cart application, a scheduling application, or any other web app that requires both an administration and a retail interface.",
       "docsUrl": "http://docs.pylonsproject.org/projects/substanced/en/latest/",
