@@ -8,6 +8,7 @@ require('./img/linode.png');
 // logos
 require('./img/adroll-logo.png');
 require('./img/appenlight-logo.png');
+require('./img/atramhasis-logo.png');
 require('./img/autonomie-logo.png');
 require('./img/baobab-infoladen-logo.gif');
 require('./img/bateau-de-hollande-logo.png');

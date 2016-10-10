@@ -1,13 +1,13 @@
 {
-  "hash": "132782c2dafd3d9869e9",
+  "hash": "c1a5e27412da2454021f",
   "assetsByChunkName": {
     "vendors": [
-      "vendors.132782c2dafd3d9869e9.js",
-      "vendors.132782c2dafd3d9869e9.css"
+      "vendors.c1a5e27412da2454021f.js",
+      "vendors.c1a5e27412da2454021f.css"
     ],
     "app": [
-      "app.132782c2dafd3d9869e9.js",
-      "app.132782c2dafd3d9869e9.css"
+      "app.c1a5e27412da2454021f.js",
+      "app.c1a5e27412da2454021f.css"
     ]
   }
 }

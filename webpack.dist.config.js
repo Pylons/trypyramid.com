@@ -85,6 +85,7 @@ var config = {
         screw_ie8: true,
         warnings: false
       }
+
     }),
     new webpack.optimize.DedupePlugin(),
     new StatsWriterPlugin({
