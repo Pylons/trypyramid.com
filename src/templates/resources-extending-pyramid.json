@@ -863,7 +863,7 @@
       "projectUrl": "",
       "pypiUrl": "https://pypi.python.org/pypi/cornice",
       "support": "community",
-      "vcsUrl": "https://github.com/mozilla-services/cornice"
+      "vcsUrl": "https://github.com/Cornices/cornice"
     },
     {
       "addon": false,
