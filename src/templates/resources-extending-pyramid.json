@@ -120,6 +120,22 @@
     },
     {
       "addon": false,
+      "category": "monitors",
+      "demoUrl": "",
+      "description": "A process monitor / reloader for developers that can watch files for changes and restart the process.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/hupper/en/latest/",
+      "id": 99,
+      "maintainers": [
+        "mmerickel"
+      ],
+      "name": "hupper",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/hupper",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/hupper"
+    },
+    {
+      "addon": false,
       "category": "scaffolds",
       "demoUrl": "",
       "description": "A cookiecutter (project template) for creating a Pyramid project using SQLite as persistent storage, SQLAlchemy as an ORM, URL dispatch for routing, and Jinja2 for templating.",
