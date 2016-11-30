@@ -3,7 +3,9 @@
   "data": [
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "An LDAP authentication policy for Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/",
@@ -19,7 +21,9 @@
     },
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Authentication policy for Pyramid using repoze.who 2.0 API.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-who/en/latest/",
@@ -36,7 +40,9 @@
     },
     {
       "addon": true,
-      "category": "configuration",
+      "category": [
+        "configuration"
+      ],
       "demoUrl": "",
       "description": "Zope Configuration Markup Language configuration support for Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/",
@@ -52,7 +58,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "An interactive HTML debug toolbar for Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/",
@@ -70,7 +78,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "A package which logs exceptions from Pyramid applications.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/",
@@ -86,7 +96,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "http://demo.substanced.net/",
       "description": "An application server built upon the Pyramid web framework. It provides a user interface for managing content as well as libraries and utilities which make it easy to create applications.",
       "docsUrl": "http://docs.pylonsproject.org/projects/substanced/en/latest/",
@@ -103,7 +115,9 @@
     },
     {
       "addon": true,
-      "category": "email",
+      "category": [
+        "email"
+      ],
       "demoUrl": "",
       "description": "A package for the Pyramid framework to take the pain out of sending emails.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-mailer/en/latest/",
@@ -120,7 +134,9 @@
     },
     {
       "addon": false,
-      "category": "monitors",
+      "category": [
+        "monitors"
+      ],
       "demoUrl": "",
       "description": "A process monitor / reloader for developers that can watch files for changes and restart the process.",
       "docsUrl": "http://docs.pylonsproject.org/projects/hupper/en/latest/",
@@ -136,7 +152,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "A cookiecutter (project template) for creating a Pyramid project using SQLite as persistent storage, SQLAlchemy as an ORM, URL dispatch for routing, and Jinja2 for templating.",
       "docsUrl": "",
@@ -152,7 +170,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "A cookiecutter (project template) for creating a Pyramid starter project using Chameleon for templating.",
       "docsUrl": "",
@@ -168,7 +188,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "A cookiecutter (project template) for creating a Pyramid project using ZODB for persistent storage, traversal for routing, and Chameleon for templating.",
       "docsUrl": "",
@@ -184,7 +206,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "A cookiecutter (project template) for creating a Substance D starter project.",
       "docsUrl": "",
@@ -200,7 +224,9 @@
     },
     {
       "addon": true,
-      "category": "services",
+      "category": [
+        "services"
+      ],
       "demoUrl": "",
       "description": "RPC service add-on for Pyramid. Supports XML-RPC in a more extensible manner than <cite>pyramid_xmlrpc</cite> with support for JSON-RPC and AMF.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-rpc/en/latest/",
@@ -217,7 +243,9 @@
     },
     {
       "addon": true,
-      "category": "sessions",
+      "category": [
+        "sessions"
+      ],
       "demoUrl": "",
       "description": "Defines an encrypting, pickle-based cookie serializer, using <a href=\" http://pynacl.readthedocs.org/en/latest/secret/\">PyNaCl</a> to generate the symmetric encryption for the cookie state.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/",
@@ -233,7 +261,9 @@
     },
     {
       "addon": true,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "Centralized transaction management for Pyramid applications (without middleware).",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-tm/en/latest/",
@@ -249,7 +279,9 @@
     },
     {
       "addon": true,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "ZODB Database connection management for Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-zodbconn/en/latest/",
@@ -266,7 +298,9 @@
     },
     {
       "addon": true,
-      "category": "template-languages",
+      "category": [
+        "template-languages"
+      ],
       "demoUrl": "",
       "description": "Chameleon templating bindings for Pyramid",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-chameleon/en/latest/",
@@ -282,7 +316,9 @@
     },
     {
       "addon": true,
-      "category": "template-languages",
+      "category": [
+        "template-languages"
+      ],
       "demoUrl": "",
       "description": "<a href=\"http://jinja.pocoo.org/\">Jinja2</a> template renderer for Pyramid",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/",
@@ -298,7 +334,9 @@
     },
     {
       "addon": true,
-      "category": "template-languages",
+      "category": [
+        "template-languages"
+      ],
       "demoUrl": "",
       "description": "Mako templating bindings for Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-mako/en/latest/",
@@ -314,7 +352,9 @@
     },
     {
       "addon": true,
-      "category": "user-interface-and-user-experience-ui-and-ux",
+      "category": [
+        "user-interface-and-user-experience-ui-and-ux"
+      ],
       "demoUrl": "",
       "description": "Pyramid add-on for managing UI layouts.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-layout/en/latest/",
@@ -332,7 +372,9 @@
     },
     {
       "addon": false,
-      "category": "wsgi-servers",
+      "category": [
+        "wsgi-servers"
+      ],
       "demoUrl": "",
       "description": "Waitress is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones which live in the Python standard library.",
       "docsUrl": "http://docs.pylonsproject.org/projects/waitress/en/latest/",
@@ -349,7 +391,9 @@
     },
     {
       "addon": false,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Simplifying third-party authentication for web applications. It supports most <a href=\"https://github.com/bbangert/velruse/tree/master/velruse/providers\">auth providers</a>.",
       "docsUrl": "https://pythonhosted.org/velruse/index.html",
@@ -366,7 +410,9 @@
     },
     {
       "addon": true,
-      "category": "routing",
+      "category": [
+        "routing"
+      ],
       "demoUrl": "",
       "description": "Analogue of Pylons-style \"controllers\" for Pyramid. Note: <a href=\"http://michael.merickel.org/2011/8/23/outgrowing-pyramid-handlers/\">Outgrowing Pyramid Handlers</a>",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/",
@@ -383,7 +429,9 @@
     },
     {
       "addon": true,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "Scaffolding for developing jQuery Mobile apps with Pyramid.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-jqm/en/latest/",
@@ -399,7 +447,9 @@
     },
     {
       "addon": true,
-      "category": "services",
+      "category": [
+        "services"
+      ],
       "demoUrl": "",
       "description": "XML-RPC add-on for Pyramid",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-xmlrpc/en/latest/",
@@ -415,7 +465,9 @@
     },
     {
       "addon": true,
-      "category": "sessions",
+      "category": [
+        "sessions"
+      ],
       "demoUrl": "",
       "description": "Beaker session backend plug-in.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/",
@@ -432,7 +484,9 @@
     },
     {
       "addon": true,
-      "category": "api",
+      "category": [
+        "api"
+      ],
       "demoUrl": "",
       "description": "Plugin that provides a router for the <a href=\"http://www.sencha.com/products/extjs/extdirect\">ExtDirect Sencha API</a> included in <a href=\"http://www.sencha.com/products/extjs/\">ExtJS</a>.",
       "docsUrl": "",
@@ -448,7 +502,9 @@
     },
     {
       "addon": true,
-      "category": "api",
+      "category": [
+        "api"
+      ],
       "demoUrl": "",
       "description": "This project offers convenient tools for using <a href=\"http://swagger.io/\">Swagger</a> to define and validate your interfaces in a Pyramid webapp.",
       "docsUrl": "http://pyramid-swagger.readthedocs.org/en/latest/",
@@ -464,7 +520,9 @@
     },
     {
       "addon": true,
-      "category": "asset-management",
+      "category": [
+        "asset-management"
+      ],
       "demoUrl": "",
       "description": "Integration of Bowerstatic in Pyramid",
       "docsUrl": "",
@@ -480,7 +538,9 @@
     },
     {
       "addon": true,
-      "category": "asset-management",
+      "category": [
+        "asset-management"
+      ],
       "demoUrl": "",
       "description": "Pyramid extension for working with the webassets library.",
       "docsUrl": "",
@@ -497,7 +557,9 @@
     },
     {
       "addon": true,
-      "category": "async",
+      "category": [
+        "async"
+      ],
       "demoUrl": "",
       "description": "Stargate is a package for adding <a href=\"http://en.wikipedia.org/wiki/Web_Sockets\">WebSockets</a> support to Pyramid applications using the excellent eventlet library for long running connections.",
       "docsUrl": "http://boothead.github.io/stargate/",
@@ -513,7 +575,9 @@
     },
     {
       "addon": true,
-      "category": "async",
+      "category": [
+        "async"
+      ],
       "demoUrl": "",
       "description": "Run pyramid using asyncio.",
       "docsUrl": "http://aiopyramid.readthedocs.org/en/latest/",
@@ -529,7 +593,9 @@
     },
     {
       "addon": false,
-      "category": "async",
+      "category": [
+        "async"
+      ],
       "demoUrl": "",
       "description": "gevent-socketio is a Python implementation of the Socket.IO protocol, developed originally for Node.js by LearnBoost and then ported to other languages.",
       "docsUrl": "https://gevent-socketio.readthedocs.org/en/latest/",
@@ -545,7 +611,9 @@
     },
     {
       "addon": false,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "https://authomatic-example.appspot.com/",
       "description": "Simple yet powerful authorization and authentication client library for Python web applications.",
       "docsUrl": "http://peterhudec.github.io/authomatic/reference/index.html",
@@ -561,7 +629,9 @@
     },
     {
       "addon": false,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Social authentication/registration mechanism with support for a <a href=\"https://github.com/omab/python-social-auth#auth-providers\">large number of providers</a>.",
       "docsUrl": "http://python-social-auth.readthedocs.org/en/latest/",
@@ -577,7 +647,9 @@
     },
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Provides a secure authentication policy with an easy to use backend.",
       "docsUrl": "http://pyramid-authsanity.readthedocs.org/en/latest/",
@@ -593,7 +665,9 @@
     },
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Implementation of an authentication policy for Pyramid that uses <a href=\"http://jwt.io/\">JSON Web Tokens</a>. This standard (<a href=\"https://tools.ietf.org/html/rfc7519\">RFC 7519</a>) is often used to secure backend APIs. The excellent <a href=\"https://pyjwt.readthedocs.org/en/latest/\">PyJWT</a> library is used for the JWT encoding / decoding logic.",
       "docsUrl": "https://github.com/wichert/pyramid_jwt",
@@ -609,7 +683,9 @@
     },
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html",
       "description": "Provides <a href=\"https://login.persona.org/\">persona</a> authentication. Note: On November 30th, 2016, Mozilla will shut down the persona.org services. Persona.org and related domains will be taken offline.",
       "docsUrl": "http://pyramid-persona.readthedocs.org/en/latest/",
@@ -625,7 +701,9 @@
     },
     {
       "addon": true,
-      "category": "authentication",
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "",
       "description": "Session-based authentication and role based security.",
       "docsUrl": "https://github.com/thruflo/pyramid_simpleauth",
@@ -642,7 +720,29 @@
     },
     {
       "addon": true,
-      "category": "authorization",
+      "category": [
+        "authentication",
+        "authorization",
+        "sessions"
+      ],
+      "demoUrl": "",
+      "description": "Yosai is a security framework that offers two-factor authentication, permission and role based authorization, and session management from a developer-friendly API. pyramid_yosai integrates yosai with pyramid web applications.",
+      "docsUrl": "https://yosaiproject.github.io/yosai/",
+      "id": 100,
+      "maintainers": [
+        "Darin Gordon"
+      ],
+      "name": "pyramid_yosai",
+      "projectUrl": "https://yosaiproject.github.io/yosai/",
+      "pypiUrl": "https://github.com/yosaiproject",
+      "support": "community",
+      "vcsUrl": "https://github.com/YosaiProject/pyramid_yosai"
+    },
+    {
+      "addon": true,
+      "category": [
+        "authorization"
+      ],
       "demoUrl": "",
       "description": "User registration and login system for the Pyramid Web Framework.",
       "docsUrl": "",
@@ -658,7 +758,9 @@
     },
     {
       "addon": true,
-      "category": "authorization",
+      "category": [
+        "authorization"
+      ],
       "demoUrl": "",
       "description": "Use multiple authentication policies with Pyramid.",
       "docsUrl": "",
@@ -674,7 +776,9 @@
     },
     {
       "addon": true,
-      "category": "authorization",
+      "category": [
+        "authorization"
+      ],
       "demoUrl": "",
       "description": "An authentication policy for Pyramid that proxies to a stack of other authentication policies.",
       "docsUrl": "",
@@ -695,7 +799,9 @@
     },
     {
       "addon": true,
-      "category": "caching-and-sessions",
+      "category": [
+        "caching-and-sessions"
+      ],
       "demoUrl": "",
       "description": "dogpile.cache configuration package for Pyramid.",
       "docsUrl": "https://github.com/moriyoshi/pyramid_dogpile_cache",
@@ -711,7 +817,9 @@
     },
     {
       "addon": true,
-      "category": "caching-and-sessions",
+      "category": [
+        "caching-and-sessions"
+      ],
       "demoUrl": "",
       "description": "Defines an encrypting, pickle-based cookie serializer, using <a href=\"http://pynacl.readthedocs.org/en/latest/secret/\">PyNaCl</a> to generate the symmetric encryption for the cookie state.",
       "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/",
@@ -727,7 +835,9 @@
     },
     {
       "addon": true,
-      "category": "caching-and-sessions",
+      "category": [
+        "caching-and-sessions"
+      ],
       "demoUrl": "",
       "description": "Session factory backed by Redis.",
       "docsUrl": "http://pyramid-redis-sessions.readthedocs.org/en/latest/",
@@ -743,7 +853,9 @@
     },
     {
       "addon": true,
-      "category": "configuration",
+      "category": [
+        "configuration"
+      ],
       "demoUrl": "",
       "description": "Defines a pattern and helper methods for accessing a pluggable service layer from within your Pyramid apps.",
       "docsUrl": "https://github.com/mmerickel/pyramid_services",
@@ -759,7 +871,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "bpython bindings for Pyramid's pshell",
       "docsUrl": "https://github.com/Pylons/pyramid_bpython",
@@ -775,7 +889,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "dogpile caching support for pyramid_debugtoolbar",
       "docsUrl": "",
@@ -791,7 +907,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "IPython bindings for Pyramid's pshell",
       "docsUrl": "https://github.com/Pylons/pyramid_ipython",
@@ -807,7 +925,9 @@
     },
     {
       "addon": true,
-      "category": "debugging",
+      "category": [
+        "debugging"
+      ],
       "demoUrl": "",
       "description": "This package provides a Pyramid tween to generate a callgraph image for every request.",
       "docsUrl": "",
@@ -823,7 +943,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "A Pyramid library and demo application with a Pylons-like feel. Its most known for its former application scaffold, which helped users transition from Pylons and those preferring a more Pylons-like API. The scaffold has been retired but the demo plays a similar role.",
       "docsUrl": "http://docs.pylonsproject.org/projects/akhet/en/latest/",
@@ -839,7 +961,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Cliquet is a toolkit to ease the implementation of HTTP microservices, such as data-driven REST APIs.",
       "docsUrl": "http://cliquet.readthedocs.org/en/latest/",
@@ -860,7 +984,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Provides helpers to build and document REST-ish web services with Pyramid, with decent default behaviors. It takes care of following the HTTP specification in an automated way where possible.",
       "docsUrl": "http://cornice.readthedocs.org/en/latest/",
@@ -883,7 +1009,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Khufu is an application scaffolding for Pyramid that provides an environment to work with Jinja2 and SQLAlchemy.",
       "docsUrl": "http://khufuproject.github.io/",
@@ -899,7 +1027,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "http://kottidemo.danielnouri.org/",
       "description": "Kotti is a high-level, Pythonic web application framework. It includes an extensible Content Management System called the Kotti CMS, offering all the features you would expect from a modern CMS.",
       "docsUrl": "http://kotti.readthedocs.org/en/latest/",
@@ -918,7 +1048,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Nive is a new, \"out of the box\", open source content management system based on the programming language Python and the Pyramid web framework.",
       "docsUrl": "http://cms.nive.co/doc/html/index.html",
@@ -934,7 +1066,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Ptah is a fast, fun, open source, high-level Python web development environment.",
       "docsUrl": "http://ptahproject.readthedocs.org/en/latest/",
@@ -951,7 +1085,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Ringo is a Python based high level web application framework build on top of Pyramid. The framework can be used to build form based management or administration software.",
       "docsUrl": "http://ringo.readthedocs.org/en/latest/",
@@ -967,7 +1103,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Websauna is a full stack application framework aimed for creating consumer and business web services built on top of Pyramid and SQLAlchemy.",
       "docsUrl": "https://websauna.org/",
@@ -983,7 +1121,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's <a href=\"https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html\">Query String DSL</a> for full text search.",
       "docsUrl": "https://nefertari.readthedocs.org/",
@@ -1000,7 +1140,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "http://docs.formalchemy.org/demo/admin/",
       "description": "Auto-generated, customizable HTML input form fields from your SQLAlchemy mapped classes.",
       "docsUrl": "http://docs.formalchemy.org/",
@@ -1016,7 +1158,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Royal is a Pyramid extension which eases writing RESTful web applications.",
       "docsUrl": "https://pyramid-royal.readthedocs.org/en/latest/",
@@ -1034,7 +1178,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Pyramid CRUD interface. Provides an administration web interface for Pyramid.<br><strong>Extensions:</strong><br>* <a href=\"https://github.com/sacrud/ps_alchemy\">ps_alchemy</a> - provides SQLAlchemy models.<br>* <a href=\"https://github.com/sacrud/ps_tree\">ps_tree</a> - displays a list of records as tree. This works fine with models from <a href=\"https://github.com/uralbash/sqlalchemy_mptt\">sqlalchemy_mptt</a>.",
       "docsUrl": "http://pyramid-sacrud.readthedocs.org/",
@@ -1050,7 +1196,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Convenient tools for using Swagger to define and validate your interfaces in a Pyramid webapp.",
       "docsUrl": "http://pyramid-swagger.readthedocs.org/en/latest/",
@@ -1066,7 +1214,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "Ramses is a framework that generates a RESTful API using <a href=\"http://raml.org\">RAML</a>. It uses Pyramid and <a href=\"https://nefertari.readthedocs.org/\">Nefertari</a>, which provides Elasticsearch / Posgres / MongoDB / Your Data Store™ -powered views.",
       "docsUrl": "https://ramses.readthedocs.org/",
@@ -1083,7 +1233,9 @@
     },
     {
       "addon": false,
-      "category": "development-environment",
+      "category": [
+        "development-environment"
+      ],
       "demoUrl": "",
       "description": "rest_toolkit is a Python package which provides a very convenient way to build REST servers. It is build on top of Pyramid, but you do not need to know much about Pyramid to use rest_toolkit.",
       "docsUrl": "http://rest-toolkit.readthedocs.org/en/latest/",
@@ -1099,7 +1251,9 @@
     },
     {
       "addon": true,
-      "category": "documentation",
+      "category": [
+        "documentation"
+      ],
       "demoUrl": "",
       "description": "Sphinx extension for documenting your Pyramid APIs.",
       "docsUrl": "https://github.com/SurveyMonkey/pyramid_autodoc",
@@ -1117,7 +1271,9 @@
     },
     {
       "addon": true,
-      "category": "email",
+      "category": [
+        "email"
+      ],
       "demoUrl": "",
       "description": "This package integrates the Mailgun service with the Pyramid web framework.",
       "docsUrl": "",
@@ -1133,7 +1289,9 @@
     },
     {
       "addon": true,
-      "category": "email",
+      "category": [
+        "email"
+      ],
       "demoUrl": "",
       "description": "Pyramid integration package for marrow.mailer, formerly known as TurboMail",
       "docsUrl": "https://github.com/domenkozar/pyramid_marrowmailer",
@@ -1149,7 +1307,9 @@
     },
     {
       "addon": false,
-      "category": "forms",
+      "category": [
+        "forms"
+      ],
       "demoUrl": "",
       "description": "Auto-generate Colander schemas that are based on SQLAlchemy mapped classes.",
       "docsUrl": "http://colanderalchemy.readthedocs.org/en/latest/",
@@ -1166,7 +1326,9 @@
     },
     {
       "addon": false,
-      "category": "forms",
+      "category": [
+        "forms"
+      ],
       "demoUrl": "",
       "description": "A flexible forms validation and rendering library for Python web development.",
       "docsUrl": "http://wtforms.readthedocs.org/en/latest/",
@@ -1183,7 +1345,9 @@
     },
     {
       "addon": false,
-      "category": "forms",
+      "category": [
+        "forms"
+      ],
       "demoUrl": "",
       "description": "A serialization/deserialization/validation library for strings, mappings, and lists.",
       "docsUrl": "http://docs.pylonsproject.org/projects/colander/en/latest/",
@@ -1201,7 +1365,9 @@
     },
     {
       "addon": false,
-      "category": "forms",
+      "category": [
+        "forms"
+      ],
       "demoUrl": "http://deform2demo.repoze.org/",
       "description": "A Python HTML form generation library.",
       "docsUrl": "http://docs.pylonsproject.org/projects/deform/en/latest/",
@@ -1218,7 +1384,9 @@
     },
     {
       "addon": false,
-      "category": "forms",
+      "category": [
+        "forms"
+      ],
       "demoUrl": "",
       "description": "A lightweight library for converting complex objects to and from simple Python data types (i.e., (de)serialization and validation).",
       "docsUrl": "http://marshmallow.readthedocs.org/en/latest/",
@@ -1234,7 +1402,9 @@
     },
     {
       "addon": false,
-      "category": "internationalization-i18n",
+      "category": [
+        "internationalization-i18n"
+      ],
       "demoUrl": "",
       "description": "Lingua is a package with tools to extract translatable texts from your code, and to check existing translations. It replaces the use of the xgettext command from gettext, or pybabel from Babel.",
       "docsUrl": "https://github.com/wichert/lingua",
@@ -1250,7 +1420,9 @@
     },
     {
       "addon": true,
-      "category": "media-management",
+      "category": [
+        "media-management"
+      ],
       "demoUrl": "",
       "description": "Connector for elfinder file manager",
       "docsUrl": "https://github.com/uralbash/pyramid_elfinder",
@@ -1266,7 +1438,9 @@
     },
     {
       "addon": true,
-      "category": "renderers",
+      "category": [
+        "renderers"
+      ],
       "demoUrl": "",
       "description": "tablib renderer factory (xlsx, xls, csv) for Pyramid.",
       "docsUrl": "",
@@ -1282,7 +1456,9 @@
     },
     {
       "addon": false,
-      "category": "requests",
+      "category": [
+        "requests"
+      ],
       "demoUrl": "",
       "description": "A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks.",
       "docsUrl": "http://webargs.readthedocs.org/en/latest/",
@@ -1298,7 +1474,9 @@
     },
     {
       "addon": true,
-      "category": "routes",
+      "category": [
+        "routes"
+      ],
       "demoUrl": "",
       "description": "A set of sane routing defaults for the Pyramid web framework.",
       "docsUrl": "",
@@ -1315,7 +1493,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "Toolkit for Pyramid to add Authentication and Authorization using Velruse (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.",
       "docsUrl": "http://thesoftwarestudio.com/apex/",
@@ -1331,7 +1511,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "Basic Pyramid scaffold to easily use MongoDB for persistence with the Pyramid Web framework.",
       "docsUrl": "",
@@ -1347,7 +1529,9 @@
     },
     {
       "addon": false,
-      "category": "scaffolds",
+      "category": [
+        "scaffolds"
+      ],
       "demoUrl": "",
       "description": "Framework agnostic set of SQLAlchemy classes that make building applications that require permissions an easy task.",
       "docsUrl": "https://ziggurat-foundations.readthedocs.org/en/latest/",
@@ -1363,7 +1547,9 @@
     },
     {
       "addon": false,
-      "category": "search",
+      "category": [
+        "search"
+      ],
       "demoUrl": "",
       "description": "A Python indexing and searching system.",
       "docsUrl": "",
@@ -1380,7 +1566,9 @@
     },
     {
       "addon": false,
-      "category": "services",
+      "category": [
+        "services"
+      ],
       "demoUrl": "",
       "description": "SMS services for Pyramid framework.",
       "docsUrl": "http://pyramid-sms.readthedocs.io/en/latest/",
@@ -1396,7 +1584,9 @@
     },
     {
       "addon": false,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "Kinto is a lightweight JSON storage service with synchronisation and sharing abilities.",
       "docsUrl": "http://kinto.readthedocs.org/en/latest/",
@@ -1417,7 +1607,9 @@
     },
     {
       "addon": true,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "Pyramid-mongoengine package based on flask-mongoengine.",
       "docsUrl": "https://github.com/marioidival/pyramid_mongoengine/blob/master/demos/app.py",
@@ -1433,7 +1625,9 @@
     },
     {
       "addon": true,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "Provides some basic glue to facilitate using SQLAlchemy with Pyramid.",
       "docsUrl": "https://pyramid-sqlalchemy.readthedocs.org/en/latest/",
@@ -1449,7 +1643,9 @@
     },
     {
       "addon": true,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "A simple file upload manager for the Pyramid framework. It currently supports uploads to the local file system and to the Amazon S3 cloud storage service.",
       "docsUrl": "https://pythonhosted.org/pyramid_storage/",
@@ -1465,7 +1661,9 @@
     },
     {
       "addon": false,
-      "category": "storage",
+      "category": [
+        "storage"
+      ],
       "demoUrl": "",
       "description": "Integration of SQLAlchemy with transaction management. See also <a href=\"https://metaclassical.com/what-the-zope-transaction-manager-means-to-me-and-you/\">What the Zope Transaction Manager Means To Me (and you)</a>.",
       "docsUrl": "https://github.com/zopefoundation/zope.sqlalchemy/blob/master/src/zope/sqlalchemy/README.txt",
@@ -1482,7 +1680,9 @@
     },
     {
       "addon": true,
-      "category": "task-queueing",
+      "category": [
+        "task-queueing"
+      ],
       "demoUrl": "",
       "description": "Pyramid configuration with celery integration. Allows you to use Pyramid .ini files to configure celery and have your Pyramid configuration inside celery tasks.",
       "docsUrl": "https://github.com/sontek/pyramid_celery",
@@ -1498,7 +1698,9 @@
     },
     {
       "addon": true,
-      "category": "task-queueing",
+      "category": [
+        "task-queueing"
+      ],
       "demoUrl": "",
       "description": "Support using the <a href=\"http://python-rq.org\">RQ</a> queueing system with Pyramid.",
       "docsUrl": "",
@@ -1514,7 +1716,9 @@
     },
     {
       "addon": true,
-      "category": "template-languages",
+      "category": [
+        "template-languages"
+      ],
       "demoUrl": "",
       "description": "Python templating engine with Pyramid integration.",
       "docsUrl": "http://tonnikala.readthedocs.org/en/latest/",
@@ -1531,7 +1735,9 @@
     },
     {
       "addon": true,
-      "category": "template-languages",
+      "category": [
+        "template-languages"
+      ],
       "demoUrl": "",
       "description": "This package provides a simple framework to integrate code with templates and resources.",
       "docsUrl": "http://pythonhosted.org/pyramid_skins/",
@@ -1549,7 +1755,9 @@
     },
     {
       "addon": false,
-      "category": "testing",
+      "category": [
+        "testing"
+      ],
       "demoUrl": "",
       "description": "Wraps any WSGI application and makes it easy to send test requests to that application, without starting up an HTTP server.",
       "docsUrl": "https://webtest.readthedocs.org/en/latest/",
@@ -1567,7 +1775,9 @@
     },
     {
       "addon": false,
-      "category": "url-shorteners-and-managers",
+      "category": [
+        "url-shorteners-and-managers"
+      ],
       "demoUrl": "",
       "description": "Microservice to manage external links.",
       "docsUrl": "",
@@ -1583,7 +1793,9 @@
     },
     {
       "addon": false,
-      "category": "web-page-utilities",
+      "category": [
+        "web-page-utilities"
+      ],
       "demoUrl": "",
       "description": "Python pagination module.",
       "docsUrl": "https://github.com/Pylons/paginate",
@@ -1601,7 +1813,9 @@
     },
     {
       "addon": false,
-      "category": "web-page-utilities",
+      "category": [
+        "web-page-utilities"
+      ],
       "demoUrl": "",
       "description": "Provides a collection of web pages to your Pyramid application. This is very similar to django.contrib.flatpages but with a tree structure and traversal algorithm in URL dispatch.",
       "docsUrl": "http://pyramid-pages.readthedocs.org/en/latest/",
