@@ -1,4 +1,5 @@
 {
+  "index_page": true,
   "title": "Home Page",
   "needsTsNav": true
 }
