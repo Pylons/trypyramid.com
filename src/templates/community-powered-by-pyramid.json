@@ -186,6 +186,19 @@
     {
       "category": "comorg",
       "demoUrl": "",
+      "description": "NiteoWeb is a nimble team of tech enthusiasts spread across the world building SaaS products with customers primarily in the US and UK.",
+      "docsUrl": "",
+      "id": 52,
+      "logo": "niteoweb-logo.png",
+      "maintainers": [],
+      "name": "NiteoWeb",
+      "projectUrl": "http://www.niteoweb.com",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "",
       "description": "",
       "docsUrl": "",
       "id": 46,
@@ -503,6 +516,19 @@
     }
   ],
   "dataWeb": [
+    {
+      "category": "website",
+      "demoUrl": "",
+      "description": "Fully managed hosting of 50.000 WordPress blogs, automated with Pyramid as a frontend to Ansible.",
+      "docsUrl": "",
+      "id": 53,
+      "logo": "easyblognetworks-logo.png",
+      "maintainers": [],
+      "name": "Easy Blog Networks",
+      "projectUrl": "https://www.easyblognetworks.com/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
     {
       "category": "website",
       "demoUrl": "",
