@@ -46,7 +46,7 @@ from pyramid.view import view_config
 
 @view_config(route_name='hello', renderer='string')
 def hello_world(request):
-    return 'Hello World!'
+    return 'Hello World'
 
 if __name__ == '__main__':
     config = Configurator()
@@ -54,12 +54,7 @@ if __name__ == '__main__':
     config.scan()
     app = config.make_wsgi_app()
     server = make_server('0.0.0.0', 8080, app)
-    server.serve_forever()</code>
-          </pre>
-          <pre class="nobs">
-            <code class="bash">$ pip install Pyramid
-$ python hello.py
-# Point browser to http://localhost:8080</code>
+    server.serve_forever() </code>
           </pre>
         </div>
         <div class="col-md-6">
