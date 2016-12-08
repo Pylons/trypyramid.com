@@ -92,3 +92,19 @@ $(filterSelector).multiselect({
 $(window).bind('load', function() {
   $grid.isotope('layout');
 });
+
+// Function for expanding the code block
+$(".code-expand").on('click', function() {
+  let codeBlock = $(this);
+  if (codeBlock.hasClass("collapsed")) {
+    $(".expanded").each(function(){
+      $(this).siblings(".nobs").find(".code-top, .code-bottom").hide("slow");
+      $(this).removeClass("expanded").addClass("collapsed");
+    });
+    $(this).siblings(".nobs").find(".code-top, .code-bottom").show("slow");
+    codeBlock.removeClass("collapsed").addClass("expanded");    
+  } else {
+    $(this).siblings(".nobs").find(".code-top, .code-bottom").hide("slow");
+    codeBlock.removeClass("expanded").addClass("collapsed");    
+  }
+});
