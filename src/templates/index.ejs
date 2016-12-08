@@ -206,13 +206,37 @@ if __name__ == '__main__':
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 code-wrapper">
+          <div class="code-expand collapsed">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i>
+          </div>
           <pre class="nobs">
-            <code class="python">@view_config(
+            <code class="python"><span class="code-top">"""Showcasing Pyramid's Function Decorators.
+Usage:
+1. Install Pyramid: http://tiny.cc/install-pyramid
+2. Put this code into example.py
+3. Run with ``$VENV/bin/python example.py``.
+You can showcase with your browser or using curl:
+$ curl http://localhost:8080/
+Welcome!
+"""
+from pyramid.config import Configurator
+from pyramid.response import Response
+from pyramid.scripts.pserve import wsgiref_server_runner
+from pyramid.view import view_config
+
+</span>
+<span class="code-main">@view_config(
     route_name='home'
 )
 def home(request):
-    return Response('Welcome!')</code>
+    return Response('Welcome!')
+</span>
+<span class="code-bottom">if __name__ == '__main__':
+    config = Configurator()
+    config.add_route('home', '/')
+    config.scan()
+    wsgiref_server_runner(config.make_wsgi_app(), None)</span></code>
           </pre>
         </div>
         <div class="col-md-6">
@@ -227,14 +251,46 @@ def home(request):
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 code-wrapper">
+          <div class="code-expand collapsed">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i>
+          </div>
           <pre class="nobs">
-            <code class="python">@view_config(
+            <code class="python"><span class="code-top">"""Showcasing Pyramid's View Predicates.
+Usage:
+1. Install Pyramid: http://tiny.cc/install-pyramid
+2. Put this code into ``example.py``.
+3. Run with ``$VENV/bin/python example.py``.
+4. Showcase with your browser or using curl:
+$ curl http://localhost:8080/
+Welcome!
+$ curl --data "foo=bar" http://localhost:8080/
+What a nice POST!
+"""
+from pyramid.config import Configurator
+from pyramid.response import Response
+from pyramid.scripts.pserve import wsgiref_server_runner
+from pyramid.view import view_config
+
+@view_config(
+    route_name='home'
+)
+def home_get(request):
+    return Response('Welcome!')
+    
+</span>
+<span class="code-main">@view_config(
     route_name='home',
     request_method=('POST')
 )
 def home(request):
-    return Response('Welcome!')</code>
+    return Response('What a nice POST!')
+</span>
+<span class="code-bottom">if __name__ == '__main__':
+    config = Configurator()
+    config.add_route('home', '/')
+    config.scan()
+    wsgiref_server_runner(config.make_wsgi_app(), None)</span></code>
           </pre>
         </div>
         <div class="col-md-6">
@@ -248,14 +304,37 @@ def home(request):
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 code-wrapper">
+          <div class="code-expand collapsed">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i>
+          </div>
           <pre class="nobs">
-            <code class="python">@view_config(
+            <code class="python"><span class="code-top">"""Showcasing Pyramid's Renderers.
+Usage:
+1. Install Pyramid: http://tiny.cc/install-pyramid
+2. Put this code into example.py
+3. Run with ``$VENV/bin/python example.py``.
+You can showcase with your browser or using curl:
+$ curl http://localhost:8080/
+{"a": 1, "b": 2}
+"""
+from pyramid.config import Configurator
+from pyramid.scripts.pserve import wsgiref_server_runner
+from pyramid.view import view_config
+
+</span>
+<span class="code-main">@view_config(
     route_name='home',
     renderer='json'
 )
 def home(request):
-    return {"a": 1, "b": 2}</code>
+    return {"a": 1, "b": 2}
+</span>
+<span class="code-bottom">if __name__ == '__main__':
+    config = Configurator()
+    config.add_route('home', '/')
+    config.scan()
+    wsgiref_server_runner(config.make_wsgi_app(), None)</span></code>
           </pre>
         </div>
         <div class="col-md-6">
