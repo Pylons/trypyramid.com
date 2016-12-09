@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var WebpackNotifierPlugin = require('webpack-notifier');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var RobotsPlugin = require('@tanepiper/robots-webpack-plugin');
 var StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
 var templates = require('./webpack.tmpl.config').templates;
@@ -63,6 +64,7 @@ var config = {
     }]
   },
   plugins: [
+    new RobotsPlugin(),
     new WebpackNotifierPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',
