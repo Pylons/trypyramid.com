@@ -43,6 +43,19 @@
     {
       "category": "comorg",
       "demoUrl": "",
+      "description": "<p>Fully managed hosting of 50.000 WordPress blogs, automated with Pyramid as a frontend to Ansible.</p>",
+      "docsUrl": "",
+      "id": 53,
+      "logo": "easyblognetworks-logo.png",
+      "maintainers": [],
+      "name": "Easy Blog Networks",
+      "projectUrl": "https://www.easyblognetworks.com/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "",
       "description": "",
       "docsUrl": "",
       "id": 5,
@@ -186,7 +199,7 @@
     {
       "category": "comorg",
       "demoUrl": "",
-      "description": "NiteoWeb is a nimble team of tech enthusiasts spread across the world building SaaS products with customers primarily in the US and UK.",
+      "description": "<p>NiteoWeb is a nimble team of tech enthusiasts spread across the world building SaaS products with customers primarily in the US and UK.</p>",
       "docsUrl": "",
       "id": 52,
       "logo": "niteoweb-logo.png",
@@ -206,6 +219,19 @@
       "maintainers": [],
       "name": "Noppo",
       "projectUrl": "https://www.noppo.pro",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "",
+      "description": "<p>Comments as a service.</p><p>Readers want to communicate with you.</p><p>Get Remarkbox, the comment system that engaged readers prefer to use!</p>",
+      "docsUrl": "",
+      "id": 54,
+      "logo": "remarkbox-logo.png",
+      "maintainers": [],
+      "name": "Remarkbox",
+      "projectUrl": "http://www.remarkbox.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -516,19 +542,6 @@
     }
   ],
   "dataWeb": [
-    {
-      "category": "website",
-      "demoUrl": "",
-      "description": "Fully managed hosting of 50.000 WordPress blogs, automated with Pyramid as a frontend to Ansible.",
-      "docsUrl": "",
-      "id": 53,
-      "logo": "easyblognetworks-logo.png",
-      "maintainers": [],
-      "name": "Easy Blog Networks",
-      "projectUrl": "https://www.easyblognetworks.com/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
     {
       "category": "website",
       "demoUrl": "",
