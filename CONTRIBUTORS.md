@@ -51,3 +51,4 @@ The below-signed are contributors to a code repository that is part of the proje
 - Steve Piercy, 2016/01/03
 - Krystian Rosiński, 2016/04/07
 - Nejc Zupan, 2016/12/06
+- Svintsov Dmitry, 2016/12/19
