@@ -23,7 +23,7 @@
             <% context.dataComOrg.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <% if (item.logo != '') { %><div class="community-logo"><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"><% if (item.projectUrl != '') { %></a><% } %></div><% } %>
                 <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
@@ -49,7 +49,7 @@
             <% context.dataApp.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <% if (item.logo != '') { %><div class="community-logo"><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"><% if (item.projectUrl != '') { %></a><% } %></div><% } %>
                 <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
@@ -76,7 +76,7 @@
             <% context.dataWeb.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <% if (item.logo != '') { %><div class="community-logo"><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"><% if (item.projectUrl != '') { %></a><% } %></div><% } %>
                 <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
@@ -95,7 +95,7 @@
             <% context.dataKotti.forEach(function(item){ %>
             <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-<%= item.category %>">
               <div class="grid-item-content">
-                <% if (item.logo != '') { %><div class="community-logo"><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"></div><% } %>
+                <% if (item.logo != '') { %><div class="community-logo"><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><img alt="<%= item.name %> logo" src="img/<%= item.logo %>" class="img-responsive"><% if (item.projectUrl != '') { %></a><% } %></div><% } %>
                 <h4><% if (item.projectUrl != '') { %><a href="<%= item.projectUrl %>"><% } %><%= item.name %><% if (item.projectUrl != '') { %></a><% } %></h4>
                 <div class="community-description"><%- item.description %></div>
                 <% if (item.maintainers[0]) { %><div class="community-maintainers">Maintainers: <%= item.maintainers.join(', ') %></div><% } %>
