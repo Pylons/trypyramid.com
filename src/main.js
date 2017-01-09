@@ -27,6 +27,7 @@ require('./img/lex-machina-logo.png');
 require('./img/linkpeek-logo.png');
 require('./img/majerti-logo.png');
 require('./img/mozilla-logo.png');
+require('./img/nasa-images-logo.jpg');
 require('./img/nextgis-logo.png');
 require('./img/nextgis-web-logo.png');
 require('./img/newcars-logo.png');
