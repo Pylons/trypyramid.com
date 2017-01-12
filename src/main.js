@@ -39,6 +39,7 @@ require('./img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png');
 require('./img/pycharm-logo.png');
 require('./img/remarkbox-logo.png');
 require('./img/rhodecode-logo.png');
+require('./img/rollbar-logo.png');
 require('./img/sabrina-pontzen-raumdesign-logo.png');
 require('./img/snapsat-logo.png');
 require('./img/substance-d-logo.png');
