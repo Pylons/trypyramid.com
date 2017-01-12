@@ -250,6 +250,19 @@
     },
     {
       "category": "comorg",
+      "demoUrl": "https://rollbar.com/demo/demo/",
+      "description": "<p>Rollbar provides developers with full-stack error monitoring and alerting as a service</p>",
+      "docsUrl": "",
+      "id": 56,
+      "logo": "rollbar-logo.png",
+      "maintainers": [],
+      "name": "Rollbar",
+      "projectUrl": "https://rollbar.com",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
       "demoUrl": "",
       "description": "",
       "docsUrl": "",
