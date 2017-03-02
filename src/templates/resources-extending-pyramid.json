@@ -752,7 +752,7 @@
       ],
       "name": "pyramid_yosai",
       "projectUrl": "https://yosaiproject.github.io/yosai/",
-      "pypiUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid-yosai",
       "support": "community",
       "vcsUrl": "https://github.com/YosaiProject/pyramid_yosai"
     },
