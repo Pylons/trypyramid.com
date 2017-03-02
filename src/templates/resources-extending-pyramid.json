@@ -151,6 +151,24 @@
       "vcsUrl": "https://github.com/Pylons/hupper"
     },
     {
+      "addon": true,
+      "category": [
+        "routes"
+      ],
+      "demoUrl": "",
+      "description": "An execution policy for Pyramid that supports retrying requests after certain failure exceptions.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-retry/en/latest/",
+      "id": 101,
+      "maintainers": [
+        "Michael Merickel"
+      ],
+      "name": "pyramid_retry",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid-retry",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_retry"
+    },
+    {
       "addon": false,
       "category": [
         "scaffolds"
@@ -734,7 +752,7 @@
       ],
       "name": "pyramid_yosai",
       "projectUrl": "https://yosaiproject.github.io/yosai/",
-      "pypiUrl": "https://github.com/yosaiproject",
+      "pypiUrl": "",
       "support": "community",
       "vcsUrl": "https://github.com/YosaiProject/pyramid_yosai"
     },
