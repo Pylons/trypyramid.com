@@ -20,6 +20,7 @@ require('./img/european-energy-award-logo.png');
 require('./img/fit-for-life-logo.jpg');
 require('./img/hypothesis-logo.png');
 require('./img/itcase-logo.png');
+require('./img/jetbrains-logo.png');
 require('./img/klein-und-partner-logo.png');
 require('./img/konrad-adenauer-stiftung-logo.png');
 require('./img/kuiu-logo.png');
