@@ -6,20 +6,13 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="title text-red">Extending Pyramid</h1>
-          <p>Pyramid add-ons extend the functionality of Pyramid, such as
-            adding an ORM, sending email, or using a template-based language.
-            The Python Package Index trove classifier
-            "<a href="https://pypi.python.org/pypi?:action=browse&c=582">Framework :: Pyramid</a>"
-            is used by over 350 packages. Official add-ons (supported by the Pylons Project),
-            popular add-ons from the community, and other web-related packages are listed below.</p>
-          <p>"Development environments" are packages which use Pyramid as a core,
-            but offer alternative services and scaffolding to ease web application development.
-            Each development environment presents a set of opinions and a "personality" to its users.
-            Some could be labeled "content management system" or "admin interface".
-            Although users of a development environment can still use all of the services offered
-            by the Pyramid core, they are usually guided to a more focused set of opinions offered
-            by the development environment itself. Development environments often have dependencies
-            beyond those of the Pyramid core.</p>
+          <p>Pyramid may be extended through add-ons and development environments. The Python Package Index trove classifier "<a href="https://pypi.python.org/pypi?:action=browse&c=582">Framework :: Pyramid</a>" is used by over 350 packages. Support may be "official" by the Pylons Project or "unofficial" by the community.</p>
+          <p>All projects under the Pylons Project have 100% test coverage and 100% documentation.</p>
+          <p>An "add-on" is a package which relies on Pyramid itself and extends the functionality of Pyramid, such as adding an ORM, sending email, or using a template-based language. If your add-on does not rely on Pyramid, it's not an add-on, but just a library, and it will not be listed on the Extending Pyramid page.</p>
+          <p>"Development environments" are a special category of packages which use Pyramid as a core, but offer alternative services and scaffolding to ease web application development. Some could be labeled "content management system" or "admin interface". Development environments often have dependencies beyond those of the Pyramid core.</p>
+          <h3>Contributing add-ons</h3>
+          <p>Add-ons may be created and shared wherever you like. Pylons Project supported add-ons must be under its <a href="https://github.com/Pylons/">GitHub organization account</a>, and comply with guidelines for <a href="http://pylonsproject.org/community-how-to-contribute.html">How to Contribute Source Code and Documentation</a>, <a href="http://pylonsproject.org/community-coding-style-standards.html">Coding Style and Standards</a>, and <a href="http://pylonsproject.org/community-unit-testing-guidelines.html">Unit Testing Guidelines</a>. All Pylons Project participants should strive to follow our <a href="http://pylonsproject.org/community-code-of-conduct.html">Code of Conduct</a>.</p>
+          <p>To add your project to the listing, <a href="https://github.com/Pylons/trypyramid.com/issues/202">create a new issue using the template as a guide</a>.</p>
           <div class="extending-filters">
             <select class="filter-multiselect" multiple="multiple">
               <optgroup label="Support">
@@ -81,8 +74,84 @@
           </div>
         </div>
       </div>
-    </section>
-  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Making good add-ons</h3>
+          <p>Add-on packages should be named <code>pyramid_foo</code> where <code>foo</code> describes the functionality of the package. For example, <code>pyramid_mailer</code> is a great name for something that provides outbound mail service. If the name you want has already been taken, try to think of another, for example, <code>pyramid_mailout</code>. If the functionality of the package cannot easily be described with one word, or the name you want has already been taken and you can't think of another name related to functionality, use a codename, for example, <code>pyramid_postoffice</code>.</p>
+          <p>If your package provides "configuration" functionality, you will be tempted to create your own framework to do the configuration, like the following:</p>
+
+          <p><pre class="nobs">
+              <code class="python">class MyConfigurationExtender(object):
+    def __init__(self, config):
+        self.config = config
+
+    def doit(self, a, b):
+        self.config.somedirective(a, b)
+
+extender = MyConfigurationExtender(config)
+extender.doit(1, 2)</code>
+            </pre></p>
+            <p>Instead of doing so, use the <code>add_directive</code> method of a configurator as documented at
+              <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/extconfig.html#add-directive">Adding Methods to the Configurator via <code>add_directive</code></a>:</p>
+
+<p><pre class="nobs">
+              <code class="python">def doit(config, a, b):
+    config.somedirective(a, b)
+
+config.add_directive('doit', doit)</code>
+            </pre></p>
+            <p>If your add-on wants to provide some default behavior, provide an <code>includeme</code> method in your add-on's <code>__init__.py</code>, so <code>config.include('pyramid_foo')</code> will pick it up. See
+              <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/advconfig.html#including-configuration">Including Configuration From External Sources</a>.</p>
+
+                  <h3>Making Good Development Environments</h3>
+
+            <p>If you are creating a higher-level framework atop the Pyramid codebase that contains "template" code (skeleton code rendered by a user via <code>pcreate -t foo</code>), for the purposes of uniformity with other "development environment" packages, we offer some guidelines below.</p>
+          <ul>
+            <li>It should not be named with a <code>pyramid_</code> prefix. For example, instead of <code>pyramid_foo</code> it should just be named <code>foo</code>. The <code>pyramid_</code> prefix is best used for add-ons that plug some discrete functionality in to Pyramid, not for code that simply uses Pyramid as a base for a separate framework with its own "opinions".</li>
+            <li>It should be possible to subsequently run <code>pserve development.ini</code> to start any <code>pcreate</code>-rendered application.</li>
+            <li><code>development.ini</code> should ensure that the <code>pyramid_debugtoolbar</code> package is active.</li>
+            <li>There should be a <code>production.ini</code> file that mirrors <code>development.ini</code> but disincludes <code>pyramid_debugtoolbar</code>.</li>
+            <li>The <code>[server:main]</code> section of both <code>production.ini</code> and <code>development.ini</code> should start <code>paste.httpserver</code> on port 6543:
+            <p><pre class="nobs">
+              <code class="ini">[server:main]
+use = egg:Paste#http
+host = 0.0.0.0
+port = 6543</code>
+            </pre></p>
+            </li>
+            <li><code>development.ini</code> and <code>production.ini</code> should configure logging (see any existing template).</li>
+            <li>It should be possible to use <code>pshell development.ini</code> to visit an interactive shell using a <code>pcreate</code>-rendered application.</li>
+            <li>Startup/configuration code should live in a function named <code>main</code> within the <code>__init__.py</code> of the main package of the rendered template. This function should be linked within a <code>paster.app_factory</code> section in the template's <code>setup.py</code> like so:
+            <p><pre class="nobs">
+              <code class="ini">entry_points = """\
+[paste.app_factory]
+main = {{package}}:main
+"""</code>
+            </pre></p>
+            </li>
+            <li>This makes it possible for users to use the following pattern (particularly <code>use = egg:{{project}}</code>):
+            <p><pre class="nobs">
+              <code class="ini">[app:{{project}}]
+use = egg:{{project}}
+reload_templates = true
+.. other config ..</code>
+            </pre></p></li>
+            <li>WSGI middleware configuration should not be inlined into imperative code within the main function. Instead, middleware should be configured within a <code>[pipeline:main]</code> section in the configuration file:
+            <p><pre class="nobs">
+              <code class="ini">[pipeline:main]
+pipeline =
+    egg:WebError#evalerror
+    tm
+    {{project}}</code>
+            </pre></p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
 <%- include partials/bottom %>
 
