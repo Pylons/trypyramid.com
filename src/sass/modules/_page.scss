@@ -1,3 +1,15 @@
 .page {
   padding-bottom: $footer-height;
+  .sponsor-items {
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .sponsor-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    h4 {
+      margin-top: 0;
+    }
+  }
 }

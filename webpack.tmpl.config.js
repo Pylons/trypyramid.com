@@ -40,6 +40,12 @@ var config = {
       uglify: true,
       context: require(path.resolve(baseDir, 'community-powered-by-pyramid.json')),
       page: 'community-powered-by-pyramid.html'
+    }, {
+      template: 'src/templates/community-sponsors.ejs',
+      filename: 'community-sponsors.html',
+      uglify: true,
+      context: require(path.resolve(baseDir, 'community-sponsors.json')),
+      page: 'community-sponsors.html'
     }
   ]
 };

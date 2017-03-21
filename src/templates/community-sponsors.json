@@ -1,0 +1,16 @@
+{
+  "title": "Sponsors",
+  "sponsors": [
+    {
+      "name": "Linode",
+      "description": "Linode provides DNS and web hosting services for Pylons Project websites, including <a href='/'>PylonsProject.org</a> and <a href='https://trypyramid.com/'>TryPyramid.com</a>.",
+      "logo": "linode-logo.png",
+      "websiteUrl": "https://www.linode.com/?utm_source=referral&utm_medium=website&utm_content=[Pyramid]&utm_campaign=sponsorship"
+    }, {
+      "name": "JetBrains",
+      "description": "<a href='https://www.jetbrains.com/pycharm/'>PyCharm</a> is an integrated development environment for Python from <a href='https://www.jetbrains.com/'>JetBrains</a>. PyCharm Professional Edition includes Pyramid as one of its Python web frameworks, making it easy to create, debug, and run Pyramid projects.<br><br>Core developers in any project under the Pylons Project are eligible to receive a renewable one-year free and open source software license for all <a href='https://www.jetbrains.com/'>JetBrains</a> products, including <a href='https://www.jetbrains.com/pycharm/'>PyCharm</a>, at no cost. Contact user <code>stevepiercy</code> in the <code>#pyramid</code> IRC channel on <code>irc.freenode.net</code>.",
+      "logo": "jetbrains-128-logo.png",
+      "websiteUrl": "https://www.jetbrains.com/"
+    }
+  ]
+}
