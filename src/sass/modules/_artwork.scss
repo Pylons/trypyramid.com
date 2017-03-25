@@ -1,0 +1,6 @@
+.artwork {
+  padding: 20px;
+  margin-bottom: 1.6em;
+  &.black {background-color: black;}
+  &.gray-lighter {background-color: $gray-lighter;}
+}
