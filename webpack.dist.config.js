@@ -6,6 +6,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var RobotsPlugin = require('@tanepiper/robots-webpack-plugin');
 var StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
 var node_modules_dir = path.resolve(__dirname, 'node_modules');
+var img_dir = path.resolve(__dirname, 'src/img/');
 var templates = require('./webpack.tmpl.config').templates;
 
 var config = {
@@ -41,7 +42,8 @@ var config = {
         'css!sass?includePaths[]=' + node_modules_dir
       )
     }, {
-      test: /\.(png|jpg|ico|gif)$/,
+      test: /\.(png|jpg|ico|gif|svg|pdf)$/,
+      exclude: [node_modules_dir],
       loader: 'file?name=img/[name].[ext]'
     }, {
       test: /\.html$/,
@@ -54,13 +56,14 @@ var config = {
       loader: 'ejs-compiled'
     },{
       test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
+      exclude: [img_dir],
       loader: 'file?name=fonts/[name].[ext]'
     }, {
       test: require.resolve('jquery'),
       loader: 'expose?$!expose?jQuery'
     }, {
-        test: /isotope\-|fizzy\-ui\-utils|desandro\-|masonry|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
-        loader: 'imports?define=>false&this=>window'
+      test: /isotope\-|fizzy\-ui\-utils|desandro\-|masonry|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+      loader: 'imports?define=>false&this=>window'
     }]
   },
   plugins: [
