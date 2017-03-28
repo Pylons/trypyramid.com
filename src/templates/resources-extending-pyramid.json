@@ -2,6 +2,25 @@
   "title": "Extending Pyramid",
   "data": [
     {
+      "addon": false,
+      "category": [
+        "api",
+        "configuration"
+      ],
+      "demoUrl": "",
+      "description": "A configuration loader interface around multiple file formats.",
+      "docsUrl": "http://docs.pylonsproject.org/projects/plaster/en/latest/",
+      "id": 103,
+      "maintainers": [
+        "Michael Merickel"
+      ],
+      "name": "plaster",
+      "projectUrl": "https://github.com/Pylons/plaster",
+      "pypiUrl": "https://pypi.python.org/pypi/plaster",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/plaster"
+    },
+    {
       "addon": true,
       "category": [
         "authentication"
