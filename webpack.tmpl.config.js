@@ -47,6 +47,12 @@ var config = {
       context: require(path.resolve(baseDir, 'community-sponsors.json')),
       page: 'community-sponsors.html'
     }, {
+      template: 'src/templates/community-events.ejs',
+      filename: 'community-events.html',
+      uglify: true,
+      context: require(path.resolve(baseDir, 'community-events.json')),
+      page: 'community-events.html'
+    }, {
       template: 'src/templates/media-feeds.ejs',
       filename: 'media-feeds.html',
       uglify: true,
