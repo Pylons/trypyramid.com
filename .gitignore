@@ -1,6 +1,7 @@
 build
 env
 node_modules
+workflow
 npm-debug.log
 .idea
 .DS_Store
