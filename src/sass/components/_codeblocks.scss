@@ -1,0 +1,26 @@
+.code-wrapper {
+	position: relative;
+
+	.code-expand, .code-select {
+		position: absolute;
+		top: 28px;
+		border: 1px solid #bf1e2d;
+		border-radius: 2px;
+		width: 24px;
+		height: 24px;
+		color: #bf1e2d;
+		text-align: center;
+		padding-bottom: 2px;
+	}
+
+	.code-expand:hover, .code-select:hover {
+		color: #bf1e2d;
+		border-color: #bf1e2d;
+		cursor: pointer;
+	}
+
+	.code-expand { right: 28px; }
+	.code-select { right: 56px; }
+
+	.code-top, .code-bottom { display: none; }
+}
