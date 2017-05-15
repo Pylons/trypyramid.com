@@ -1180,6 +1180,24 @@
         "development-environment"
       ],
       "demoUrl": "",
+      "description": "A comprehensive web application stub on top of Pyramid",
+      "docsUrl": "http://pythonhosted.org/cone.app/",
+      "id": 104,
+      "maintainers": [
+        "rnixx"
+      ],
+      "name": "cone.app",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/cone.app",
+      "support": "community",
+      "vcsUrl": "https://github.com/bluedynamics/cone.app"
+    },
+    {
+      "addon": false,
+      "category": [
+        "development-environment"
+      ],
+      "demoUrl": "",
       "description": "Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's <a href=\"https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html\">Query String DSL</a> for full text search.",
       "docsUrl": "https://nefertari.readthedocs.org/",
       "id": 82,
