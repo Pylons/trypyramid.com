@@ -997,6 +997,25 @@
       "vcsUrl": "https://github.com/disko/pyramid_pycallgraph"
     },
     {
+      "addon": true,
+      "category": [
+        "debugging",
+        "logging"
+      ],
+      "demoUrl": "",
+      "description": "A <a href=\"https://docs.python.org/3/library/logging.html#formatter-objects\">logging formatter</a> which makes Pyramid request attributes available for us in its format string.",
+      "docsUrl": "",
+      "id": 105,
+      "maintainers": [
+        "Jeff Dairiki"
+      ],
+      "name": "pyramid-log",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid-log/",
+      "support": "community",
+      "vcsUrl": "https://github.com/dairiki/pyramid_log"
+    },
+    {
       "addon": false,
       "category": [
         "development-environment"
