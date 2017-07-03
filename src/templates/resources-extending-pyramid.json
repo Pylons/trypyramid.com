@@ -1589,6 +1589,24 @@
         "scaffolds"
       ],
       "demoUrl": "",
+      "description": "A minimal Pyramid scaffold that aims to provide a starter template to build small to large web services.",
+      "docsUrl": "",
+      "id": 106,
+      "maintainers": [
+        "Asif Mahmud Shimon"
+      ],
+      "name": "Pyramid Runner",
+      "projectUrl": "https://github.com/asif-mahmud/pyramid_runner",
+      "pypiUrl": "",
+      "support": "community",
+      "vcsUrl": "https://github.com/asif-mahmud/pyramid_runner"
+    },
+    {
+      "addon": false,
+      "category": [
+        "scaffolds"
+      ],
+      "demoUrl": "",
       "description": "Toolkit for Pyramid to add Authentication and Authorization using Velruse (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.",
       "docsUrl": "http://thesoftwarestudio.com/apex/",
       "id": 58,
