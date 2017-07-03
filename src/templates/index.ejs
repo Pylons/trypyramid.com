@@ -42,18 +42,17 @@
           <pre class="nobs">
             <code class="python">from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
-from pyramid.view import view_config
+from pyramid.response import Response
 
-@view_config(route_name='hello', renderer='string')
 def hello_world(request):
-    return 'Hello World'
+    return Response('Hello World!')
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.add_route('hello', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.add_route('hello', '/')
+        config.add_view(hello_world, route_name='hello')
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</code>
           </pre>
         </div>
@@ -65,18 +64,18 @@ if __name__ == '__main__':
             that make writing complex software take less effort.
           </p>
           <p>Pyramid works in all supported versions of Python. Our
-            <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation instructions</a>
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation instructions</a>
             will help you get Pyramid up and running.
           </p>
           <p>Pyramid's
-            <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick tutorial</a>
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick tutorial</a>
             will take you step by step through writing a single file
             application, forms, database integration, and authentication.
           </p>
           <p>Developers may dive in to Pyramid's
-             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative documentation</a>,
+             <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative documentation</a>,
             or browse the extensive
-             <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/api/index.html">API reference</a>.
+             <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/api/index.html">API reference</a>.
             Pyramid has a rich pool of helpful <a href="/resources.html">resources</a>
             from which to draw. <a href="/resources-extending-pyramid.html">Extending Pyramid</a>
             is a curated and filterable list of add-ons, packages, and applications
@@ -204,7 +203,7 @@ if __name__ == '__main__':
       <div class="row">
         <div class="col-md-12">
           <h2 class="title text-red">Pyramid <strong>Features</strong></h2>
-          <p>To demonstrate these features, <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">install Pyramid</a>, click <i class="fa fa-arrows-v text-red" aria-hidden="true"></i> to expand and copy the code sample into a file, run the application with <code>env/bin/python demo.py</code>, and use <code>curl</code> or a browser to request
+          <p>To demonstrate these features, <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">install Pyramid</a>, click <i class="fa fa-arrows-v text-red" aria-hidden="true"></i> to expand and copy the code sample into a file, run the application with <code>env/bin/python demo.py</code>, and use <code>curl</code> or a browser to request
             <a href="http://0.0.0.0:8080">http://0.0.0.0:8080</a>.</p>
         </div>
       </div>
@@ -227,16 +226,16 @@ def home(request):
     return Response('Welcome!')</span><span class="code-bottom">
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.add_route('home', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.add_route('home', '/')
+        config.scan()
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</span></code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#mapping-views-using-a-decorator-section">
+          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#mapping-views-using-a-decorator-section">
               Function Decorators</a></h3>
           <p>Pyramid is written in Python. All the features you know and love
             in the Python language, such as function decorators, are available
@@ -260,22 +259,22 @@ from pyramid.view import view_config
 
 </span><span class="code-main">@view_config(
     route_name='home',
-    request_method=('POST')
+    request_method='POST'
 )
 def home(request):
     return Response('Welcome!')</span><span class="code-bottom">
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.add_route('home', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.add_route('home', '/')
+        config.scan()
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</span></code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#view-configuration-parameters">
+          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#view-configuration-parameters">
               Predicates</a></h3>
           <p>A test which returns <code>True</code> or <code>False</code>, and
             which narrows the set of circumstances in which views or routes may
@@ -303,16 +302,16 @@ def home(request):
     return {"a": 1, "b": 2}</span><span class="code-bottom">
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.add_route('home', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.add_route('home', '/')
+        config.scan()
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</span></code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/renderers.html">
+          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/renderers.html">
               Renderers</a></h3>
           <p>Convert non-response return values that are later consumed by
             renderers. Using a renderer can make writing views that require
@@ -354,17 +353,17 @@ def home(request):
     return {"greet": 'Welcome', "name": 'Akhenaten'}</span><span class="code-bottom">
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.include('pyramid_jinja2')
-    config.add_route('home', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.include('pyramid_jinja2')
+        config.add_route('home', '/')
+        config.scan()
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</span></code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/assets.html">
+          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/assets.html">
               Asset Specifications</a></h3>
           <p>Allows specifying the location of assets in a package. Here the
             asset is specified as a Jinja2 template <code>home.jinja2</code>,
@@ -379,7 +378,7 @@ if __name__ == '__main__':
             <i class="fa fa-arrows-v" aria-hidden="true"></i>
           </div>
           <pre class="nobs">
-            <code class="python"><span class="code-top">from wsgiref.simple_server import make_server
+            <code class="python"><span class="code-top">ffrom wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.events import NewRequest
 from pyramid.events import NewResponse
@@ -391,16 +390,16 @@ def mysubscriber(event):
     print(event)</span><span class="code-bottom">
 
 if __name__ == '__main__':
-    config = Configurator()
-    config.add_route('home', '/')
-    config.scan()
-    app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 8080, app)
+    with Configurator() as config:
+        config.add_route('hello', '/')
+        config.add_view(hello_world, route_name='hello')
+        app = config.make_wsgi_app()
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()</span></code>
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/hooks.html">
+          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/hooks.html">
               Events and Subscribers</a></h3>
           <p>An event is an object broadcast at interesting points during the
             lifetime of an application. A subscriber to an event allows you to
