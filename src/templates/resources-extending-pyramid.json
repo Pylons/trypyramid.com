@@ -723,6 +723,25 @@
       "category": [
         "authentication"
       ],
+      "demoUrl": "",
+      "description": "pyramid_ldap3 provides LDAP authentication services for your Pyramid application. It is a fork of the pyramid_ldap package with the goal of eliminating the dependency on python-ldap and ldappool, replacing it with a dependency on ldap3, which is a pure Python package that supports both Python 2 and Python 3.",
+      "docsUrl": "https://pyramid-ldap3.readthedocs.io/en/latest/",
+      "id": 107,
+      "maintainers": [
+        "Christoph Zwerschke",
+        "Chris McDonough"
+      ],
+      "name": "pyramid_ldap3",
+      "projectUrl": "https://github.com/Cito/pyramid_ldap3",
+      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap3",
+      "support": "community",
+      "vcsUrl": "https://github.com/Cito/pyramid_ldap3"
+    },
+    {
+      "addon": true,
+      "category": [
+        "authentication"
+      ],
       "demoUrl": "http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html",
       "description": "Provides <a href=\"https://login.persona.org/\">persona</a> authentication. Note: On November 30th, 2016, Mozilla will shut down the persona.org services. Persona.org and related domains will be taken offline.",
       "docsUrl": "http://pyramid-persona.readthedocs.org/en/latest/",
