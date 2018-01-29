@@ -225,19 +225,6 @@
     {
       "category": "comorg",
       "demoUrl": "",
-      "description": "<p>Comments as a service.</p><p>Readers want to communicate with you.</p><p>Get Remarkbox, the comment system that engaged readers prefer to use!</p>",
-      "docsUrl": "",
-      "id": 55,
-      "logo": "remarkbox-logo.png",
-      "maintainers": [],
-      "name": "Remarkbox",
-      "projectUrl": "http://www.remarkbox.com/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "comorg",
-      "demoUrl": "",
       "description": "",
       "docsUrl": "",
       "id": 14,
@@ -245,19 +232,6 @@
       "maintainers": [],
       "name": "RhodeCode",
       "projectUrl": "https://rhodecode.com/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "comorg",
-      "demoUrl": "https://rollbar.com/demo/demo/",
-      "description": "<p>Rollbar provides developers with full-stack error monitoring and alerting as a service</p>",
-      "docsUrl": "",
-      "id": 56,
-      "logo": "rollbar-logo.png",
-      "maintainers": [],
-      "name": "Rollbar",
-      "projectUrl": "https://rollbar.com",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -297,6 +271,21 @@
       "maintainers": [],
       "name": "Truveris",
       "projectUrl": "http://truveris.com/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "http://signup.vantagepoint.co",
+      "description": "<p>VantagePoint is a product designed to streamline your security operations. It does so by integrating multiple security products into a single platform and making deployment and management a simple exercise. Within minutes, you will get a true understanding of your overall security posture along with a real, actionable, and prioritized plans for remediating gaps. All of this is available on any operating system, at any scale, in any physical or virtual environment.</p>",
+      "docsUrl": "",
+      "id": 54,
+      "logo": "vantagepoint-logo.png",
+      "maintainers": [
+        "VantagePoint"
+      ],
+      "name": "VantagePoint",
+      "projectUrl": "http://vantagepoint.co",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -516,16 +505,16 @@
     },
     {
       "category": "floss",
-      "demoUrl": "http://demo.travelcrm.org.ua/",
+      "demoUrl": "",
       "description": "<p>TravelCRM is a free and open source application for the automation of customer relationships for travel agencies.</p>",
       "docsUrl": "",
       "id": 26,
       "logo": "travelcrm-logo.png",
       "maintainers": [],
       "name": "TravelCRM",
-      "projectUrl": "http://www.travelcrm.org.ua",
+      "projectUrl": "https://github.com/mazvv/travelcrm",
       "pypiUrl": "https://pypi.python.org/pypi/travelcrm",
-      "vcsUrl": "https://bitbucket.org/mazvv/travelcrm"
+      "vcsUrl": "https://github.com/mazvv/travelcrm"
     },
     {
       "category": "floss",
@@ -565,19 +554,6 @@
       "maintainers": [],
       "name": "ENCODE",
       "projectUrl": "https://www.encodeproject.org/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "website",
-      "demoUrl": "https://images.nasa.gov/",
-      "description": "<p>Public-facing, search-centric, best-of NASA images, video and audio.</p>",
-      "docsUrl": "",
-      "id": 54,
-      "logo": "nasa-images-logo.jpg",
-      "maintainers": [],
-      "name": "NASA Image and Video Library",
-      "projectUrl": "https://images.nasa.gov/",
       "pypiUrl": "",
       "vcsUrl": ""
     },

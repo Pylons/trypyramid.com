@@ -112,6 +112,7 @@ require('./img/the-daily-climate-logo.png');
 require('./img/travelcrm-logo.png');
 require('./img/truveris-logo.png');
 require('./img/warehouse-pypi-logo.png');
+require('./img/vantagepoint-logo.png');
 require('./img/yelp-logo.png');
 require('./img/zopyx-logo.png');
 
