@@ -5,3 +5,5 @@ workflow
 npm-debug.log
 .idea
 .DS_Store
+.python-version
+package-lock.json
