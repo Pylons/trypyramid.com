@@ -29,6 +29,21 @@
     },
     {
       "category": "comorg",
+      "demoUrl": "http://demo.charte.ca/",
+      "description": "Free online data visualization for non-techies and geeks. Interactive chart editor, no coding or design skills required. Scalable graphics, pivot tables, drilldowns, cloud publishing, export, API.",
+      "docsUrl": "",
+      "id": 55,
+      "logo": "charte-logo.jpg",
+      "maintainers": [
+        "charte.ca"
+      ],
+      "name": "charte.ca",
+      "projectUrl": "https://www.charte.ca/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
       "demoUrl": "",
       "description": "",
       "docsUrl": "",
@@ -354,7 +369,7 @@
     {
       "category": "floss",
       "demoUrl": "",
-      "description": "A simple pastebin application based on Rocky Burt's<a href=\"http://pypi.python.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
+      "description": "A simple pastebin application based on Rocky Burt's <a href=\"http://pypi.python.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
       "docsUrl": "",
       "id": 19,
       "logo": "",

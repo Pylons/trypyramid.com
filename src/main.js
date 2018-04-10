@@ -63,6 +63,7 @@ require('./img/autonomie-logo.png');
 require('./img/baobab-infoladen-logo.gif');
 require('./img/bateau-de-hollande-logo.png');
 require('./img/bravewords-logo.png');
+require('./img/charte-logo.jpg');
 require('./img/discnw-logo.png');
 require('./img/easyblognetworks-logo.png');
 require('./img/environmental-health-news-logo.png');
