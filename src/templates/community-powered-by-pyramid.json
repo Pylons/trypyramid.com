@@ -34,9 +34,7 @@
       "docsUrl": "",
       "id": 55,
       "logo": "charte-logo.jpg",
-      "maintainers": [
-        "charte.ca"
-      ],
+      "maintainers": [],
       "name": "charte.ca",
       "projectUrl": "https://www.charte.ca/",
       "pypiUrl": "",
