@@ -361,13 +361,13 @@
       ],
       "name": "Atramhasis",
       "projectUrl": "https://github.com/OnroerendErfgoed/atramhasis",
-      "pypiUrl": "https://pypi.org/pypi/atramhasis",
+      "pypiUrl": "https://pypi.org/project/atramhasis",
       "vcsUrl": "https://github.com/OnroerendErfgoed/atramhasis"
     },
     {
       "category": "floss",
       "demoUrl": "",
-      "description": "A simple pastebin application based on Rocky Burt's <a href=\"http://pypi.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
+      "description": "A simple pastebin application based on Rocky Burt's <a href=\"https://pypi.org/project/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
       "docsUrl": "",
       "id": 19,
       "logo": "",
@@ -491,7 +491,7 @@
       "category": "floss",
       "demoUrl": "http://demo.substanced.net/",
       "description": "Substance D is an application server built using the Pyramid web framework. It can be used as a base to build a general-purpose web application like a blog, a shopping cart application, a scheduling application, or any other web app that requires both an administration and a retail interface.",
-      "docsUrl": "http://docs.pylonsproject.org/projects/substanced/en/latest/",
+      "docsUrl": "https://docs.pylonsproject.org/projects/substanced/en/latest/",
       "id": 24,
       "logo": "substance-d-logo.png",
       "maintainers": [
@@ -500,7 +500,7 @@
       ],
       "name": "Substance-D",
       "projectUrl": "http://www.substanced.net/",
-      "pypiUrl": "https://pypi.org/pypi/substanced/",
+      "pypiUrl": "https://pypi.org/project/substanced/",
       "vcsUrl": "https://github.com/Pylons/substanced"
     },
     {
@@ -526,7 +526,7 @@
       "maintainers": [],
       "name": "TravelCRM",
       "projectUrl": "https://github.com/mazvv/travelcrm",
-      "pypiUrl": "https://pypi.org/pypi/travelcrm",
+      "pypiUrl": "https://pypi.org/project/travelcrm",
       "vcsUrl": "https://github.com/mazvv/travelcrm"
     },
     {
@@ -544,14 +544,14 @@
     },
     {
       "category": "floss",
-      "demoUrl": "https://pypi.io/",
+      "demoUrl": "https://pypi.org/",
       "description": "<p>Warehouse is a next generation Python Package Repository designed to replace the legacy code base that currently powers PyPI.</p>",
       "docsUrl": "https://warehouse.readthedocs.io/",
       "id": 28,
       "logo": "warehouse-pypi-logo.png",
       "maintainers": [],
       "name": "warehouse",
-      "projectUrl": "https://warehouse.python.org",
+      "projectUrl": "https://pypi.org",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/pypa/warehouse"
     }
