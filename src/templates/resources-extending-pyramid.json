@@ -16,7 +16,7 @@
       ],
       "name": "plaster",
       "projectUrl": "https://github.com/Pylons/plaster",
-      "pypiUrl": "https://pypi.python.org/pypi/plaster",
+      "pypiUrl": "https://pypi.org/pypi/plaster",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/plaster"
     },
@@ -34,7 +34,7 @@
       ],
       "name": "pyramid_ldap",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_ldap",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_ldap"
     },
@@ -53,7 +53,7 @@
       ],
       "name": "pyramid_who",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_who",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_who",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_who"
     },
@@ -71,7 +71,7 @@
       ],
       "name": "pyramid_zcml",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_zcml",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_zcml",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_zcml"
     },
@@ -91,7 +91,7 @@
       ],
       "name": "pyramid_debugtoolbar",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugtoolbar",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_debugtoolbar",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_debugtoolbar"
     },
@@ -109,7 +109,7 @@
       ],
       "name": "pyramid_exclog",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_exclog",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_exclog",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_exclog"
     },
@@ -128,7 +128,7 @@
       ],
       "name": "Substance-D",
       "projectUrl": "http://substanced.net/",
-      "pypiUrl": "https://pypi.python.org/pypi/substanced",
+      "pypiUrl": "https://pypi.org/pypi/substanced",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/substanced"
     },
@@ -147,7 +147,7 @@
       ],
       "name": "pyramid_mailer",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_mailer",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_mailer",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_mailer"
     },
@@ -165,7 +165,7 @@
       ],
       "name": "hupper",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/hupper",
+      "pypiUrl": "https://pypi.org/pypi/hupper",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/hupper"
     },
@@ -183,7 +183,7 @@
       ],
       "name": "pyramid_retry",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-retry",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-retry",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_retry"
     },
@@ -274,7 +274,7 @@
       ],
       "name": "pyramid_rpc",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_rpc",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_rpc",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_rpc"
     },
@@ -292,7 +292,7 @@
       ],
       "name": "pyramid_nacl_session",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_nacl_session",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_nacl_session",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_nacl_session"
     },
@@ -310,7 +310,7 @@
       ],
       "name": "pyramid_tm",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_tm",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_tm",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_tm"
     },
@@ -329,7 +329,7 @@
       ],
       "name": "pyramid_zodbconn",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_zodbconn",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_zodbconn",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_zodbconn"
     },
@@ -347,7 +347,7 @@
       ],
       "name": "pyramid_chameleon",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_chameleon",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_chameleon",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_chameleon"
     },
@@ -365,7 +365,7 @@
       ],
       "name": "pyramid_jinja2",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_jinja2",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_jinja2",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_jinja2"
     },
@@ -383,7 +383,7 @@
       ],
       "name": "pyramid_mako",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_mako",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_mako",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_mako"
     },
@@ -403,7 +403,7 @@
       ],
       "name": "pyramid_layout",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_layout",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_layout",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/pyramid_layout"
     },
@@ -422,7 +422,7 @@
       ],
       "name": "waitress",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/waitress",
+      "pypiUrl": "https://pypi.org/pypi/waitress",
       "support": "pylons",
       "vcsUrl": "https://github.com/Pylons/waitress"
     },
@@ -441,7 +441,7 @@
       ],
       "name": "velruse",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/velruse",
+      "pypiUrl": "https://pypi.org/pypi/velruse",
       "support": "unsupported",
       "vcsUrl": "https://github.com/bbangert/velruse"
     },
@@ -460,7 +460,7 @@
       ],
       "name": "pyramid_handlers",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_handlers",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_handlers",
       "support": "unsupported",
       "vcsUrl": "https://github.com/Pylons/pyramid_handlers"
     },
@@ -478,7 +478,7 @@
       ],
       "name": "pyramid_jqm",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_jqm",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_jqm",
       "support": "unsupported",
       "vcsUrl": "https://github.com/Pylons/pyramid_jqm"
     },
@@ -496,7 +496,7 @@
       ],
       "name": "pyramid_xmlrpc",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_xmlrpc",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_xmlrpc",
       "support": "unsupported",
       "vcsUrl": "https://github.com/Pylons/pyramid_xmlrpc"
     },
@@ -515,7 +515,7 @@
       ],
       "name": "pyramid_beaker",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_beaker",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_beaker",
       "support": "unsupported",
       "vcsUrl": "https://github.com/Pylons/pyramid_beaker"
     },
@@ -533,7 +533,7 @@
       ],
       "name": "pyramid-jsonapi",
       "projectUrl": "https://github.com/colinhiggs/pyramid-jsonapi",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_jsonapi",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_jsonapi",
       "support": "community",
       "vcsUrl": "https://github.com/colinhiggs/pyramid-jsonapi"
     },
@@ -551,7 +551,7 @@
       ],
       "name": "pyramid_extdirect",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_extdirect",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_extdirect",
       "support": "community",
       "vcsUrl": "https://github.com/jenner/pyramid_extdirect"
     },
@@ -569,7 +569,7 @@
       ],
       "name": "pyramid_swagger",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_swagger",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_swagger",
       "support": "community",
       "vcsUrl": "https://github.com/striglia/pyramid_swagger"
     },
@@ -587,7 +587,7 @@
       ],
       "name": "pyramid_bowerstatic",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_bowerstatic",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_bowerstatic",
       "support": "community",
       "vcsUrl": "https://github.com/mrijken/pyramid_bowerstatic"
     },
@@ -606,7 +606,7 @@
       ],
       "name": "pyramid_webassets",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_webassets",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_webassets",
       "support": "community",
       "vcsUrl": "https://github.com/sontek/pyramid_webassets"
     },
@@ -624,7 +624,7 @@
       ],
       "name": "Stargate",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/stargate",
+      "pypiUrl": "https://pypi.org/pypi/stargate",
       "support": "community",
       "vcsUrl": "https://github.com/boothead/stargate"
     },
@@ -642,7 +642,7 @@
       ],
       "name": "aiopyramid",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/aiopyramid",
+      "pypiUrl": "https://pypi.org/pypi/aiopyramid",
       "support": "community",
       "vcsUrl": "https://github.com/housleyjk/aiopyramid"
     },
@@ -660,7 +660,7 @@
       ],
       "name": "gevent-socketio",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/gevent-socketio",
+      "pypiUrl": "https://pypi.org/pypi/gevent-socketio",
       "support": "community",
       "vcsUrl": "https://github.com/abourget/gevent-socketio"
     },
@@ -678,7 +678,7 @@
       ],
       "name": "Authomatic",
       "projectUrl": "http://peterhudec.github.io/authomatic/",
-      "pypiUrl": "https://pypi.python.org/pypi/Authomatic",
+      "pypiUrl": "https://pypi.org/pypi/Authomatic",
       "support": "community",
       "vcsUrl": "https://github.com/peterhudec/authomatic"
     },
@@ -696,7 +696,7 @@
       ],
       "name": "Python Social Auth",
       "projectUrl": "http://psa.matiasaguirre.net/",
-      "pypiUrl": "https://pypi.python.org/pypi/python-social-auth",
+      "pypiUrl": "https://pypi.org/pypi/python-social-auth",
       "support": "community",
       "vcsUrl": "https://github.com/omab/python-social-auth"
     },
@@ -714,7 +714,7 @@
       ],
       "name": "pyramid_authsanity",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_authsanity",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_authsanity",
       "support": "community",
       "vcsUrl": "https://github.com/usingnamespace/pyramid_authsanity"
     },
@@ -732,7 +732,7 @@
       ],
       "name": "pyramid_jwt",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_jwt",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_jwt",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/pyramid_jwt"
     },
@@ -751,7 +751,7 @@
       ],
       "name": "pyramid_ldap3",
       "projectUrl": "https://github.com/Cito/pyramid_ldap3",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ldap3",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_ldap3",
       "support": "community",
       "vcsUrl": "https://github.com/Cito/pyramid_ldap3"
     },
@@ -769,7 +769,7 @@
       ],
       "name": "pyramid_persona",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_persona",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_persona",
       "support": "community",
       "vcsUrl": "https://github.com/madjar/pyramid_persona"
     },
@@ -788,7 +788,7 @@
       ],
       "name": "pyramid_simpleauth",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_simpleauth",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_simpleauth",
       "support": "community",
       "vcsUrl": "https://github.com/thruflo/pyramid_simpleauth"
     },
@@ -808,7 +808,7 @@
       ],
       "name": "pyramid_yosai",
       "projectUrl": "https://yosaiproject.github.io/yosai/",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-yosai",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-yosai",
       "support": "community",
       "vcsUrl": "https://github.com/YosaiProject/pyramid_yosai"
     },
@@ -826,7 +826,7 @@
       ],
       "name": "horus",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/horus",
+      "pypiUrl": "https://pypi.org/pypi/horus",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/horus"
     },
@@ -844,7 +844,7 @@
       ],
       "name": "pyramid_authstack",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_authstack",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_authstack",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/pyramid_authstack"
     },
@@ -867,7 +867,7 @@
       ],
       "name": "pyramid_multiauth",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_multiauth",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_multiauth",
       "support": "community",
       "vcsUrl": "https://github.com/mozilla-services/pyramid_multiauth"
     },
@@ -885,7 +885,7 @@
       ],
       "name": "pyramid_dogpile_cache",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_dogpile_cache",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_dogpile_cache",
       "support": "community",
       "vcsUrl": "https://github.com/moriyoshi/pyramid_dogpile_cache"
     },
@@ -903,7 +903,7 @@
       ],
       "name": "pyramid_nacl_session",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_nacl_session",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_nacl_session",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/pyramid_nacl_session"
     },
@@ -921,7 +921,7 @@
       ],
       "name": "pyramid_redis_sessions",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_redis_sessions",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_redis_sessions",
       "support": "community",
       "vcsUrl": "https://github.com/ericrasmussen/pyramid_redis_sessions"
     },
@@ -939,7 +939,7 @@
       ],
       "name": "pyramid_services",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_services",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_services",
       "support": "community",
       "vcsUrl": "https://github.com/mmerickel/pyramid_services"
     },
@@ -957,7 +957,7 @@
       ],
       "name": "pyramid-bugsnag",
       "projectUrl": "https://github.com/pior/pyramid_bugsnag",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-bugsnag/",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-bugsnag/",
       "support": "community",
       "vcsUrl": "https://github.com/pior/pyramid_bugsnag"
     },
@@ -975,7 +975,7 @@
       ],
       "name": "pyramid-opentracing",
       "projectUrl": "https://github.com/carlosalberto/python-pyramid",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-opentracing/",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-opentracing/",
       "support": "community",
       "vcsUrl": "https://github.com/carlosalberto/python-pyramid"
     },
@@ -993,7 +993,7 @@
       ],
       "name": "pyramid_bpython",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_bpython",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_bpython",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/pyramid_bpython"
     },
@@ -1011,7 +1011,7 @@
       ],
       "name": "pyramid_debugauth",
       "projectUrl": "https://github.com/pior/pyramid_debugauth",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugauth/",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_debugauth/",
       "support": "community",
       "vcsUrl": "https://github.com/pior/pyramid_debugauth"
     },
@@ -1029,7 +1029,7 @@
       ],
       "name": "pyramid_debugtoolbar_dogpile",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_debugtoolbar_dogpile",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_debugtoolbar_dogpile",
       "support": "community",
       "vcsUrl": "https://github.com/jvanasco/pyramid_debugtoolbar_dogpile"
     },
@@ -1047,7 +1047,7 @@
       ],
       "name": "pyramid_ipython",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_ipython",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_ipython",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/pyramid_ipython"
     },
@@ -1065,7 +1065,7 @@
       ],
       "name": "pyramid_pycallgraph",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_pycallgraph",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_pycallgraph",
       "support": "community",
       "vcsUrl": "https://github.com/disko/pyramid_pycallgraph"
     },
@@ -1084,7 +1084,7 @@
       ],
       "name": "pyramid-log",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-log/",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-log/",
       "support": "community",
       "vcsUrl": "https://github.com/dairiki/pyramid_log"
     },
@@ -1102,7 +1102,7 @@
       ],
       "name": "Akhet",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/Akhet",
+      "pypiUrl": "https://pypi.org/pypi/Akhet",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/akhet"
     },
@@ -1125,7 +1125,7 @@
       ],
       "name": "Cliquet",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/cliquet",
+      "pypiUrl": "https://pypi.org/pypi/cliquet",
       "support": "community",
       "vcsUrl": "https://github.com/mozilla-services/cliquet"
     },
@@ -1150,7 +1150,7 @@
       ],
       "name": "Cornice",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/cornice",
+      "pypiUrl": "https://pypi.org/pypi/cornice",
       "support": "community",
       "vcsUrl": "https://github.com/Cornices/cornice"
     },
@@ -1189,7 +1189,7 @@
       ],
       "name": "Kotti",
       "projectUrl": "http://kotti.pylonsproject.org/",
-      "pypiUrl": "https://pypi.python.org/pypi/Kotti",
+      "pypiUrl": "https://pypi.org/pypi/Kotti",
       "support": "community",
       "vcsUrl": "https://github.com/Kotti/Kotti"
     },
@@ -1226,7 +1226,7 @@
       ],
       "name": "Ptah",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/ptah",
+      "pypiUrl": "https://pypi.org/pypi/ptah",
       "support": "community",
       "vcsUrl": "https://github.com/ptahproject/ptah"
     },
@@ -1244,7 +1244,7 @@
       ],
       "name": "Ringo",
       "projectUrl": "http://www.ringo-framework.org",
-      "pypiUrl": "https://pypi.python.org/pypi/ringo",
+      "pypiUrl": "https://pypi.org/pypi/ringo",
       "support": "community",
       "vcsUrl": "https://github.com/ringo-framework/ringo"
     },
@@ -1280,7 +1280,7 @@
       ],
       "name": "cone.app",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/cone.app",
+      "pypiUrl": "https://pypi.org/pypi/cone.app",
       "support": "community",
       "vcsUrl": "https://github.com/bluedynamics/cone.app"
     },
@@ -1299,7 +1299,7 @@
       ],
       "name": "nefertari",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/nefertari",
+      "pypiUrl": "https://pypi.org/pypi/nefertari",
       "support": "community",
       "vcsUrl": "https://github.com/ramses-tech/nefertari"
     },
@@ -1317,7 +1317,7 @@
       ],
       "name": "pyramid_formalchemy",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_formalchemy",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_formalchemy",
       "support": "community",
       "vcsUrl": "https://github.com/FormAlchemy/pyramid_formalchemy"
     },
@@ -1337,7 +1337,7 @@
       ],
       "name": "pyramid_royal",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_royal",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_royal",
       "support": "community",
       "vcsUrl": "https://github.com/hadrien/pyramid_royal"
     },
@@ -1355,7 +1355,7 @@
       ],
       "name": "pyramid_sacrud",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_sacrud",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_sacrud",
       "support": "community",
       "vcsUrl": "https://github.com/sacrud/pyramid_sacrud"
     },
@@ -1373,7 +1373,7 @@
       ],
       "name": "pyramid_swagger",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_swagger",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_swagger",
       "support": "community",
       "vcsUrl": "https://github.com/striglia/pyramid_swagger"
     },
@@ -1392,7 +1392,7 @@
       ],
       "name": "ramses",
       "projectUrl": "http://ramses.tech/",
-      "pypiUrl": "https://pypi.python.org/pypi/ramses",
+      "pypiUrl": "https://pypi.org/pypi/ramses",
       "support": "community",
       "vcsUrl": "https://github.com/ramses-tech/ramses"
     },
@@ -1410,7 +1410,7 @@
       ],
       "name": "rest_toolkit",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/rest_toolkit",
+      "pypiUrl": "https://pypi.org/pypi/rest_toolkit",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/rest_toolkit"
     },
@@ -1430,7 +1430,7 @@
       ],
       "name": "pyramid_autodoc",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_autodoc",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_autodoc",
       "support": "community",
       "vcsUrl": "https://github.com/SurveyMonkey/pyramid_autodoc"
     },
@@ -1448,7 +1448,7 @@
       ],
       "name": "pyramid_mailgun",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_mailgun",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_mailgun",
       "support": "community",
       "vcsUrl": "https://github.com/evannook/pyramid_mailgun"
     },
@@ -1466,7 +1466,7 @@
       ],
       "name": "pyramid_marrowmailer",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_marrowmailer",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_marrowmailer",
       "support": "community",
       "vcsUrl": "https://github.com/domenkozar/pyramid_marrowmailer"
     },
@@ -1484,7 +1484,7 @@
       ],
       "name": "pyramid-excel",
       "projectUrl": "https://github.com/pyexcel-webwares/pyramid-excel",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-excel",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-excel",
       "support": "community",
       "vcsUrl": "https://github.com/pyexcel-webwares/pyramid-excel"
     },
@@ -1503,7 +1503,7 @@
       ],
       "name": "ColanderAlchemy",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/ColanderAlchemy",
+      "pypiUrl": "https://pypi.org/pypi/ColanderAlchemy",
       "support": "community",
       "vcsUrl": "https://github.com/stefanofontanelli/ColanderAlchemy"
     },
@@ -1522,7 +1522,7 @@
       ],
       "name": "WTForms",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/WTForms",
+      "pypiUrl": "https://pypi.org/pypi/WTForms",
       "support": "community",
       "vcsUrl": "https://github.com/wtforms/wtforms"
     },
@@ -1542,7 +1542,7 @@
       ],
       "name": "colander",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/colander",
+      "pypiUrl": "https://pypi.org/pypi/colander",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/colander"
     },
@@ -1561,7 +1561,7 @@
       ],
       "name": "deform",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/deform",
+      "pypiUrl": "https://pypi.org/pypi/deform",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/deform"
     },
@@ -1579,7 +1579,7 @@
       ],
       "name": "marshmallow",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/marshmallow",
+      "pypiUrl": "https://pypi.org/pypi/marshmallow",
       "support": "community",
       "vcsUrl": "https://github.com/marshmallow-code/marshmallow"
     },
@@ -1597,7 +1597,7 @@
       ],
       "name": "lingua",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/lingua",
+      "pypiUrl": "https://pypi.org/pypi/lingua",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/lingua"
     },
@@ -1633,7 +1633,7 @@
       ],
       "name": "pyramid_tablib",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_tablib",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_tablib",
       "support": "community",
       "vcsUrl": "https://github.com/lxneng/pyramid_tablib"
     },
@@ -1651,7 +1651,7 @@
       ],
       "name": "webargs",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/webargs",
+      "pypiUrl": "https://pypi.org/pypi/webargs",
       "support": "community",
       "vcsUrl": "https://github.com/sloria/webargs"
     },
@@ -1670,7 +1670,7 @@
       ],
       "name": "tomb_routes",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/tomb_routes",
+      "pypiUrl": "https://pypi.org/pypi/tomb_routes",
       "support": "community",
       "vcsUrl": "https://github.com/sontek/tomb_routes"
     },
@@ -1706,7 +1706,7 @@
       ],
       "name": "apex",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/apex",
+      "pypiUrl": "https://pypi.org/pypi/apex",
       "support": "community",
       "vcsUrl": "https://github.com/cd34/apex"
     },
@@ -1724,7 +1724,7 @@
       ],
       "name": "pyramid_mongodb",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_mongodb",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_mongodb",
       "support": "community",
       "vcsUrl": "https://github.com/niallo/pyramid_mongodb"
     },
@@ -1742,7 +1742,7 @@
       ],
       "name": "ziggurat_foundations",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/ziggurat_foundations",
+      "pypiUrl": "https://pypi.org/pypi/ziggurat_foundations",
       "support": "community",
       "vcsUrl": "https://github.com/ergo/ziggurat_foundations"
     },
@@ -1761,7 +1761,7 @@
       ],
       "name": "hypatia",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/hypatia",
+      "pypiUrl": "https://pypi.org/pypi/hypatia",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/hypatia"
     },
@@ -1779,7 +1779,7 @@
       ],
       "name": "pyramid_sms",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-sms",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-sms",
       "support": "community",
       "vcsUrl": "https://github.com/websauna/pyramid_sms"
     },
@@ -1802,7 +1802,7 @@
       ],
       "name": "Kinto",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/kinto",
+      "pypiUrl": "https://pypi.org/pypi/kinto",
       "support": "community",
       "vcsUrl": "https://github.com/Kinto/kinto"
     },
@@ -1820,7 +1820,7 @@
       ],
       "name": "pyramid_mongoengine",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid-mongoengine",
+      "pypiUrl": "https://pypi.org/pypi/pyramid-mongoengine",
       "support": "community",
       "vcsUrl": "https://github.com/marioidival/pyramid_mongoengine"
     },
@@ -1838,7 +1838,7 @@
       ],
       "name": "pyramid_sqlalchemy",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_sqlalchemy",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_sqlalchemy",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/pyramid_sqlalchemy"
     },
@@ -1856,7 +1856,7 @@
       ],
       "name": "pyramid_storage",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_storage",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_storage",
       "support": "community",
       "vcsUrl": "https://github.com/danjac/pyramid_storage"
     },
@@ -1875,7 +1875,7 @@
       ],
       "name": "zope.sqlalchemy",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/zope.sqlalchemy",
+      "pypiUrl": "https://pypi.org/pypi/zope.sqlalchemy",
       "support": "community",
       "vcsUrl": "https://github.com/zopefoundation/zope.sqlalchemy"
     },
@@ -1893,7 +1893,7 @@
       ],
       "name": "pyramid_celery",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_celery",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_celery",
       "support": "community",
       "vcsUrl": "https://github.com/sontek/pyramid_celery"
     },
@@ -1930,7 +1930,7 @@
       ],
       "name": "Tonnikala",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/tonnikala",
+      "pypiUrl": "https://pypi.org/pypi/tonnikala",
       "support": "community",
       "vcsUrl": "https://github.com/ztane/Tonnikala"
     },
@@ -1950,7 +1950,7 @@
       ],
       "name": "pyramid_skins",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_skins",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_skins",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/pyramid_skins"
     },
@@ -1970,7 +1970,7 @@
       ],
       "name": "webtest",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/WebTest",
+      "pypiUrl": "https://pypi.org/pypi/WebTest",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/webtest"
     },
@@ -1988,7 +1988,7 @@
       ],
       "name": "SUMA",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/suma",
+      "pypiUrl": "https://pypi.org/pypi/suma",
       "support": "community",
       "vcsUrl": "https://github.com/rach/suma"
     },
@@ -2008,7 +2008,7 @@
       ],
       "name": "paginate",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/paginate",
+      "pypiUrl": "https://pypi.org/pypi/paginate",
       "support": "community",
       "vcsUrl": "https://github.com/Pylons/paginate"
     },
@@ -2026,7 +2026,7 @@
       ],
       "name": "pyramid_pages",
       "projectUrl": "",
-      "pypiUrl": "https://pypi.python.org/pypi/pyramid_pages",
+      "pypiUrl": "https://pypi.org/pypi/pyramid_pages",
       "support": "community",
       "vcsUrl": "https://github.com/uralbash/pyramid_pages"
     }

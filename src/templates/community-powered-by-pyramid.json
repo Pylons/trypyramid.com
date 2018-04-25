@@ -361,13 +361,13 @@
       ],
       "name": "Atramhasis",
       "projectUrl": "https://github.com/OnroerendErfgoed/atramhasis",
-      "pypiUrl": "https://pypi.python.org/pypi/atramhasis",
+      "pypiUrl": "https://pypi.org/pypi/atramhasis",
       "vcsUrl": "https://github.com/OnroerendErfgoed/atramhasis"
     },
     {
       "category": "floss",
       "demoUrl": "",
-      "description": "A simple pastebin application based on Rocky Burt's <a href=\"http://pypi.python.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
+      "description": "A simple pastebin application based on Rocky Burt's <a href=\"http://pypi.org/pypi/ClueBin/0.2.3\">ClueBin</a>. It demonstrates form processing, security, and the use of ZODB within a Pyramid application.",
       "docsUrl": "",
       "id": 19,
       "logo": "",
@@ -500,7 +500,7 @@
       ],
       "name": "Substance-D",
       "projectUrl": "http://www.substanced.net/",
-      "pypiUrl": "https://pypi.python.org/pypi/substanced/",
+      "pypiUrl": "https://pypi.org/pypi/substanced/",
       "vcsUrl": "https://github.com/Pylons/substanced"
     },
     {
@@ -526,7 +526,7 @@
       "maintainers": [],
       "name": "TravelCRM",
       "projectUrl": "https://github.com/mazvv/travelcrm",
-      "pypiUrl": "https://pypi.python.org/pypi/travelcrm",
+      "pypiUrl": "https://pypi.org/pypi/travelcrm",
       "vcsUrl": "https://github.com/mazvv/travelcrm"
     },
     {
