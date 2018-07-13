@@ -2029,6 +2029,24 @@
       "pypiUrl": "https://pypi.org/project/pyramid_pages",
       "support": "community",
       "vcsUrl": "https://github.com/uralbash/pyramid_pages"
+    },
+    {
+      "addon": false,
+      "category": [
+        "documentation"
+      ],
+      "demoUrl": "https://github.com/ergo/pyramid_apispec/blob/master/demo/app.py",
+      "description": "Create an OpenAPI specification file using apispec and Marshmallow schemas.",
+      "docsUrl": "https://github.com/ergo/pyramid_apispec",
+      "id": 76,
+      "maintainers": [
+        "ergo"
+      ],
+      "name": "pyramid_apispec",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.org/project/pyramid-apispec",
+      "support": "community",
+      "vcsUrl": "https://github.com/ergo/pyramid_apispec"
     }
   ]
 }
