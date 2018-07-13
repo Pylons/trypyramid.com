@@ -64,7 +64,7 @@ require('./img/baobab-infoladen-logo.gif');
 require('./img/bateau-de-hollande-logo.png');
 require('./img/bravewords-logo.png');
 require('./img/charte-logo.jpg');
-// require('./img/comparebench-logo.png');
+require('./img/comparebench-logo.png');
 require('./img/discnw-logo.png');
 require('./img/easyblognetworks-logo.png');
 require('./img/environmental-health-news-logo.png');
@@ -114,7 +114,7 @@ require('./img/the-daily-climate-logo.png');
 require('./img/travelcrm-logo.png');
 require('./img/truveris-logo.png');
 require('./img/warehouse-pypi-logo.png');
-// require('./img/vantagepoint-logo.png');
+require('./img/vantagepoint-logo.png');
 require('./img/yelp-logo.png');
 require('./img/zopyx-logo.png');
 
