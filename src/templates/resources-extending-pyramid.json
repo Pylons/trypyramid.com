@@ -561,7 +561,7 @@
         "api"
       ],
       "demoUrl": "",
-      "description": "This project offers convenient tools for using <a href=\"http://swagger.io/\">Swagger</a> to define and validate your interfaces in a Pyramid webapp.",
+      "description": "Convenient tools for using <a href=\"http://swagger.io/\">Swagger</a> to define and validate your interfaces in a Pyramid webapp.",
       "docsUrl": "http://pyramid-swagger.readthedocs.org/en/latest/",
       "id": 20,
       "maintainers": [
@@ -888,24 +888,6 @@
       "pypiUrl": "https://pypi.org/project/pyramid_dogpile_cache",
       "support": "community",
       "vcsUrl": "https://github.com/moriyoshi/pyramid_dogpile_cache"
-    },
-    {
-      "addon": true,
-      "category": [
-        "caching-and-sessions"
-      ],
-      "demoUrl": "",
-      "description": "Defines an encrypting, pickle-based cookie serializer, using <a href=\"http://pynacl.readthedocs.org/en/latest/secret/\">PyNaCl</a> to generate the symmetric encryption for the cookie state.",
-      "docsUrl": "http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/",
-      "id": 38,
-      "maintainers": [
-        "tseaver"
-      ],
-      "name": "pyramid_nacl_session",
-      "projectUrl": "",
-      "pypiUrl": "https://pypi.org/project/pyramid_nacl_session",
-      "support": "community",
-      "vcsUrl": "https://github.com/Pylons/pyramid_nacl_session"
     },
     {
       "addon": true,
@@ -1365,24 +1347,6 @@
         "development-environment"
       ],
       "demoUrl": "",
-      "description": "Convenient tools for using Swagger to define and validate your interfaces in a Pyramid webapp.",
-      "docsUrl": "http://pyramid-swagger.readthedocs.org/en/latest/",
-      "id": 88,
-      "maintainers": [
-        "striglia"
-      ],
-      "name": "pyramid_swagger",
-      "projectUrl": "",
-      "pypiUrl": "https://pypi.org/project/pyramid_swagger",
-      "support": "community",
-      "vcsUrl": "https://github.com/striglia/pyramid_swagger"
-    },
-    {
-      "addon": false,
-      "category": [
-        "development-environment"
-      ],
-      "demoUrl": "",
       "description": "Ramses is a framework that generates a RESTful API using <a href=\"http://raml.org\">RAML</a>. It uses Pyramid and <a href=\"https://nefertari.readthedocs.org/\">Nefertari</a>, which provides Elasticsearch / Posgres / MongoDB / Your Data Store™ -powered views.",
       "docsUrl": "https://ramses.readthedocs.org/",
       "id": 89,
@@ -1413,6 +1377,24 @@
       "pypiUrl": "https://pypi.org/project/rest_toolkit",
       "support": "community",
       "vcsUrl": "https://github.com/wichert/rest_toolkit"
+    },
+    {
+      "addon": false,
+      "category": [
+        "documentation"
+      ],
+      "demoUrl": "https://github.com/ergo/pyramid_apispec/blob/master/demo/app.py",
+      "description": "Create an OpenAPI specification file using apispec and Marshmallow schemas.",
+      "docsUrl": "https://github.com/ergo/pyramid_apispec",
+      "id": 112,
+      "maintainers": [
+        "ergo"
+      ],
+      "name": "pyramid_apispec",
+      "projectUrl": "https://github.com/ergo/pyramid_apispec",
+      "pypiUrl": "https://pypi.org/project/pyramid-apispec",
+      "support": "community",
+      "vcsUrl": "https://github.com/ergo/pyramid_apispec"
     },
     {
       "addon": true,
