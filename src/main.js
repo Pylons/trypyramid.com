@@ -109,6 +109,7 @@ require('./img/snapsat-logo.png');
 require('./img/substance-d-logo.png');
 require('./img/surveymonkey-logo.png');
 require('./img/talk-python-to-me-logo.png');
+require('./img/talk-python-training-128x128-logo.png');
 require('./img/termitnjak-128-logo.png');
 require('./img/the-daily-climate-logo.png');
 require('./img/travelcrm-logo.png');
