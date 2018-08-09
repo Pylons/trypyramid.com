@@ -11,6 +11,11 @@
       "description": "<a href='https://www.jetbrains.com/pycharm/'>PyCharm</a> is an integrated development environment for Python from <a href='https://www.jetbrains.com/'>JetBrains</a>. PyCharm Professional Edition includes Pyramid as one of its Python web frameworks, making it easy to create, debug, and run Pyramid projects.<br><br>Core developers in any project under the Pylons Project are eligible to receive a renewable one-year free and open source software license for all <a href='https://www.jetbrains.com/'>JetBrains</a> products, including <a href='https://www.jetbrains.com/pycharm/'>PyCharm</a>, at no cost. Contact user <code>stevepiercy</code> in the <code>#pyramid</code> IRC channel on <code>irc.freenode.net</code>.",
       "logo": "jetbrains-128-logo.png",
       "websiteUrl": "https://www.jetbrains.com/"
+    }, {
+      "name": "Talk Python Training",
+      "description": "<a href='https://training.talkpython.fm/'>Talk Python Training</a> provides online Python courses across a wide range of topics, including web development, data access, Pythonic code, and much more.<br><br>Core developers in any project under the Pylons Project are eligible to receive a promo code for the course <a href='https://training.talkpython.fm/courses/explore_pyramid/building-data-driven-web-applications-in-python-with-pyramid-sqlalchemy-and-bootstrap'>Building data-driven web apps with Pyramid and SQLAlchemy</a>. Register online at <a href='https://training.talkpython.fm/'>training.talkpython.fm</a> and email Michael Kennedy at <a href='mailto:michael@talkpython.fm'>michael@talkpython.fm</a>.",
+      "logo": "talk-python-training-128x128-logo.png",
+      "websiteUrl": "https://training.talkpython.fm/"
     }
   ]
 }
