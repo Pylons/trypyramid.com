@@ -10,7 +10,7 @@
       "logo": "adroll-logo.png",
       "maintainers": [],
       "name": "AdRoll",
-      "projectUrl": "http://www.adroll.com/",
+      "projectUrl": "https://www.adroll.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -49,7 +49,7 @@
       "logo": "discnw-logo.png",
       "maintainers": [],
       "name": "DiscNW",
-      "projectUrl": "http://www.discnw.org/",
+      "projectUrl": "https://www.discnw.org/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -75,7 +75,7 @@
       "logo": "environmental-health-news-logo.png",
       "maintainers": [],
       "name": "Environmental Health News",
-      "projectUrl": "http://environmentalhealthnews.org/",
+      "projectUrl": "https://www.ehn.org/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -88,7 +88,7 @@
       "logo": "hypothesis-logo.png",
       "maintainers": [],
       "name": "Hypothesis",
-      "projectUrl": "https://hypothes.is/",
+      "projectUrl": "https://web.hypothes.is/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -101,7 +101,7 @@
       "logo": "itcase-logo.png",
       "maintainers": [],
       "name": "ITCase",
-      "projectUrl": "http://itcase.pro",
+      "projectUrl": "https://itcase.pro/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -114,7 +114,7 @@
       "logo": "klein-und-partner-logo.png",
       "maintainers": [],
       "name": "Klein & Partner KG",
-      "projectUrl": "http://kleinundpartner.at/",
+      "projectUrl": "https://kleinundpartner.at/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -127,7 +127,7 @@
       "logo": "kuiu-logo.png",
       "maintainers": [],
       "name": "KUIU",
-      "projectUrl": "https://store.kuiu.com/",
+      "projectUrl": "https://www.kuiu.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -166,7 +166,7 @@
       "logo": "majerti-logo.png",
       "maintainers": [],
       "name": "Majerti",
-      "projectUrl": "https://www.majerti.fr",
+      "projectUrl": "https://www.majerti.fr/fr/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -218,7 +218,7 @@
       "logo": "niteoweb-logo.png",
       "maintainers": [],
       "name": "NiteoWeb",
-      "projectUrl": "http://www.niteoweb.com",
+      "projectUrl": "https://niteo.co/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -231,7 +231,7 @@
       "logo": "noppo-logo.png",
       "maintainers": [],
       "name": "Noppo",
-      "projectUrl": "https://www.noppo.pro",
+      "projectUrl": "https://noppo.pro/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -270,7 +270,7 @@
       "logo": "rollbar-logo.png",
       "maintainers": [],
       "name": "Rollbar",
-      "projectUrl": "https://rollbar.com",
+      "projectUrl": "https://rollbar.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -283,7 +283,7 @@
       "logo": "surveymonkey-logo.png",
       "maintainers": [],
       "name": "SurveyMonkey",
-      "projectUrl": "http://www.surveymonkey.com/",
+      "projectUrl": "https://www.surveymonkey.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -296,7 +296,7 @@
       "logo": "the-daily-climate-logo.png",
       "maintainers": [],
       "name": "The Daily Climate",
-      "projectUrl": "http://dailyclimate.org/",
+      "projectUrl": "https://www.dailyclimate.org/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -309,7 +309,7 @@
       "logo": "truveris-logo.png",
       "maintainers": [],
       "name": "Truveris",
-      "projectUrl": "http://truveris.com/",
+      "projectUrl": "https://www.truveris.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -324,7 +324,7 @@
         "VantagePoint"
       ],
       "name": "VantagePoint",
-      "projectUrl": "http://vantagepoint.co",
+      "projectUrl": "https://vantagepoint.co/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -337,7 +337,7 @@
       "logo": "yelp-logo.png",
       "maintainers": [],
       "name": "Yelp",
-      "projectUrl": "http://www.yelp.com/",
+      "projectUrl": "https://www.yelp.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -350,7 +350,7 @@
       "logo": "zopyx-logo.png",
       "maintainers": [],
       "name": "ZOPYX",
-      "projectUrl": "http://www.zopyx.com",
+      "projectUrl": "https://www.zopyx.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     }
@@ -412,22 +412,9 @@
       "logo": "",
       "maintainers": [],
       "name": "Cornice",
-      "projectUrl": "http://cornice.readthedocs.org/en/latest",
+      "projectUrl": "https://cornice.readthedocs.io/en/latest/",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/mozilla-services/cornice"
-    },
-    {
-      "category": "floss",
-      "demoUrl": "",
-      "description": "<p>A moderately-sized application (roughly 80K lines of Python code) built on top of Pyramid. It is an open source web system for collaboration, organizational intranets, and knowledge management. It provides facilities for wikis, calendars, manuals, searching, tagging, commenting, and file uploads.</p>",
-      "docsUrl": "",
-      "id": 21,
-      "logo": "",
-      "maintainers": [],
-      "name": "KARL",
-      "projectUrl": "http://karlproject.org",
-      "pypiUrl": "",
-      "vcsUrl": ""
     },
     {
       "category": "floss",
@@ -438,7 +425,7 @@
       "logo": "",
       "maintainers": [],
       "name": "Kinto",
-      "projectUrl": "http://kinto.readthedocs.org/en/latest",
+      "projectUrl": "https://kinto.readthedocs.io/en/latest/",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/Kinto/kinto"
     },
@@ -464,7 +451,7 @@
       "logo": "opencioc-org-logo.png",
       "maintainers": [],
       "name": "OpenCIOC",
-      "projectUrl": "http://opencioc.org/",
+      "projectUrl": "http://www.opencioc.org/",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/OpenCIOC/openciocdotorg/"
     },
@@ -580,6 +567,21 @@
       "projectUrl": "https://pypi.org",
       "pypiUrl": "",
       "vcsUrl": "https://github.com/pypa/warehouse"
+    },
+    {
+      "category": "floss",
+      "demoUrl": "",
+      "description": "A full stack Python framework for building consumer and business web applications",
+      "docsUrl": "https://websauna.org/docs/",
+      "id": 60,
+      "logo": "websauna-logo.png",
+      "maintainers": [
+        "Mikko Ohtamaa (@miohtama) Érico Andrei (@ericof)"
+      ],
+      "name": "Websauna",
+      "projectUrl": "https://websauna.org",
+      "pypiUrl": "https://pypi.org/project/websauna/",
+      "vcsUrl": "https://github.com/websauna"
     }
   ],
   "dataWeb": [
@@ -592,7 +594,7 @@
       "logo": "comparebench-logo.png",
       "maintainers": [],
       "name": "CompareBench",
-      "projectUrl": "https://comparebench.com",
+      "projectUrl": "https://comparebench.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -619,19 +621,6 @@
       "maintainers": [],
       "name": "NASA Image and Video Library",
       "projectUrl": "https://images.nasa.gov/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "website",
-      "demoUrl": "",
-      "description": "Create a new workstation, server, gaming PC, whatever.",
-      "docsUrl": "",
-      "id": 30,
-      "logo": "pc-blueprint-logo.png",
-      "maintainers": [],
-      "name": "PCBlueprint",
-      "projectUrl": "https://pcblueprint.com/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -670,7 +659,7 @@
       "logo": "",
       "maintainers": [],
       "name": "Washington Trails Association Volunteer Management System",
-      "projectUrl": "http://www.wta.org/volunteer/schedule/",
+      "projectUrl": "https://www.wta.org/volunteer/schedule/",
       "pypiUrl": "",
       "vcsUrl": ""
     }
@@ -698,7 +687,7 @@
       "logo": "baobab-infoladen-logo.gif",
       "maintainers": [],
       "name": "Baobab-Infoladen Eine Welt e.V.",
-      "projectUrl": "http://www.baobab-infoladen.de/",
+      "projectUrl": "https://www.baobab-berlin.de/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -712,19 +701,6 @@
       "maintainers": [],
       "name": "Bateau De Hollande",
       "projectUrl": "http://www.bateau-de-hollande.com/",
-      "pypiUrl": "",
-      "vcsUrl": ""
-    },
-    {
-      "category": "kotti",
-      "demoUrl": "",
-      "description": "Young people from all over Germany discuss questions in workshops about the next chapter for the country. The website, based on Kotti, presents the concept and the results and have discussion tools in the restricted area. »Das nächste Kapitel« (The next chapter) is a project of the <a href=\"http://kas.de/\">Konrad-Adenauer-Stifung</a>.",
-      "docsUrl": "",
-      "id": 37,
-      "logo": "konrad-adenauer-stiftung-logo.png",
-      "maintainers": [],
-      "name": "Das nächste Kapitel",
-      "projectUrl": "http://www.dasnaechstekapitel.de/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -750,7 +726,7 @@
       "logo": "fit-for-life-logo.jpg",
       "maintainers": [],
       "name": "Fit for Life",
-      "projectUrl": "http://www.fitforlife.eu/",
+      "projectUrl": "https://fitforlife.eu/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -763,7 +739,7 @@
       "logo": "peiffer-rollrasen-garten-und-landschaftsbau-logo.png",
       "maintainers": [],
       "name": "Peiffer - Rollrasen | Garten- und Landschaftsbau",
-      "projectUrl": "http://rollrasen.eu/",
+      "projectUrl": "https://rollrasen.eu/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
@@ -776,7 +752,7 @@
       "logo": "sabrina-pontzen-raumdesign-logo.png",
       "maintainers": [],
       "name": "Sabrina Pontzen Raumdesign",
-      "projectUrl": "http://www.pontzen.de/",
+      "projectUrl": "https://www.pontzen.de/",
       "pypiUrl": "",
       "vcsUrl": ""
     }
