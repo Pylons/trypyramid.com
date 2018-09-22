@@ -101,6 +101,7 @@ require('./img/pycon-2017-logo.jpg');
 require('./img/pyconweb-text-logo.png');
 require('./img/pylons-project-pyramid-combined-horizontal-logo.png');
 require('./img/python-software-foundation-128-logo.png');
+require('./img/read-the-docs-logo.svg');
 require('./img/remarkbox-logo.png');
 require('./img/rhodecode-logo.png');
 require('./img/rollbar-logo.png');
