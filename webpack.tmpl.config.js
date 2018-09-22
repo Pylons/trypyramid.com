@@ -17,17 +17,17 @@ var config = {
       context: require(path.resolve(baseDir, 'colors.json')),
       page: 'colors.html'
     }, {
-      template: 'src/templates/resources.ejs',
-      filename: 'resources.html',
+      template: 'src/templates/documentation.ejs',
+      filename: 'documentation.html',
       uglify: true,
-      context: require(path.resolve(baseDir, 'resources.json')),
-      page: 'resources.html'
+      context: require(path.resolve(baseDir, 'documentation.json')),
+      page: 'documentation.html'
     }, {
-      template: 'src/templates/resources-extending-pyramid.ejs',
-      filename: 'resources-extending-pyramid.html',
+      template: 'src/templates/extending-pyramid.ejs',
+      filename: 'extending-pyramid.html',
       uglify: true,
-      context: require(path.resolve(baseDir, 'resources-extending-pyramid.json')),
-      page: 'resources-extending-pyramid.html'
+      context: require(path.resolve(baseDir, 'extending-pyramid.json')),
+      page: 'extending-pyramid.html'
     }, {
       template: 'src/templates/community.ejs',
       filename: 'community.html',
@@ -53,17 +53,17 @@ var config = {
       context: require(path.resolve(baseDir, 'community-events.json')),
       page: 'community-events.html'
     }, {
-      template: 'src/templates/media-feeds.ejs',
-      filename: 'media-feeds.html',
+      template: 'src/templates/community-feeds.ejs',
+      filename: 'community-feeds.html',
       uglify: true,
-      context: require(path.resolve(baseDir, 'media-feeds.json')),
-      page: 'media-feeds.html'
+      context: require(path.resolve(baseDir, 'community-feeds.json')),
+      page: 'community-feeds.html'
     }, {
-      template: 'src/templates/media-artwork.ejs',
-      filename: 'media-artwork.html',
+      template: 'src/templates/community-artwork.ejs',
+      filename: 'community-artwork.html',
       uglify: true,
-      context: require(path.resolve(baseDir, 'media-artwork.json')),
-      page: 'media-artwork.html'
+      context: require(path.resolve(baseDir, 'community-artwork.json')),
+      page: 'community-artwork.html'
     }
   ]
 };
