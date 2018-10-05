@@ -431,6 +431,21 @@
     },
     {
       "category": "floss",
+      "demoUrl": "https://mlbpool2.com",
+      "description": "<p>MLBPool2 is a fantasy baseball like application.  Instead of making daily lineups, players choose individual statistical leaders and team standings before the season starts.  Then they watch how their picks perform over the course of the baseball season.</p>",
+      "docsUrl": "https://mlbpool2.readthedocs.io/en/latest/",
+      "id": 61,
+      "logo": "",
+      "maintainers": [
+        "Paul Cutler (@prcutler)"
+      ],
+      "name": "MLBPool2",
+      "projectUrl": "https://github.com/prcutler/mlbpool2",
+      "pypiUrl": "",
+      "vcsUrl": "https://github.com/prcutler/mlbpool2"
+    },
+    {
+      "category": "floss",
       "demoUrl": "",
       "description": "<p>NextGIS Web is an opensource server-side Web GIS and a framework for storage, visualization and permissions management to all kinds of geodata. NextGIS Web supports OGC WMS and WFS(-T) access.</p>",
       "docsUrl": "",
