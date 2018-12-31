@@ -52,3 +52,4 @@ The below-signed are contributors to a code repository that is part of the proje
 - Krystian Rosiński, 2016/04/07
 - Nejc Zupan, 2016/12/06
 - Svintsov Dmitry, 2016/12/19
+- Roy Hyunjin Han, 2018/12/31
