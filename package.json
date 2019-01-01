@@ -1,7 +1,7 @@
 {
   "name": "trypyramid.com",
   "description": "trypyramid.com",
-  "version": "0.4.7-dev",
+  "version": "0.4.7",
   "author": "Pylons Project",
   "license": "MIT",
   "engines": [
