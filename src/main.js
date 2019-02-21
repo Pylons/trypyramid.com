@@ -97,6 +97,7 @@ require('./img/pc-blueprint-logo.png');
 require('./img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png');
 require('./img/plone-128-logo.png');
 require('./img/plone-conference-2017-barcelona-logo.svg');
+require('./img/plone-conference-2018-tokyo-logo.svg');
 require('./img/pycharm-logo.png');
 require('./img/pycon-2017-logo.jpg');
 require('./img/pyconweb-text-logo.png');
