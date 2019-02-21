@@ -238,6 +238,21 @@
     {
       "category": "comorg",
       "demoUrl": "",
+      "description": "Producing wood, preserving the environment, and welcoming the public are the three main assignments of the French National Forestry Office (Office national des forêts). Distributed all over the country, its 9,000 agents are dedicated to these missions.",
+      "docsUrl": "",
+      "id": 63,
+      "logo": "office-national-des-forets-logo.jpg",
+      "maintainers": [
+        "Thierry Florac (https://github.com/tflorac)"
+      ],
+      "name": "Office national des forêts",
+      "projectUrl": "https://www.onf.fr/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "comorg",
+      "demoUrl": "",
       "description": "<p>Comments as a service.</p><p>Readers want to communicate with you.</p><p>Get Remarkbox, the comment system that engaged readers prefer to use!</p>",
       "docsUrl": "",
       "id": 57,
@@ -663,6 +678,21 @@
       "maintainers": [],
       "name": "Talk Python To Me",
       "projectUrl": "https://talkpython.fm/",
+      "pypiUrl": "",
+      "vcsUrl": ""
+    },
+    {
+      "category": "website",
+      "demoUrl": "",
+      "description": "Ulthar.net is a french website dedicated to the american writer Howard Phillips Lovecraft and the Cthulhu mythos",
+      "docsUrl": "",
+      "id": 62,
+      "logo": "ulthar-net-logo.png",
+      "maintainers": [
+        "Thierry Florac (https://github.com/tflorac)"
+      ],
+      "name": "Ulthar.net",
+      "projectUrl": "https://www.ulthar.net/",
       "pypiUrl": "",
       "vcsUrl": ""
     },
