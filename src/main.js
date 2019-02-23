@@ -71,6 +71,7 @@ require('./img/easyblognetworks-logo.png');
 require('./img/environmental-health-news-logo.png');
 require('./img/european-energy-award-logo.png');
 require('./img/fit-for-life-logo.jpg');
+require('./img/gocept-logo.png');
 require('./img/hypothesis-logo.png');
 require('./img/itcase-logo.png');
 require('./img/jazkarta-128-logo.png');
