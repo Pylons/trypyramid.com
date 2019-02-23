@@ -56,6 +56,7 @@ require('./img/pyramid-aliens2-1920X1200.jpg');
 
 
 // logos
+require('./img/]a[repository-logo.png');
 require('./img/adroll-logo.png');
 require('./img/appenlight-logo.png');
 require('./img/atramhasis-logo.png');
