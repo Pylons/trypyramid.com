@@ -576,6 +576,24 @@
     {
       "addon": true,
       "category": [
+        "api"
+      ],
+      "demoUrl": "https://github.com/niteoweb/pyramid-realworld-example-app",
+      "description": "Validate Pyramid views against an <a href=\"https://swagger.io/specification/\">OpenAPI 3.0</a> document.",
+      "docsUrl": "https://github.com/Pylons/pyramid_openapi3",
+      "id": 115,
+      "maintainers": [
+        "zupo"
+      ],
+      "name": "pyramid_openapi3",
+      "projectUrl": "",
+      "pypiUrl": "https://pypi.org/project/pyramid_openapi3",
+      "support": "community",
+      "vcsUrl": "https://github.com/Pylons/pyramid_openapi3"
+    },
+    {
+      "addon": true,
+      "category": [
         "asset-management"
       ],
       "demoUrl": "",
