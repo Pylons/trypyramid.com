@@ -2,6 +2,24 @@
   "title": "Extending Pyramid",
   "data": [
     {
+      "addon": true,
+      "category": [
+        "api"
+      ],
+      "demoUrl": "https://github.com/niteoweb/pyramid-realworld-example-app",
+      "description": "Validate Pyramid views against an <a href=\"https://swagger.io/specification/\">OpenAPI 3.0</a> document.",
+      "docsUrl": "https://github.com/Pylons/pyramid_openapi3",
+      "id": 115,
+      "maintainers": [
+        "zupo","mmerickel","xistence"
+      ],
+      "name": "pyramid_openapi3",
+      "projectUrl": "https://github.com/Pylons/pyramid_openapi3",
+      "pypiUrl": "https://pypi.org/project/pyramid_openapi3",
+      "support": "pylons",
+      "vcsUrl": "https://github.com/Pylons/pyramid_openapi3"
+    },
+    {
       "addon": false,
       "category": [
         "api",
