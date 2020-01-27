@@ -67,6 +67,7 @@ require('./img/bravewords-logo.png');
 require('./img/charte-logo.jpg');
 require('./img/comparebench-logo.png');
 require('./img/discnw-logo.png');
+require('./img/dragonpy-logo.png');
 require('./img/easyblognetworks-logo.png');
 require('./img/environmental-health-news-logo.png');
 require('./img/european-energy-award-logo.png');
