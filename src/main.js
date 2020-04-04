@@ -42,13 +42,13 @@ require('./img/powered-by-pyramid-white.svg');
 require('./img/powered-by-pyramid-white.pdf');
 require('./img/powered-by-pyramid-white.png');
 
-require('./img/pyramid-aliens1-680x425.jpg');
+require('./img/pyramid-aliens1-680X425.jpg');
 require('./img/pyramid-aliens1-1024X640.jpg');
 require('./img/pyramid-aliens1-1440X900.jpg');
 require('./img/pyramid-aliens1-1680X1050.jpg');
 require('./img/pyramid-aliens1-1920X1200.jpg');
 
-require('./img/pyramid-aliens2-680x425.jpg');
+require('./img/pyramid-aliens2-680X425.jpg');
 require('./img/pyramid-aliens2-1024X640.jpg');
 require('./img/pyramid-aliens2-1440X900.jpg');
 require('./img/pyramid-aliens2-1680X1050.jpg');
