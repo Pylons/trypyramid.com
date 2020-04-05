@@ -29,13 +29,14 @@ jobs:
         runs-on: ubuntu-latest
         if: github.event_name == 'release'
         needs: build
+        name: "Publish the released assets"
         steps:
             - name: Download the dist artifact
               uses: actions/download-artifact@v1
               with:
                   name: built-dist
             - name: Zip artifacts
-              run: zip -r website.zip ./dist/
+              run: cd built-dist && zip -r ../website.zip .
             - name: Upload website.zip to Github release
               uses: actions/upload-release-asset@v1
               env:
