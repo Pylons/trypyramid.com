@@ -27,7 +27,7 @@ jobs:
 
     release:
         runs-on: ubuntu-latest
-        if: github.event_name == "release"
+        if: github.event_name == 'release'
         needs: build
         steps:
             - name: Download the dist artifact
