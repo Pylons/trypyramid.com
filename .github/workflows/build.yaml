@@ -57,3 +57,4 @@ jobs:
                   node-version: '13.x'
             - run: npm install
             - run: npm audit
+              continue-on-error: true
