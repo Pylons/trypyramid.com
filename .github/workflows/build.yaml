@@ -1,0 +1,60 @@
+name: Site Builder
+# This workflow is triggered on pushes to the repository.
+on:
+    push:
+    pull_request:
+    release:
+        types:
+            - created
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        name: "Build the trypyramid.com website"
+        steps:
+            - uses: actions/checkout@master
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+              with:
+                  node-version: '13.x'
+            - run: npm install
+            - run: npm run build
+            - name: Upload artifacts
+              uses: actions/upload-artifact@master
+              with:
+                  name: built-dist
+                  path: dist
+
+    release:
+        runs-on: ubuntu-latest
+        if: github.event_name == 'release'
+        needs: build
+        steps:
+            - name: Download the dist artifact
+              uses: actions/download-artifact@v1
+              with:
+                  name: built-dist
+            - name: Zip artifacts
+              run: zip -r website.zip ./dist/
+            - name: Upload website.zip to Github release
+              uses: actions/upload-release-asset@v1
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  upload_url: ${{ github.event.release.upload_url }}
+                  asset_path: website.zip
+                  asset_name: website.zip
+                  asset_content_type: application/zip
+
+    audit:
+        runs-on: ubuntu-latest
+        name: "Audit the NPM packages"
+        steps:
+            - uses: actions/checkout@master
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+              with:
+                  node-version: '13.x'
+            - run: npm install
+            - run: npm audit
+              continue-on-error: true
