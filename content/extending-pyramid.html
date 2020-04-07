@@ -84,7 +84,7 @@ extender = MyConfigurationExtender(config)
 extender.doit(1, 2)</code>
             </pre></p>
             <p>Instead of doing so, use the <code>add_directive</code> method of a configurator as documented at
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/extconfig.html#add-directive">Adding Methods to the Configurator via <code>add_directive</code></a>:</p>
+              <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/extconfig.html#add-directive">Adding Methods to the Configurator via <code>add_directive</code></a>:</p>
 
 <p><pre class="nobs">
               <code class="python">def doit(config, a, b):
@@ -93,7 +93,7 @@ extender.doit(1, 2)</code>
 config.add_directive('doit', doit)</code>
             </pre></p>
             <p>If your add-on wants to provide some default behavior, provide an <code>includeme</code> method in your add-on's <code>__init__.py</code>, so <code>config.include('pyramid_foo')</code> will pick it up. See
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/advconfig.html#including-configuration">Including Configuration From External Sources</a>.</p>
+              <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/advconfig.html#including-configuration">Including Configuration From External Sources</a>.</p>
 
                   <h3>Making Good Development Environments</h3>
 

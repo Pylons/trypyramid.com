@@ -1,4 +1,5 @@
-baseURL = "/"
+baseURL = "//trypyramid.com/"
+
 languageCode = "en-us"
 title = "Welcome to Pyramid, a Python Web Framework"
 googleAnalytics = "UA-21146943-3"

@@ -31,7 +31,7 @@ If you are in development mode and need hot reload and assets compiling run:
   $ yarn start
 ```
 
-This will let you view the local site at http://localhost:8080/
+This will let you view the local site at http://localhost:1313/
 
 If you want to output for production then run:
 ```
