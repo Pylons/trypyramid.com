@@ -8,6 +8,9 @@
       Maintainers: {{ delimit .maintainers ", " }}
     </div>
     {{ end }}
+    {{ if .projectUrl }}
+    <span class="addon-projectUrl"><a href="{{ .projectUrl | safeURL }}">Home</a></span>
+    {{ end }}
     {{ if .pypiUrl }}
     <span class="addon-pypiUrl"><a href="{{ .pypiUrl | safeURL }}">PyPI</a></span>
     {{ end }}
@@ -15,7 +18,10 @@
     <span class="addon-vcsUrl"><a href="{{ .vcsUrl | safeURL }}">VCS</a></span>
     {{ end }}
     {{ if .docsUrl }}
-    <span class="addon-docsUrl"><a href="{{ .docsUrl | safeURL }}">docs</a></span>
+    <span class="addon-docsUrl"><a href="{{ .docsUrl | safeURL }}">Docs</a></span>
+    {{ end }}
+    {{ if .demoUrl }}
+    <span class="addon-demoUrl"><a href="{{ .demoUrl | safeURL }}">Demo</a></span>
     {{ end }}
   </div>
 </div>
