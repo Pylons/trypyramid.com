@@ -17,6 +17,10 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: '13.x'
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: '0.62.2'
             - run: yarn install
             - run: yarn build
             - name: Upload artifacts
