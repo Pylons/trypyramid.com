@@ -5,7 +5,7 @@
   "author": "Pylons Project",
   "license": "MIT",
   "engines": {
-    "node": ">= 12"
+    "node": "13.x"
   },
   "repository": {
     "type": "git",
