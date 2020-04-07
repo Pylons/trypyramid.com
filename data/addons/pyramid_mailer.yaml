@@ -1,0 +1,14 @@
+addon: true
+category:
+- email
+demoUrl: ''
+description: A package for the Pyramid framework to take the pain out of sending emails.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-mailer/en/latest/
+maintainers:
+- Dan Jacobs
+- Chris McDonough
+name: pyramid_mailer
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_mailer
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_mailer

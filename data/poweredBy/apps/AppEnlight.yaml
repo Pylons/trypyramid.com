@@ -1,0 +1,16 @@
+category: floss
+demoUrl: https://appenlight.rhodecode.com/
+description: <p>AppEnlight provides advanced application monitoring by combining error
+  handling, event tracking, and log aggregation. It is also highly performant. AppEnlight
+  handles applications that serve thousands of requests per second and correlates
+  modifications made with the changes in application performance. <a href="https://getappenlight.com/page/api/main.html"
+  rel="noopener">API docs</a>.</p>
+docsUrl: https://docs.rhodecode.com/RhodeCode-Appenlight/
+logo: appenlight-logo.png
+maintainers:
+- marcink
+- marcinl
+name: AppEnlight
+projectUrl: https://getappenlight.com/
+pypiUrl: ''
+vcsUrl: https://code.rhodecode.com/rhodecode-appenlight

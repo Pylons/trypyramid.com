@@ -1,0 +1,13 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: A comprehensive web application stub on top of Pyramid
+docsUrl: http://pythonhosted.org/cone.app/
+maintainers:
+- rnixx
+name: cone.app
+projectUrl: ''
+pypiUrl: https://pypi.org/project/cone.app
+support: community
+vcsUrl: https://github.com/bluedynamics/cone.app

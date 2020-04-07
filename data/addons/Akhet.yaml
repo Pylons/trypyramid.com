@@ -1,0 +1,16 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: A Pyramid library and demo application with a Pylons-like feel. Its most
+  known for its former application scaffold, which helped users transition from Pylons
+  and those preferring a more Pylons-like API. The scaffold has been retired but the
+  demo plays a similar role.
+docsUrl: http://docs.pylonsproject.org/projects/akhet/en/latest/
+maintainers:
+- Mike Orr
+name: Akhet
+projectUrl: ''
+pypiUrl: https://pypi.org/project/Akhet
+support: community
+vcsUrl: https://github.com/Pylons/akhet

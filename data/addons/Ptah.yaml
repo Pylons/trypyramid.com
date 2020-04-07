@@ -1,0 +1,14 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Ptah is a fast, fun, open source, high-level Python web development environment.
+docsUrl: http://ptahproject.readthedocs.org/en/latest/
+maintainers:
+- fafhrd
+- runyaga
+name: Ptah
+projectUrl: ''
+pypiUrl: https://pypi.org/project/ptah
+support: community
+vcsUrl: https://github.com/ptahproject/ptah

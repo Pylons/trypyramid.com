@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: A cookiecutter (project template) for creating a Substance D starter
+  project.
+docsUrl: ''
+maintainers:
+- cguardia
+name: substanced-cookiecutter
+projectUrl: ''
+pypiUrl: ''
+support: pylons
+vcsUrl: https://github.com/Pylons/substanced-cookiecutter

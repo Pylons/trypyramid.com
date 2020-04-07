@@ -1,0 +1,15 @@
+category: floss
+demoUrl: http://demo.substanced.net/
+description: Substance D is an application server built using the Pyramid web framework.
+  It can be used as a base to build a general-purpose web application like a blog,
+  a shopping cart application, a scheduling application, or any other web app that
+  requires both an administration and a retail interface.
+docsUrl: https://docs.pylonsproject.org/projects/substanced/en/latest/
+logo: substance-d-logo.png
+maintainers:
+- cguardia
+- chrism
+name: Substance-D
+projectUrl: http://www.substanced.net/
+pypiUrl: https://pypi.org/project/substanced/
+vcsUrl: https://github.com/Pylons/substanced

@@ -1,0 +1,15 @@
+addon: false
+category:
+- internationalization-i18n
+demoUrl: ''
+description: Lingua is a package with tools to extract translatable texts from your
+  code, and to check existing translations. It replaces the use of the xgettext command
+  from gettext, or pybabel from Babel.
+docsUrl: https://github.com/wichert/lingua
+maintainers:
+- wichert
+name: lingua
+projectUrl: ''
+pypiUrl: https://pypi.org/project/lingua
+support: community
+vcsUrl: https://github.com/wichert/lingua

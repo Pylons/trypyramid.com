@@ -1,0 +1,14 @@
+addon: false
+category:
+- async
+demoUrl: ''
+description: gevent-socketio is a Python implementation of the Socket.IO protocol,
+  developed originally for Node.js by LearnBoost and then ported to other languages.
+docsUrl: https://gevent-socketio.readthedocs.org/en/latest/
+maintainers:
+- '@bourgetalexndre and seeking new maintainers'
+name: gevent-socketio
+projectUrl: ''
+pypiUrl: https://pypi.org/project/gevent-socketio
+support: community
+vcsUrl: https://github.com/abourget/gevent-socketio

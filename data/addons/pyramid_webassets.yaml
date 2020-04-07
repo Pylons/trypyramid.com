@@ -1,0 +1,14 @@
+addon: true
+category:
+- asset-management
+demoUrl: ''
+description: Pyramid extension for working with the webassets library.
+docsUrl: ''
+maintainers:
+- tilgovi
+- sontek
+name: pyramid_webassets
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_webassets
+support: community
+vcsUrl: https://github.com/sontek/pyramid_webassets

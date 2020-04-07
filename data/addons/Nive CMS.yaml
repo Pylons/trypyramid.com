@@ -1,0 +1,14 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Nive is a new, "out of the box", open source content management system
+  based on the programming language Python and the Pyramid web framework.
+docsUrl: http://cms.nive.co/doc/html/index.html
+maintainers:
+- adroullier
+name: Nive CMS
+projectUrl: http://cms.nive.co/
+pypiUrl: ''
+support: community
+vcsUrl: https://github.com/nive/nive_cms

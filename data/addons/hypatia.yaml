@@ -1,0 +1,14 @@
+addon: false
+category:
+- search
+demoUrl: ''
+description: A Python indexing and searching system.
+docsUrl: ''
+maintainers:
+- tseaver
+- chrism
+name: hypatia
+projectUrl: ''
+pypiUrl: https://pypi.org/project/hypatia
+support: community
+vcsUrl: https://github.com/Pylons/hypatia

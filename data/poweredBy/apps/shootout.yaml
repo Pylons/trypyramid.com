@@ -1,0 +1,12 @@
+category: floss
+demoUrl: ''
+description: <p>An example "idea competition" application by Carlos de la Guardia
+  and Lukasz Fidosz. It demonstrates URL dispatch, simple authentication, integration
+  with <a href="http://www.sqlalchemy.org/">SQLAlchemy</a> and pyramid_simpleform.</p>
+docsUrl: ''
+logo: ''
+maintainers: []
+name: shootout
+projectUrl: https://github.com/Pylons/shootout
+pypiUrl: ''
+vcsUrl: https://github.com/Pylons/shootout

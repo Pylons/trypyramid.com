@@ -1,0 +1,16 @@
+addon: true
+category:
+- debugging
+- logging
+demoUrl: ''
+description: A <a href="https://docs.python.org/3/library/logging.html#formatter-objects">logging
+  formatter</a> which makes Pyramid request attributes available for us in its format
+  string.
+docsUrl: ''
+maintainers:
+- Jeff Dairiki
+name: pyramid-log
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid-log/
+support: community
+vcsUrl: https://github.com/dairiki/pyramid_log

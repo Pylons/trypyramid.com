@@ -1,0 +1,16 @@
+addon: true
+category:
+- template-languages
+demoUrl: ''
+description: This package provides a simple framework to integrate code with templates
+  and resources.
+docsUrl: http://pythonhosted.org/pyramid_skins/
+maintainers:
+- fschulze
+- malthe
+- witsch
+name: pyramid_skins
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_skins
+support: community
+vcsUrl: https://github.com/Pylons/pyramid_skins

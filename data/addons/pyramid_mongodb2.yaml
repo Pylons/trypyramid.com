@@ -1,0 +1,14 @@
+addon: false
+category:
+- storage
+demoUrl: ''
+description: Provides a mongodb integration with your Pyramid application. Comes with
+  a debugtoolbar and supports multiple databases.
+docsUrl: ''
+maintainers:
+- jonno_ftw
+name: pyramid_mongodb2
+projectUrl: https://pypi.org/project/pyramid_mongodb2/
+pypiUrl: https://pypi.org/project/pyramid_mongodb2/
+support: community
+vcsUrl: https://github.com/JonnoFTW/pyramid_mongodb2

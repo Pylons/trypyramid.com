@@ -1,0 +1,14 @@
+addon: false
+category:
+- requests
+demoUrl: ''
+description: A friendly library for parsing HTTP request arguments, with built-in
+  support for popular web frameworks.
+docsUrl: http://webargs.readthedocs.org/en/latest/
+maintainers:
+- sloria
+name: webargs
+projectUrl: ''
+pypiUrl: https://pypi.org/project/webargs
+support: community
+vcsUrl: https://github.com/sloria/webargs

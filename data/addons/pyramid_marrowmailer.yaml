@@ -1,0 +1,13 @@
+addon: true
+category:
+- email
+demoUrl: ''
+description: Pyramid integration package for marrow.mailer, formerly known as TurboMail
+docsUrl: https://github.com/domenkozar/pyramid_marrowmailer
+maintainers:
+- iElectric
+name: pyramid_marrowmailer
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_marrowmailer
+support: community
+vcsUrl: https://github.com/domenkozar/pyramid_marrowmailer

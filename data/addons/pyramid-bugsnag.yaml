@@ -1,0 +1,13 @@
+addon: false
+category:
+- debugging
+demoUrl: ''
+description: Pyramid extension to configure and integrate the Bugsnag client
+docsUrl: https://github.com/pior/pyramid_bugsnag
+maintainers:
+- Pior Bastida
+name: pyramid-bugsnag
+projectUrl: https://github.com/pior/pyramid_bugsnag
+pypiUrl: https://pypi.org/project/pyramid-bugsnag/
+support: community
+vcsUrl: https://github.com/pior/pyramid_bugsnag

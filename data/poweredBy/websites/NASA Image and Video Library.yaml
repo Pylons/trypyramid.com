@@ -1,0 +1,10 @@
+category: website
+demoUrl: https://images.nasa.gov/
+description: <p>Public-facing, search-centric, best-of NASA images, video and audio.</p>
+docsUrl: ''
+logo: nasa-images-logo.jpg
+maintainers: []
+name: NASA Image and Video Library
+projectUrl: https://images.nasa.gov/
+pypiUrl: ''
+vcsUrl: ''

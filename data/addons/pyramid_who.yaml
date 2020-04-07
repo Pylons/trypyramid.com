@@ -1,0 +1,14 @@
+addon: true
+category:
+- authentication
+demoUrl: ''
+description: Authentication policy for Pyramid using repoze.who 2.0 API.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-who/en/latest/
+maintainers:
+- Chris McDonough
+- Tres Seaver
+name: pyramid_who
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_who
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_who

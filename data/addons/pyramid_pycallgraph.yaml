@@ -1,0 +1,14 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: This package provides a Pyramid tween to generate a callgraph image for
+  every request.
+docsUrl: ''
+maintainers:
+- disko
+name: pyramid_pycallgraph
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_pycallgraph
+support: community
+vcsUrl: https://github.com/disko/pyramid_pycallgraph

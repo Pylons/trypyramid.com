@@ -1,6 +1,10 @@
-'use strict';
+// vendors
+require('./vendors');
 
+// assets
 require('./sass/app.scss');
+require('./static/robots.txt');
+
 require('./img/pyramid-60x60.png');
 require('./img/pyramid-16x16.png');
 require('./img/linode.png');
@@ -128,7 +132,7 @@ require('./img/websauna-logo.png');
 require('./img/yelp-logo.png');
 require('./img/zopyx-logo.png');
 
-var hljs = require('highlight.js');
+const hljs = require('highlight.js');
 
 hljs.initHighlightingOnLoad();
 
@@ -143,24 +147,24 @@ if ($('.home').length){
   });
 }
 
-var jQBridget = require('jquery-bridget');
-var Isotope = require('isotope-layout');
+const jQBridget = require('jquery-bridget');
+const Isotope = require('isotope-layout');
 $.bridget( 'isotope', Isotope );
 
 // Init Isotope Grid
-var $grid = $('.grid').isotope({
-  itemSelector: '.pyramid-item'
+const $grid = $('.grid').isotope({
+  itemSelector: '.pyramid-item',
 });
 
 // Multiselect Isotope Filter
-var filterSelector = '.extending-filters .filter-multiselect';
+const filterSelector = '.extending-filters .filter-multiselect';
 $(filterSelector).multiselect({
   enableClickableOptGroups: true,
   buttonText: function(options, select) {
     return 'Filter packages';
   },
   onChange: function(option, checked) {
-    var filters = []
+    const filters = [];
     $(filterSelector + ' option:selected').map(function(a, item) {
       filters.push('.'+item.value)
     });
@@ -173,17 +177,17 @@ $(window).bind('load', function() {
 });
 
 // Function for expanding the code block
-$(".code-expand").on('click', function() {
-  var codeBlock = $(this);
-  if (codeBlock.hasClass("collapsed")) {
-    $(".expanded").each(function(){
-      $(this).siblings(".nobs").find(".code-top, .code-bottom").hide("slow");
-      $(this).removeClass("expanded").addClass("collapsed");
+$('.code-expand').on('click', function() {
+  const codeBlock = $(this);
+  if (codeBlock.hasClass('collapsed')) {
+    $('.expanded').each(function(){
+      $(this).siblings('.nobs').find('.code-top, .code-bottom').hide('slow');
+      $(this).removeClass('expanded').addClass('collapsed');
     });
-    $(this).siblings(".nobs").find(".code-top, .code-bottom").show("slow");
-    codeBlock.removeClass("collapsed").addClass("expanded");
+    $(this).siblings('.nobs').find('.code-top, .code-bottom').show('slow');
+    codeBlock.removeClass('collapsed').addClass('expanded');
   } else {
-    $(this).siblings(".nobs").find(".code-top, .code-bottom").hide("slow");
-    codeBlock.removeClass("expanded").addClass("collapsed");
+    $(this).siblings('.nobs').find('.code-top, .code-bottom').hide('slow');
+    codeBlock.removeClass('expanded').addClass('collapsed');
   }
 });

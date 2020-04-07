@@ -1,0 +1,13 @@
+addon: true
+category:
+- authorization
+demoUrl: ''
+description: User registration and login system for the Pyramid Web Framework.
+docsUrl: ''
+maintainers:
+- sontek
+name: horus
+projectUrl: ''
+pypiUrl: https://pypi.org/project/horus
+support: community
+vcsUrl: https://github.com/Pylons/horus

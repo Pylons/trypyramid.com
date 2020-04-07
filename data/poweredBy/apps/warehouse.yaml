@@ -1,0 +1,11 @@
+category: floss
+demoUrl: https://pypi.org/
+description: <p>Warehouse is a next generation Python Package Repository designed
+  to replace the legacy code base that currently powers PyPI.</p>
+docsUrl: https://warehouse.readthedocs.io/
+logo: warehouse-pypi-logo.png
+maintainers: []
+name: warehouse
+projectUrl: https://pypi.org
+pypiUrl: ''
+vcsUrl: https://github.com/pypa/warehouse

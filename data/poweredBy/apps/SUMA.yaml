@@ -1,0 +1,14 @@
+category: floss
+demoUrl: ''
+description: <p>SUMA stands for Short URL Managment App. The role of SUMA is to manage
+  external links and extract data from them. SUMA is a small web service to easily
+  do the following:<ul><li>Creating short URL for external link within your application</li><li>Extracting
+  Title</li><li>Capturing Screenshot from URL</li><li>Blocking URLs</li><li>Collecting
+  clicks</li></ul>
+docsUrl: ''
+logo: ''
+maintainers: []
+name: SUMA
+projectUrl: https://github.com/rach/suma
+pypiUrl: ''
+vcsUrl: https://github.com/rach/suma

@@ -1,0 +1,13 @@
+addon: true
+category:
+- media-management
+demoUrl: ''
+description: Connector for elfinder file manager
+docsUrl: https://github.com/uralbash/pyramid_elfinder
+maintainers:
+- uralbash
+name: pyramid_elfinder
+projectUrl: ''
+pypiUrl: ''
+support: community
+vcsUrl: https://github.com/uralbash/pyramid_elfinder

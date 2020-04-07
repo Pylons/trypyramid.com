@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <meta name="description" content="Pyramid is a lightweight Python web framework aimed at taking small web apps into big web apps. This site provides an easy entry point into Pyramid.">
+  <meta name="keywords" content="pyramid, web framework, python web framework, pyramid web framework, python, pylons, pylons project, open source">
+  <meta name="author" content="Pylons Project">
+  <link rel="shortcut icon" href="img/pyramid-16x16.png"/>
+  {{ template "_internal/google_analytics.html" . }}
+  <link href="vendors.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  <div id="pace-loader"></div>
+  <section class="app">
+    {{ partial "nav.html" . }}
+    <div id="main">
+      {{ block "main" . }}{{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+  </section>
+
+  <script src="vendors.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

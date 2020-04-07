@@ -1,0 +1,15 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: An interactive HTML debug toolbar for Pyramid.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/
+maintainers:
+- Chris McDonough
+- Blaise Laflamme
+- Michael Merickel
+name: pyramid_debugtoolbar
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_debugtoolbar
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_debugtoolbar

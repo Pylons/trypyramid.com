@@ -1,0 +1,13 @@
+addon: true
+category:
+- routing
+demoUrl: ''
+description: A simple base resource class for URL traversal in Pyramid.
+docsUrl: https://pypi.org/project/pyramid-resource/
+maintainers:
+- luhn
+name: pyramid-resource
+projectUrl: https://pypi.org/project/pyramid-resource/
+pypiUrl: https://pypi.org/project/pyramid-resource/
+support: community
+vcsUrl: https://github.com/luhn/pyramid-resource

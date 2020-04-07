@@ -1,0 +1,41 @@
+- name: Linode
+  logo: linode-logo.png
+  websiteUrl: https://www.linode.com/?utm_source=referral&utm_medium=website&utm_content=[Pyramid]&utm_campaign=sponsorship
+  description: Linode provides DNS and web hosting services for Pylons Project websites,
+    including <a href="https://pylonsproject.org/">PylonsProject.org</a>, <a href="https://trypyramid.com/">TryPyramid.com</a>,
+    and <a href="https://webob.org/">WebOb.org</a>.
+
+- name: JetBrains
+  logo: jetbrains-128-logo.png
+  websiteUrl: https://www.jetbrains.com/
+  description: <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> is an integrated
+    development environment for Python from <a href="https://www.jetbrains.com/">JetBrains</a>.
+    PyCharm Professional Edition includes Pyramid as one of its Python web frameworks,
+    making it easy to create, debug, and run Pyramid projects.<br><br>Core developers
+    in any project under the Pylons Project are eligible to receive a renewable one-year
+    free and open source software license for all <a href="https://www.jetbrains.com/">JetBrains</a>
+    products, including <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>,
+    at no cost. Contact user <code>stevepiercy</code> in the <code>#pyramid</code>
+    IRC channel on <code>irc.freenode.net</code>.
+
+- name: Talk Python Training
+  logo: talk-python-training-128x128-logo.png
+  websiteUrl: https://training.talkpython.fm/
+  description: <a href="https://training.talkpython.fm/">Talk Python Training</a>
+    provides online Python courses across a wide range of topics, including web development,
+    data access, Pythonic code, and much more.<br><br>Core developers in any project
+    under the Pylons Project are eligible to receive a promo code for the course <a
+    href="https://training.talkpython.fm/courses/explore_pyramid/building-data-driven-web-applications-in-python-with-pyramid-sqlalchemy-and-bootstrap">Building
+    data-driven web apps with Pyramid and SQLAlchemy</a>. Register online at <a href="https://training.talkpython.fm/">training.talkpython.fm</a>
+    and email Michael Kennedy at <a href="mailto:michael@talkpython.fm">michael@talkpython.fm</a>.
+
+- name: Read the Docs
+  logo: read-the-docs-logo.svg
+  websiteUrl: https://readthedocs.org/
+  description: <a href="https://readthedocs.org/">Read the Docs</a> simplifies software
+    documentation by automating building, versioning, and hosting of your docs for
+    you.<br><br>Most projects under the Pylons Project use Read the Docs' free service
+    for publishing its documentation in multiple formats and versions. Additionally
+    we display <a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html">Ethical
+    Ads</a> that don't track our readers and respects their privacy, returning ad
+    revenue to the <a href="https://www.python.org/psf-landing/">Python Software Foundation</a>.

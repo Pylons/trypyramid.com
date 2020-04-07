@@ -1,0 +1,14 @@
+addon: false
+category:
+- authentication
+demoUrl: https://authomatic-example.appspot.com/
+description: Simple yet powerful authorization and authentication client library for
+  Python web applications.
+docsUrl: http://peterhudec.github.io/authomatic/reference/index.html
+maintainers:
+- peterhudec
+name: Authomatic
+projectUrl: http://peterhudec.github.io/authomatic/
+pypiUrl: https://pypi.org/project/Authomatic
+support: community
+vcsUrl: https://github.com/peterhudec/authomatic

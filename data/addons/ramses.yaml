@@ -1,0 +1,17 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: "Ramses is a framework that generates a RESTful API using <a href=\"\
+  http://raml.org\">RAML</a>. It uses Pyramid and <a href=\"https://nefertari.readthedocs.org/\"\
+  >Nefertari</a>, which provides Elasticsearch / Posgres / MongoDB / Your Data Store\u2122\
+  \ -powered views."
+docsUrl: https://ramses.readthedocs.org/
+maintainers:
+- Jonathan.Stoikovitch
+- chrstphrhrt
+name: ramses
+projectUrl: http://ramses.tech/
+pypiUrl: https://pypi.org/project/ramses
+support: community
+vcsUrl: https://github.com/ramses-tech/ramses

@@ -1,0 +1,13 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: OpenTracing library/tween for tracing/integration of Pyramid's requests.
+docsUrl: https://github.com/carlosalberto/python-pyramid
+maintainers:
+- Carlos Alberto Cortez
+name: pyramid-opentracing
+projectUrl: https://github.com/carlosalberto/python-pyramid
+pypiUrl: https://pypi.org/project/pyramid-opentracing/
+support: community
+vcsUrl: https://github.com/carlosalberto/python-pyramid

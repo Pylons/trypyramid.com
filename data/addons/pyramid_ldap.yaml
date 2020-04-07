@@ -1,0 +1,13 @@
+addon: true
+category:
+- authentication
+demoUrl: ''
+description: An LDAP authentication policy for Pyramid.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-ldap/en/latest/
+maintainers:
+- Chris McDonough
+name: pyramid_ldap
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_ldap
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_ldap

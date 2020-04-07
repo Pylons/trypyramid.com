@@ -1,0 +1,17 @@
+addon: true
+category:
+- file-management
+demoUrl: ''
+description: pyramid-excel is based on <a href="https://github.com/pyexcel/pyexcel">pyexcel</a>
+  and makes it easy to consume and produce information stored in Excel files over
+  HTTP protocol as well as on the file system. This library can turn the Excel data
+  into a list of lists, a list of records (dictionaries), and dictionaries of lists,
+  and vice versa.
+docsUrl: http://pyramid-excel.readthedocs.io/en/latest/
+maintainers:
+- chfw
+name: pyramid-excel
+projectUrl: https://github.com/pyexcel-webwares/pyramid-excel
+pypiUrl: https://pypi.org/project/pyramid-excel
+support: community
+vcsUrl: https://github.com/pyexcel-webwares/pyramid-excel

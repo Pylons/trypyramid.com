@@ -1,0 +1,19 @@
+addon: true
+category:
+- authorization
+demoUrl: ''
+description: An authentication policy for Pyramid that proxies to a stack of other
+  authentication policies.
+docsUrl: ''
+maintainers:
+- leplatrem
+- natim
+- rafrombrc
+- alexis.metaireau
+- tarek
+- rfk
+name: pyramid_multiauth
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_multiauth
+support: community
+vcsUrl: https://github.com/mozilla-services/pyramid_multiauth

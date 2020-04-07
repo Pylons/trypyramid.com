@@ -1,0 +1,14 @@
+addon: true
+category:
+- storage
+demoUrl: ''
+description: A simple file upload manager for the Pyramid framework. It currently
+  supports uploads to the local file system and to the Amazon S3 cloud storage service.
+docsUrl: https://pythonhosted.org/pyramid_storage/
+maintainers:
+- danjac
+name: pyramid_storage
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_storage
+support: community
+vcsUrl: https://github.com/danjac/pyramid_storage

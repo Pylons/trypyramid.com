@@ -1,0 +1,15 @@
+addon: true
+category:
+- user-interface-and-user-experience-ui-and-ux
+demoUrl: ''
+description: Pyramid add-on for managing UI layouts.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-layout/en/latest/
+maintainers:
+- Chris Rossi
+- Paul Everitt
+- Blaise Laflamme
+name: pyramid_layout
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_layout
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_layout

@@ -1,0 +1,14 @@
+addon: false
+category:
+- forms
+demoUrl: ''
+description: A lightweight library for converting complex objects to and from simple
+  Python data types (i.e., (de)serialization and validation).
+docsUrl: http://marshmallow.readthedocs.org/en/latest/
+maintainers:
+- sloria
+name: marshmallow
+projectUrl: ''
+pypiUrl: https://pypi.org/project/marshmallow
+support: community
+vcsUrl: https://github.com/marshmallow-code/marshmallow

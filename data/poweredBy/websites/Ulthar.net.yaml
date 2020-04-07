@@ -1,0 +1,12 @@
+category: website
+demoUrl: ''
+description: Ulthar.net is a french website dedicated to the american writer Howard
+  Phillips Lovecraft and the Cthulhu mythos
+docsUrl: ''
+logo: ulthar-net-logo.png
+maintainers:
+- Thierry Florac (https://github.com/tflorac)
+name: Ulthar.net
+projectUrl: https://www.ulthar.net/
+pypiUrl: ''
+vcsUrl: ''

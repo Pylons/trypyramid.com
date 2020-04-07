@@ -1,0 +1,13 @@
+addon: true
+category:
+- renderers
+demoUrl: ''
+description: tablib renderer factory (xlsx, xls, csv) for Pyramid.
+docsUrl: ''
+maintainers:
+- lxneng
+name: pyramid_tablib
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_tablib
+support: community
+vcsUrl: https://github.com/lxneng/pyramid_tablib

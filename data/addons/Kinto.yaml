@@ -1,0 +1,19 @@
+addon: false
+category:
+- storage
+demoUrl: ''
+description: Kinto is a lightweight JSON storage service with synchronisation and
+  sharing abilities.
+docsUrl: http://kinto.readthedocs.org/en/latest/
+maintainers:
+- Mozilla Services
+- n1k0
+- Natim
+- tarek
+- alexis.metaireau
+- leplatrem
+name: Kinto
+projectUrl: ''
+pypiUrl: https://pypi.org/project/kinto
+support: community
+vcsUrl: https://github.com/Kinto/kinto

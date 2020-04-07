@@ -1,0 +1,13 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: dogpile caching support for pyramid_debugtoolbar
+docsUrl: ''
+maintainers:
+- jvanasco
+name: pyramid_debugtoolbar_dogpile
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_debugtoolbar_dogpile
+support: community
+vcsUrl: https://github.com/jvanasco/pyramid_debugtoolbar_dogpile

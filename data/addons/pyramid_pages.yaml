@@ -1,0 +1,15 @@
+addon: false
+category:
+- web-page-utilities
+demoUrl: ''
+description: Provides a collection of web pages to your Pyramid application. This
+  is very similar to django.contrib.flatpages but with a tree structure and traversal
+  algorithm in URL dispatch.
+docsUrl: http://pyramid-pages.readthedocs.org/en/latest/
+maintainers:
+- uralbash
+name: pyramid_pages
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_pages
+support: community
+vcsUrl: https://github.com/uralbash/pyramid_pages

@@ -1,0 +1,13 @@
+addon: true
+category:
+- storage
+demoUrl: ''
+description: Pyramid-mongoengine package based on flask-mongoengine.
+docsUrl: https://github.com/marioidival/pyramid_mongoengine/blob/master/demos/app.py
+maintainers:
+- marioidival
+name: pyramid_mongoengine
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid-mongoengine
+support: community
+vcsUrl: https://github.com/marioidival/pyramid_mongoengine

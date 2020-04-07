@@ -1,0 +1,16 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Pyramid CRUD interface. Provides an administration web interface for
+  Pyramid.<br><strong>Extensions:</strong><br>* <a href="https://github.com/sacrud/ps_alchemy">ps_alchemy</a>
+  - provides SQLAlchemy models.<br>* <a href="https://github.com/sacrud/ps_tree">ps_tree</a>
+  - displays a list of records as tree. This works fine with models from <a href="https://github.com/uralbash/sqlalchemy_mptt">sqlalchemy_mptt</a>.
+docsUrl: http://pyramid-sacrud.readthedocs.org/
+maintainers:
+- uralbash
+name: pyramid_sacrud
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_sacrud
+support: community
+vcsUrl: https://github.com/sacrud/pyramid_sacrud

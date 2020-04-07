@@ -1,102 +1,95 @@
-var path = require('path');
-var webpack = require('webpack');
-var WebpackNotifierPlugin = require('webpack-notifier');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var RobotsPlugin = require('@tanepiper/robots-webpack-plugin');
-var node_modules_dir = path.resolve(__dirname, 'node_modules');
-var img_dir = path.resolve(__dirname, 'src/img/');
-var templates = require('./webpack.tmpl.config').templates;
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack');
 
-var config = {
-  devtool: 'eval',
-  entry: {
-    app: [
-      'webpack-hot-middleware/client',
-      path.resolve(__dirname, 'src/main.js')
-    ],
-    vendors: [
-      path.resolve(__dirname, 'src/vendors.js')
-    ]
-  },
+module.exports = {
+  entry: path.resolve('src', 'main.js'),
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: '[name].[hash].js'
-  },
-  resolve: {
-    root: path.resolve(__dirname, 'src'),
-    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx'],
-    modulesDirectories: ['node_modules', 'src'],
-    alias: {}
+    path: path.resolve('static'),
+    filename: '[name].js'
   },
   module: {
-    noParse: [],
-    loaders: [{
-      test: /\.(js|jsx)$/,
-      exclude: [node_modules_dir],
-      loaders: ['babel']
-    }, {
-      test: /\.css$/,
-      loader: ExtractTextPlugin.extract('style', 'css?sourceMap')
-    }, {
-      test: /\.scss$/,
-      loader: ExtractTextPlugin.extract(
-        'style',
-        'css?sourceMap!sass?sourceMap&includePaths[]=' + node_modules_dir
-      )
-    }, {
-      test: /\.(png|jpg|ico|gif|svg|pdf)$/,
-      exclude: [node_modules_dir],
-      loader: 'file?name=img/[name].[ext]'
-    }, {
-      test: /\.html$/,
-      loader: 'html'
-    }, {
-      test: /\.txt$/,
-      loader: 'raw'
-    }, {
-      test: /\.ejs$/,
-      loader: 'ejs-compiled'
-    },{
-      test: /\.(woff|woff2|ttf|eot|svg)(\?.*)?$/,
-      exclude: [img_dir],
-      loader: 'file?name=fonts/[name].[ext]'
-    }, {
-      test: require.resolve('jquery'),
-      loader: 'expose?$!expose?jQuery'
-    }, {
-      test: /isotope\-|fizzy\-ui\-utils|desandro\-|masonry|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
-      loader: 'imports?define=>false&this=>window'
-    }]
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader',
+      },
+      {
+        test: /\.(s[ac]|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          'sass-loader',
+        ],
+      },
+      {
+        test: /\.txt$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
+      },
+      {
+        test: /\.(png|jpg|ico|gif|svg|pdf)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'img/[name].[ext]',
+        },
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot)(\?.*)?$/,
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[ext]',
+        },
+      },
+
+      // imports/expose are here to trick bootstrap-multiselect
+      {
+        test: require.resolve('jquery'),
+        use: [
+          {
+            loader: 'expose-loader',
+            options: 'jQuery',
+          },
+          {
+            loader: 'expose-loader',
+            options: '$',
+          },
+        ],
+      },
+      {
+        test: [
+          require.resolve('bootstrap-multiselect'),
+        ],
+        use: 'imports-loader?this=>window',
+      },
+    ],
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /node_modules/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
   },
   plugins: [
-    new RobotsPlugin(),
-    new WebpackNotifierPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin({
+      // this is to trick bootstrap-multiselect into not requiring knockout
+      'require.specified': undefined,
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
+      jQuery: 'jquery',
     }),
-    new webpack.DefinePlugin({
-      __DEBUG__: true
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
     }),
-    new webpack.NoErrorsPlugin(),
-    new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.[hash].js'),
-    new ExtractTextPlugin('[name].[hash].css', {
-      allChunks: true
-    })
   ],
-  node: {
-    net: 'empty',
-    dns: 'empty'
-  }
 };
-
-if (templates) {
-  templates.forEach(function(template) {
-    template.mode = 'develop';
-    config.plugins.push(new HtmlWebpackPlugin(template));
-  });
-};
-
-module.exports = config;

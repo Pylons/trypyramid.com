@@ -1,0 +1,16 @@
+addon: false
+category:
+- development-environment
+demoUrl: http://demo.substanced.net/
+description: An application server built upon the Pyramid web framework. It provides
+  a user interface for managing content as well as libraries and utilities which make
+  it easy to create applications.
+docsUrl: http://docs.pylonsproject.org/projects/substanced/en/latest/
+maintainers:
+- chrism
+- cguardia
+name: Substance-D
+projectUrl: http://substanced.net/
+pypiUrl: https://pypi.org/project/substanced
+support: pylons
+vcsUrl: https://github.com/Pylons/substanced

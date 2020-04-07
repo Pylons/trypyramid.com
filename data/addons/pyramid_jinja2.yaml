@@ -1,0 +1,13 @@
+addon: true
+category:
+- template-languages
+demoUrl: ''
+description: <a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/
+maintainers:
+- "Domen Ko\u017Ear"
+name: pyramid_jinja2
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_jinja2
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_jinja2

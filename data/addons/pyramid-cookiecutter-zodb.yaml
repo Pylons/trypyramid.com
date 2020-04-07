@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: A cookiecutter (project template) for creating a Pyramid project using
+  ZODB for persistent storage, traversal for routing, and Chameleon for templating.
+docsUrl: ''
+maintainers:
+- cguardia
+name: pyramid-cookiecutter-zodb
+projectUrl: ''
+pypiUrl: ''
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid-cookiecutter-zodb

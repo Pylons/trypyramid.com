@@ -1,0 +1,11 @@
+category: floss
+demoUrl: ''
+description: peter_sslers is a package designed to help experienced admins and devops
+  people manage SSL Certificates and deploy them on larger systems.
+docsUrl: ''
+logo: ''
+maintainers: []
+name: peter_sslers
+projectUrl: https://github.com/aptise/peter_sslers
+pypiUrl: ''
+vcsUrl: https://github.com/aptise/peter_sslers

@@ -1,0 +1,14 @@
+addon: true
+category:
+- configuration
+demoUrl: ''
+description: Defines a pattern and helper methods for accessing a pluggable service
+  layer from within your Pyramid apps.
+docsUrl: https://github.com/mmerickel/pyramid_services
+maintainers:
+- mmerickel
+name: pyramid_services
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_services
+support: community
+vcsUrl: https://github.com/mmerickel/pyramid_services

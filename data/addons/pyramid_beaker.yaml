@@ -1,0 +1,14 @@
+addon: true
+category:
+- sessions
+demoUrl: ''
+description: Beaker session backend plug-in.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-beaker/en/latest/
+maintainers:
+- Ben Bangert
+- Chris McDonough
+name: pyramid_beaker
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_beaker
+support: unsupported
+vcsUrl: https://github.com/Pylons/pyramid_beaker

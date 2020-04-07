@@ -1,0 +1,14 @@
+addon: true
+category:
+- api
+demoUrl: ''
+description: Plugin that provides a router for the <a href="http://www.sencha.com/products/extjs/extdirect">ExtDirect
+  Sencha API</a> included in <a href="http://www.sencha.com/products/extjs/">ExtJS</a>.
+docsUrl: ''
+maintainers:
+- jenner
+name: pyramid_extdirect
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_extdirect
+support: community
+vcsUrl: https://github.com/jenner/pyramid_extdirect

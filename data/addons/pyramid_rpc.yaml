@@ -1,0 +1,15 @@
+addon: true
+category:
+- services
+demoUrl: ''
+description: RPC service add-on for Pyramid. Supports XML-RPC in a more extensible
+  manner than <cite>pyramid_xmlrpc</cite> with support for JSON-RPC and AMF.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-rpc/en/latest/
+maintainers:
+- Michael Merickel
+- Ben Bangert
+name: pyramid_rpc
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_rpc
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_rpc

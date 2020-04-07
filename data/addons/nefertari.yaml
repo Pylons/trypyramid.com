@@ -1,0 +1,17 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Nefertari is a REST API framework for Pyramid that uses ElasticSearch
+  for reads and either MongoDB or Postgres for writes. It provides an interface to
+  ElasticSearch's <a href="https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html">Query
+  String DSL</a> for full text search.
+docsUrl: https://nefertari.readthedocs.org/
+maintainers:
+- Jonathan.Stoikovitch
+- chrstphrhrt
+name: nefertari
+projectUrl: ''
+pypiUrl: https://pypi.org/project/nefertari
+support: community
+vcsUrl: https://github.com/ramses-tech/nefertari

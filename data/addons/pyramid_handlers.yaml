@@ -1,0 +1,15 @@
+addon: true
+category:
+- routing
+demoUrl: ''
+description: 'Analogue of Pylons-style "controllers" for Pyramid. Note: <a href="http://michael.merickel.org/2011/8/23/outgrowing-pyramid-handlers/">Outgrowing
+  Pyramid Handlers</a>'
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-handlers/en/latest/
+maintainers:
+- Ben Bangert
+- Chris McDonough
+name: pyramid_handlers
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_handlers
+support: unsupported
+vcsUrl: https://github.com/Pylons/pyramid_handlers

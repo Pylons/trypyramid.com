@@ -1,0 +1,13 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: IPython bindings for Pyramid's pshell
+docsUrl: https://github.com/Pylons/pyramid_ipython
+maintainers:
+- mmerickel
+name: pyramid_ipython
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_ipython
+support: community
+vcsUrl: https://github.com/Pylons/pyramid_ipython

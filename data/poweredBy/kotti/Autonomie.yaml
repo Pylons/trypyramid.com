@@ -1,0 +1,11 @@
+category: kotti
+demoUrl: http://autonomie.coop/demonstration/
+description: Autonomie is an open source Pyramid-based ERP financed by the collaboration
+  of multiple French worker cooperatives called CAE.
+docsUrl: ''
+logo: autonomie-logo.png
+maintainers: []
+name: Autonomie
+projectUrl: http://autonomie.coop/
+pypiUrl: ''
+vcsUrl: https://github.com/CroissanceCommune/autonomie
