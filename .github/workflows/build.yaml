@@ -23,7 +23,7 @@ jobs:
                   hugo-version: '0.62.2'
             - run: yarn install
             - run: yarn lint
-            - run: yarn build
+            - run: CI_COMMIT_SHA="$GITHUB_SHA" yarn build
             - name: Upload artifacts
               uses: actions/upload-artifact@master
               with:
