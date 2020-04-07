@@ -1,4 +1,4 @@
-{{ range $.Site.Data.addons }}
+{{ range sort $.Site.Data.addons "name" }}
 <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item support-{{ .support }}{{ range .category }} category-{{ . }}{{ end }} addon-{{ if .addon }}yes{{ else }}no{{ end }}">
   <div class="grid-item-content">
     <h4>{{ .name }}</h4>

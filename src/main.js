@@ -159,7 +159,7 @@ const $grid = $('.grid').isotope({
 // Multiselect Isotope Filter
 const filterSelector = '.extending-filters .filter-multiselect';
 $(filterSelector).multiselect({
-  enableClickableOptGroups: true,
+  enableClickableOptGroups: false,
   buttonText: function(options, select) {
     return 'Filter packages';
   },

@@ -1,4 +1,4 @@
-{{ range (index $.Site.Data.poweredBy (.Get 0)) }}
+{{ range sort ((index $.Site.Data.poweredBy (.Get 0))) "name" }}
 <div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-{{ .category }}">
   <div class="grid-item-content">
     {{ if .logo }}
