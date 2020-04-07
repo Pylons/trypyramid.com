@@ -1,4 +1,5 @@
 const path = require('path');
+const ManifestPlugin = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
@@ -6,7 +7,7 @@ module.exports = {
   entry: path.resolve('src', 'main.js'),
   output: {
     path: path.resolve('static'),
-    filename: '[name].js'
+    filename: '[name].[hash].js'
   },
   module: {
     rules: [
@@ -89,7 +90,10 @@ module.exports = {
       jQuery: 'jquery',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
+      filename: '[name].[hash].css',
+    }),
+    new ManifestPlugin({
+      fileName: path.resolve('data', 'manifest.json'),
     }),
   ],
 };

@@ -10,8 +10,10 @@
   <meta name="author" content="Pylons Project">
   <link rel="shortcut icon" href="img/pyramid-16x16.png"/>
   {{ template "_internal/google_analytics.html" . }}
-  <link href="vendors.css" rel="stylesheet">
-  <link href="main.css" rel="stylesheet">
+  {{ with $.Site.Data.manifest }}
+  <link href="{{ (index . "vendors.css") | relURL }}" rel="stylesheet">
+  <link href="{{ (index . "main.css") | relURL }}" rel="stylesheet">
+  {{ end }}
 </head>
 <body>
   <div id="pace-loader"></div>
@@ -23,7 +25,9 @@
     {{ partial "footer.html" . }}
   </section>
 
-  <script src="vendors.js"></script>
-  <script src="main.js"></script>
+  {{ with $.Site.Data.manifest }}
+  <script src="{{ (index . "vendors.js") | relURL }}"></script>
+  <script src="{{ (index . "main.js") | relURL }}"></script>
+  {{ end }}
 </body>
 </html>

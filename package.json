@@ -54,6 +54,7 @@
     "raw-loader": "^4.0.0",
     "sass-loader": "^8.0.2",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-manifest-plugin": "^2.2.0"
   }
 }

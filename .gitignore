@@ -3,4 +3,5 @@
 /resources
 /dist
 /public
+/data/manifest.json
 yarn-error.log
