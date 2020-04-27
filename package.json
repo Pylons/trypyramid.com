@@ -4,9 +4,6 @@
   "version": "0.4.19-dev",
   "author": "Pylons Project",
   "license": "MIT",
-  "engines": {
-    "node": "13.x"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Pylons/trypyramid.com.git"

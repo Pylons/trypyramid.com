@@ -1,8 +1,5 @@
----
-title: "Welcome to Pyramid, a Python Web Framework"
-layout: single
-needsTsNav: true
----
+{{ define "main" }}
+
 <div class="home">
 
   <section class="hero-header">
@@ -67,18 +64,21 @@ if __name__ == '__main__':
             that make writing complex software take less effort.
           </p>
           <p>Pyramid works in all supported versions of Python. Our
-            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation instructions</a>
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">installation
+              instructions</a>
             will help you get Pyramid up and running.
           </p>
           <p>Pyramid's
-            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick tutorial</a>
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/index.html">quick
+              tutorial</a>
             will take you step by step through writing a single file
             application, forms, database integration, and authentication.
           </p>
           <p>Developers may dive in to Pyramid's
-             <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative documentation</a>,
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html">narrative
+              documentation</a>,
             or browse the extensive
-             <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/api/index.html">API reference</a>.
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/api/index.html">API reference</a>.
             Pyramid has a rich pool of helpful <a href="/resources.html">resources</a>
             from which to draw. <a href="/resources-extending-pyramid.html">Extending Pyramid</a>
             is a curated and filterable list of add-ons, packages, and applications
@@ -98,12 +98,18 @@ if __name__ == '__main__':
           </h1>
         </div>
         <div class="col-md-5 col-md-offset-1">
-          <p><strong>Megaframeworks</strong> make decisions for you. But if you don't fit their viewpoint, you end up fighting their decisions. <strong>Microframeworks</strong> force no decisions, making it easy to start. But as your application grows, you're on your own.</p>
-          <p>In both cases, the focus is on the <strong>start</strong>: either too much or too little. Either way, finishing and staying finished is hard. You need a <strong>finishing-focused</strong> framework with an architectural design that scales down to getting started, then up as your application grows.</p>
+          <p><strong>Megaframeworks</strong> make decisions for you. But if you don't fit their viewpoint, you end up
+            fighting their decisions. <strong>Microframeworks</strong> force no decisions, making it easy to start. But
+            as your application grows, you're on your own.</p>
+          <p>In both cases, the focus is on the <strong>start</strong>: either too much or too little. Either way,
+            finishing and staying finished is hard. You need a <strong>finishing-focused</strong> framework with an
+            architectural design that scales down to getting started, then up as your application grows.</p>
         </div>
         <div class="col-md-5 feature">
-          <p><strong>Pyramid</strong> was made for just this. It's a Goldilocks Solution: not too small, not too big, just right.</p>
-          <p><strong>Pyramid</strong> The Start <strong>Small</strong>, Finish <strong>Big</strong>, Stay <strong>Finished</strong> Framework.</p>
+          <p><strong>Pyramid</strong> was made for just this. It's a Goldilocks Solution: not too small, not too big,
+            just right.</p>
+          <p><strong>Pyramid</strong> The Start <strong>Small</strong>, Finish <strong>Big</strong>, Stay
+            <strong>Finished</strong> Framework.</p>
         </div>
       </div>
     </div>
@@ -117,12 +123,18 @@ if __name__ == '__main__':
             Start <strong>Small</strong>
           </h1>
           <i class="fa fa-6x fa-compress text-red pull-right"></i>
-          <p>Getting started quickly and simply is a key attraction of lightweight frameworks. Equally, you get to choose what approaches to use for templating, database, security, and more, or use a convenient starting point with a scaffold. Pyramid excels at scaling down to the first hour of learning, while avoiding the pitfalls of framework magic.</p>
+          <p>Getting started quickly and simply is a key attraction of lightweight frameworks. Equally, you get to
+            choose what approaches to use for templating, database, security, and more, or use a convenient starting
+            point with a scaffold. Pyramid excels at scaling down to the first hour of learning, while avoiding the
+            pitfalls of framework magic.</p>
           <ul class="features">
             <li>Start as a <strong>single-file module</strong> with little first-hour complexity</li>
-            <li>Use a <strong>convenient scaffold</strong> to generate a sample project with your combination of subsystems</li>
-            <li>Choose from a variety of <strong>templating, database, security solutions</strong> and more using the quality and convenience of Pyramid's add-on system</li>
-            <li>Tap into a variety of <strong>high-quality documentation</strong> for evaluating, trying out, or doing advanced development with Pyramid</li>
+            <li>Use a <strong>convenient scaffold</strong> to generate a sample project with your combination of
+              subsystems</li>
+            <li>Choose from a variety of <strong>templating, database, security solutions</strong> and more using the
+              quality and convenience of Pyramid's add-on system</li>
+            <li>Tap into a variety of <strong>high-quality documentation</strong> for evaluating, trying out, or doing
+              advanced development with Pyramid</li>
             <li><strong>Ask</strong> the growing <strong>Pyramid community</strong> for tips and successes</li>
           </ul>
         </div>
@@ -131,7 +143,9 @@ if __name__ == '__main__':
             Finish <strong>Big</strong>
           </h1>
           <i class="fa fa-6x fa-expand text-red pull-right"></i>
-          <p>Ambitious projects aspire to grow big without losing their dignity. Pyramid is uniquely equipped to scale with you. Its configuration, extension, and add-on system gives the skeleton to support your ambitions, and its architecture ensures that you don't lose those performance and quality features you started with.</p>
+          <p>Ambitious projects aspire to grow big without losing their dignity. Pyramid is uniquely equipped to scale
+            with you. Its configuration, extension, and add-on system gives the skeleton to support your ambitions, and
+            its architecture ensures that you don't lose those performance and quality features you started with.</p>
           <ul class="features">
             <li><strong>Include and configure</strong> Pyramid add-ons inside your application</li>
             <li><strong>Override and customize</strong> core code and add-ons from the outside, without forking</li>
@@ -139,7 +153,8 @@ if __name__ == '__main__':
             <li><strong>Less magic</strong> by forgoing globals and import side-effects</li>
             <li>Use the <strong>configuration system</strong> to keep your wiring separate from your code</li>
             <li>Numerous <strong>extension facilities</strong> built into the framework</li>
-            <li>Use Pyramid as a <strong>"framework framework"</strong> to craft your own special-purpose, domain-specific web system</li>
+            <li>Use Pyramid as a <strong>"framework framework"</strong> to craft your own special-purpose,
+              domain-specific web system</li>
             <li>Gain insight from our long-standing <strong>culture of systems</strong> that organically get big</li>
           </ul>
         </div>
@@ -148,15 +163,22 @@ if __name__ == '__main__':
             Stay <strong>Finished</strong>
           </h1>
           <i class="fa fa-6x fa-trophy text-red pull-right"></i>
-          <p>Pyramid's simple first hour helps you get started and its extensability helps you finish your ambitions. There's life after shipping. Pyramid helps keep your application finished by understanding the full life cycle of a professional web application.</p>
+          <p>Pyramid's simple first hour helps you get started and its extensability helps you finish your ambitions.
+            There's life after shipping. Pyramid helps keep your application finished by understanding the full life
+            cycle of a professional web application.</p>
           <ul class="features">
-            <li>Deep commitment to <strong>API stability</strong> and <strong>bug fixing</strong> over the 120+ software releases</li>
-            <li>Culture of <strong>100% test and documentation coverage</strong> makes Pyramid a future-proof choice</li>
+            <li>Deep commitment to <strong>API stability</strong> and <strong>bug fixing</strong> over the 120+ software
+              releases</li>
+            <li>Culture of <strong>100% test and documentation coverage</strong> makes Pyramid a future-proof choice
+            </li>
             <li>Keeping configuration out of code means <strong>less forking</strong> and side-effects</li>
-            <li>Long history of <strong>repeatable deployments</strong> provides a community culture of helpful tips</li>
+            <li>Long history of <strong>repeatable deployments</strong> provides a community culture of helpful tips
+            </li>
             <li>Top-notch <strong>performance</strong> even as Pyramid grows</li>
-            <li>Deep <strong>extensibility</strong> and large-scale <strong>design patterns</strong> means you won't outgrow it</li>
-            <li>Strong following of <strong>Python practices</strong> (WSGI, packages, virtual environments, first to support Python 3) means you won't be out of the Python mainstream</li>
+            <li>Deep <strong>extensibility</strong> and large-scale <strong>design patterns</strong> means you won't
+              outgrow it</li>
+            <li>Strong following of <strong>Python practices</strong> (WSGI, packages, virtual environments, first to
+              support Python 3) means you won't be out of the Python mainstream</li>
           </ul>
         </div>
       </div>
@@ -171,11 +193,14 @@ if __name__ == '__main__':
             Supports Your <strong>Decisions</strong>
           </h1>
           <i class="fa fa-6x fa-cogs text-green dark pull-right"></i>
-          <p>Full-stack frameworks provide built-in value by telling you what to do. But doing something different, or using something better, leads to the dreaded "fighting the framework". Pyramid starts from a very small base, providing many high-quality choices.</p>
+          <p>Full-stack frameworks provide built-in value by telling you what to do. But doing something different, or
+            using something better, leads to the dreaded "fighting the framework". Pyramid starts from a very small
+            base, providing many high-quality choices.</p>
           <ul class="features">
             <li><strong>Don't waste time</strong> fighting the framework's decisions</li>
             <li><strong>"Only pay for what you eat"</strong> means less magic to live with in production</li>
-            <li><strong>No bundled templating</strong> system but instead, three very <strong>high-quality add-ons</strong> for <strong>Chameleon</strong>, <strong>Jinja2</strong> and <strong>Mako</strong></li>
+            <li><strong>No bundled templating</strong> system but instead, three very <strong>high-quality
+                add-ons</strong> for <strong>Chameleon</strong>, <strong>Jinja2</strong> and <strong>Mako</strong></li>
             <li>Several <strong>form systems</strong> covering most of the common design tastes</li>
             <li>Choose your database, with add-on support for
               <strong>SQLAlchemy</strong> and others</li>
@@ -186,7 +211,8 @@ if __name__ == '__main__':
             By <strong>Artisans</strong>, For <strong>Artisans</strong>
           </h1>
           <i class="fa fa-6x fa-code text-green dark pull-right"></i>
-          <p>The Pyramid team has been doing ambitious Python web frameworks since 1995. We have built small systems and huge systems. From this, we delight in helping others who appreciate quality and dream big.</p>
+          <p>The Pyramid team has been doing ambitious Python web frameworks since 1995. We have built small systems and
+            huge systems. From this, we delight in helping others who appreciate quality and dream big.</p>
           <ul class="features">
             <li><strong>Craftsmanship</strong> with seriousness of
               purpose and honesty</li>
@@ -194,7 +220,8 @@ if __name__ == '__main__':
               commitment to <strong>quality</strong></li>
             <li><strong>Builders</strong> of the first open source application server</li>
             <li><strong>Bootstrapper</strong> of the PSF and member of its first board</li>
-            <li>Support letting <strong>quality artisans</strong> add <strong>real value</strong> by quickly but durably making specific experiences</li>
+            <li>Support letting <strong>quality artisans</strong> add <strong>real value</strong> by quickly but durably
+              making specific experiences</li>
           </ul>
         </div>
       </div>
@@ -206,7 +233,11 @@ if __name__ == '__main__':
       <div class="row">
         <div class="col-md-12">
           <h2 class="title text-red">Pyramid <strong>Features</strong></h2>
-          <p>To demonstrate these features, <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">install Pyramid</a>, click <i class="fa fa-arrows-v text-red" aria-hidden="true"></i> to expand and copy the code sample into a file, run the application with <code>env/bin/python demo.py</code>, and use <code>curl</code> or a browser to request
+          <p>To demonstrate these features, <a
+              href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html">install Pyramid</a>,
+            click <i class="fa fa-arrows-v text-red" aria-hidden="true"></i> to expand and copy the code sample into a
+            file, run the application with <code>env/bin/python demo.py</code>, and use <code>curl</code> or a browser
+            to request
             <a href="http://0.0.0.0:6543">http://0.0.0.0:6543</a>.</p>
         </div>
       </div>
@@ -238,7 +269,8 @@ if __name__ == '__main__':
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#mapping-views-using-a-decorator-section">
+          <h3 class="title"><a
+              href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#mapping-views-using-a-decorator-section">
               Function Decorators</a></h3>
           <p>Pyramid is written in Python. All the features you know and love
             in the Python language, such as function decorators, are available
@@ -277,7 +309,8 @@ if __name__ == '__main__':
           </pre>
         </div>
         <div class="col-md-6">
-          <h3 class="title"><a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#view-configuration-parameters">
+          <h3 class="title"><a
+              href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/viewconfig.html#view-configuration-parameters">
               Predicates</a></h3>
           <p>A test which returns <code>True</code> or <code>False</code>, and
             which narrows the set of circumstances in which views or routes may
@@ -287,7 +320,7 @@ if __name__ == '__main__':
         </div>
       </div>
       <div class="row">
-       <div class="col-md-6 code-wrapper">
+        <div class="col-md-6 code-wrapper">
           <div class="code-expand collapsed">
             <i class="fa fa-arrows-v" aria-hidden="true"></i>
           </div>
@@ -324,7 +357,7 @@ if __name__ == '__main__':
         </div>
       </div>
       <div class="row">
-       <div class="col-md-6 code-wrapper">
+        <div class="col-md-6 code-wrapper">
           <div class="code-expand collapsed">
             <i class="fa fa-arrows-v" aria-hidden="true"></i>
           </div>
@@ -372,7 +405,8 @@ if __name__ == '__main__':
             asset is specified as a Jinja2 template <code>home.jinja2</code>,
             located in a subdirectory named <code>templates</code>. Within a
             package <code>myapp</code>, a colon delimits the package name from
-            the location of the asset relative to the package, for example <code>renderer='myapp:templates/home.jinja2'</code>.</p>
+            the location of the asset relative to the package, for example
+            <code>renderer='myapp:templates/home.jinja2'</code>.</p>
         </div>
       </div>
       <div class="row">
@@ -424,3 +458,5 @@ if __name__ == '__main__':
     </div>
   </section>
 </div>
+
+{{ end }}
