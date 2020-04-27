@@ -6,8 +6,7 @@ Pyramid Marketing Website.
 
 At the bare minimum you'll need the following for doing development:
 
-- hugo
-- NodeJS with yarn
+- NodeJS 13+ with yarn
 
 ## Installing
 
@@ -31,7 +30,7 @@ If you are in development mode and need hot reload and assets compiling run:
   $ yarn start
 ```
 
-This will let you view the local site at http://localhost:1313/
+This will let you view the local site at http://localhost:3000/
 
 If you want to output for production then run:
 ```
