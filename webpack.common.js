@@ -6,8 +6,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: path.resolve('src', 'main.js'),
   output: {
-    path: path.resolve('static'),
-    filename: '[name].[hash].js'
+    path: path.resolve('dist'),
   },
   module: {
     rules: [
@@ -89,11 +88,9 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
     }),
-    new MiniCssExtractPlugin({
-      filename: '[name].[hash].css',
-    }),
     new ManifestPlugin({
       fileName: path.resolve('data', 'manifest.json'),
+      writeToFileEmit: true,
     }),
   ],
 };
