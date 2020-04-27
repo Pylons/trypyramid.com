@@ -21,7 +21,7 @@ jobs:
             - run: yarn lint
             - run: yarn build
               env:
-                CI_COMMIT_SHA: "$GITHUB_SHA"
+                CI_COMMIT_SHA: ${{ github.sha }}
             - name: Upload artifacts
               uses: actions/upload-artifact@master
               with:
