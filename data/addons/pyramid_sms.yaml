@@ -1,0 +1,13 @@
+addon: false
+category:
+- services
+demoUrl: ''
+description: SMS services for Pyramid framework.
+docsUrl: http://pyramid-sms.readthedocs.io/en/latest/
+maintainers:
+- miohtama
+name: pyramid_sms
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid-sms
+support: community
+vcsUrl: https://github.com/websauna/pyramid_sms

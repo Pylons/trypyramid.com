@@ -1,0 +1,14 @@
+addon: true
+category:
+- template-languages
+demoUrl: ''
+description: Python templating engine with Pyramid integration.
+docsUrl: http://tonnikala.readthedocs.org/en/latest/
+maintainers:
+- hieu.nguyen
+- ztane
+name: Tonnikala
+projectUrl: ''
+pypiUrl: https://pypi.org/project/tonnikala
+support: community
+vcsUrl: https://github.com/ztane/Tonnikala

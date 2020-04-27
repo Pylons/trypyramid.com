@@ -1,0 +1,13 @@
+addon: true
+category:
+- caching-and-sessions
+demoUrl: ''
+description: Session factory backed by Redis.
+docsUrl: http://pyramid-redis-sessions.readthedocs.org/en/latest/
+maintainers:
+- erasmas
+name: pyramid_redis_sessions
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_redis_sessions
+support: community
+vcsUrl: https://github.com/ericrasmussen/pyramid_redis_sessions

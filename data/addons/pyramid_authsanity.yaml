@@ -1,0 +1,13 @@
+addon: true
+category:
+- authentication
+demoUrl: ''
+description: Provides a secure authentication policy with an easy to use backend.
+docsUrl: http://pyramid-authsanity.readthedocs.org/en/latest/
+maintainers:
+- Bert JW Regeer
+name: pyramid_authsanity
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_authsanity
+support: community
+vcsUrl: https://github.com/usingnamespace/pyramid_authsanity

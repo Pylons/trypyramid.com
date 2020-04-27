@@ -1,0 +1,14 @@
+addon: true
+category:
+- routes
+demoUrl: ''
+description: An execution policy for Pyramid that supports retrying requests after
+  certain failure exceptions.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-retry/en/latest/
+maintainers:
+- Michael Merickel
+name: pyramid_retry
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid-retry
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_retry

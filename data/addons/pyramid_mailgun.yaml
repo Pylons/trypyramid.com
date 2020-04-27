@@ -1,0 +1,13 @@
+addon: true
+category:
+- email
+demoUrl: ''
+description: This package integrates the Mailgun service with the Pyramid web framework.
+docsUrl: ''
+maintainers:
+- evannook
+name: pyramid_mailgun
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_mailgun
+support: community
+vcsUrl: https://github.com/evannook/pyramid_mailgun

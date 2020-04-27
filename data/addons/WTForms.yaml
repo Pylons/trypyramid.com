@@ -1,0 +1,14 @@
+addon: false
+category:
+- forms
+demoUrl: ''
+description: A flexible forms validation and rendering library for Python web development.
+docsUrl: http://wtforms.readthedocs.org/en/latest/
+maintainers:
+- prencher
+- crast
+name: WTForms
+projectUrl: ''
+pypiUrl: https://pypi.org/project/WTForms
+support: community
+vcsUrl: https://github.com/wtforms/wtforms

@@ -1,0 +1,15 @@
+addon: true
+category:
+- task-queueing
+demoUrl: ''
+description: Pyramid configuration with celery integration. Allows you to use Pyramid
+  .ini files to configure celery and have your Pyramid configuration inside celery
+  tasks.
+docsUrl: https://github.com/sontek/pyramid_celery
+maintainers:
+- sontek
+name: pyramid_celery
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_celery
+support: community
+vcsUrl: https://github.com/sontek/pyramid_celery

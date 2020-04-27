@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: A minimal Pyramid scaffold that aims to provide a starter template to
+  build small to large web services.
+docsUrl: ''
+maintainers:
+- Asif Mahmud Shimon
+name: Pyramid Runner
+projectUrl: https://github.com/asif-mahmud/pyramid_runner
+pypiUrl: ''
+support: community
+vcsUrl: https://github.com/asif-mahmud/pyramid_runner

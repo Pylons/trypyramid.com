@@ -1,0 +1,13 @@
+addon: true
+category:
+- authorization
+demoUrl: ''
+description: Use multiple authentication policies with Pyramid.
+docsUrl: ''
+maintainers:
+- wichert
+name: pyramid_authstack
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_authstack
+support: community
+vcsUrl: https://github.com/wichert/pyramid_authstack

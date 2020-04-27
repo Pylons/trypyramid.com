@@ -1,9 +1,8 @@
-build
-env
-node_modules
-workflow
-npm-debug.log
-.idea
+/node_modules
+/static
+/resources
+/dist
+/public
+/data/manifest.json
+yarn-error.log
 .DS_Store
-.python-version
-package-lock.json

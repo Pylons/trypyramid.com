@@ -1,0 +1,13 @@
+addon: true
+category:
+- async
+demoUrl: ''
+description: Run pyramid using asyncio.
+docsUrl: http://aiopyramid.readthedocs.org/en/latest/
+maintainers:
+- housleyjk
+name: aiopyramid
+projectUrl: ''
+pypiUrl: https://pypi.org/project/aiopyramid
+support: community
+vcsUrl: https://github.com/housleyjk/aiopyramid

@@ -1,0 +1,13 @@
+addon: true
+category:
+- template-languages
+demoUrl: ''
+description: Chameleon templating bindings for Pyramid
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-chameleon/en/latest/
+maintainers:
+- Chris McDonough
+name: pyramid_chameleon
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_chameleon
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_chameleon

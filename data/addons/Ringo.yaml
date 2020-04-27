@@ -1,0 +1,15 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Ringo is a Python based high level web application framework build on
+  top of Pyramid. The framework can be used to build form based management or administration
+  software.
+docsUrl: http://ringo.readthedocs.org/en/latest/
+maintainers:
+- ti
+name: Ringo
+projectUrl: http://www.ringo-framework.org
+pypiUrl: https://pypi.org/project/ringo
+support: community
+vcsUrl: https://github.com/ringo-framework/ringo

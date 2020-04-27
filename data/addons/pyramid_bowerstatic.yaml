@@ -1,0 +1,13 @@
+addon: true
+category:
+- asset-management
+demoUrl: ''
+description: Integration of Bowerstatic in Pyramid
+docsUrl: ''
+maintainers:
+- mrijken
+name: pyramid_bowerstatic
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_bowerstatic
+support: community
+vcsUrl: https://github.com/mrijken/pyramid_bowerstatic

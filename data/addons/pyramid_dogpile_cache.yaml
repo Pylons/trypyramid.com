@@ -1,0 +1,13 @@
+addon: true
+category:
+- caching-and-sessions
+demoUrl: ''
+description: dogpile.cache configuration package for Pyramid.
+docsUrl: https://github.com/moriyoshi/pyramid_dogpile_cache
+maintainers:
+- moriyoshi
+name: pyramid_dogpile_cache
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_dogpile_cache
+support: community
+vcsUrl: https://github.com/moriyoshi/pyramid_dogpile_cache

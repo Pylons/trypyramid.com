@@ -1,0 +1,36 @@
+{{ range sort ((index $.Site.Data.poweredBy (.Scratch.Get "name"))) }}
+<div class="grid-item col-xs-12 col-sm-6 col-md-4 pyramid-item category-{{ .category }}">
+  <div class="grid-item-content">
+    {{ if .logo }}
+    <div class="community-logo">
+      {{ if .projectUrl }}<a href="{{ .projectUrl | safeURL }}">{{ end }}
+        <img alt="{{ .name }} logo" src="img/{{ .logo }}" class="img-responsive">
+        {{ if .projectUrl }}</a>{{ end }}
+    </div>
+    {{ end }}
+    <h4>
+      {{ if .projectUrl }}<a href="{{ .projectUrl | safeURL }}">{{ end }}
+        {{ .name }}
+        {{ if .projectUrl }}</a>{{ end }}
+    </h4>
+    <div class="community-description">{{ .description | safeHTML }}</div>
+    {{ if gt (len .maintainers) 0 }}
+    <div class="community-maintainers">
+      Maintainers: {{ delimit .maintainers ", " }}
+    </div>
+    {{ end }}
+    {{ if .pypiUrl }}
+    <span class="community-pypiUrl"><a href="{{ .pypiUrl | safeURL }}">PyPI</a></span>
+    {{ end }}
+    {{ if .vcsUrl }}
+    <span class="community-vcsUrl"><a href="{{ .vcsUrl | safeURL }}">VCS</a></span>
+    {{ end }}
+    {{ if .docsUrl }}
+    <span class="community-docsUrl"><a href="{{ .docsUrl | safeURL }}">Docs</a></span>
+    {{ end }}
+    {{ if .demoUrl }}
+    <span class="community-demoUrl"><a href="{{ .demoUrl | safeURL }}">Demo</a></span>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

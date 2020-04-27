@@ -1,0 +1,15 @@
+addon: true
+category:
+- api
+demoUrl: ''
+description: Create a <a href="http://jsonapi.org/">JSON-API</a> standard API from
+  a database using the SQLAlchemy ORM and Pyramid web framework. Includes schema validation
+  and documentation generation (OpenAPI).
+docsUrl: https://colinhiggs.github.io/pyramid-jsonapi/
+maintainers:
+- Colin Higgs
+name: pyramid-jsonapi
+projectUrl: https://github.com/colinhiggs/pyramid-jsonapi
+pypiUrl: https://pypi.org/project/pyramid_jsonapi
+support: community
+vcsUrl: https://github.com/colinhiggs/pyramid-jsonapi

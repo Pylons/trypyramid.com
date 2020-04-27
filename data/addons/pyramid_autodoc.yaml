@@ -1,0 +1,15 @@
+addon: true
+category:
+- documentation
+demoUrl: ''
+description: Sphinx extension for documenting your Pyramid APIs.
+docsUrl: https://github.com/SurveyMonkey/pyramid_autodoc
+maintainers:
+- sciyoshi
+- kaboomfox
+- sontek
+name: pyramid_autodoc
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_autodoc
+support: community
+vcsUrl: https://github.com/SurveyMonkey/pyramid_autodoc

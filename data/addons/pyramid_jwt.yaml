@@ -1,0 +1,16 @@
+addon: true
+category:
+- authentication
+demoUrl: ''
+description: Implementation of an authentication policy for Pyramid that uses <a href="http://jwt.io/">JSON
+  Web Tokens</a>. This standard (<a href="https://tools.ietf.org/html/rfc7519">RFC
+  7519</a>) is often used to secure backend APIs. The excellent <a href="https://pyjwt.readthedocs.org/en/latest/">PyJWT</a>
+  library is used for the JWT encoding / decoding logic.
+docsUrl: https://github.com/wichert/pyramid_jwt
+maintainers:
+- wichert
+name: pyramid_jwt
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_jwt
+support: community
+vcsUrl: https://github.com/wichert/pyramid_jwt

@@ -1,0 +1,17 @@
+addon: true
+category:
+- authentication
+- authorization
+- sessions
+demoUrl: ''
+description: Yosai is a security framework that offers two-factor authentication,
+  permission and role based authorization, and session management from a developer-friendly
+  API. pyramid_yosai integrates yosai with pyramid web applications.
+docsUrl: https://yosaiproject.github.io/yosai/
+maintainers:
+- Darin Gordon
+name: pyramid_yosai
+projectUrl: https://yosaiproject.github.io/yosai/
+pypiUrl: https://pypi.org/project/pyramid-yosai
+support: community
+vcsUrl: https://github.com/YosaiProject/pyramid_yosai

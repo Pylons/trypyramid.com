@@ -1,0 +1,11 @@
+category: floss
+demoUrl: ''
+description: <p>TravelCRM is a free and open source application for the automation
+  of customer relationships for travel agencies.</p>
+docsUrl: ''
+logo: travelcrm-logo.png
+maintainers: []
+name: TravelCRM
+projectUrl: https://github.com/mazvv/travelcrm
+pypiUrl: https://pypi.org/project/travelcrm
+vcsUrl: https://github.com/mazvv/travelcrm

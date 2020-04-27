@@ -1,0 +1,14 @@
+addon: true
+category:
+- api
+demoUrl: ''
+description: Convenient tools for using <a href="http://swagger.io/">Swagger</a> to
+  define and validate your interfaces in a Pyramid webapp.
+docsUrl: http://pyramid-swagger.readthedocs.org/en/latest/
+maintainers:
+- Scott Triglia
+name: pyramid_swagger
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_swagger
+support: community
+vcsUrl: https://github.com/striglia/pyramid_swagger

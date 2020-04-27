@@ -1,0 +1,17 @@
+{{ range $.Site.Data.sponsors }}
+<div class="col-xs-12 col-sm-6">
+  <div class="sponsor-item">
+    <h4>
+      {{ if .websiteUrl }}<a href="{{ .websiteUrl | safeURL }}">{{ end }}
+      {{ .name }}
+      {{ if .websiteUrl }}</a>{{ end }}
+      {{ if .logo }}
+        {{ if .websiteUrl }}<a href="{{ .websiteUrl | safeURL }}">{{ end }}
+        <img src="img/{{ .logo }}" class="pull-right" width="128" height="128">
+        {{ if .websiteUrl }}</a>{{ end }}
+      {{ end }}
+    </h4>
+    <p class="sponsor-description">{{ .description | safeHTML }}</p>
+  </div>
+</div>
+{{ end }}

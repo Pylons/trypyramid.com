@@ -1,0 +1,13 @@
+category: floss
+demoUrl: ''
+description: A full stack Python framework for building consumer and business web
+  applications
+docsUrl: https://websauna.org/docs/
+logo: websauna-logo.png
+maintainers:
+- Mikko Ohtamaa (@miohtama)
+- "\xC9rico Andrei (@ericof)"
+name: Websauna
+projectUrl: https://websauna.org
+pypiUrl: https://pypi.org/project/websauna/
+vcsUrl: https://github.com/websauna

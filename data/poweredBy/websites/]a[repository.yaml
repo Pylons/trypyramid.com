@@ -1,0 +1,15 @@
+category: website
+demoUrl: ''
+description: The ]a[repository is a digital asset management system of the Academy
+  of Fine Arts Vienna, which enables the digital storage and management of digital
+  media objects from art and research. The repository offers access to a number of
+  digital collections of the Academy, to the Academy's publication series, and the
+  graduate catalog.
+docsUrl: ''
+logo: ']a[repository-logo.png'
+maintainers:
+- Jens Klein
+name: ']a[repository'
+projectUrl: https://repository.akbild.ac.at/
+pypiUrl: ''
+vcsUrl: ''

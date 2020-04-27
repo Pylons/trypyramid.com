@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: Framework agnostic set of SQLAlchemy classes that make building applications
+  that require permissions an easy task.
+docsUrl: https://ziggurat-foundations.readthedocs.org/en/latest/
+maintainers:
+- ergo
+name: ziggurat_foundations
+projectUrl: ''
+pypiUrl: https://pypi.org/project/ziggurat_foundations
+support: community
+vcsUrl: https://github.com/ergo/ziggurat_foundations

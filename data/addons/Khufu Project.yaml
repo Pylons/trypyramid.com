@@ -1,0 +1,14 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Khufu is an application scaffolding for Pyramid that provides an environment
+  to work with Jinja2 and SQLAlchemy.
+docsUrl: http://khufuproject.github.io/
+maintainers:
+- Rocky Burt
+name: Khufu Project
+projectUrl: http://khufuproject.github.io/
+pypiUrl: ''
+support: community
+vcsUrl: https://github.com/khufuproject

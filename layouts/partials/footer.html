@@ -1,0 +1,25 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <p>
+        <a href="https://twitter.com/PylonsProject"
+    class="twitter-follow-button"
+    data-size="large"
+    data-lang="en"
+    data-dnt="true"
+    data-show-count="true">Follow @PylonsProject</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </p>
+      <p>
+      © Copyright 2008-{{ now.Year }}, <a href="http://agendaless.com/"><strong>Agendaless Consulting</strong></a>
+        <br/>
+        <a href="https://pylonsproject.org/"><strong>Pylons Project</strong></a> | Build {{ getenv "CI_COMMIT_SHA" | default "-" }}
+      </p>
+      <p>
+        <a href="https://www.linode.com/?utm_source=referral&utm_medium=website&utm_content=[Pyramid]&utm_campaign=sponsorship" target="_blank">
+          Sponsored by <strong>Linode</strong>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>

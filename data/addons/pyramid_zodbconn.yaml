@@ -1,0 +1,14 @@
+addon: true
+category:
+- storage
+demoUrl: ''
+description: ZODB Database connection management for Pyramid.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-zodbconn/en/latest/
+maintainers:
+- Chris McDonough
+- Chris Rossi
+name: pyramid_zodbconn
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_zodbconn
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_zodbconn

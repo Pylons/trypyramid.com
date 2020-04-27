@@ -1,11 +1,11 @@
 {
+  "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
   },
   "rules": {
-    "strict": 0,
-    "indent": 2,
-    "quotes": [2, "single"]
+    "strict": ["error", "global"],
+    "indent": ["error", 2],
+    "quotes": ["error", "single"]
   }
 }

@@ -1,0 +1,16 @@
+category: comorg
+demoUrl: http://signup.vantagepoint.co
+description: <p>VantagePoint is a product designed to streamline your security operations.
+  It does so by integrating multiple security products into a single platform and
+  making deployment and management a simple exercise. Within minutes, you will get
+  a true understanding of your overall security posture along with a real, actionable,
+  and prioritized plans for remediating gaps. All of this is available on any operating
+  system, at any scale, in any physical or virtual environment.</p>
+docsUrl: ''
+logo: vantagepoint-logo.png
+maintainers:
+- VantagePoint
+name: VantagePoint
+projectUrl: https://vantagepoint.co/
+pypiUrl: ''
+vcsUrl: ''

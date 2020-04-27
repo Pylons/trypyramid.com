@@ -1,0 +1,18 @@
+addon: false
+category:
+- development-environment
+demoUrl: http://kottidemo.danielnouri.org/
+description: Kotti is a high-level, Pythonic web application framework. It includes
+  an extensible Content Management System called the Kotti CMS, offering all the features
+  you would expect from a modern CMS.
+docsUrl: http://kotti.readthedocs.org/en/latest/
+maintainers:
+- witsch
+- j23d
+- disko
+- nouri
+name: Kotti
+projectUrl: http://kotti.pylonsproject.org/
+pypiUrl: https://pypi.org/project/Kotti
+support: community
+vcsUrl: https://github.com/Kotti/Kotti

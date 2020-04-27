@@ -1,0 +1,14 @@
+addon: false
+category:
+- authentication
+demoUrl: ''
+description: Social authentication/registration mechanism with support for a <a href="https://github.com/omab/python-social-auth#auth-providers">large
+  number of providers</a>.
+docsUrl: http://python-social-auth.readthedocs.org/en/latest/
+maintainers:
+- omab
+name: Python Social Auth
+projectUrl: http://psa.matiasaguirre.net/
+pypiUrl: https://pypi.org/project/python-social-auth
+support: community
+vcsUrl: https://github.com/omab/python-social-auth

@@ -6,7 +6,7 @@ Pyramid Marketing Website.
 
 At the bare minimum you'll need the following for doing development:
 
-- NodeJS with npm
+- NodeJS 13+ with yarn
 
 ## Installing
 
@@ -20,24 +20,19 @@ Assuming you have all the recommended tools listed above installed:
 
 ### 2. Install package dependencies
 ```
-  $ npm install
+  $ yarn install
 ```
 
 ### 3. Run the project
 
 If you are in development mode and need hot reload and assets compiling run:
 ```
-  $ npm run dev
+  $ yarn start
 ```
 
-This will let you view the local site at http://localhost:8080/
+This will let you view the local site at http://localhost:3000/
 
-If you just want to output a build run
+If you want to output for production then run:
 ```
-  $ npm run build
-```
-
-And if you want a new dist optimized for production run
-```
-  $ npm run dist
+  $ yarn build
 ```

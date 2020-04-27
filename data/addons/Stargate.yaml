@@ -1,0 +1,15 @@
+addon: true
+category:
+- async
+demoUrl: ''
+description: Stargate is a package for adding <a href="http://en.wikipedia.org/wiki/Web_Sockets">WebSockets</a>
+  support to Pyramid applications using the excellent eventlet library for long running
+  connections.
+docsUrl: http://boothead.github.io/stargate/
+maintainers:
+- boothead
+name: Stargate
+projectUrl: ''
+pypiUrl: https://pypi.org/project/stargate
+support: community
+vcsUrl: https://github.com/boothead/stargate

@@ -1,0 +1,12 @@
+category: floss
+demoUrl: ''
+description: A simple pastebin application based on Rocky Burt's <a href="https://pypi.org/project/ClueBin/0.2.3">ClueBin</a>.
+  It demonstrates form processing, security, and the use of ZODB within a Pyramid
+  application.
+docsUrl: ''
+logo: ''
+maintainers: []
+name: cluegun
+projectUrl: https://github.com/Pylons/cluegun
+pypiUrl: ''
+vcsUrl: https://github.com/Pylons/cluegun

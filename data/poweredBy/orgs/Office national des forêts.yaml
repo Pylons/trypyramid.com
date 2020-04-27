@@ -1,0 +1,14 @@
+category: comorg
+demoUrl: ''
+description: "Producing wood, preserving the environment, and welcoming the public\
+  \ are the three main assignments of the French National Forestry Office (Office\
+  \ national des for\xEAts). Distributed all over the country, its 9,000 agents are\
+  \ dedicated to these missions."
+docsUrl: ''
+logo: office-national-des-forets-logo.jpg
+maintainers:
+- Thierry Florac (https://github.com/tflorac)
+name: "Office national des for\xEAts"
+projectUrl: https://www.onf.fr/
+pypiUrl: ''
+vcsUrl: ''

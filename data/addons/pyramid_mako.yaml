@@ -1,0 +1,13 @@
+addon: true
+category:
+- template-languages
+demoUrl: ''
+description: Mako templating bindings for Pyramid.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-mako/en/latest/
+maintainers:
+- Bert JW Regeer
+name: pyramid_mako
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_mako
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_mako

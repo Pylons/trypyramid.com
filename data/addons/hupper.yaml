@@ -1,0 +1,14 @@
+addon: false
+category:
+- monitors
+demoUrl: ''
+description: A process monitor / reloader for developers that can watch files for
+  changes and restart the process.
+docsUrl: http://docs.pylonsproject.org/projects/hupper/en/latest/
+maintainers:
+- mmerickel
+name: hupper
+projectUrl: ''
+pypiUrl: https://pypi.org/project/hupper
+support: pylons
+vcsUrl: https://github.com/Pylons/hupper

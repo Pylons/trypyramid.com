@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: Toolkit for Pyramid to add Authentication and Authorization using Velruse
+  (OAuth) or a local database, CSRF, ReCaptcha, Sessions, Flash messages, and I18N.
+docsUrl: http://thesoftwarestudio.com/apex/
+maintainers:
+- cd34
+name: apex
+projectUrl: ''
+pypiUrl: https://pypi.org/project/apex
+support: community
+vcsUrl: https://github.com/cd34/apex

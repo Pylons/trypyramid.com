@@ -1,0 +1,14 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: Basic Pyramid scaffold to easily use MongoDB for persistence with the
+  Pyramid Web framework.
+docsUrl: ''
+maintainers:
+- Niall O'Higgins
+name: pyramid_mongodb
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_mongodb
+support: community
+vcsUrl: https://github.com/niallo/pyramid_mongodb

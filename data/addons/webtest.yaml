@@ -1,0 +1,16 @@
+addon: false
+category:
+- testing
+demoUrl: ''
+description: Wraps any WSGI application and makes it easy to send test requests to
+  that application, without starting up an HTTP server.
+docsUrl: https://webtest.readthedocs.org/en/latest/
+maintainers:
+- iElectric
+- gawel
+- ianb
+name: webtest
+projectUrl: ''
+pypiUrl: https://pypi.org/project/WebTest
+support: community
+vcsUrl: https://github.com/Pylons/webtest

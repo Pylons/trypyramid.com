@@ -1,0 +1,12 @@
+category: website
+demoUrl: ''
+description: A new platform that allows you to track all your existing benchmark results
+  from Unigine Heaven to 3DMark. Share your entire build profile, or create comparisons
+  with other build profiles.
+docsUrl: ''
+logo: comparebench-logo.png
+maintainers: []
+name: CompareBench
+projectUrl: https://comparebench.com/
+pypiUrl: ''
+vcsUrl: ''

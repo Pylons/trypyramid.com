@@ -1,0 +1,12 @@
+category: floss
+demoUrl: ''
+description: <p>NextGIS Web is an opensource server-side Web GIS and a framework for
+  storage, visualization and permissions management to all kinds of geodata. NextGIS
+  Web supports OGC WMS and WFS(-T) access.</p>
+docsUrl: ''
+logo: nextgis-web-logo.png
+maintainers: []
+name: NextGIS Web
+projectUrl: http://nextgis.com/nextgis-web/
+pypiUrl: ''
+vcsUrl: https://github.com/nextgis/nextgisweb

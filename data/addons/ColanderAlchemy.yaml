@@ -1,0 +1,14 @@
+addon: false
+category:
+- forms
+demoUrl: ''
+description: Auto-generate Colander schemas that are based on SQLAlchemy mapped classes.
+docsUrl: http://colanderalchemy.readthedocs.org/en/latest/
+maintainers:
+- tisdall
+- stefanofontanelli
+name: ColanderAlchemy
+projectUrl: ''
+pypiUrl: https://pypi.org/project/ColanderAlchemy
+support: community
+vcsUrl: https://github.com/stefanofontanelli/ColanderAlchemy

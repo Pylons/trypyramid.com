@@ -1,0 +1,13 @@
+addon: true
+category:
+- configuration
+demoUrl: ''
+description: Zope Configuration Markup Language configuration support for Pyramid.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/
+maintainers:
+- Chris McDonough
+name: pyramid_zcml
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_zcml
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_zcml

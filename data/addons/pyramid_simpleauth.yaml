@@ -1,0 +1,14 @@
+addon: true
+category:
+- authentication
+demoUrl: ''
+description: Session-based authentication and role based security.
+docsUrl: https://github.com/thruflo/pyramid_simpleauth
+maintainers:
+- thruflo
+- andrecp
+name: pyramid_simpleauth
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_simpleauth
+support: community
+vcsUrl: https://github.com/thruflo/pyramid_simpleauth

@@ -1,0 +1,15 @@
+addon: false
+category:
+- scaffolds
+demoUrl: ''
+description: A cookiecutter (project template) for creating a Pyramid project using
+  SQLite as persistent storage, SQLAlchemy as an ORM, URL dispatch for routing, and
+  Jinja2 for templating.
+docsUrl: ''
+maintainers:
+- cguardia
+name: pyramid-cookiecutter-alchemy
+projectUrl: ''
+pypiUrl: ''
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid-cookiecutter-alchemy

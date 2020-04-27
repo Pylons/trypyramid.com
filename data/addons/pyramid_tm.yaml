@@ -1,0 +1,14 @@
+addon: true
+category:
+- storage
+demoUrl: ''
+description: Centralized transaction management for Pyramid applications (without
+  middleware).
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-tm/en/latest/
+maintainers:
+- Chris McDonough
+name: pyramid_tm
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_tm
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_tm

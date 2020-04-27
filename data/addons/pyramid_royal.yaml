@@ -1,0 +1,15 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Royal is a Pyramid extension which eases writing RESTful web applications.
+docsUrl: https://pyramid-royal.readthedocs.org/en/latest/
+maintainers:
+- ludia
+- Merwok
+- hadrien
+name: pyramid_royal
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_royal
+support: community
+vcsUrl: https://github.com/hadrien/pyramid_royal

@@ -1,0 +1,13 @@
+category: floss
+demoUrl: ''
+description: "<p>A very simple dynamic file rendering application. It is willing to\
+  \ render structured text documents, HTML documents, and images from a filesystem\
+  \ directory. It\u2019s also a good example of traversal. An earlier version of this\
+  \ application runs the <a href=\"http://repoze.org\">repoze.org</a> website.</p>"
+docsUrl: ''
+logo: ''
+maintainers: []
+name: virginia
+projectUrl: https://github.com/Pylons/virginia
+pypiUrl: ''
+vcsUrl: https://github.com/Pylons/virginia

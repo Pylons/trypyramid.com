@@ -1,0 +1,13 @@
+addon: false
+category:
+- url-shorteners-and-managers
+demoUrl: ''
+description: Microservice to manage external links.
+docsUrl: ''
+maintainers:
+- rach
+name: SUMA
+projectUrl: ''
+pypiUrl: https://pypi.org/project/suma
+support: community
+vcsUrl: https://github.com/rach/suma

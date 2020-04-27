@@ -1,0 +1,14 @@
+addon: true
+category:
+- routes
+demoUrl: ''
+description: A set of sane routing defaults for the Pyramid web framework.
+docsUrl: ''
+maintainers:
+- msabramo
+- sontek
+name: tomb_routes
+projectUrl: ''
+pypiUrl: https://pypi.org/project/tomb_routes
+support: community
+vcsUrl: https://github.com/sontek/tomb_routes

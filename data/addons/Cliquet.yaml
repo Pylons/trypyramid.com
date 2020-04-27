@@ -1,0 +1,19 @@
+addon: false
+category:
+- development-environment
+demoUrl: ''
+description: Cliquet is a toolkit to ease the implementation of HTTP microservices,
+  such as data-driven REST APIs.
+docsUrl: http://cliquet.readthedocs.org/en/latest/
+maintainers:
+- Mozilla Services
+- n1k0
+- tarek
+- alexis.metaireau
+- leplatrem
+- Natim
+name: Cliquet
+projectUrl: ''
+pypiUrl: https://pypi.org/project/cliquet
+support: community
+vcsUrl: https://github.com/mozilla-services/cliquet

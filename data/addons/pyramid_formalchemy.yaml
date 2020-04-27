@@ -1,0 +1,14 @@
+addon: false
+category:
+- development-environment
+demoUrl: http://docs.formalchemy.org/demo/admin/
+description: Auto-generated, customizable HTML input form fields from your SQLAlchemy
+  mapped classes.
+docsUrl: http://docs.formalchemy.org/
+maintainers:
+- Gael Pasgrimaud
+name: pyramid_formalchemy
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_formalchemy
+support: community
+vcsUrl: https://github.com/FormAlchemy/pyramid_formalchemy

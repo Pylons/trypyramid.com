@@ -17,8 +17,11 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: '13.x'
-            - run: npm install
-            - run: npm run build
+            - run: yarn install
+            - run: yarn lint
+            - run: yarn build
+              env:
+                CI_COMMIT_SHA: "$GITHUB_SHA"
             - name: Upload artifacts
               uses: actions/upload-artifact@master
               with:
@@ -56,6 +59,6 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: '13.x'
-            - run: npm install
-            - run: npm audit
+            - run: yarn install
+            - run: yarn audit
               continue-on-error: true

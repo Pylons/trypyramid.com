@@ -1,0 +1,14 @@
+addon: false
+category:
+- api
+- configuration
+demoUrl: ''
+description: A configuration loader interface around multiple file formats.
+docsUrl: http://docs.pylonsproject.org/projects/plaster/en/latest/
+maintainers:
+- Michael Merickel
+name: plaster
+projectUrl: https://github.com/Pylons/plaster
+pypiUrl: https://pypi.org/project/plaster
+support: pylons
+vcsUrl: https://github.com/Pylons/plaster

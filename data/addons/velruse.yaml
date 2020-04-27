@@ -1,0 +1,16 @@
+addon: false
+category:
+- authentication
+demoUrl: ''
+description: Simplifying third-party authentication for web applications. It supports
+  most <a href="https://github.com/bbangert/velruse/tree/master/velruse/providers">auth
+  providers</a>.
+docsUrl: https://pythonhosted.org/velruse/index.html
+maintainers:
+- bbangert
+- mmerickel
+name: velruse
+projectUrl: ''
+pypiUrl: https://pypi.org/project/velruse
+support: unsupported
+vcsUrl: https://github.com/bbangert/velruse

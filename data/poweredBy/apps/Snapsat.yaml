@@ -1,0 +1,17 @@
+category: floss
+demoUrl: http://snapsat.org/guide/#walkthrough
+description: "<p>We're in love with the opensource geospatial movement, and we wanted\
+  \ to contribute something back to it. Landsat is an amazing program \u2014 we wanted\
+  \ to make it accessible to anyone, regardless of their technical background.</p>"
+docsUrl: ''
+logo: snapsat-logo.png
+maintainers:
+- Constantine Hatzis
+- Joel Stanner
+- Mark Saiget
+- Jake Anderson
+- Jacques Tardie
+name: Snapsat
+projectUrl: http://snapsat.org/
+pypiUrl: ''
+vcsUrl: https://github.com/recombinators

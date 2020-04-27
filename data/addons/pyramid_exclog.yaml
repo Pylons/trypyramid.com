@@ -1,0 +1,13 @@
+addon: true
+category:
+- debugging
+demoUrl: ''
+description: A package which logs exceptions from Pyramid applications.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-exclog/en/latest/
+maintainers:
+- Chris McDonough
+name: pyramid_exclog
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_exclog
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_exclog

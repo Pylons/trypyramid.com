@@ -1,0 +1,15 @@
+addon: true
+category:
+- sessions
+demoUrl: ''
+description: Defines an encrypting, pickle-based cookie serializer, using <a href="
+  http://pynacl.readthedocs.org/en/latest/secret/">PyNaCl</a> to generate the symmetric
+  encryption for the cookie state.
+docsUrl: http://docs.pylonsproject.org/projects/pyramid-nacl-session/en/latest/
+maintainers:
+- Tres Seaver
+name: pyramid_nacl_session
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_nacl_session
+support: pylons
+vcsUrl: https://github.com/Pylons/pyramid_nacl_session

@@ -1,0 +1,15 @@
+addon: false
+category:
+- web-page-utilities
+demoUrl: ''
+description: Python pagination module.
+docsUrl: https://github.com/Pylons/paginate
+maintainers:
+- ergo
+- crooksey
+- signum
+name: paginate
+projectUrl: ''
+pypiUrl: https://pypi.org/project/paginate
+support: community
+vcsUrl: https://github.com/Pylons/paginate
