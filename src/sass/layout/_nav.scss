@@ -129,6 +129,9 @@ nav#nav {
       background-color: $white;
       color: $tpc-red;
       opacity: 0.95;
+      .nav-pills > li {
+        float: none;
+      }
     }
     .navbar-inverse {
       .navbar-collapse {
@@ -145,6 +148,9 @@ nav#nav {
             &:hover {
               background-color: darken($tpc-red, 5%);
             }
+          }
+          > li {
+            padding: 0 0.25em;
           }
         }
       }
