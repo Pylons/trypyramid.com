@@ -28,7 +28,7 @@
     "font-awesome": "^4.6.3",
     "highlight.js": "^9.4.0",
     "isotope-layout": "^3.0.0",
-    "jquery": "^3.5.0",
+    "jquery": "^3.4.1",
     "jquery-bridget": "^2.0.0"
   },
   "devDependencies": {
