@@ -50,7 +50,7 @@ jobs:
                   asset_name: website.zip
                   asset_content_type: application/zip
 
-    master_release:
+    ghpages:
         runs-on: ubuntu-latest
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         needs: build
