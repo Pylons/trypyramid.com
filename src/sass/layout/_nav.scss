@@ -23,7 +23,7 @@ nav#nav {
     }
     .navbar-inverse {
       .navbar-toggle {
-        &:hover {
+        &:hover, &:focus {
           background-color: darken($tpc-red, 10%);
         }
       }
@@ -146,6 +146,15 @@ nav#nav {
               background-color: darken($tpc-red, 5%);
             }
           }
+        }
+      }
+      .navbar-toggle {
+        background-color: $tpc-red;
+        &:hover, &:focus {
+          background-color: darken($tpc-red, 10%);
+        }
+        .collapsed {
+          background-color: $tpc-red;
         }
       }
     }
