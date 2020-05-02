@@ -22,6 +22,7 @@ jobs:
             - run: yarn build
               env:
                 CI_COMMIT_SHA: ${{ github.sha }}
+                HUGO_BASEURL: "https://trypyramid.com/"
             - name: Upload artifacts
               uses: actions/upload-artifact@master
               with:
