@@ -25,13 +25,6 @@ module.exports = {
         ],
       },
       {
-        test: /\.txt$/,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-        },
-      },
-      {
         test: /\.(png|jpg|ico|gif|svg|pdf)$/,
         loader: 'file-loader',
         options: {
