@@ -75,6 +75,8 @@ jobs:
               run: |
                   cd built-dist
                   git init .
+                  git config user.email "pylonsbot@pylonsproject.org"
+                  git config user.name "Pylonsbot"
                   git add -A
                   git commit -m "Publish the latest version of trypyramid.com: $(date +'%Y-%m-%dT%H:%M')"
                   git remote add origin git@github.com:Pylons/trypyramid.com-pages.git
