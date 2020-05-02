@@ -4,6 +4,8 @@ require('./vendors');
 // assets
 require('./sass/app.scss');
 require('./static/robots.txt');
+require('./static/.nojekyll');
+require('./static/CNAME');
 
 require('./img/pyramid-60x60.png');
 require('./img/pyramid-16x16.png');
