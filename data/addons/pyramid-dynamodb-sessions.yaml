@@ -1,0 +1,13 @@
+addon: true
+category:
+- sessions
+demoUrl: ''
+description: DynamoDB-backed sessions
+docsUrl: ''
+maintainers:
+- luhn
+name: pyramid-dynamodb-sessions
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid-dynamodb-sessions/
+support: Community
+vcsUrl: https://github.com/luhn/pyramid-dynamodb-sessions
