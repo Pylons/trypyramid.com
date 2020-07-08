@@ -1,14 +1,16 @@
 addon: false
 category:
 - forms
-demoUrl: http://deform2demo.repoze.org/
+demoUrl: https://deformdemo.pylonsproject.org/
 description: A Python HTML form generation library.
-docsUrl: http://docs.pylonsproject.org/projects/deform/en/latest/
+docsUrl: https://docs.pylonsproject.org/projects/deform/en/latest/
 maintainers:
 - chrism
 - miohtama
+- ericoandrei
+- stevepiercy
 name: deform
 projectUrl: ''
 pypiUrl: https://pypi.org/project/deform
-support: community
+support: pylons
 vcsUrl: https://github.com/Pylons/deform
