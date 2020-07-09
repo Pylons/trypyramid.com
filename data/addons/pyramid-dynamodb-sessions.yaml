@@ -3,7 +3,7 @@ category:
 - sessions
 demoUrl: ''
 description: DynamoDB-backed sessions
-docsUrl: ''
+docsUrl: https://pypi.org/project/pyramid-dynamodb-sessions/
 maintainers:
 - luhn
 name: pyramid-dynamodb-sessions
