@@ -36,3 +36,7 @@ If you want to output for production then run:
 ```
   $ yarn build
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/Pylons/trypyramid.com/blob/master/CONTRIBUTING.md).
