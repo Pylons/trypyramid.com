@@ -4,7 +4,7 @@ category:
 demoUrl: ''
 description: Websauna is a full stack application framework aimed for creating consumer
   and business web services built on top of Pyramid and SQLAlchemy.
-docsUrl: https://websauna.org/
+docsUrl: https://docs.websauna.org/
 maintainers:
 - miohtama
 name: Websauna
