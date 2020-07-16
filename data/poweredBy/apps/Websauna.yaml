@@ -1,7 +1,7 @@
 category: floss
 demoUrl: ''
-description: A full stack Python framework for building consumer and business web
-  applications
+description: Websauna is a full stack application framework aimed for creating consumer
+  and business web services built on top of Pyramid and SQLAlchemy.
 docsUrl: https://docs.websauna.org/
 logo: websauna-logo.png
 maintainers:
@@ -10,4 +10,4 @@ maintainers:
 name: Websauna
 projectUrl: https://websauna.org
 pypiUrl: https://pypi.org/project/websauna/
-vcsUrl: https://github.com/websauna
+vcsUrl: https://github.com/websauna/websauna
