@@ -98,6 +98,7 @@ require('./img/niteoweb-128-logo.png');
 require('./img/noppo-logo.png');
 require('./img/office-national-des-forets-logo.jpg');
 require('./img/opencioc-org-logo.png');
+require('./img/patafile-logo.svg');
 require('./img/p2l-technologies-128-logo.png');
 require('./img/pc-blueprint-logo.png');
 require('./img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png');
