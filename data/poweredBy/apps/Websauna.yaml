@@ -2,7 +2,7 @@ category: floss
 demoUrl: ''
 description: A full stack Python framework for building consumer and business web
   applications
-docsUrl: https://websauna.org/docs/
+docsUrl: https://docs.websauna.org/
 logo: websauna-logo.png
 maintainers:
 - Mikko Ohtamaa (@miohtama)
