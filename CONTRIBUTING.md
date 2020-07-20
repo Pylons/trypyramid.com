@@ -101,9 +101,9 @@ vcsUrl: https://github.com/Pylons/deform
 -   `pypiUrl`: The URL of your package on PyPI.
     If none, then use the empty string, `''`.
 -   `support`: Select one of the following options.
-    -   Official Pylons Project
-    -   Community
-    -   Unsupported
+    -   `pylons`: Official Pylons Project
+    -   `community`: Community
+    -   `unsupported`: Unsupported
 -   `vcsUrl`: The URL of your package's version control system, such as GitHub or Gitlab.
     If none, then use the empty string, `''`.
 
