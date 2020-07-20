@@ -1,0 +1,15 @@
+addon: true
+category:
+- authorization
+- authentication
+demoUrl: ''
+description: pyramid_fullauth provides full user registration and management
+  functionality for Pyramid based web applications.
+docsUrl: https://pyramid-fullauth.readthedocs.io/en/latest/
+maintainers:
+- fizyk
+name: pyramid_fullauth
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pyramid_fullauth/
+support: community
+vcsUrl: https://github.com/fizyk/pyramid_fullauth
