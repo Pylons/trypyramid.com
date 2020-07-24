@@ -1,6 +1,6 @@
 addon: true
 category:
-- authorization
+- authentication
 demoUrl: ''
 description: Use multiple authentication policies with Pyramid.
 docsUrl: ''
