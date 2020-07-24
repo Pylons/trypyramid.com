@@ -1,6 +1,6 @@
 addon: true
 category:
-- authorization
+- authentication
 demoUrl: ''
 description: An authentication policy for Pyramid that proxies to a stack of other
   authentication policies.
