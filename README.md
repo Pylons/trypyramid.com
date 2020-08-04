@@ -32,7 +32,9 @@ If you are in development mode and need hot reload and assets compiling run:
 
 This will let you view the local site at http://localhost:3000/
 
-If you want to output for production then run:
+## Building for production
+
+If you want to output for production, then run:
 ```
   $ yarn build
 ```
