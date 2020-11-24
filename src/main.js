@@ -106,6 +106,7 @@ require('./img/plone-128-logo.png');
 require('./img/plone-conference-2017-barcelona-logo.svg');
 require('./img/plone-conference-2018-tokyo-logo.svg');
 require('./img/plone-conference-2019-ferrara-logo.svg');
+require('./img/plone-conference-2020-online-logo.png');
 require('./img/pycharm-logo.png');
 require('./img/pycon-2017-logo.jpg');
 require('./img/pyconweb-text-logo.png');
