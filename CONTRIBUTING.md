@@ -121,8 +121,9 @@ We list companies, organizations, applications, or websites under the [Powered b
     5.  `websauna`: websites based on [Websauna](https://websauna.org/)
 
 3.  Edit it as needed, following YAML syntax.
-4.  Optionally build the site locally to ensure it renders correctly.
-5.  Submit a pull request with your changes.
+4.  Add your logo's URI to `src/main.js` in the appropriate section, alphabetically.
+5.  Optionally build the site locally to ensure it renders correctly.
+6.  Submit a pull request with your changes.
 
 ### Example file and notes
 
