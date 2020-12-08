@@ -1,0 +1,16 @@
+category: floss
+demoUrl: ''
+description: |
+  <p>SoL makes it easier the organization of a championship of
+  <a href="https://en.wikipedia.org/wiki/Carrom">Carrom</a> tournaments using
+  either a variant of the <a href="https://en.wikipedia.org/wiki/Swiss-system_tournament">
+  Swiss system</a>, the <a href="https://en.wikipedia.org/wiki/Single-elimination_tournament">
+  Knockout system</a> or even <em>everyone against everyone</em> events.</p>
+docsUrl: https://sol4.metapensiero.it/static/manual/
+logo: SoL-logo.png
+maintainers:
+- Lele Gaifax
+name: Scarry On Line
+projectUrl: https://sol4.metapensiero.it/
+pypiUrl: https://pypi.org/project/SoL
+vcsUrl: https://gitlab.com/metapensiero/SoL
