@@ -1,0 +1,13 @@
+addon: true
+category:
+  - task-queueing
+demoUrl: ''
+description: Bring parity to Pyramid and Celery by creating a full Pyramid application in the Celery worker and providing a request object for each task.
+docsUrl: https://pypi.org/project/pyramid-tasks/
+maintainers:
+  - luhn
+name: pyramid-tasks
+projectUrl: https://pypi.org/project/pyramid-tasks/
+pypiUrl: https://pypi.org/project/pyramid-tasks/
+support: community
+vcsUrl: https://github.com/luhn/pyramid-tasks/
