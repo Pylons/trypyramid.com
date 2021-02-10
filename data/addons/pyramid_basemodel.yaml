@@ -8,7 +8,7 @@ maintainers:
 - fizyk
 - thruflo
 name: pyramid_basemodel
-projectUrl: http://github.com/fizyk/pyramid_basemodel
+projectUrl: https://github.com/fizyk/pyramid_basemodel
 pypiUrl: https://pypi.org/project/pyramid-basemodel/
 support: community
 vcsUrl: http://github.com/fizyk/pyramid_basemodel
