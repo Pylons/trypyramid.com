@@ -2,7 +2,7 @@ addon: true
 category:
 - storage
 demoUrl: ''
-description: a thin, low level SQLAlchemy bindings to pyramid
+description: a thin, low level SQLAlchemy binding to Pyramid
 docsUrl: ''
 maintainers:
 - fizyk
