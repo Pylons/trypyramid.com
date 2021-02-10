@@ -1,0 +1,14 @@
+addon: true
+category:
+- storage
+demoUrl: ''
+description: a thin, low level SQLAlchemy bindings to pyramid
+docsUrl: ''
+maintainers:
+- fizyk
+- thruflo
+name: pyramid_basemodel
+projectUrl: http://github.com/fizyk/pyramid_basemodel
+pypiUrl: https://pypi.org/project/pyramid-basemodel/
+support: community
+vcsUrl: http://github.com/fizyk/pyramid_basemodel
