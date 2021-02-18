@@ -1,0 +1,14 @@
+addon: false
+category:
+- testing
+demoUrl: ''
+description: pytest_pyramid - provides fixtures for testing Pyramid applications
+  within pytest test suite
+docsUrl: ''
+maintainers:
+- fizyk
+name: pytest_pyramid
+projectUrl: ''
+pypiUrl: https://pypi.org/project/pytest_pyramid/
+support: community
+vcsUrl: https://github.com/fizyk/pytest_pyramid
