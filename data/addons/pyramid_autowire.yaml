@@ -1,0 +1,13 @@
+addon: true
+category:
+- development-environment
+demoUrl: ''
+description: Automatically injects dependencies into pyramid views
+docsUrl: https://github.com/NickBeeuwsaert/pyramid_autowire
+maintainers:
+- NickBeeuwsaert
+name: pyramid_autowire
+projectUrl: https://github.com/NickBeeuwsaert/pyramid_autowire
+pypiUrl: https://pypi.org/project/pyramid-autowire/
+support: community
+vcsUrl: https://github.com/NickBeeuwsaert/pyramid_autowire
