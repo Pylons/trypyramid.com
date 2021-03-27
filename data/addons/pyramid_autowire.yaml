@@ -2,7 +2,7 @@ addon: true
 category:
 - development-environment
 demoUrl: ''
-description: Automatically injects dependencies into pyramid views
+description: Automatically injects dependencies into Pyramid views
 docsUrl: https://github.com/NickBeeuwsaert/pyramid_autowire
 maintainers:
 - NickBeeuwsaert
