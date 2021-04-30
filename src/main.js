@@ -97,6 +97,7 @@ require('./img/niteoweb-logo.png');
 require('./img/niteoweb-128-logo.png');
 require('./img/noppo-logo.png');
 require('./img/office-national-des-forets-logo.jpg');
+require('./img/ontaonta-logo.svg');
 require('./img/opencioc-org-logo.png');
 require('./img/patafile-logo.svg');
 require('./img/p2l-technologies-128-logo.png');
