@@ -9,7 +9,7 @@ You can contribute to this project in several ways.
     When ready, submit a pull request for consideration.
     [GitHub Flow](https://guides.github.com/introduction/flow/index.html) describes the workflow process and why it's a good practice.
     When submitting a pull request, sign [CONTRIBUTORS.md](https://github.com/Pylons/trypyramid.com/blob/master/CONTRIBUTORS.md) if you have not yet done so.
-*   Join the [IRC channel #pyramid on irc.freenode.net](https://webchat.freenode.net/?channels=pyramid).
+*   Join the [IRC channel #pyramid on irc.libera.chat](https://web.libera.chat/#pyramid).
 
 ## Git branches
 
