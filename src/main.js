@@ -101,6 +101,7 @@ require('./img/ontaonta-logo.svg');
 require('./img/opencioc-org-logo.png');
 require('./img/patafile-logo.svg');
 require('./img/p2l-technologies-128-logo.png');
+require('./img/paretosecurity.png');
 require('./img/pc-blueprint-logo.png');
 require('./img/peiffer-rollrasen-garten-und-landschaftsbau-logo.png');
 require('./img/plone-128-logo.png');
