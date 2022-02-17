@@ -3,7 +3,7 @@
 @mixin box-fixed($gutter: $grid-gutter-width) {
   margin-right: auto;
   margin-left: auto;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  calc($gutter / 2);
+  padding-right: calc($gutter / 2);
   @include clearfix;
 }
