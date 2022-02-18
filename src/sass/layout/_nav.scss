@@ -116,7 +116,7 @@ nav#nav {
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@media (max-width: $screen-sm-max) {
   nav#nav {
     &.index-transparent {
       .navbar {

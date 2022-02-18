@@ -25,13 +25,13 @@
 .box {
   @include box-fixed;
 
-  @media (min-width: $screen-sm-min) {
+  @media (min-width: $screen-md-min) {
     width: $box-sm;
   }
-  @media (min-width: $screen-md-min) {
+  @media (min-width: $screen-lg-min) {
     width: $box-md;
   }
-  @media (min-width: $screen-lg-min) {
+  @media (min-width: $screen-xl-min) {
     width: $box-lg;
   }
 }

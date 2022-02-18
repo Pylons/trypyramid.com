@@ -1,14 +1,16 @@
 // Config
 
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "~bootstrap/scss/mixins/clearfix";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
 
 // Colors
 
-$color-primary: $brand-primary;
-$color-success: $brand-success;
-$color-info: $brand-info;
-$color-warning: $brand-warning;
-$color-danger: $brand-danger;
+$color-primary: $primary;
+$color-success: $success;
+$color-info: $info;
+$color-warning: $warning;
+$color-danger: $danger;
 $color-alert: #10cfbd;
 $color-system: #6d5cae;
 $color-dark: #3a3a3a;
@@ -16,6 +18,7 @@ $color-light: #ececec;
 
 $white: #ffffff;
 $black: #000000;
+$gray-lighter: #eee; // From Bootstrap 3
 
 $tpc-red: #bf1e2d;
 $tpc-gray: #bfbfbf;
@@ -108,3 +111,15 @@ $footer-background-color: $color-dark;
 $block-padding-ends: 60px;
 $block-padding-sides: 0;
 
+// Devices
+// The names are adapted from Bootstrap 3, but with Bootstrap 4 breakpoint values
+
+$screen-sm-min: map-get($grid-breakpoints, "sm");  // 576px (BS 3: 768px)
+$screen-md-min: map-get($grid-breakpoints, "md");  // 768px (BS 3: 992px)
+$screen-lg-min: map-get($grid-breakpoints, "lg");  // 992px (BS 3: 1200px)
+$screen-xl-min: map-get($grid-breakpoints, "xl");  // 1200px
+
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;
+$screen-lg-max: $screen-xl-min - 1;

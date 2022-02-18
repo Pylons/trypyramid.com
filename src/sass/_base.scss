@@ -27,6 +27,15 @@ a {
     text-decoration: $link-hover-decoration;
   }
 
+  // WebKit-style focus, missing from Bootstrap 4
+  @mixin tab-focus {
+    // WebKit-specific. Other browsers will keep their default outline style.
+    // (Initially tried to also force default via `outline: initial`,
+    // but that seems to erroneously remove the outline in Firefox altogether.)
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
   &:focus {
     @include tab-focus;
   }
@@ -36,7 +45,7 @@ hr {
   margin-top: $line-height-computed;
   margin-bottom: $line-height-computed;
   border: 0;
-  border-top: 1px solid $hr-border;
+  border-top: 1px solid $hr-border-color;
 }
 
 strong {
