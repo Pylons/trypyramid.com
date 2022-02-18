@@ -6,6 +6,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: path.resolve('src', 'main.js'),
   output: {
+    publicPath: '/',
     path: path.resolve('dist'),
   },
   module: {
@@ -26,38 +27,30 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|ico|gif|svg|pdf)$/,
-        loader: 'file-loader',
-        options: {
-          name: 'img/[name].[ext]',
+        type: 'asset/resource',
+        generator: {
+          filename: 'img/[name][ext]',
         },
       },
       {
         test: /\.(woff|woff2|ttf|eot)(\?.*)?$/,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]',
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]',
         },
       },
 
       // imports/expose are here to trick bootstrap-multiselect
       {
         test: require.resolve('jquery'),
-        use: [
-          {
-            loader: 'expose-loader',
-            options: 'jQuery',
-          },
-          {
-            loader: 'expose-loader',
-            options: '$',
-          },
-        ],
+        loader: 'expose-loader',
+        options: {
+          exposes: ['$', 'jQuery'],
+        },
       },
       {
-        test: [
-          require.resolve('bootstrap-multiselect'),
-        ],
-        use: 'imports-loader?this=>window',
+        test: require.resolve('bootstrap-multiselect'),
+        use: 'imports-loader?wrapper=window',
       },
     ],
   },
