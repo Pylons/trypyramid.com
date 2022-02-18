@@ -1,5 +1,5 @@
 const path = require('path');
-const ManifestPlugin = require('webpack-manifest-plugin');
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
@@ -81,7 +81,7 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
     }),
-    new ManifestPlugin({
+    new WebpackManifestPlugin({
       fileName: path.resolve('data', 'manifest.json'),
       writeToFileEmit: true,
     }),
