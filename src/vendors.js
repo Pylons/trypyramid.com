@@ -20,5 +20,5 @@ require('jquery-bridget');
 require('isotope-layout');
 
 // bootstrap-multiselect
-require('bootstrap-multiselect')
-require('bootstrap-multiselect/dist/css/bootstrap-multiselect.css')
+require('bootstrap-multiselect');
+require('bootstrap-multiselect/dist/css/bootstrap-multiselect.css');

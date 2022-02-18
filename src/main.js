@@ -153,7 +153,7 @@ if ($('.home').length){
 
 const jQBridget = require('jquery-bridget');
 const Isotope = require('isotope-layout');
-$.bridget( 'isotope', Isotope );
+jQBridget( 'isotope', Isotope );
 
 // Init Isotope Grid
 const $grid = $('.grid').isotope({
