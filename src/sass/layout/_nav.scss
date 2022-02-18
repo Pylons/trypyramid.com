@@ -8,161 +8,39 @@ nav#nav {
     display: block;
   }
   &.index-transparent {
-    .navbar {
-      padding: 15px 0;
-      color: $white;
-      background-color: $tpc-transparent;
-      border: 1px solid $tpc-transparent;
-      .navbar-brand, .navbar-brand-name {
-        opacity: 0;
-        @include transition(0);
-      }
-      .navbar-nav li > a {
-        color: $white;
-      }
-    }
-    .navbar-inverse {
-      .navbar-toggle {
-        &:hover, &:focus {
-          background-color: darken($tpc-red, 10%);
-        }
-      }
-      .navbar-collapse {
-        border-top: none;
-      }
-    }
-  }
-  .navbar{
-    padding: 0;
-    @include transition(250ms);
+    padding: 15px 0;
+    color: $white;
+    background-color: $tpc-transparent;
+    border: 1px solid $tpc-transparent;
     .navbar-brand, .navbar-brand-name {
-      opacity: 1;
+      opacity: 0;
       @include transition(0);
     }
-    .navbar-brand {
-      height: 90px;
+    .navbar-nav li > a {
+      color: $white;
     }
   }
-  .navbar-inverse {
-    background-color: $nav-background-color;
-    border: 1px solid $color-light;
-    img.logo {
-      width: 60px;
-    }
-    .navbar-toggle {
-      margin-top: 30px;
-      border: none;
-      &:hover {
-        background-color: $tpc-red;
-      }
-    }
-    .navbar-collapse {
-      border-top: none;
-    }
-    .navbar-nav {
-      li {
-        line-height: 20px;
-        padding: 25px 0 25px 5px;
-        > a {
-          color: $tpc-red;
-          font-size: 14px;
-          text-transform: Capitalize;
-          font-weight: 600;
-          padding: 10px 15px;
-        }
-        > ul.dropdown-menu {
-          @include box-shadow(none);
-          top: 75%;
-          li {
-            padding: 0px;
-            a {
-              color: $tpc-red;
-              font-size: 12px;
-              padding: 5px 15px;
-              &:hover {
-                color: $white;
-                background-color: darken($tpc-red, 5%);
-              }
-            }
-          }
-        }
-      }
-      .open > a {
-        color: $white;
-        background-color: darken($tpc-red, 10%);
-      }
-      > .active > a {
-        color: $white;
-        background-color: darken($tpc-red, 10%);
-        &:hover {
-          background-color: darken($tpc-red, 5%);
-        }
-      }
-    }
-    .navbar-brand-name {
-      position: relative;
-      z-index: -1;
-      color: $tpc-red;
-      font-size: 32px;
-      line-height: $nav-height;
-      width: 220px;
-      height: $nav-height;
-      text-align: right;
-      small {
-        font-size: 12px;
-        line-height: 10px;
-      }
-    }
+  padding: 0;
+  @include transition(250ms);
+
+  .navbar-brand, .navbar-brand-name {
+    opacity: 1;
+    @include transition(0);
+  }
+  .navbar-brand {
+    height: 90px;
   }
 }
 
 @media (max-width: $screen-sm-max) {
   nav#nav {
     &.index-transparent {
-      .navbar {
-        .navbar-nav li > a {
-          color: $tpc-red;
-        }
+      .navbar-nav li > a {
+        color: $tpc-red;
       }
     }
-    #navbar {
-      background-color: $white;
-      color: $tpc-red;
-      opacity: 0.95;
-      .nav-pills > li {
-        float: none;
-      }
-    }
-    .navbar-inverse {
-      .navbar-collapse {
-        border-top: 1px solid $color-light;
-        .navbar-nav {
-          float: left!important;
-          .open > a {
-            color: $white;
-            background-color: darken($tpc-red, 10%);
-          }
-          > .active > a {
-            color: $white;
-            background-color: darken($tpc-red, 10%);
-            &:hover {
-              background-color: darken($tpc-red, 5%);
-            }
-          }
-          > li {
-            padding: 0 0.25em;
-          }
-        }
-      }
-      .navbar-toggle {
-        background-color: $tpc-red;
-        &:hover, &:focus {
-          background-color: darken($tpc-red, 10%);
-        }
-        .collapsed {
-          background-color: $tpc-red;
-        }
-      }
-    }
+    background-color: $white;
+    color: $tpc-red;
+    opacity: 0.95;
   }
 }
