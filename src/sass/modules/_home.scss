@@ -1,8 +1,6 @@
 // Module Home
 
 .home {
-  padding-bottom: $footer-height;
-  margin-top: -90px;
   h1.title {
     margin: 0 0 1em 0;
     font-size: 3em;
@@ -43,9 +41,6 @@
   }
   .try-pyramid {
     padding: $block-padding-ends $block-padding-sides;
-    .hljs {
-      background-color: $color-light;
-    }
   }
   .need-pyramid {
     padding: $block-padding-ends $block-padding-sides;
@@ -63,7 +58,7 @@
   .section-content {
     padding: $block-padding-ends $block-padding-sides;
     ul.features {
-       margin: 0;
+      margin: 0;
       padding: 10px 20px;
       li {
         list-style-type: none;
@@ -71,7 +66,7 @@
         &:before {
           font-family: 'FontAwesome';
           content: '\f0da';
-          margin:0 14px 0 -20px;
+          margin: 0 14px 0 -20px;
           color: $tpc-red;
         }
         &:first-child {
@@ -109,7 +104,7 @@
   }
 }
 
-@media (max-width: $screen-sm-max) {
+@media (max-width: $screen-md-max) {
   .home {
     h1.title {
       &.not-first {

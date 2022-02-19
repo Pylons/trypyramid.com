@@ -1,166 +1,157 @@
 // Layout Nav
 
 nav#nav {
-  height: $nav-height;
+
   background-color: $nav-background-color;
+  border: 1px solid $color-light;
   z-index: 1000;
-  &.show {
-    display: block;
+  padding: 0;
+  @include transition(250ms);
+
+  .navbar-brand {
+    padding: 15px 0;
   }
+
+  .navbar-brand-name {
+    margin-left: 25px;
+    color: $tpc-red;
+    font-size: 32px;
+  }
+
+  .navbar-toggler {
+    background-color: $tpc-red;
+
+    &:hover, &:focus {
+      background-color: darken($tpc-red, 10%);
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 0;
+    }
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
   &.index-transparent {
-    .navbar {
-      padding: 15px 0;
-      color: $white;
-      background-color: $tpc-transparent;
-      border: 1px solid $tpc-transparent;
-      .navbar-brand, .navbar-brand-name {
-        opacity: 0;
-        @include transition(0);
-      }
-      .navbar-nav li > a {
-        color: $white;
-      }
-    }
-    .navbar-inverse {
-      .navbar-toggle {
-        &:hover, &:focus {
-          background-color: darken($tpc-red, 10%);
-        }
-      }
-      .navbar-collapse {
-        border-top: none;
-      }
-    }
-  }
-  .navbar{
-    padding: 0;
-    @include transition(250ms);
+    padding: 15px 0;
+    background-color: $tpc-transparent;
+    border: 1px solid $tpc-transparent;
+
     .navbar-brand, .navbar-brand-name {
-      opacity: 1;
-      @include transition(0);
+      opacity: 0;
     }
-    .navbar-brand {
-      height: 90px;
+
+    a.nav-link {
+      color: $white;
+    }
+
+    a:hover, a:focus {
+      text-decoration: none;
+    }
+
+    .navbar-toggler {
     }
   }
-  .navbar-inverse {
-    background-color: $nav-background-color;
-    border: 1px solid $color-light;
-    img.logo {
-      width: 60px;
-    }
-    .navbar-toggle {
-      margin-top: 30px;
-      border: none;
-      &:hover {
-        background-color: $tpc-red;
+
+  .navbar-nav {
+    li {
+      line-height: 20px;
+      padding: 25px 0 25px 5px;
+
+      > a {
+        color: $tpc-red;
+        font-size: 14px;
+        text-transform: Capitalize;
+        font-weight: 600;
+        padding: 10px 15px;
       }
-    }
-    .navbar-collapse {
-      border-top: none;
-    }
-    .navbar-nav {
-      li {
-        line-height: 20px;
-        padding: 25px 0 25px 5px;
-        > a {
-          color: $tpc-red;
-          font-size: 14px;
-          text-transform: Capitalize;
-          font-weight: 600;
-          padding: 10px 15px;
-        }
-        > ul.dropdown-menu {
-          @include box-shadow(none);
-          top: 75%;
-          li {
-            padding: 0px;
-            a {
-              color: $tpc-red;
-              font-size: 12px;
-              padding: 5px 15px;
-              &:hover {
-                color: $white;
-                background-color: darken($tpc-red, 5%);
-              }
+
+      a.dropdown-toggle.show {
+        background-color: darken($tpc-red, 10%);
+      }
+
+      > ul.dropdown-menu {
+        top: 75%;
+
+        li {
+          padding: 0;
+
+          a {
+            font-size: 12px;
+            padding: 5px 15px;
+
+            &:hover {
+              color: $white;
+              background-color: darken($tpc-red, 5%);
             }
           }
         }
       }
-      .open > a {
-        color: $white;
-        background-color: darken($tpc-red, 10%);
-      }
-      > .active > a {
-        color: $white;
-        background-color: darken($tpc-red, 10%);
-        &:hover {
-          background-color: darken($tpc-red, 5%);
-        }
-      }
     }
-    .navbar-brand-name {
-      position: relative;
-      z-index: -1;
-      color: $tpc-red;
-      font-size: 32px;
-      line-height: $nav-height;
-      width: 220px;
-      height: $nav-height;
-      text-align: right;
-      small {
-        font-size: 12px;
-        line-height: 10px;
+
+    .open > a {
+      color: $white;
+      background-color: darken($tpc-red, 10%);
+    }
+
+    > .active > a {
+      color: $white;
+      background-color: darken($tpc-red, 10%);
+
+      &:hover {
+        background-color: darken($tpc-red, 5%);
       }
     }
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@media (max-width: $screen-sm-max) {
+
   nav#nav {
     &.index-transparent {
-      .navbar {
-        .navbar-nav li > a {
-          color: $tpc-red;
-        }
+      a.nav-link {
+        color: $tpc-red;
       }
     }
+
     #navbar {
       background-color: $white;
       color: $tpc-red;
       opacity: 0.95;
-      .nav-pills > li {
-        float: none;
-      }
     }
-    .navbar-inverse {
-      .navbar-collapse {
-        border-top: 1px solid $color-light;
-        .navbar-nav {
-          float: left!important;
-          .open > a {
-            color: $white;
-            background-color: darken($tpc-red, 10%);
-          }
-          > .active > a {
-            color: $white;
-            background-color: darken($tpc-red, 10%);
-            &:hover {
-              background-color: darken($tpc-red, 5%);
-            }
-          }
-          > li {
-            padding: 0 0.25em;
-          }
+
+    .navbar-collapse {
+      border-top: 1px solid $color-light;
+
+      .navbar-nav {
+        float: left !important;
+
+        a.dropdown-toggle.show {
+          color: white;
         }
-      }
-      .navbar-toggle {
-        background-color: $tpc-red;
-        &:hover, &:focus {
+
+        ul.dropdown-menu {
+          border-style: none;
+        }
+
+        .open > a {
+          color: $white;
           background-color: darken($tpc-red, 10%);
         }
-        .collapsed {
-          background-color: $tpc-red;
+
+        > .active > a {
+          color: $white;
+          background-color: darken($tpc-red, 10%);
+
+          &:hover {
+            background-color: darken($tpc-red, 5%);
+          }
+        }
+
+        > li {
+          padding: 0 0.25em;
         }
       }
     }

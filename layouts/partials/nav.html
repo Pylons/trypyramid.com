@@ -1,46 +1,42 @@
-<nav id="nav" {{ with $.Params.needsTsNav }}class="index-transparent"{{ end }}>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-          <img class="logo" alt="pyramid" src="img/pyramid-60x60.png"/>
-        </a>
-        <div class="navbar-brand-name">
-          Pyramid
-        </div>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav nav-pills pull-right">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="documentation.html">Documentation</a>
-          </li>
-          <li>
-            <a href="extending-pyramid.html">Add-ons</a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              Community <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-right">
-              <li><a href="community.html">Enter the Tomb</a></li>
-              <li><a href="community-powered-by-pyramid.html">Powered by Pyramid</a></li>
-              <li><a href="community-sponsors.html">Sponsors</a></li>
-              <li><a href="community-events.html">Events</a></li>
-              <li><a href="community-artwork.html">Artwork</a></li>
-              <li><a href="community-feeds.html">Feeds</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+<nav id="nav" class="navbar navbar-expand-md fixed-top{{ with $.Params.needsTsNav }} index-transparent{{ end }}" >
+  <div class="container-fluid container-md">
+
+    <a class="navbar-brand" href="/">
+      <img class="logo" alt="pyramid" src="img/pyramid-60x60.png"/>
+    </a>
+    <span class="navbar-brand-name me-auto">Pyramid</span>
+
+    <button class="navbar-toggler pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav nav-pills ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="documentation.html">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="extending-pyramid.html">Add-ons</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Community
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="community.html">Enter the Tomb</a></li>
+            <li><a class="dropdown-item" href="community-powered-by-pyramid.html">Powered by Pyramid</a></li>
+            <li><a class="dropdown-item" href="community-sponsors.html">Sponsors</a></li>
+            <li><a class="dropdown-item" href="community-events.html">Events</a></li>
+            <li><a class="dropdown-item" href="community-artwork.html">Artwork</a></li>
+            <li><a class="dropdown-item" href="community-feeds.html">Feeds</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

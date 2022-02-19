@@ -5,19 +5,6 @@
   .filter-multiselect {}
 }
 
-.grid-item {
-  margin-bottom: 15px;
-  padding-left: 0;
-  font-size: 14px;
-  .grid-item-content {
-    border: 1px solid $color-light;
-    padding: 10px;
-    h4 {
-      margin-top: 0;
-    }
-  }
-}
-
 .multiselect-container {
   &.dropdown-menu {
     max-height: 350px;
