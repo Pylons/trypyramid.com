@@ -4,6 +4,12 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 
+// todo - move to the right file
+@function toRem($value) {
+    $remValue: ($value / 16) + rem;
+    @return $remValue;
+}
+
 // Colors
 
 $color-primary: $primary;
@@ -83,11 +89,11 @@ $headings-color: inherit;
 
 // Boxes
 
-$box-tablet: (720px + $grid-gutter-width);
+$box-tablet: toRem(720) + $grid-gutter-width;
 $box-sm: $box-tablet;
-$box-desktop: (940px + $grid-gutter-width);
+$box-desktop: toRem(940) + $grid-gutter-width;
 $box-md: $box-desktop;
-$box-large-desktop: (1140px + $grid-gutter-width);
+$box-large-desktop: toRem(1140) + $grid-gutter-width;
 $box-lg: $box-large-desktop;
 
 $box-padding-ends: 10px;
