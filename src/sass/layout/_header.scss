@@ -5,7 +5,7 @@ header#header {
   display: block;
   background-color: $header-background-color;
   border-bottom: $color-light 1px solid;
-  //@include box-shadow(0 0px 5px $color-light);
+  //box-shadow: 0 0px 5px $color-light;
   a {
     color: $text-color;
   }

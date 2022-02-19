@@ -1,17 +1,15 @@
 // Layout Footer
 
 footer#footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: $zindex-1000;
   height: $footer-height;
   background-color: $footer-background-color;
   color: $color-light;
   font-size: 12px;
   text-align: center;
   padding: 15px;
+  p {
+    margin-bottom: 9px;
+  }
   a {
     color: $white;
   }

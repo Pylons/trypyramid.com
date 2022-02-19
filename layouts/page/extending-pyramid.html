@@ -2,7 +2,7 @@
 
 <div class="page">
   <section class="section-content">
-    <div class="container">
+    <div class="container-fluid container-md">
       <div class="row">
         <div class="col-md-12">
           <h1 class="title text-red">Extending Pyramid</h1>
@@ -76,13 +76,13 @@
               </optgroup>
             </select>
           </div>
-          <div class="grid">
+          <div class="grid row g-3">
             {{ partial "addons.html" . }}
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
+      <div class="row mt-4">
+        <div class="col">
           <h3>Making good add-ons</h3>
           <p>Add-on packages should be named <code>pyramid_foo</code> where <code>foo</code> describes the functionality
             of the package. For example, <code>pyramid_mailer</code> is a great name for something that provides
