@@ -4,7 +4,7 @@ category:
 demoUrl: ''
 description: Integration of SQLAlchemy with transaction management. See also <a href="https://metaclassical.com/what-the-zope-transaction-manager-means-to-me-and-you/">What
   the Zope Transaction Manager Means To Me (and you)</a>.
-docsUrl: https://github.com/zopefoundation/zope.sqlalchemy/blob/master/src/zope/sqlalchemy/README.txt
+docsUrl: https://github.com/zopefoundation/zope.sqlalchemy/blob/master/src/zope/sqlalchemy/README.rst
 maintainers:
 - chrism
 - laurencerowe
