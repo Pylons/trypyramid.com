@@ -41,6 +41,7 @@ jobs:
               uses: actions/download-artifact@v3
               with:
                   name: built-dist
+                  path: built-dist
             - name: Zip artifacts
               run: cd built-dist && zip -r ../website.zip .
             - name: Upload website.zip to Github release
@@ -72,6 +73,7 @@ jobs:
               uses: actions/download-artifact@v3
               with:
                   name: built-dist
+                  path: built-dist
             - name: Push these changes to the pages repository
               env:
                   SSH_AUTH_SOCK: /tmp/ssh_agent.sock
