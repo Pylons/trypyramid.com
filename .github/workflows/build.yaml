@@ -19,6 +19,11 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: '19.x'
+            - name: Setup python 2.7
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 2.7
+                  architecture: x64
             - run: yarn install
             - run: yarn lint
             - run: yarn build
@@ -96,6 +101,11 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: '19.x'
+            - name: Setup python 2.7
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 2.7
+                  architecture: x64
             - run: yarn install
             - run: yarn list
             - run: yarn audit
