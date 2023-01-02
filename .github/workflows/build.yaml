@@ -3,7 +3,7 @@ name: Site Builder
 on:
     push:
         branches:
-            - master
+            - main
     pull_request:
     release:
         types:
@@ -14,7 +14,7 @@ jobs:
         runs-on: ubuntu-latest
         name: "Build the trypyramid.com website"
         steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@v3
             - name: Setup Node.js
               uses: actions/setup-node@v1
               with:
@@ -26,7 +26,7 @@ jobs:
                 CI_COMMIT_SHA: ${{ github.sha }}
                 HUGO_BASEURL: "https://trypyramid.com/"
             - name: Upload artifacts
-              uses: actions/upload-artifact@master
+              uses: actions/upload-artifact@v3
               with:
                   name: built-dist
                   path: dist
@@ -55,7 +55,7 @@ jobs:
 
     ghpages:
         runs-on: ubuntu-latest
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         needs: build
         name: "Publish the website"
         steps:
@@ -89,7 +89,7 @@ jobs:
         runs-on: ubuntu-latest
         name: "Audit the NPM packages"
         steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@v3
             - name: Setup Node.js
               uses: actions/setup-node@v1
               with:
