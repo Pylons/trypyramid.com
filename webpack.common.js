@@ -1,5 +1,5 @@
 const path = require('path');
-const ManifestPlugin = require('webpack-manifest-plugin');
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
@@ -7,6 +7,7 @@ module.exports = {
   entry: path.resolve('src', 'main.js'),
   output: {
     path: path.resolve('dist'),
+    publicPath: "",
   },
   module: {
     rules: [
@@ -31,33 +32,32 @@ module.exports = {
           name: 'img/[name].[ext]',
         },
       },
+      //This rule is here to include font awesome deps as separate font
       {
-        test: /\.(woff|woff2|ttf|eot)(\?.*)?$/,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]',
-        },
+         test: /\.(svg|eot|woff|woff2|ttf)$/,
+         type: 'asset/resource',
+         generator: {
+           //publicPath: '../fonts/',
+           filename: 'compiled/fonts/[hash][ext][query]'
+         }
       },
-
       // imports/expose are here to trick bootstrap-multiselect
       {
-        test: require.resolve('jquery'),
-        use: [
-          {
-            loader: 'expose-loader',
-            options: 'jQuery',
-          },
-          {
-            loader: 'expose-loader',
-            options: '$',
-          },
-        ],
+        test: require.resolve("jquery"),
+        loader: "expose-loader",
+        options: {
+          exposes: ["$", "jQuery"],
+        },
       },
       {
         test: [
           require.resolve('bootstrap-multiselect'),
         ],
-        use: 'imports-loader?this=>window',
+        loader: 'imports-loader',
+        options: {
+          wrapper: 'window',
+          additionalCode: 'var define = false;'
+        }
       },
     ],
   },
@@ -81,7 +81,7 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
     }),
-    new ManifestPlugin({
+    new WebpackManifestPlugin({
       fileName: path.resolve('data', 'manifest.json'),
       writeToFileEmit: true,
     }),
