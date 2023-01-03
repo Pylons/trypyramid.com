@@ -1,18 +1,18 @@
-const merge = require("webpack-merge");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { merge } = require('webpack-merge');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const common = require("./webpack.common");
+const common = require('./webpack.common');
 
 module.exports = merge(common, {
-  mode: "production",
+  mode: 'production',
 
   output: {
-    filename: "[name].[hash].js",
+    filename: '[name].[contenthash].js',
   },
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].[hash].css",
+      filename: '[name].[contenthash].css',
     }),
   ],
 });

@@ -7,3 +7,17 @@ googleAnalytics = "UA-21146943-3"
 uglyurls = true
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^CI_COMMIT_SHA$']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
