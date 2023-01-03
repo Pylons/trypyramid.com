@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve('src', 'main.js'),
   output: {
     path: path.resolve('dist'),
-    publicPath: "",
+    publicPath: ''
   },
   module: {
     rules: [
@@ -34,19 +34,19 @@ module.exports = {
       },
       //This rule is here to include font awesome deps as separate font
       {
-         test: /\.(svg|eot|woff|woff2|ttf)$/,
-         type: 'asset/resource',
-         generator: {
-           //publicPath: '../fonts/',
-           filename: 'compiled/fonts/[hash][ext][query]'
-         }
+        test: /\.(svg|eot|woff|woff2|ttf)$/,
+        type: 'asset/resource',
+        generator: {
+          //publicPath: '../fonts/',
+          filename: 'compiled/fonts/[contenthash][ext][query]'
+        }
       },
       // imports/expose are here to trick bootstrap-multiselect
       {
-        test: require.resolve("jquery"),
-        loader: "expose-loader",
+        test: require.resolve('jquery'),
+        loader: 'expose-loader',
         options: {
-          exposes: ["$", "jQuery"],
+          exposes: ['$', 'jQuery'],
         },
       },
       {

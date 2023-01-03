@@ -1,15 +1,15 @@
-const path = require("path");
+const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { merge } = require('webpack-merge');
 
-const common = require("./webpack.common");
+const common = require('./webpack.common');
 
 module.exports = merge(common, {
-  mode: "development",
+  mode: 'development',
 
   output: {
-    filename: "[name].js",
+    filename: '[name].js',
   },
 
   devServer: {
@@ -19,7 +19,7 @@ module.exports = merge(common, {
     },
     open: true,
     historyApiFallback: {
-      rewrites: [{from: /./, to: "404.html"}]
+      rewrites: [{from: /./, to: '404.html'}]
     }
   },
 
@@ -27,13 +27,13 @@ module.exports = merge(common, {
     new CleanWebpackPlugin({
       verbose: true,
       cleanOnceBeforeBuildPatterns: [
-        "dist/**/*.js",
-        "dist/**/*.css",
-        "data/manifest.json",
+        'dist/**/*.js',
+        'dist/**/*.css',
+        'data/manifest.json',
       ],
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: '[name].css',
     }),
   ]
 });
