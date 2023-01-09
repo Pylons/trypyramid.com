@@ -23,7 +23,7 @@
   "dependencies": {
     "animate.css": "^3.5.1",
     "bootstrap": "^3.3.7",
-    "bootstrap-multiselect": "0.9.15",
+    "bootstrap-multiselect": "1.1.0",
     "bootstrap-sass": "^3.4.3",
     "font-awesome": "^4.7.0",
     "highlight.js": "^11.7.0",
@@ -32,11 +32,11 @@
     "jquery-bridget": "^3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.7",
+    "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.20.2",
     "autoprefixer": "^10.4.13",
-    "babel-loader": "^9.1.0",
+    "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "core-js": "^3.27.1",
     "css-loader": "^6.7.3",
