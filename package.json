@@ -21,7 +21,7 @@
     "**/jquery": "~3.6.3"
   },
   "dependencies": {
-    "animate.css": "^3.5.1",
+    "animate.css": "^4.1.1",
     "bootstrap": "^3.3.7",
     "bootstrap-multiselect": "1.1.0",
     "bootstrap-sass": "^3.3.6",
