@@ -1,0 +1,13 @@
+addon: true
+category:
+- requests
+demoUrl: ''
+description: Add a Content Security Policy to your HTTP responses.
+docsUrl: https://pypi.org/project/pyramid-csp/
+maintainers:
+  - luhn
+name: pyramid-csp
+projectUrl: https://pypi.org/project/pyramid-csp/
+pypiUrl: https://pypi.org/project/pyramid-csp/
+support: community
+vcsUrl: https://github.com/luhn/pyramid-csp/
