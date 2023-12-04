@@ -1,0 +1,13 @@
+addon: true
+category:
+- requests
+demoUrl: ''
+description: Inject a Content Security Policy
+docsUrl: https://pypi.org/project/pyramid-csp/
+maintainers:
+  - luhn
+name: pyramid-csp
+projectUrl: https://pypi.org/project/pyramid-csp/
+pypiUrl: https://pypi.org/project/pyramid-csp/
+support: community
+vcsUrl: https://github.com/luhn/pyramid-csp/
