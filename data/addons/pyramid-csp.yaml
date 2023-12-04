@@ -2,7 +2,7 @@ addon: true
 category:
 - requests
 demoUrl: ''
-description: Inject a Content Security Policy
+description: Add a Content Security Policy to your HTTP responses.
 docsUrl: https://pypi.org/project/pyramid-csp/
 maintainers:
   - luhn
