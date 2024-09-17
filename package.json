@@ -26,7 +26,7 @@
     "bootstrap-multiselect": "1.1.0",
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "^4.7.0",
-    "highlight.js": "^11.7.0",
+    "highlight.js": "^11.10.0",
     "isotope-layout": "^3.0.0",
     "jquery": "~3.6.3",
     "jquery-bridget": "^3.0.1"
