@@ -23,7 +23,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^3.3.7",
-    "bootstrap-multiselect": "1.1.0",
+    "bootstrap-multiselect": "0.9.15",
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "^4.7.0",
     "highlight.js": "^11.7.0",
