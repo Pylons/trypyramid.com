@@ -135,10 +135,16 @@ require('./img/warehouse-pypi-logo.png');
 require('./img/websauna-logo.png');
 require('./img/yelp-logo.png');
 require('./img/zopyx-logo.png');
+require('./lib/highlightjs-merge-html.js')
+
+import mergeHTMLPlugin from './lib/highlightjs-merge-html.js';
 
 const hljs = require('highlight.js');
-
-hljs.initHighlightingOnLoad();
+hljs.configure({
+  ignoreUnescapedHTML: true,
+});
+hljs.addPlugin(mergeHTMLPlugin);
+hljs.highlightAll();
 
 if ($('.home').length){
   $(window).scroll(function() {
