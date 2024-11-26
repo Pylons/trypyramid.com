@@ -40,7 +40,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "core-js": "^3.27.1",
     "css-loader": "^6.7.3",
-    "eslint": "^8.31.0",
+    "eslint": "^8.38.0",
     "expose-loader": "^4.0.0",
     "file-loader": "^6.2.0",
     "hugo-bin": "^0.97.0",
