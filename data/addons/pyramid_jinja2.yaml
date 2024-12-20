@@ -3,7 +3,7 @@ category:
 - template-languages
 demoUrl: ''
 description: <a href="http://jinja.pocoo.org/">Jinja2</a> template renderer for Pyramid
-docsUrl: http://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/
+docsUrl: http://docs.pylonsproject.org/projects/pyramid_jinja2/en/latest/
 maintainers:
 - "Domen Ko\u017Ear"
 name: pyramid_jinja2
