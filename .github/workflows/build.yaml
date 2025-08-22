@@ -26,7 +26,7 @@ jobs:
                 CI_COMMIT_SHA: ${{ github.sha }}
                 HUGO_BASEURL: "https://trypyramid.com/"
             - name: Upload artifacts
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with:
                   name: built-dist
                   path: dist
@@ -38,7 +38,7 @@ jobs:
         name: "Publish the released assets"
         steps:
             - name: Download the dist artifact
-              uses: actions/download-artifact@v3
+              uses: actions/download-artifact@v4
               with:
                   name: built-dist
                   path: built-dist
@@ -70,7 +70,7 @@ jobs:
                   ssh-agent -a $SSH_AUTH_SOCK > /dev/null
                   ssh-add - <<< "${{ secrets.DEPLOYKEY }}"
             - name: Download the dist artifact
-              uses: actions/download-artifact@v3
+              uses: actions/download-artifact@v4
               with:
                   name: built-dist
                   path: built-dist
