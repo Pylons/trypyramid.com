@@ -28,6 +28,15 @@
               Testing Guidelines</a>. All Pylons Project participants should strive to follow our <a
               href="https://pylonsproject.org/community-code-of-conduct.html">Code of Conduct</a>.</p>
           <p>To add your project to the listing, see <a href="https://github.com/Pylons/trypyramid.com/blob/master/CONTRIBUTING.md#adding-an-add-on-to-extending-pyramid-page">Adding an add-on to "Extending Pyramid" page in CONTRIBUTING.md</a>.</p>
+          <h3>Making good add-ons</h3>
+          <p>Add-on packages should be named <code>pyramid_foo</code> where <code>foo</code> describes the functionality
+            of the package. For example, <code>pyramid_mailer</code> is a great name for something that provides
+            outbound mail service. If the name you want has already been taken, try to think of another, for example,
+            <code>pyramid_mailout</code>. If the functionality of the package cannot easily be described with one word,
+            or the name you want has already been taken and you can't think of another name related to functionality,
+            use a codename, for example, <code>pyramid_postoffice</code>.</p>
+          <p>For how to provide configuration hooks for your add-on, see
+            <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/extconfig.html">Extending Pyramid Configuration</a>.</p>
           <div class="extending-filters">
             <select class="filter-multiselect" multiple="multiple">
               <optgroup label="Support">
